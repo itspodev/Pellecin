@@ -208,7 +208,7 @@ li a{
   font-size: 2em;
 }
 
-.main-footer__up :nth-child(2) {
+.main-footer__up p:nth-child(2) {
   margin:0;
   border-bottom: 1px solid #000;
   font-weight: bold;
