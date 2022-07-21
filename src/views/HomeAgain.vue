@@ -1,7 +1,7 @@
 <template>
 
-<!-- <intro-card></intro-card> -->
-<home-projects></home-projects>
+<intro-card></intro-card>
+<!-- <home-projects></home-projects> -->
 
 </template>
 
