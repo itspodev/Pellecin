@@ -4,7 +4,7 @@
             <p>{{footerTxt}}</p>
             <p>{{footerTxtContact}}</p>
             <div class="main-footer__social-media">
-                <img v-for="image in footerSocialMedia" v-bind:src="image.path" v-bind:alt="image.name">
+                <img :key='image.name' v-for="image in footerSocialMedia" v-bind:src="image.path" v-bind:alt="image.name">
             </div>
         </div>
         <div class="main-footer__bottom">

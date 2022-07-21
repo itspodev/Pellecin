@@ -7,9 +7,9 @@
             <div class="navBar">
                 <a href=""><img src="../assets/PAGE D'ACCEUIL/Logo Pepenome1.png" alt="" class='logo-pepenome'/></a>
                 <ul>
-                    <li><a href="#">MES PROJETS</a></li>
-                    <li><a href="#">À PROPOS</a></li>
-                    <li><a href="#">CONTACT</a></li>
+                    <li><a href="/projets">MES PROJETS</a></li>
+                    <li><a href="/about">À PROPOS</a></li>
+                    <li><a href="/contact">CONTACT</a></li>
                 </ul>
             </div>
         </nav>

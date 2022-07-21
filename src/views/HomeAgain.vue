@@ -1,10 +1,10 @@
 <template>
 
 
-<navbar></navbar>
-<intro-card></intro-card>
-<grid></grid>
-<main-footer></main-footer>
+<NavBar/>
+<IntroCard/>
+<Grid/>
+<MainFooter/>
 
 </template>
 
@@ -16,10 +16,10 @@ import MainFooter from '../components/MainFooter.vue'
 export default {
     name: 'home-again',
     components: {
-        'intro-card': IntroCard,
-        'navbar': NavBar,
-        'grid': Grid,
-        'main-footer': MainFooter
+        'IntroCard': IntroCard,
+        'NavBar': NavBar,
+        'Grid': Grid,
+        'MainFooter': MainFooter
     }
 }
 
