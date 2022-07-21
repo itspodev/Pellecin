@@ -221,13 +221,11 @@ li a{
 
 .main-footer__social-media {
   padding: 2em 0 4em 0;
-  min-width: 25vw;
-  display: flex;
-  justify-content: space-evenly;
 }
 
 .main-footer__social-media img {
   width: 60px;
+  margin-right: 1rem;
 }
 
 .main-footer__bottom {
