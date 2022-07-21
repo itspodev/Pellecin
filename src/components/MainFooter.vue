@@ -17,7 +17,7 @@
 
 <script>
     export default {
-        name: 'main-footer',
+        name: 'MainFooter',
         data: () => {
             return {
                 footerTxt: 'pour tous vos projets',
