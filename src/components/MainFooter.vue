@@ -18,7 +18,7 @@
         name: 'main-footer',
         data: () => {
             return {
-                footerTxt: 'pour tout vos projets',
+                footerTxt: 'pour tous vos projets',
                 footerTxtContact: 'contactez moi !',
                 footerSocialMedia: [
                     { name:'linkedIn icone', path:'src/assets/PAGE D\'ACCEUIL/Linkedin-01.png'},
