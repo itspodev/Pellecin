@@ -143,8 +143,12 @@ li a{
   color:white
 }
 .nav-hp{
+  opacity: 0.6;
   width: 20%;
   margin: auto;
+}
+.nav-hp:hover{
+  opacity: 1;
 }
 .hp-grid{
   width: 95%;
