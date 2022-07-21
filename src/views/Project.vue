@@ -10,7 +10,7 @@
 import NavBar from '../components/NavBar.vue'
 import MainFooter from '../components/MainFooter.vue'
 export default {
-    name: 'contact',
+    name: 'Project',
     components: {
         'NavBar': NavBar,
         'MainFooter': MainFooter
