@@ -1,6 +1,7 @@
 @import url("https://use.typekit.net/cmv5yao.css");
 body {
   font-family:forma-djr-display;
+  margin:0;
 }
 
 /*------------ HEADER PROPERTIES ---------*/
@@ -110,6 +111,7 @@ li a{
 /*--------------- MY PROJECTS - HOMEPAGE PROPERTIES ------------*/
 
 .main-hp-container{
+  padding:20px 0 30px 0;
   width: 100%;
   background-color: black;
 }
@@ -119,19 +121,26 @@ li a{
   text-align: center;
 }
 .hp-head{
-  width: 15.5%;
+  width: max-content;
   margin: auto;
+}
+.hp-head h1 {
+  border-bottom: 1px solid white;
 }
 .hp-head p{
   color: lightgray;
   font-size: 1.5rem;
 }
 .hp-navbar {
-  width: 70%;
+  width: 80%;
   margin: auto;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
+}
+.hp-navbar a {
+  text-decoration:none;
+  color:white
 }
 .nav-hp{
   width: 20%;
@@ -175,7 +184,9 @@ li a{
   border-bottom:2px solid lightgray;
 }
 
-
+.hp-container-2 {
+  margin-bottom:20px
+}
 
 /*---------- FOOTER PROPERTIES ----------*/
 

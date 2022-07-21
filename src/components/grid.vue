@@ -1,14 +1,12 @@
 
 
 <template>
-<body>
 <div class="main-hp-container">
     <div class="hp-container">
         <div class="hp-head">
             <p>PEPENOME</p>
             <br>
             <h1>MES PROJETS</h1>
-            <hr>
             <br>
         </div>
         <div class="hp-navbar">
@@ -21,7 +19,7 @@
         </div>
     </div>
 
-    <div class="container">
+    <div class="hp-container-2">
         <div class="hp-grid">
             <img class="img1" src="../assets/PAGE D'ACCEUIL/cycliste.jpg"/>
             <video class="video1" src="../assets/PAGE D'ACCEUIL/Introduction-Vidéo1.mp4" loop="infinite" autoplay="autoplay" muted=''/>
@@ -33,7 +31,6 @@
         <button class="voirplus">VOIR PLUS</button>
     </div>
 </div>  
-</body>
 
 </template>
 
