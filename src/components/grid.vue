@@ -21,10 +21,34 @@
 
     <div class="hp-container-2">
         <div class="hp-grid">
-            <img class="img1" src="../assets/PAGE D'ACCEUIL/cycliste.jpg"/>
-            <video class="video1" src="../assets/PAGE D'ACCEUIL/Introduction-Vidéo1.mp4" loop="infinite" autoplay="autoplay" muted=''/>
-            <img class="img2" src="../assets/vynil.jpg"/>
-            <img class="img3" src="../assets/PAGE D'ACCEUIL/Société inclusive.gif"/>
+            <div class="box-container1">
+                <img class="img1" src="../assets/PAGE D'ACCEUIL/cycliste.jpg"/>
+                <div class="text-over1">
+                    <h3>La rouche à velos</h3>
+                    <p>BRANDING,ILLUSTRATION, WEB</p>
+                </div>
+            </div>
+            <div class="box-container2">
+                <video class="video1" src="../assets/PAGE D'ACCEUIL/Introduction-Vidéo1.mp4" loop="infinite" autoplay="autoplay" muted=''/>
+                <div class="text-over2">
+                    <h3>Liquid Color</h3>
+                    <p>MOTION DESIGN, WEB</p>
+                </div>
+            </div>
+            <div class="box-container3">
+                <img class="img2" src="../assets/vynil.jpg"/>
+                <div class="text-over3">
+                    <h3>Neue Ara</h3>
+                    <p>ILLUSTRATION,GRAPHISME,MOTION</p>
+                </div>
+            </div>
+            <div class="box-container4">
+                <img class="img3" src="../assets/PAGE D'ACCEUIL/Société inclusive.gif"/>
+                <div class="text-over4">
+                    <h3>Alliance C</h3>
+                    <p>ILLUSTRATION, EDITION</p>
+                </div>
+            </div>
         </div>
     </div>
     <div class="btn-voirplus">
