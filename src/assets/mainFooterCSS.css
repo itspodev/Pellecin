@@ -1,0 +1,50 @@
+@import url("https://use.typekit.net/cmv5yao.css");
+
+.main-footer {
+    font-family: 'forma-djr-display';
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main-footer__up {
+    background-color: #fff;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-footer__up :nth-child(1) {
+    font-size: 2em;
+}
+
+.main-footer__up :nth-child(2) {
+    margin:0;
+    border-bottom: 1px solid #000;
+    font-weight: bold;
+    font-size: 4em;
+}
+
+.main-footer__social-media {
+    padding: 2em 0 4em 0;
+    min-width: 25vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.main-footer__social-media img {
+    width: 60px;
+}
+
+.main-footer__bottom {
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    padding: 3em;
+}
+
+.main-footer__bottom img {
+    width:15%;
+    height: auto;
+}

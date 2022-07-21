@@ -21,6 +21,11 @@ const router = createRouter({
       path: '/homeagain',
       name: 'home-again',
       component: () => import ('../views/HomeAgain.vue')
+    },
+    {
+      path: '/main-footer',
+      name: 'main-footer',
+      component: () => import ('../components/MainFooter.vue')
     }
   ]
 })
