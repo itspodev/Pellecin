@@ -148,6 +148,7 @@ li a{
   margin: auto;
 }
 .nav-hp:hover{
+  transition: all 1s;
   opacity: 1;
 }
 .hp-grid{
@@ -158,29 +159,52 @@ li a{
   justify-content: center;
   align-items: center;
 }
+
 .img1{
+  opacity: 1;
   margin: 1%;
   width: 30%;
 }
+.img1:hover{
+  cursor: pointer;
+  opacity: 0.5;
+}
 .video1{
+  opacity: 1;
   margin: 1%;
   width: 53.5%;
 }
+.video1:hover{
+  cursor: pointer;
+  opacity: 0.6;
+}
 .img2{
+  opacity: 1;
   margin: 1%;
   width: 46.5%;
   height: 50%;
 }
+.img2:hover{
+  cursor: pointer;
+  opacity: 0.5;
+}
 .img3{
+  opacity: 1;
   margin: 1%;
   width: 37.2%;
   height: 50%;
 }
+.img3:hover{
+  cursor: pointer;
+  opacity: 0.4;
+}
+
 .btn-voirplus{
-  width: 91%;
+  width: 90.5%;
   text-align: right;
 }
 .voirplus{
+  cursor: pointer;
   font-size: 1.3rem;
   background-color: black;
   color:lightgray;

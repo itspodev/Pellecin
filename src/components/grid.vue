@@ -28,7 +28,7 @@
         </div>
     </div>
     <div class="btn-voirplus">
-        <button class="voirplus">VOIR PLUS</button>
+        <a href="#"><button class="voirplus">VOIR PLUS</button></a>
     </div>
 </div>  
 
