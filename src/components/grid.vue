@@ -23,28 +23,28 @@
         <div class="hp-grid">
             <div class="box-container1">
                 <img class="img1" src="../assets/PAGE D'ACCEUIL/cycliste.jpg"/>
-                <div class="text-over1">
+                <div class="text-over">
                     <h3>La rouche à velos</h3>
                     <p>BRANDING,ILLUSTRATION, WEB</p>
                 </div>
             </div>
             <div class="box-container2">
                 <video class="video1" src="../assets/PAGE D'ACCEUIL/Introduction-Vidéo1.mp4" loop="infinite" autoplay="autoplay" muted=''/>
-                <div class="text-over2">
+                <div class="text-over">
                     <h3>Liquid Color</h3>
                     <p>MOTION DESIGN, WEB</p>
                 </div>
             </div>
             <div class="box-container3">
                 <img class="img2" src="../assets/vynil.jpg"/>
-                <div class="text-over3">
+                <div class="text-over">
                     <h3>Neue Ara</h3>
                     <p>ILLUSTRATION,GRAPHISME,MOTION</p>
                 </div>
             </div>
             <div class="box-container4">
                 <img class="img3" src="../assets/PAGE D'ACCEUIL/Société inclusive.gif"/>
-                <div class="text-over4">
+                <div class="text-over">
                     <h3>Alliance C</h3>
                     <p>ILLUSTRATION, EDITION</p>
                 </div>
@@ -62,6 +62,6 @@
 
 <script>
 export default {
-    name: 'grid'
+    name: 'Grid'
 }
 </script>
