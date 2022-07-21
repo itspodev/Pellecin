@@ -4,8 +4,8 @@
             <p>{{footerTxt}}</p>
             <p>{{footerTxtContact}}</p>
             <div class="main-footer__social-media">
-                <a v-bind:href="image.url">
-                    <img :key='image.name' v-for="image in footerSocialMedia" v-bind:src="image.path" v-bind:alt="image.name">
+                <a v-for="image in footerSocialMedia" :key='image.name' v-bind:href="image.url" target="_blank">
+                    <img v-bind:src="image.path" v-bind:alt="image.name">
                 </a>
             </div>
         </div>
