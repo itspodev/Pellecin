@@ -29,7 +29,7 @@
                 </div>
             </div>
             <div class="box-container2">
-                <video class="video1" src="../assets/img/Introduction-Vidéo1.mp4" loop="infinite" autoplay="autoplay" muted=''/>
+                <video class="video1" src="../assets/video/Introduction-Vidéo1.mp4" loop="infinite" autoplay="autoplay" muted=''/>
                 <div class="text-over">
                     <h3>Liquid Color</h3>
                     <p>MOTION DESIGN, WEB</p>

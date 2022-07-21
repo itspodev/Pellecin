@@ -3,7 +3,7 @@
 <template>
     <header>
         <nav class="bloc">
-            <video autoplay="autoplay" muted="" loop="infinite" src="../assets/img/VIDÉO-MOTION-720.mp4"></video>
+            <video autoplay="autoplay" muted="" loop="infinite" src="../assets/video/VIDÉO-MOTION-720.mp4"></video>
             <div class="navBar">
                 <a href="/"><img src="../assets/img/Logo-Pepenome1.png" alt="" class='logo-pepenome'/></a>
                 <ul>
