@@ -1,35 +1,58 @@
-@import "./base.css";
+@import url("https://use.typekit.net/cmv5yao.css");
+body {
+  font-family:forma-djr-display;
+}
+/*----------- INTRO CARD PROPERTIES --------*/
 
-#app {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-
-  font-weight: normal;
+.intro-card-box {
+  margin-top:30px;
+  width:80%;
+  margin:auto;
+  display:flex;
+  justify-content: space-around;
+  align-items:center;
 }
 
-a,
-.green {
-  text-decoration: none;
-  color: hsla(160, 100%, 37%, 1);
-  transition: 0.4s;
+.intro-pic {
+  width:45%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
 }
-
-@media (hover: hover) {
-  a:hover {
-    background-color: hsla(160, 100%, 37%, 0.2);
-  }
+.pola-picture-box {
+  width:100%;
 }
-
-@media (min-width: 1024px) {
-  body {
-    display: flex;
-    place-items: center;
-  }
-
-  #app {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 0 2rem;
-  }
+.pola-picture-box img {
+  width:100%;
+}
+.intro-text {
+  width:35%;
+  font-size:1.2rem;
+  display:flex;
+  flex-wrap:wrap;
+}
+.intro-text h3 {
+  font-size:1.2rem;
+  color:lightgray;
+  font-weight:300;
+  width:100%
+}
+.intro-text h2 {
+  font-size:2rem;
+  font-weight:bold;
+}
+.intro-text p {
+  letter-spacing: 0.7px;
+}
+.intro-name {
+  width:50%
+}
+.intro-name h2 {
+  margin:0
+}
+.intro-desc {
+  margin:30px 0
+}
+.intro-more a {
+  color:lightgray;
 }
