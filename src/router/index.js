@@ -22,11 +22,11 @@ const router = createRouter({
       name: 'home-again',
       component: () => import ('../views/HomeAgain.vue')
     },
-    {
-      path: '/main-footer',
-      name: 'main-footer',
-      component: () => import ('../components/MainFooter.vue')
-    }
+    // {
+    //   path: '/main-footer',
+    //   name: 'main-footer',
+    //   component: () => import ('../components/MainFooter.vue')
+    // }
   ]
 })
 

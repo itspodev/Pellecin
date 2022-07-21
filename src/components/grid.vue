@@ -2,6 +2,7 @@
 
 <template>
 <body>
+<div class="main-hp-container">
     <div class="hp-container">
         <div class="hp-head">
             <p>PEPENOME</p>
@@ -31,7 +32,7 @@
     <div class="btn-voirplus">
         <button class="voirplus">VOIR PLUS</button>
     </div>
-    
+</div>  
 </body>
 
 </template>
@@ -40,5 +41,6 @@
 
 <script>
 export default {
+    name: 'grid'
 }
 </script>

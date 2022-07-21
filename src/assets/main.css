@@ -56,3 +56,169 @@ body {
 .intro-more a {
   color:lightgray;
 }
+
+/*---------- FOOTER PROPERTIES ----------*/
+
+.main-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.main-footer__up {
+  background-color: #fff;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-footer__up :nth-child(1) {
+  font-size: 2em;
+}
+
+.main-footer__up :nth-child(2) {
+  margin:0;
+  border-bottom: 1px solid #000;
+  font-weight: bold;
+  font-size: 4em;
+}
+
+.main-footer__social-media {
+  padding: 2em 0 4em 0;
+  min-width: 25vw;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.main-footer__social-media img {
+  width: 60px;
+}
+
+.main-footer__bottom {
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  padding: 3em;
+}
+
+.main-footer__bottom img {
+  width:15%;
+  height: auto;
+}
+
+/*------------ HEADER PROPERTIES ---------*/
+
+.bloc{
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+.bloc video{
+  position: absolute;
+  min-width: 100%;
+  min-height: 100%;
+  top:50%;
+  left:50%;
+  z-index: -100;
+  transform: translate(-50%, -50%);
+}
+.navBar{
+  margin: 3%;
+  width: 95%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navBar a{
+  width: 100%;
+  color: white;
+  text-decoration: none;
+}
+.logo-pepenome {
+  width: 27%;
+}
+ul{   
+  width: 55%;
+  font-size: 1.03rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+li{
+  list-style: none;
+}
+li a{
+  width: 80%;
+}
+
+
+/*--------------- MY PROJECTS - HOMEPAGE PROPERTIES ------------*/
+
+.main-hp-container{
+  width: 100%;
+  background-color: black;
+}
+.hp-container{
+  margin: 2%;
+  color: white;
+  text-align: center;
+}
+.hp-head{
+  width: 15.5%;
+  margin: auto;
+}
+.hp-head p{
+  color: lightgray;
+  font-size: 1.5rem;
+}
+.hp-navbar {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.nav-hp{
+  width: 20%;
+  margin: auto;
+}
+.hp-grid{
+  width: 95%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.img1{
+  margin: 1%;
+  width: 30%;
+}
+.video1{
+  margin: 1%;
+  width: 53.5%;
+}
+.img2{
+  margin: 1%;
+  width: 46.5%;
+  height: 50%;
+}
+.img3{
+  margin: 1%;
+  width: 37.2%;
+  height: 50%;
+}
+.btn-voirplus{
+  width: 91%;
+  text-align: right;
+}
+.voirplus{
+  font-size: 1.3rem;
+  background-color: black;
+  color:lightgray;
+  border: none;
+  border-bottom:2px solid lightgray;
+}
