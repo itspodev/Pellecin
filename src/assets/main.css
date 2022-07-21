@@ -195,6 +195,12 @@ li a{
   flex-direction:column;
   justify-content:center ;
 }
+.text-over * {
+  margin:0;
+}
+.text-over h3 {
+  font-size:2.5rem;
+}
 .text-over:hover{
   opacity: 1;
 }

@@ -24,8 +24,8 @@
             <div class="box-container1">
                 <img class="img1" src="../assets/PAGE D'ACCEUIL/cycliste.jpg"/>
                 <div class="text-over">
-                    <h3>La rouche à velos</h3>
-                    <p>BRANDING,ILLUSTRATION, WEB</p>
+                    <h3>La ruche à velos</h3>
+                    <p>BRANDING, ILLUSTRATION, WEB</p>
                 </div>
             </div>
             <div class="box-container2">
@@ -39,7 +39,7 @@
                 <img class="img2" src="../assets/vynil.jpg"/>
                 <div class="text-over">
                     <h3>Neue Ara</h3>
-                    <p>ILLUSTRATION,GRAPHISME,MOTION</p>
+                    <p>ILLUSTRATION, GRAPHISME, MOTION</p>
                 </div>
             </div>
             <div class="box-container4">
@@ -52,7 +52,7 @@
         </div>
     </div>
     <div class="btn-voirplus">
-        <a href="#"><button class="voirplus">VOIR PLUS</button></a>
+        <a href="/projets"><button class="voirplus">VOIR PLUS</button></a>
     </div>
 </div>  
 
