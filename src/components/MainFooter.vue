@@ -16,6 +16,10 @@
 </template>
 
 <script>
+import linkedIn from '@/assets/img/Linkedin-01.png'
+import Insta from '@/assets/img/Insta-01.png'
+import Mail from '@/assets/img/Mail-01.png'
+import Behance from '@/assets/img/Behance-01.png'
     export default {
         name: 'MainFooter',
         data: () => {
@@ -23,10 +27,10 @@
                 footerTxt: 'pour tous vos projets',
                 footerTxtContact: 'contactez-moi !',
                 footerSocialMedia: [
-                    { name:'linkedIn icone', path:'./../src/assets/img/Linkedin-01.png', url:'https://www.linkedin.com/in/noémie-pellencin/'},
-                    { name:'insta icone', path:'./../src/assets/img/Insta-01.png', url:'https://www.instagram.com/pepe_nome/'},
-                    { name:'mail icone', path:'./../src/assets/img/Mail-01.png', url:'mailto:hello@pepenome.fr'},
-                    { name:'behance icone', path:'./../src/assets/img/Behance-01.png', url:'https://www.behance.net/pepenome'},
+                    { name:'linkedIn icone', path:linkedIn, url:'https://www.linkedin.com/in/noémie-pellencin/'},
+                    { name:'insta icone', path:Insta, url:'https://www.instagram.com/pepe_nome/'},
+                    { name:'mail icone', path:Mail, url:'mailto:hello@pepenome.fr'},
+                    { name:'behance icone', path:Behance, url:'https://www.behance.net/pepenome'},
                 ],
             }
         }
