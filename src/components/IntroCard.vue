@@ -17,7 +17,7 @@
             une carte de visite créative, etc.</p>
             <p>Bienveillance et créativité sont au coeur des projets que j'entreprends avec mes clients.</p>
         </div>
-        <h3 class="intro-more"><a href="#">EN SAVOIR PLUS</a></h3>
+        <h3 class="intro-more"><a href="/about">EN SAVOIR PLUS</a></h3>
     </div>  
 </div>
 
