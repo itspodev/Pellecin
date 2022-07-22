@@ -7,11 +7,11 @@
     <div class="container">
         <main class="containerContact">
             <div class="contact">
-                <p>Télephone: <strong>06 99 79 00 80</strong></p>
+                <p>Télephone: <a href="#"><strong>06 99 79 00 80</strong></a></p>
                 <hr class="lineBottom">
-                <p>Mail: <strong>hello@pepenome.fr</strong></p>
+                <p>Mail: <a href="#"><strong>hello@pepenome.fr</strong></a></p>
                 <hr class="lineTop">
-                <p>Adresse:  <strong>94 boulevard des belges <br>44300 NANTES</strong></p>
+                <p>Adresse:  <strong>94 boulevard des belges <br>&emsp;&thinsp;&ensp;&ensp;&ensp;&ensp; 44300 NANTES</strong></p>
             </div>
 
             <div class="contacetezMoi">

@@ -416,25 +416,28 @@ li a{
   justify-content: space-around;
 }
 .contact{
-  width: 50%;
+  width: 60%;
   font-size: 1.2rem;
 }
-
+.contact a{
+  color: #fff;
+  text-decoration: none;
+}
 .lineBottom{
   margin:0;
-  width: 40%;
+  width: 38%;
   border-width: 0.5px;
 }
 .lineTop{
   margin: 0;
-  width: 46%;
+  width: 43%;
   border-width: 0.5px;
 }
 .contacetezMoi{
-  width: 40%;
+  width: 45%;
   border: 1px solid white;
   text-align: center; 
-  padding: 2.5rem 1.5rem 3.5rem 1.5rem;
+  padding: 2.5rem 2rem 3.5rem 2rem;
 }
 .contacetezMoi p{
   font-size: 1.4rem;
@@ -444,7 +447,7 @@ li a{
   font-size: 3rem;
 }
 .socialLink {
-  width: 79.5%;
+  width: 81%;
   margin: auto;
   padding: 2rem 0 4rem 0;
 }
