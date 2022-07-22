@@ -12,6 +12,11 @@ body {
   width: 100%;
   overflow: hidden;
 }
+.containerHeader{
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
 .bloc video{
   position: absolute;
   min-width: 100%;
@@ -23,9 +28,13 @@ body {
 }
 .navBar{
   margin: 3%;
-  width: 95%;
   display: flex;
   justify-content: center;
+  align-items: center;
+}
+.NavContainerSlot {
+  display: flex;
+  height: 100vh;
   align-items: center;
 }
 .navBar a{
@@ -146,6 +155,7 @@ li a{
   opacity: 0.6;
   width: 20%;
   margin: auto;
+  cursor: pointer;
 }
 .nav-hp:hover{
   transition: all 1s;
@@ -404,19 +414,34 @@ li a{
   width: 100%;
 }
 
+.line::after {
+  content: '';
+  border-bottom: 1px solid gray;
+  display: block;
+  padding: 15px;
+  width: 13rem;
+}
+.line2{
+  padding-top: 1rem;
+}
+.line2::after {
+  content: '';
+  border-bottom: 1px solid gray;
+  display: block;
+  padding: 15px;
+  width: 15rem;
+}
+
 .contactLogo{
-  position: absolute;
   width: 100%;
-  height: 100vh;
 }
 .containerContact{
-  width: 80%;
-  margin: auto;
   display: flex;
   justify-content: space-around;
+  align-items: flex-start;
 }
 .contact{
-  width: 50%;
+  width: 17rem;
   font-size: 1.2rem;
 }
 
@@ -431,7 +456,7 @@ li a{
   border-width: 0.5px;
 }
 .contacetezMoi{
-  width: 40%;
+  width: 29rem;
   border: 1px solid white;
   text-align: center; 
   padding: 2.5rem 1.5rem 3.5rem 1.5rem;
@@ -444,23 +469,12 @@ li a{
   font-size: 3rem;
 }
 .socialLink {
-  width: 79.5%;
-  margin: auto;
-  padding: 2rem 0 4rem 0;
+  padding-top:2rem
 }
 
 .socialLink img {
-  width: 55px;
+  width: 50px;
   margin-right: 1rem;
-}
-.logoBottom{
-  text-align: center;
-  width: 100%;
-}
-.logoBottom img{
-  padding: 1.5%;
-  width: 13%;
-  height: auto;
 }
 /*---------------------------------------- TEST -------------------------------------*/
 

@@ -1,42 +1,42 @@
 <template>
 
-<NavBar/>
-<h1>Mes Projets</h1>
+<NavBar><video autoplay="autoplay" muted="" loop="infinite" src="@/assets/video/Mes-projets2.mp4"></video></NavBar>
 <Grid :projectArray=this.projectArray />
 <MainFooter/>
 
 </template>
 
 <script>
-import NavBar from '../components/NavBar.vue'
-import MainFooter from '../components/MainFooter.vue'
-import Grid from '../components/Grid.vue'
+import NavBar from '@/components/NavBar.vue'
+import MainFooter from '@/components/MainFooter.vue'
+import Grid from '@/components/Grid.vue'
+import Footer from '@/components/Footer.vue'
 
-import cycliste from '@/assets/img/cycliste.jpg'
-import Autoportrait from '@/assets/img/Autoportrait.gif'
-import BOULANGERIECHAVES from '@/assets/img/BOULANGERIE-CHAVES.jpg'
-import HOLISTIQUECO02 from '@/assets/img/HOLISTIQUE&CO.png'
-import LOGOCDF_DépliantA4A from '@/assets/img/LOGO-CDF_Dépliant-A4-A.png'
-import LOGOLAETICIA_DépliantA4Acopie from '@/assets/img/LOGO-LAETITIA_Dépliant-A4-A-copie.png'
-import LogoNolex4 from '@/assets/img/LogoNolex.4.png'
-import BLUE from '@/assets/img/BLUE.jpg'
-import LCJ from '@/assets/img/LCJ.png'
-import Sixfeet from '@/assets/img/Sixfeet.jpg'
-import Sociétéinclusive from '@/assets/img/Société-inclusive.gif'
-import a5 from '@/assets/img/5.jpg'
-import FightCamp from '@/assets/img/Fight-Camp.png'
-import vynil from '@/assets/img/vynil.jpg'
-import LiquidColors from '@/assets/video/Introduction-Vidéo1.mp4'
-
-
-
+import {
+    cycliste,
+    autoPortrait,
+    boulangerieChaves,
+    holistiqueCo02,
+    logoCdfDepliantA4A,
+    logoLaeticiaDepliantA4ACopie,
+    logoNolex4,
+    blue,
+    lcj,
+    sixFeet,
+    societeInclusive,
+    num5,
+    fightCamp,
+    vynil,
+    liquidColors
+} from '@/utils/media'
 
 export default {
     name: 'Project',
     components: {
         'NavBar': NavBar,
         'MainFooter': MainFooter,
-        'Grid' : Grid
+        'Grid' : Grid,
+        'Footer':Footer
     },
     data: function() {
         return {
@@ -51,84 +51,84 @@ export default {
                 {
                     name: 'Autoportrait',
                     tag:["branding","graphisme","illustration","motion"],
-                    img: Autoportrait,
+                    img: autoPortrait,
                     format: 'img',
                     class: ''
                 },
                 {
                     name: 'BOULANGERIE CHAVES',
                     tag: ["branding", "édition", "graphisme", "illustration"],
-                    img: BOULANGERIECHAVES,
+                    img: boulangerieChaves,
                     format: 'img',
                     class: ''
                 },
                 {
                     name: 'HOLISTIQUE & CO-02',
                     tag:['branding','édition', 'illustration'],
-                    img: HOLISTIQUECO02,
+                    img: holistiqueCo02,
                     format: 'img',
                     class: ''
                 },
                 {
                     name: 'LOGO CDF_Dépliant A4 A',
                     tag: ['branding','édition'],
-                    img: LOGOCDF_DépliantA4A,
+                    img: logoCdfDepliantA4A,
                     format: 'img',
                     class: ''
                 },
                 {
                     name: 'LOGO LAETICIA_Dépliant A4 A copie',
                     tag: ['branding','édition','motion','web'],
-                    img:LOGOLAETICIA_DépliantA4Acopie,
+                    img:logoLaeticiaDepliantA4ACopie,
                     format: 'img',
                     class: ''
                 },
                 {
                     name: 'LogoNolex.4',
                     tag: ['branding', 'motion', 'web'],
-                    img: LogoNolex4,
+                    img: logoNolex4,
                     format: 'img',
                     class: ''
                 },
                 {
                     name: 'BLUE',
                     tag: ['édition', 'graphisme'],
-                    img: BLUE,
+                    img: blue,
                     format: 'img',
                     class: ''
                 },
                 {
                     name: 'LCJ',
                     tag: ['édition', 'illustration'],
-                    img: LCJ,
+                    img: lcj,
                     format: 'img',
                     class:''
                 },
                 {
                     name: 'Sixfeet',
                     tag: ['édition', 'graphisme'],
-                    img: Sixfeet,
+                    img: sixFeet,
                     format: 'img',
                     class:''
                 },
                 {
                     name: 'Société inclusive',
                     tag: ['édition', 'illustration','test'],
-                    img: Sociétéinclusive,
+                    img: societeInclusive,
                     format: 'img',
                     class: 'box-container4'
                 },
                 {
                     name: '5',
                     tag: ['graphisme'],
-                    img: a5,
+                    img: num5,
                     format: 'img',
                     class:''
                 },
                 {
                     name: 'Fight Camp',
                     tag: ['graphisme','illustration'],
-                    img: FightCamp,
+                    img: fightCamp,
                     format: 'img',
                     class: ''
                 },
@@ -142,7 +142,7 @@ export default {
                 {
                     name: 'Liquid Colors',
                     tag: ['motion', 'web','test'],
-                    img: LiquidColors,
+                    img: liquidColors,
                     format: 'video',
                     class:'box-container2'
                 }    

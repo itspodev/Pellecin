@@ -10,12 +10,12 @@
             <br>
         </div>
         <div class="hp-navbar">
-            <p class="nav-hp" @click="filterArray('motion')"><h3>MOTION DESIGN</h3></p>
-            <p class="nav-hp" @click="filterArray('illustration')"><h3>ILLUSTRATION</h3></p>
-            <p class="nav-hp" @click="filterArray('branding')"><h3>BRANDING</h3></p>
-            <p class="nav-hp" @click="filterArray('graphisme')"><h3>GRAPHISME</h3></p>
-            <p class="nav-hp" @click="filterArray('édition')"><h3>EDITION</h3></p>
-            <p class="nav-hp" @click="filterArray('test')"><h3>WEB</h3></p>
+            <h3 class="nav-hp" @click="filterArray('motion')">MOTION DESIGN</h3>
+            <h3 class="nav-hp" @click="filterArray('illustration')">ILLUSTRATION</h3>
+            <h3 class="nav-hp" @click="filterArray('branding')">BRANDING</h3>
+            <h3 class="nav-hp" @click="filterArray('graphisme')">GRAPHISME</h3>
+            <h3 class="nav-hp" @click="filterArray('édition')">EDITION</h3>
+            <h3 class="nav-hp" @click="filterArray('test')">WEB</h3>
         </div>
     </div>
 
@@ -39,28 +39,28 @@
 
         <div class="hp-grid">
             <div class="box-container1">
-                <img class="img1" src="../assets/img/cycliste.jpg"/>
+                <img class="img1" src="@/assets/img/cycliste.jpg"/>
                 <div class="text-over">
                     <h3>La ruche à velos</h3>
                     <p>BRANDING, ILLUSTRATION, WEB</p>
                 </div>
             </div>
             <div class="box-container2">
-                <video class="video1" src="../assets/video/Introduction-Vidéo1.mp4" loop="infinite" autoplay="autoplay" muted=''/>
+                <video class="video1" src="@/assets/video/Introduction-Vidéo1.mp4" loop="infinite" autoplay="autoplay" muted=''/>
                 <div class="text-over">
                     <h3>Liquid Color</h3>
                     <p>MOTION DESIGN, WEB</p>
                 </div>
             </div>
             <div class="box-container3">
-                <img class="img2" src="../assets/img/vynil.jpg"/>
+                <img class="img2" src="@/assets/img/vynil.jpg"/>
                 <div class="text-over">
                     <h3>Neue Ara</h3>
                     <p>ILLUSTRATION, GRAPHISME, MOTION</p>
                 </div>
             </div>
             <div class="box-container4">
-                <img class="img3" src="../assets/img/Société-inclusive.gif"/>
+                <img class="img3" src="@/assets/img/Société-inclusive.gif"/>
                 <div class="text-over">
                     <h3>Alliance C</h3>
                     <p>ILLUSTRATION, EDITION</p>
@@ -69,7 +69,7 @@
         </div>
     </div>
     <div class="btn-voirplus">
-        <a href="/projets"><button class="voirplus">VOIR PLUS</button></a>
+        <router-link to="/projets"><button class="voirplus">VOIR PLUS</button></router-link>
     </div>
 </div>  
 </template>

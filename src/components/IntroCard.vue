@@ -2,7 +2,7 @@
 
 <div class="intro-card-box">
      <div class="intro-pic"> <!--picture frame -->
-        <div class="pola-picture-box"><img src="../assets/img/PHOTO-POLA.png"/></div>
+        <div class="pola-picture-box"><img src="@/assets/img/PHOTO-POLA.png"/></div>
      </div> 
     <div class="intro-text">  <!-- text -->
         <h3>PEPENOME</h3>
@@ -17,7 +17,7 @@
             une carte de visite créative, etc.</p>
             <p>Bienveillance et créativité sont au coeur des projets que j'entreprends avec mes clients.</p>
         </div>
-        <h3 class="intro-more"><a href="/about">EN SAVOIR PLUS</a></h3>
+        <h3 class="intro-more"><router-link to="/about">EN SAVOIR PLUS</router-link></h3>
     </div>  
 </div>
 

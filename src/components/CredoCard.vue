@@ -11,7 +11,7 @@
             . Je suis plus enclin à travailler ou à apporter des solutions à des projets engagés</p>
         </div>  
         <div class="credo-card__img-box"> <!--picture frame -->
-            <img src="../assets/img/à propos.gif"/>
+            <img src="@/assets/img/a_propos.gif"/>
         </div> 
     </div>
 </template>
