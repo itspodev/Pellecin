@@ -40,7 +40,6 @@ import linkedIn from '@/assets/img/Linkedin-01.png'
 import Insta from '@/assets/img/Insta-01.png'
 import Mail from '@/assets/img/Mail-01.png'
 import Behance from '@/assets/img/Behance-01.png'
-// import contact from '@/assets/img/CONTACT.png'
 export default{
     name: 'contact',
 
