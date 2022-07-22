@@ -1,9 +1,18 @@
 <template>
 
 <NavBar><video autoplay="autoplay" muted="" loop="infinite" src="@/assets/video/Mes-projets2.mp4"></video></NavBar>
-<Grid :projectArray=this.projectArray />
+<Grid :projectArray="this.projectArray" />
 <MainFooter/>
-
+    <!-- <div class="hp-container-2">
+        <div class="hp-grid">
+            <GridElement 
+                v-for="project in projectArray" 
+                :key="project.name"  
+                :project="project"
+                :filter='this.filter'
+            />
+        </div>
+    </div> -->
 </template>
 
 <script>
@@ -40,6 +49,7 @@ export default {
     },
     data: function() {
         return {
+            filter:'test',
             projectArray: [
                 {
                     name:'cycliste',
