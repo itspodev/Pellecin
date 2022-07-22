@@ -10,16 +10,33 @@
             <br>
         </div>
         <div class="hp-navbar">
-            <a class="nav-hp" href="#"><h3>MOTION DESIGN</h3></a>
-            <a class="nav-hp" href="#"><h3>ILLUSTRATION</h3></a>
-            <a class="nav-hp" href="#"><h3>BRANDING</h3></a>
-            <a class="nav-hp" href="#"><h3>GRAPHISME</h3></a>
-            <a class="nav-hp" href="#"><h3>EDITION</h3></a>
-            <a class="nav-hp" href="#"><h3>WEB</h3></a>
+            <p class="nav-hp" @click="filterArray('motion')"><h3>MOTION DESIGN</h3></p>
+            <p class="nav-hp" @click="filterArray('illustration')"><h3>ILLUSTRATION</h3></p>
+            <p class="nav-hp" @click="filterArray('branding')"><h3>BRANDING</h3></p>
+            <p class="nav-hp" @click="filterArray('graphisme')"><h3>GRAPHISME</h3></p>
+            <p class="nav-hp" @click="filterArray('édition')"><h3>EDITION</h3></p>
+            <p class="nav-hp" @click="filterArray('test')"><h3>WEB</h3></p>
         </div>
     </div>
 
     <div class="hp-container-2">
+        <!-- <div class="hp-grid">
+            <div v-for="project in projectArray" :key="project.name">
+                <div v-if="project.tag.includes(filter)" v-bind:class=project.class>
+                    <div v-if="project.format==='img'">
+                        <img v-bind:src="project.img" />
+                    </div>
+                    <div v-else-if="project.format==='video'">
+                        <video v-bind:src="project.img" loop="infinite" autoplay="autoplay" muted=''/>
+                    </div>
+                    <div class="text-over">
+                        <h3>{{project.name}}</h3>
+                        <p>{{project.tag}}</p>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+
         <div class="hp-grid">
             <div class="box-container1">
                 <img class="img1" src="../assets/img/cycliste.jpg"/>
@@ -55,13 +72,23 @@
         <a href="/projets"><button class="voirplus">VOIR PLUS</button></a>
     </div>
 </div>  
-
 </template>
 
 
 
 <script>
 export default {
-    name: 'Grid'
+    name: 'Grid',
+    props: ['projectArray'],
+    data: function() {
+        return {
+            filter: 'web'
+        }
+    },
+    methods: {
+        filterArray: function(filter) {
+            this.filter = filter;
+        }
+    }
 }
 </script>

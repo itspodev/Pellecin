@@ -247,6 +247,103 @@ li a{
   margin-bottom:20px
 }
 
+/*---------- ABOUT PAGE ----------*/
+
+/*---------- ABOUT CARD PROPERTIES ----------*/
+.about-card {
+  color: #000;
+  padding: 7rem 0rem 7rem 12rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.about-card__img-box {
+  width: 37%;
+}
+
+.about-card__img-box img {
+  width: 100%;
+  height: auto;
+}
+
+.about-card__text-box {
+  width: 50%;
+  padding-left: 3em;
+  padding-top: 15px;
+}
+
+.about-card__text-box h2 {
+  margin: 0;
+  font-size: 2.8rem;
+}
+
+.about-card__text-box h2:nth-child(1) {
+  line-height: 0.8;
+}
+
+.about-card__text-box h3 {
+  max-width: 7em;
+  margin-top: 0;
+  padding-top: 5px;
+  color: #acacac;
+  font-size: 1.8rem;
+  border-bottom: 1px solid #acacac;
+}
+
+.about-card__text-box p {
+  max-width: 485px;
+  font-size: 1.2rem;
+  word-spacing: 1px;
+}
+
+.about-card__text-box p:nth-child(5) {
+  margin-bottom: 0;
+}
+
+.about-card__text-box p:nth-child(6) {
+  margin-top: 0;
+}
+
+.about-card__text-box span {
+  font-weight: bold;
+}
+
+/*---------- CREDO CARD PROPERTIES ----------*/
+.credo-card {
+  color: #fff;
+  background-color: #000;
+  padding: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.credo-card__text-box h2 {
+  margin: 0;
+  font-size: 2.2rem;
+}
+
+.credo-card__text-box hr {
+  margin-left: 0;
+  max-width: 16.1rem;
+  border-bottom: none;
+  border-width: 0.1px;
+}
+
+.credo-card__text-box p {
+  max-width: 400px;
+}
+
+.credo-card__img-box {
+  width: 35%;
+}
+
+.credo-card__img-box img {
+  width: 100%;
+  height: auto;
+}
+
 /*---------- FOOTER PROPERTIES ----------*/
 
 .main-footer {
@@ -263,15 +360,20 @@ li a{
   align-items: center;
 }
 
-.main-footer__up :nth-child(1) {
-  font-size: 2em;
+.main-footer__up p:nth-child(1) {
+  font-size: 1.5em;
 }
 
 .main-footer__up p:nth-child(2) {
   margin:0;
   border-bottom: 1px solid #000;
   font-weight: bold;
-  font-size: 4em;
+  font-size: 3em;
+}
+
+.main-footer__up a {
+  text-decoration: none;
+  color:#000;
 }
 
 .main-footer__social-media {
@@ -279,7 +381,7 @@ li a{
 }
 
 .main-footer__social-media img {
-  width: 60px;
+  width: 50px;
   margin-right: 1rem;
 }
 
@@ -360,4 +462,19 @@ li a{
   width: 13%;
   height: auto;
 }
+/*---------------------------------------- TEST -------------------------------------*/
 
+/* .box-container1 img {
+  width:100%
+}
+.box-container1 video {
+  width:100%
+} */
+.hp-grid img,
+.hp-grid video {
+  width:100%;
+}
+
+.v-for{
+  width:min-content
+}
