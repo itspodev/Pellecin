@@ -444,22 +444,25 @@ li a{
   width: 17rem;
   font-size: 1.2rem;
 }
-
+.contact a{
+  color: #fff;
+  text-decoration: none;
+}
 .lineBottom{
   margin:0;
-  width: 40%;
+  width: 38%;
   border-width: 0.5px;
 }
 .lineTop{
   margin: 0;
-  width: 46%;
+  width: 43%;
   border-width: 0.5px;
 }
 .contacetezMoi{
   width: 29rem;
   border: 1px solid white;
   text-align: center; 
-  padding: 2.5rem 1.5rem 3.5rem 1.5rem;
+  padding: 2.5rem 2rem 3.5rem 2rem;
 }
 .contacetezMoi p{
   font-size: 1.4rem;
