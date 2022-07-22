@@ -2,7 +2,7 @@
     <footer class="main-footer">
         <div class="main-footer__up">
             <p>{{footerTxt}}</p>
-            <p>{{footerTxtContact}}</p>
+            <p><a href="mailto:hello@pepenome.fr" target="_blank">{{footerTxtContact}}</a></p>
             <div class="main-footer__social-media">
                 <a v-for="image in footerSocialMedia" :key='image.name' v-bind:href="image.url" target="_blank">
                     <img v-bind:src="image.path" v-bind:alt="image.name">

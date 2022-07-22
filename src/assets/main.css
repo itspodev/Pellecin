@@ -263,15 +263,20 @@ li a{
   align-items: center;
 }
 
-.main-footer__up :nth-child(1) {
-  font-size: 2em;
+.main-footer__up p:nth-child(1) {
+  font-size: 1.5em;
 }
 
 .main-footer__up p:nth-child(2) {
   margin:0;
   border-bottom: 1px solid #000;
   font-weight: bold;
-  font-size: 4em;
+  font-size: 3em;
+}
+
+.main-footer__up a {
+  text-decoration: none;
+  color:#000;
 }
 
 .main-footer__social-media {
@@ -279,7 +284,7 @@ li a{
 }
 
 .main-footer__social-media img {
-  width: 60px;
+  width: 50px;
   margin-right: 1rem;
 }
 
