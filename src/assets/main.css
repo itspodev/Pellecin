@@ -399,4 +399,19 @@ li a{
 
 
 
+/*---------------------------------------- TEST -------------------------------------*/
 
+/* .box-container1 img {
+  width:100%
+}
+.box-container1 video {
+  width:100%
+} */
+.hp-grid img,
+.hp-grid video {
+  width:100%;
+}
+
+.v-for{
+  width:min-content
+}
