@@ -172,12 +172,12 @@ li a{
 .box-container3{
   margin: 0 1%;
   position: relative;
-  width: 46.5%;
+  width: 46.4%;
 }
 
 .box-container4{
   position: relative;
-  width: 37.2%;
+  width: 37.1%;
 }
 
 .text-over{
@@ -295,6 +295,69 @@ li a{
   height: auto;
 }
 
+/*---------- CONTACT PAGE ----------*/
+.mainContact{
+  background-color: #000;
+  color: #fff;
+  width: 100%;
+}
 
+.contactLogo{
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+}
+.containerContact{
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}
+.contact{
+  width: 50%;
+  font-size: 1.2rem;
+}
 
+.lineBottom{
+  margin:0;
+  width: 40%;
+  border-width: 0.5px;
+}
+.lineTop{
+  margin: 0;
+  width: 46%;
+  border-width: 0.5px;
+}
+.contacetezMoi{
+  width: 40%;
+  border: 1px solid white;
+  text-align: center; 
+  padding: 2.5rem 1.5rem 3.5rem 1.5rem;
+}
+.contacetezMoi p{
+  font-size: 1.4rem;
+}
+.contacetezMoi h2{
+  margin: 0;
+  font-size: 3rem;
+}
+.socialLink {
+  width: 79.5%;
+  margin: auto;
+  padding: 2rem 0 4rem 0;
+}
+
+.socialLink img {
+  width: 55px;
+  margin-right: 1rem;
+}
+.logoBottom{
+  text-align: center;
+  width: 100%;
+}
+.logoBottom img{
+  padding: 1.5%;
+  width: 13%;
+  height: auto;
+}
 
