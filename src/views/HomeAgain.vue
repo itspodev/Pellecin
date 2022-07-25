@@ -3,7 +3,7 @@
 
 <NavBar><video autoplay="autoplay" muted="" loop="infinite" src="@/assets/video/VIDÉO-MOTION-720.mp4"></video></NavBar>
 <IntroCard/>
-<Grid/>
+<!-- <Grid/> -->
 <GridAgain/>
 <MainFooter/>
 
