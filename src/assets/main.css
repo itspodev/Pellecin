@@ -257,6 +257,145 @@ li a{
   margin-bottom:20px
 }
 
+/*------------------------------ TESTING --------------------------------*/
+
+
+/*---------- GRID HOMEPAGE ----------*/
+.test__main-container {
+  width:80%;
+  margin:auto;
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap:20px
+}
+.test__container1 {
+  height: 500px;
+  width:100%;
+  grid-column-start:1;
+  grid-column-end: 6;
+}
+
+.test__container2 {
+  height:500px;
+  width:100%;
+  grid-column-start:6;
+  grid-column-end: 13;
+}
+
+.test__container3 {
+  height:500px;
+  width:100%;
+  grid-column-start:1;
+  grid-column-end: 8;
+}
+
+.test__container3_2 {
+  height:500px;
+  width:100%;
+  grid-column-start:6;
+  grid-column-end: 13;
+}
+
+.test__container4 {
+  height:539px;
+  width:100%;
+  grid-column-start:8;
+  grid-column-end: 13;
+}
+
+.test__container4_2 {
+  height:388px;
+  width:100%;
+  grid-column-start:5;
+  grid-column-end: 9;
+}
+
+.test__container5 {
+  height:495px;
+  width:100%;
+  grid-column-start:1;
+  grid-column-end: 6;
+}
+
+.test__container6 {
+  /* height:495px; */
+  width:100%;
+  grid-column-start: 8;
+  grid-column-end:13;
+  grid-row-start:2;
+  grid-row-end:4
+}
+
+.test__container6_2 {
+  width:100%;
+  grid-column-start: 8;
+  grid-column-end:13;
+}
+
+.test__container7 {
+  height:275px;
+  width:100%;
+  grid-column-start:1;
+  grid-column-end:8
+}
+
+.test__container8 {
+  /* height:500px; */
+  width:100%;
+  grid-column-start:1;
+  grid-column-end:5;
+  grid-row-start:2;
+  grid-row-end:4
+}
+
+.test__container9 {
+  height:400px;
+  width:100%;
+  grid-column-start:5;
+  grid-column-end:9
+}
+
+.test__container10 {
+  width:100%;
+  grid-column-start:9;
+  grid-column-end:13;
+  grid-row-start:2;
+  grid-row-end:4
+}
+
+.test__container11 {
+  width:100%;
+  grid-column-start:1;
+  grid-column-end:8;
+}
+
+
+
+.test__container1 img,
+.test__container2 video,
+.test__container3 img,
+.test__container3_2 img,
+.test__container4 img,
+.test__container4_2 img,
+.test__container5 img,
+.test__container6 img,
+.test__container6_2 img,
+.test__container7 img,
+.test__container8 img,
+.test__container9 img,
+.test__container10 img,
+.test__container11 img,
+.test__container12 img,
+.test__container13 img,
+.test__container14 img,
+.test__container15 img {
+  width:100%;
+  height:100%
+}
+
+.test__text-over
+
+
 /*---------- ABOUT PAGE ----------*/
 
 /*---------- ABOUT CARD PROPERTIES ----------*/
