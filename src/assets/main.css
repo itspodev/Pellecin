@@ -275,6 +275,13 @@ li a{
   grid-column-end: 6;
 }
 
+.test__container1_2 {
+  height: 388px;
+  width:100%;
+  grid-column-start:1;
+  grid-column-end: 5;
+}
+
 .test__container2 {
   height:500px;
   width:100%;
@@ -296,6 +303,13 @@ li a{
   grid-column-end: 13;
 }
 
+.test__container3_3 {
+  height:450px;
+  width:100%;
+  grid-column-start:1;
+  grid-column-end: 6;
+}
+
 .test__container4 {
   height:539px;
   width:100%;
@@ -310,11 +324,39 @@ li a{
   grid-column-end: 9;
 }
 
+.test__container4_3 {
+  height:600px;
+  width:100%;
+  grid-column-start:6;
+  grid-column-end: 13;
+}
+
 .test__container5 {
   height:495px;
   width:100%;
   grid-column-start:1;
   grid-column-end: 6;
+}
+
+.test__container5_2 {
+  height:388px;
+  width:100%;
+  grid-column-start:9;
+  grid-column-end: 13;
+}
+
+.test__container5_3 {
+  height:310px;
+  width:100%;
+  grid-column-start:9;
+  grid-column-end: 13;
+}
+
+.test__container5_4 {
+  height:340px;
+  width:100%;
+  grid-column-start:9;
+  grid-column-end: 13;
 }
 
 .test__container6 {
@@ -332,11 +374,40 @@ li a{
   grid-column-end:13;
 }
 
+.test__container6_3 {
+  height:500px;
+  width:100%;
+  grid-column-start: 6;
+  grid-column-end:10;
+}
+
+.test__container6_4 {
+  width:100%;
+  grid-column-start: 1;
+  grid-column-end:6;
+  grid-row-start:2;
+  grid-row-end:4
+}
+
 .test__container7 {
   height:275px;
   width:100%;
   grid-column-start:1;
   grid-column-end:8
+}
+
+.test__container7_2 {
+  height:275px;
+  width:100%;
+  grid-column-start:6;
+  grid-column-end:13
+}
+
+.test__container7_3 {
+  height:340px;
+  width:100%;
+  grid-column-start:1;
+  grid-column-end:9
 }
 
 .test__container8 {
@@ -348,11 +419,49 @@ li a{
   grid-row-end:4
 }
 
+.test__container8_2 {
+  /* height:500px; */
+  width:100%;
+  grid-column-start:1;
+  grid-column-end:6;
+  grid-row-start:2;
+  grid-row-end:4
+}
+
+.test__container8_3 {
+  height:600px;
+  width:100%;
+  grid-column-start:1;
+  grid-column-end:6;
+}
+
+
 .test__container9 {
   height:400px;
   width:100%;
   grid-column-start:5;
   grid-column-end:9
+}
+
+.test__container9_2 {
+  height:500px;
+  width:100%;
+  grid-column-start:10;
+  grid-column-end:13
+}
+
+.test__container9_3 {
+  height:500px;
+  width:100%;
+  grid-column-start:6;
+  grid-column-end:9
+}
+
+.test__container9_4 {
+  height:500px;
+  width:100%;
+  grid-column-start:9;
+  grid-column-end:13
 }
 
 .test__container10 {
@@ -363,37 +472,118 @@ li a{
   grid-row-end:4
 }
 
+.test__container10_2 {
+  height:500px;
+  width:100%;
+  grid-column-start:6;
+  grid-column-end:9;
+}
+
 .test__container11 {
   width:100%;
   grid-column-start:1;
   grid-column-end:8;
 }
 
+.test__container11_2 {
+  width:100%;
+  grid-column-start:1;
+  grid-column-end:6;
+}
+
+.test__container12 {
+  width:100%;
+  height:388px;
+  grid-column-start: 5;
+  grid-column-end:9;
+}
+
+.test__container12_2 {
+  width:100%;
+  height:310px;
+  grid-column-start: 6;
+  grid-column-end:9;
+}
+
+.test__container13 {
+  height:450px;
+  width:100%;
+  grid-column-start:6;
+  grid-column-end: 13;
+}
+
+.test__container13_2 {
+  height:310px;
+  width:100%;
+  grid-column-start:1;
+  grid-column-end: 6;
+}
+
+.test__container14 {
+  height:500px;
+  width:100%;
+  grid-column-start:9;
+  grid-column-end:13
+}
+
+.test__container14_2 {
+  height:500px;
+  width:100%;
+  grid-column-start:1;
+  grid-column-end:6
+}
+
+.test__container15 {
+  width:100%;
+  grid-column-start:6;
+  grid-column-end:13;
+  grid-row-start:3;
+  grid-row-end:5
+}
 
 
 .test__container1 img,
+.test__container1_2 img,
 .test__container2 video,
 .test__container3 img,
 .test__container3_2 img,
+.test__container3_3 img,
 .test__container4 img,
 .test__container4_2 img,
+.test__container4_3 img,
 .test__container5 img,
+.test__container5_2 img,
+.test__container5_3 img,
+.test__container5_4 img,
 .test__container6 img,
 .test__container6_2 img,
+.test__container6_3 img,
+.test__container6_4 img,
 .test__container7 img,
+.test__container7_2 img,
+.test__container7_3 img,
 .test__container8 img,
+.test__container8_2 img,
+.test__container8_3 img,
 .test__container9 img,
+.test__container9_2 img,
+.test__container9_3 img,
+.test__container9_4 img,
 .test__container10 img,
+.test__container10_2 img,
 .test__container11 img,
+.test__container11_2 img,
 .test__container12 img,
+.test__container12_2 img,
 .test__container13 img,
+.test__container13_2 img,
 .test__container14 img,
+.test__container14_2 img,
 .test__container15 img {
   width:100%;
   height:100%
 }
 
-.test__text-over
 
 
 /*---------- ABOUT PAGE ----------*/

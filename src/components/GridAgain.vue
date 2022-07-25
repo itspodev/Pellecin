@@ -64,8 +64,109 @@
             </div>
         </div> -->
 
+        <!---------------------------- BRANDING ---------------------------->
 
-        
+
+        <!-- <div class="test__main-container">
+            <div class="test__container1_2">
+                <img src="@/assets/img/cycliste.jpg"/>
+            </div>
+            <div class="test__container12">
+                <img src="@/assets/img/LOGO-CDF_Dépliant-A4-A.png"/>
+            </div>
+            <div class="test__container5_2">
+                <img src="@/assets/img/LOGO-LAETITIA_Dépliant-A4-A-copie.png"/>
+            </div>
+            <div class="test__container8_2"> 
+                <img src="@/assets/img/HOLISTIQUE&CO.png"/>
+            </div>
+            <div class="test__container7_2">
+                <img src="@/assets/img/LogoNolex.4.png"/>
+            </div>
+            <div class="test__container6_3">
+                <img src="@/assets/img/Autoportrait.gif"/>
+            </div>
+            <div class="test__container9_2">
+                <img src="@/assets/img/BOULANGERIE-CHAVES.jpg"/>
+            </div>
+        </div> -->
+
+
+        <!--------------------------------- GRAPHISME ------------------------------->
+
+        <!-- <div class="test__main-container">
+            <div class="test__container3_3">
+                <img src="@/assets/img/vynil.jpg"/>
+            </div>
+            <div class="test__container13">
+                <img src="@/assets/img/Sixfeet.jpg"/>
+            </div>
+            <div class="test__container6_4">
+                <img src="@/assets/img/Autoportrait.gif"/>
+            </div>
+            <div class="test__container9_3"> 
+                <img src="@/assets/img/BOULANGERIE-CHAVES.jpg"/>
+            </div>
+            <div class="test__container14">
+                <img src="@/assets/img/BLUE.jpg"/>
+            </div>
+            <div class="test__container11_2">
+                <img src="@/assets/img/Fight-Camp.png"/>
+            </div>
+            <div class="test__container15">
+                <img src="@/assets/img/5.jpg"/>
+            </div>
+        </div> -->
+
+
+        <!---------------------------- ÉDITION -------------------------------->
+
+        <!-- <div class="test__main-container">
+            <div class="test__container8_3">
+                <img src="@/assets/img/HOLISTIQUE&CO.png"/>
+            </div>
+            <div class="test__container4_3">
+                <img src="@/assets/img/Société-inclusive.gif"/>
+            </div>
+            <div class="test__container13_2">
+                <img src="@/assets/img/Sixfeet.jpg"/>
+            </div>
+            <div class="test__container12_2"> 
+                <img src="@/assets/img/LOGO-CDF_Dépliant-A4-A.png"/>
+            </div>
+            <div class="test__container5_3">
+                <img src="@/assets/img/LOGO-LAETITIA_Dépliant-A4-A-copie.png"/>
+            </div>
+            <div class="test__container14_2">
+                <img src="@/assets/img/BLUE.jpg"/>
+            </div>
+            <div class="test__container10_2">
+                <img src="@/assets/img/LCJ.png"/>
+            </div>
+            <div class="test__container9_4">
+                <img src="@/assets/img/BOULANGERIE-CHAVES.jpg"/>
+            </div>
+        </div> -->
+
+
+        <!------------------ WEB ----------------------->
+
+        <div class="test__main-container">
+            <div class="test__container1">
+                <img src="@/assets/img/cycliste.jpg"/>
+            </div>
+            <div class="test__container2">
+                <video src="@/assets/video/Introduction-Vidéo1.mp4" loop="infinite" autoplay="autoplay" muted=''/>
+            </div>
+            <div class="test__container7_3">
+                <img src="@/assets/img/LogoNolex.4.png"/>
+            </div>
+            <div class="test__container5_4">
+                <img src="@/assets/img/LOGO-LAETITIA_Dépliant-A4-A-copie.png"/>
+            </div>
+        </div>
+
+
 </template>
 
 <script>
