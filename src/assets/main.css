@@ -261,6 +261,8 @@ li a{
 
 /*---------- ABOUT CARD PROPERTIES ----------*/
 .about-card {
+  width:100%;
+  margin:auto;
   color: #000;
   padding: 7rem 0rem 7rem 12rem;
   display: flex;
@@ -270,22 +272,23 @@ li a{
 
 .about-card__img-box {
   width: 37%;
+  min-width:37%
 }
 
 .about-card__img-box img {
   width: 100%;
+  min-width:100%;
   height: auto;
 }
 
 .about-card__text-box {
-  width: 50%;
-  padding-left: 3em;
+  width: 45%;
   padding-top: 15px;
 }
 
 .about-card__text-box h2 {
   margin: 0;
-  font-size: 2.8rem;
+  font-size: 3.6rem;
 }
 
 .about-card__text-box h2:nth-child(1) {
@@ -297,13 +300,13 @@ li a{
   margin-top: 0;
   padding-top: 5px;
   color: #acacac;
-  font-size: 1.8rem;
+  font-size: 2.4rem;
   border-bottom: 1px solid #acacac;
 }
 
 .about-card__text-box p {
   max-width: 485px;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   word-spacing: 1px;
 }
 
