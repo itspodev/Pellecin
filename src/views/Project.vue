@@ -1,7 +1,8 @@
 <template>
 
 <NavBar><video autoplay="autoplay" muted="" loop="infinite" src="@/assets/video/Mes-projets2.mp4"></video></NavBar>
-<Grid :projectArray="this.projectArray" />
+<!-- <Grid :projectArray="this.projectArray" /> -->
+<GridAgain/>
 <MainFooter/>
     <!-- <div class="hp-container-2">
         <div class="hp-grid">
@@ -19,6 +20,7 @@
 import NavBar from '@/components/NavBar.vue'
 import MainFooter from '@/components/MainFooter.vue'
 import Grid from '@/components/Grid.vue'
+import GridAgain from '@/components/GridAgain.vue'
 import Footer from '@/components/Footer.vue'
 
 import {
@@ -45,11 +47,11 @@ export default {
         'NavBar': NavBar,
         'MainFooter': MainFooter,
         'Grid' : Grid,
+        'GridAgain': GridAgain,
         'Footer':Footer
     },
     data: function() {
         return {
-            filter:'test',
             projectArray: [
                 {
                     name:'cycliste',
