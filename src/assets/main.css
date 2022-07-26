@@ -921,7 +921,30 @@ li a{
   }
   
 /*------------------------- INTRO CARD PROPERTIES --------------------------*/
+/*---------------------------- HEADER -----------------------*/
 
+.intro-card-box{
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+.intro-pic{
+  width: 100%;
+}
+.pola-picture-box img{
+  width: 100%;
+  height: auto;
+}
+.intro-text {
+  width:80%;
+}
+.intro-text h3 {
+  width:90%;
+}
+.intro-desc {
+  margin:30px 0;
+}
 /*---------------------------- ABOUT CARD PROPERTIES -----------------------*/
 
   .about-card {
