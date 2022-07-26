@@ -918,7 +918,7 @@ li a{
     background: transparent;
   }
 
-  .hidden {
+  .navs.hidden {
     display:none
   }
   
