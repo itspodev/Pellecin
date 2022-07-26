@@ -161,7 +161,7 @@ li a{
 }
 .nav-hp{
   opacity: 0.6;
-  width: 20%;
+  width: 100%;
   margin: auto;
   cursor: pointer;
 }
@@ -705,7 +705,7 @@ li a{
 
 /*---------- CREDO CARD PROPERTIES ----------*/
 .review-card {
-  padding-bottom:6em;
+  padding-bottom:2em;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -732,8 +732,36 @@ li a{
   font-size: 3em;
 }
 
+.review-card__carousel {
+  width: 90vw;
+  position:relative;
+  overflow: hidden; 
+}
+
+.review-card__carousel button:active, .review-card__carousel button:hover{
+  cursor: pointer;
+  background-color: #2B2B2B;
+  color:#fff;
+  border-radius: 5px;
+}
+
+.review-carousel__nav {    
+  background: white;
+  border: none;
+  font-size: 2em;
+  position: absolute;
+  top: 40%;
+  left: 10px;
+}
+
+
+.review-carousel__nav.review-carousel__next {
+  right: 10px;
+  left: auto;
+}
+
 .review-card__cite-box {
-  width:100%;
+  min-height: 35vh;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -752,6 +780,52 @@ li a{
   text-transform: uppercase;
 }
 
+.slide-right-enter-active {
+  animation: slideRightIn .5s;
+}
+
+.slide-right-leave-active {
+  animation: slideRightOut .5s;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+@keyframes slideRightIn {
+  from { transform: translateX(100%);}
+  to { transform: translateX(0)}
+}
+
+@keyframes slideRightOut {
+  from { transform: translateX(0);}
+  to { transform: translateX(-100%)}
+}
+
+.slide-left-enter-active {
+  animation: slideLeftIn .5s;
+}
+
+.slide-left-leave-active {
+  animation: slideLeftOut .5s;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+@keyframes slideLeftIn {
+  from { transform: translateX(-100%);}
+  to { transform: translateX(0)}
+}
+
+@keyframes slideLeftOut {
+  from { transform: translateX(0);}
+  to { transform: translateX(100%)}
+}
+
 /*---------- FOOTER PROPERTIES ----------*/
 
 .main-footer {
@@ -768,7 +842,16 @@ li a{
   align-items: center;
 }
 
-.main-footer__up p:nth-child(1) {
+.main-footer__up--black {
+  background-color: #000;
+  color:#fff;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-footer__up p:nth-child(1), .main-footer__up--black p:nth-child(1) {
   font-size: 1.5em;
 }
 
@@ -779,10 +862,23 @@ li a{
   font-size: 3em;
 }
 
+.main-footer__up--black p:nth-child(2) {
+  margin:0;
+  border-bottom: 1px solid #fff;
+  font-weight: bold;
+  font-size: 3em;
+}
+
 .main-footer__up a {
   text-decoration: none;
   color:#000;
 }
+
+.main-footer__up--black a {
+  text-decoration: none;
+  color: #fff;
+}
+
 
 .main-footer__social-media {
   padding: 2em 0 4em 0;
@@ -985,10 +1081,8 @@ li a{
   .hp-navbar {
     width: 90%;
     margin: auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
   }
+  
   .nav-hp{
   width: 100%;
   }

@@ -1,6 +1,6 @@
 <template>
     <div class="main-footer">
-        <div class="main-footer__up">
+        <div :class="this.class">
             <p>{{footerTxt}}</p>
             <p><a href="mailto:hello@pepenome.fr" target="_blank">{{footerTxtContact}}</a></p>
             <SocialMedia/>
@@ -18,6 +18,12 @@ export default{
         return {
             footerTxt: 'pour tous vos projets',
             footerTxtContact: 'contactez-moi !'
+        }
+    },
+    props:{
+        class: {
+            default: 'main-footer__up',
+            type: String
         }
     }
 };
