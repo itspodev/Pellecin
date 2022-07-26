@@ -283,15 +283,15 @@ li a{
 }
 
 .test__container2 {
-  height:500px;
+  height:350px;
   width:100%;
   grid-column-start:6;
-  grid-column-end: 13;
+  grid-column-end: 14;
 }
 
 .test__container3 {
-  height:500px;
-  width:100%;
+  height:450px;
+  width:90%;
   grid-column-start:1;
   grid-column-end: 8;
 }
@@ -332,8 +332,8 @@ li a{
 }
 
 .test__container5 {
-  height:495px;
-  width:100%;
+  height:420px;
+  width:440px;
   grid-column-start:1;
   grid-column-end: 6;
 }
@@ -361,7 +361,7 @@ li a{
 
 .test__container6 {
   /* height:495px; */
-  width:100%;
+  width:460px;
   grid-column-start: 8;
   grid-column-end:13;
   grid-row-start:2;
@@ -390,8 +390,8 @@ li a{
 }
 
 .test__container7 {
-  height:275px;
-  width:100%;
+  height:230px;
+  width:90%;
   grid-column-start:1;
   grid-column-end:8
 }
@@ -830,16 +830,6 @@ li a{
 .contact a{
   color: #fff;
   text-decoration: none;
-}
-.lineBottom{
-  margin:0;
-  width: 38%;
-  border-width: 0.5px;
-}
-.lineTop{
-  margin: 0;
-  width: 43%;
-  border-width: 0.5px;
 }
 .contacetezMoi{
   width: 29rem;

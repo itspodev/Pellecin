@@ -4,9 +4,9 @@
     <div class="container">
         <main class="containerContact">
             <div class="contact">
-                <p class="line">Télephone: <strong>06 99 79 00 80</strong></p>
-                <p class="line2">Mail: <strong>hello@pepenome.fr</strong></p>
-                <p>Adresse:  <strong>94 boulevard des belges <br>44300 NANTES</strong></p> 
+                <p class="line">Télephone: <a href="+33 6 99 79 00 80 "><strong>06 99 79 00 80</strong></a></p>
+                <p class="line2">Mail: <a href="mailto:hello@pepenome.fr"><strong>hello@pepenome.fr</strong></a></p>
+                <p>Adresse:  <a href="https://www.google.com/maps/place/94+Bd+des+Belges,+44300+Nantes/data=!4m2!3m1!1s0x4805ee8db6e26fe5:0xb5dd0fb05317a8a9?sa=X&ved=2ahUKEwj8-8uH6Iz5AhXR8IUKHYrlCWgQ8gF6BAgFEAE"><strong>94 boulevard des belges <br>&emsp;&ensp;&ensp;&ensp;&ensp;&ensp;44300 NANTES</strong></a></p> 
                 <SocialMedia class="socialLink"/>
             </div>
             <div class="contacetezMoi">
