@@ -2,7 +2,7 @@
 
 <div class="intro-card-box">
      <div class="intro-pic"> <!--picture frame -->
-        <div class="pola-picture-box"><img src="@/assets/img/PHOTO-POLA.png"/></div>
+        <div class="pola-picture-box"><img src="@/assets/img/PHOTO-POLA.png" alt="portrait polaroid de Noémie Pellencin"/></div>
      </div> 
     <div class="intro-text">  <!-- text -->
         <h3>PEPENOME</h3>

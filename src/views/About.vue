@@ -1,6 +1,6 @@
 <template>
 
-<NavBar><video autoplay="autoplay" muted="" loop="infinite" src="@/assets/video/aPropos.mp4"/></NavBar>
+<NavBar><video autoplay="autoplay" muted="" loop="infinite" src="@/assets/video/aPropos.mp4" alt="animation présentant les différentes compétences"/></NavBar>
 <AboutCard/>
 <CredoCard/>
 <ReviewCard/>

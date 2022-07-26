@@ -1,7 +1,7 @@
 <template>
     <div class="about-card">
         <div class="about-card__img-box"> <!--picture frame -->
-            <img src="@/assets/img/AUTO-PORTRAIT-POLA.png"/>
+            <img src="@/assets/img/AUTO-PORTRAIT-POLA.png" alt="portrait Noémie Pellencin"/>
         </div> 
         <div class="about-card__text-box">  <!-- text -->
             <h2>Hello !</h2>

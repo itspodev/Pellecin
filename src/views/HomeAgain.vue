@@ -1,7 +1,7 @@
 <template>
 
 
-<NavBar><video autoplay="autoplay" muted="" loop="infinite" src="@/assets/video/VIDÉO-MOTION-720.mp4"></video></NavBar>
+<NavBar><video autoplay="autoplay" muted="" loop="infinite" src="@/assets/video/VIDÉO-MOTION-720.mp4" alt="animation pepenome"></video></NavBar>
 <IntroCard/>
 <!-- <Grid/> -->
 <GridAgain/>
