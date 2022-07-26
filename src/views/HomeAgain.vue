@@ -15,6 +15,8 @@ import Grid from '@/components/Grid.vue'
 import GridAgain from '@/components/GridAgain.vue'
 import NavBar from '@/components/NavBar.vue'
 import MainFooter from '@/components/MainFooter.vue'
+
+
 export default {
     name: 'home-again',
     components: {

@@ -9,6 +9,7 @@
           <li><router-link to="/contact">CONTACT</router-link></li>
         </ul>
       </div>
+      <img src="@/assets/img/menu burger.jpeg" class="menuBurger" alt=""/>
       <div class="NavContainerSlot">
       <slot></slot>
       </div>
@@ -19,6 +20,7 @@
 <script>
 export default {
   name: "navbar",
+  name: 'App',
   props: {
     class : {
         default:'bloc',
