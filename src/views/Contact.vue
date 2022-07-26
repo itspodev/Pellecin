@@ -10,7 +10,7 @@
                 <SocialMedia class="socialLink"/>
             </div>
             <div class="contacetezMoi">
-                <p>ENVIE DE COLLABORERE SUR UN NOUVEAU PROJET?</p>
+                <p>ENVIE DE COLLABORER SUR UN NOUVEAU PROJET ?</p>
                 <h2>CONTACTEZ MOI!</h2>
             </div>
         </main>
