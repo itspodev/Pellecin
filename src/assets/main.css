@@ -916,8 +916,20 @@ li a{
     background: transparent;
   }
 
+  .bloc {
+    height: 34vh;
+  }
+    .bloc video {
+    width: -webkit-fill-available;
+    transform:inherit;
+    top:0%;
+    left:0%;
+    }  
+    .navBar ul {
+    height:34vh;
+    }
   .navs.hidden {
-    display:none
+    display:none;
   }
   
 /*------------------------- INTRO CARD PROPERTIES --------------------------*/
