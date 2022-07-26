@@ -1,143 +1,218 @@
 <template>
     <div class="main-hp-container">
-    <div class="hp-container">
-        <div class="hp-head">
-            <p>PEPENOME</p>
-            <br>
-            <h1>MES PROJETS</h1>
-            <br>
-        </div>
-        <div class="hp-navbar">
-            <h3 class="nav-hp" @click="filterArray('motion')">MOTION DESIGN</h3>
-            <h3 class="nav-hp" @click="filterArray('illustration')">ILLUSTRATION</h3>
-            <h3 class="nav-hp" @click="filterArray('branding')">BRANDING</h3>
-            <h3 class="nav-hp" @click="filterArray('graphisme')">GRAPHISME</h3>
-            <h3 class="nav-hp" @click="filterArray('édition')">EDITION</h3>
-            <h3 class="nav-hp" @click="filterArray('web')">WEB</h3>
-        </div>
-    </div>
-
-    <div class="hp-container-2">
-        <!----------------------------------------- PAGE D'ACCUEIL ---------------------------------------->
-        
-        <div class="containerGridHome">
-            <div class="gridItems NeueAra"><img src="@/assets/img/vynil.jpg" alt=""></div>
-            <div class="gridItems AlianceC"><img src="@/assets/img/Société-inclusive.gif" alt=""></div>
-            <div class="gridItems LaRucheAVelo"><img src="@/assets/img/cycliste.jpg"></div>
-            <div class="gridItems LiquideColor"><video autoplay="autoplay" muted="" loop="infinite" src="@/assets/video/Introduction-Vidéo1.mp4"></video></div>
+        <div class="hp-container">
+            <div class="hp-head">
+                <p>PEPENOME</p>
+                <br>
+                <h1>MES PROJETS</h1>
+                <br>
+            </div>
+            <div class="hp-navbar">
+                <h3 :class="filter === 'motion' ? 'nav-hp opacity' : 'nav-hp'" @click="filterArray('motion')">MOTION DESIGN</h3>
+                <h3 :class="filter === 'illustration' ? 'nav-hp opacity' : 'nav-hp'" @click="filterArray('illustration')">ILLUSTRATION</h3>
+                <h3 :class="filter === 'branding' ? 'nav-hp opacity' : 'nav-hp'" @click="filterArray('branding')">BRANDING</h3>
+                <h3 :class="filter === 'graphisme' ? 'nav-hp opacity' : 'nav-hp'" @click="filterArray('graphisme')">GRAPHISME</h3>
+                <h3 :class="filter === 'édition' ? 'nav-hp opacity' : 'nav-hp'" @click="filterArray('édition')">ÉDITION</h3>
+                <h3 :class="filter === 'web' ? 'nav-hp opacity' : 'nav-hp'" @click="filterArray('web')">WEB</h3>
+            </div>
         </div>
 
-        <!----------------------------------------- PAGE PROJET ---------------------------------------->
-        
-        <!-- <div class="containerGridProjet">
-            <div class="gridItems NeueAra"><img src="@/assets/img/vynil.jpg" alt=""></div>
-            <div class="gridItems AlianceC"><img src="@/assets/img/Société-inclusive.gif" alt=""></div>
-            <div class="gridItems LaRucheAVelo"><img src="@/assets/img/cycliste.jpg"></div>
-            <div class="gridItems LiquideColor"><video autoplay="autoplay" muted="" loop="infinite" src="@/assets/video/Introduction-Vidéo1.mp4"></video></div>
-            <div class="gridItems HolistiqueCo"><img src="@/assets/img/HOLISTIQUE&CO.png" alt=""></div>
-            <div class="gridItems N"><img src="@/assets/img/5.jpg" alt=""></div>
-            <div class="gridItems LaColine"><img src="@/assets/img/LOGO-CDF_Dépliant-A4-A.png" alt=""></div>
-            <div class="gridItems Laetitia"><img src="@/assets/img/LOGO-LAETITIA_Dépliant-A4-A-copie.png" alt=""></div>
-            <div class="gridItems FightCamp"><img src="@/assets/img/Fight-Camp.png" alt=""></div>
-            <div class="gridItems LCJ"><img src="@/assets/img/LCJ.png" alt=""></div>
-            <div class="gridItems Sixfeet"><img src="@/assets/img/Sixfeet.jpg" alt=""></div>
-            <div class="gridItems LeBleuEtLeJaune"><img src="@/assets/img/Autoportrait.gif" alt=""></div>
-            <div class="gridItems Blue"><img src="@/assets/img/BLUE.jpg" alt=""></div>
-            <div class="gridItems chaves"><img src="@/assets/img/BOULANGERIE-CHAVES.jpg" alt=""></div>
-            <div class="gridItems Nolex"><img src="@/assets/img/LogoNolex.4.png" alt=""></div>
-        </div> -->
+        <div class="hp-container-2">
 
-        <!---------------------------------------- MOTION DESIGN ------------------------------------------>
-
-        <!-- <div class="containerGridMotion">
-            <div class="gridItems NeueAra"><img src="@/assets/img/vynil.jpg" alt=""></div>
-            <div class="gridItems LiquideColor"><video autoplay="autoplay" muted="" loop="infinite" src="@/assets/video/Introduction-Vidéo1.mp4"></video></div>
-            <div class="gridItems Laetitia"><img src="@/assets/img/LOGO-LAETITIA_Dépliant-A4-A-copie.png" alt=""></div>
-            <div class="gridItems LeBleuEtLeJaune"><img src="@/assets/img/Autoportrait.gif" alt=""></div>
-            <div class="gridItems Nolex"><img src="@/assets/img/LogoNolex.4.png" alt=""></div>
-        </div> -->
-
-        <!------------------------------------------- ILLUSTRATION  --------------------------------------->
-
-        <!-- <div class="containerGridIllustration">
-            <div class="gridItems NeueAra"><img src="@/assets/img/vynil.jpg" alt=""></div>
-            <div class="gridItems AlianceC"><img src="@/assets/img/Société-inclusive.gif" alt=""></div>
-            <div class="gridItems LaRucheAVelo"><img src="@/assets/img/cycliste.jpg"></div>
-            <div class="gridItems HolistiqueCo"><img src="@/assets/img/HOLISTIQUE&CO.png" alt=""></div>
-            <div class="gridItems FightCamp"><img src="@/assets/img/Fight-Camp.png" alt=""></div>
-            <div class="gridItems LCJ"><img src="@/assets/img/LCJ.png" alt=""></div>
-            <div class="gridItems LeBleuEtLeJaune"><img src="@/assets/img/Autoportrait.gif" alt=""></div>
-            <div class="gridItems chaves"><img src="@/assets/img/BOULANGERIE-CHAVES.jpg" alt=""></div>
-        </div> -->
-
-        <!---------------------------- BRANDING ---------------------------->
-
-
-         <!-- <div class="containerGridBranding">
-            <div class="gridItems LaRucheAVelo"><img src="@/assets/img/cycliste.jpg"></div>
-            <div class="gridItems HolistiqueCo"><img src="@/assets/img/HOLISTIQUE&CO.png" alt=""></div>
-            <div class="gridItems LaColine"><img src="@/assets/img/LOGO-CDF_Dépliant-A4-A.png" alt=""></div>
-            <div class="gridItems Laetitia"><img src="@/assets/img/LOGO-LAETITIA_Dépliant-A4-A-copie.png" alt=""></div>
-            <div class="gridItems LeBleuEtLeJaune"><img src="@/assets/img/Autoportrait.gif" alt=""></div>
-            <div class="gridItems chaves"><img src="@/assets/img/BOULANGERIE-CHAVES.jpg" alt=""></div>
-            <div class="gridItems Nolex"><img src="@/assets/img/LogoNolex.4.png" alt=""></div>
-        </div> -->
-
-
-        <!--------------------------------- GRAPHISME ------------------------------->
-
-        <!-- <div class="containerGridGraphisme">
-            <div class="gridItems NeueAra"><img src="@/assets/img/vynil.jpg" alt=""></div>
-            <div class="gridItems N"><img src="@/assets/img/5.jpg" alt=""></div>
-            <div class="gridItems FightCamp"><img src="@/assets/img/Fight-Camp.png" alt=""></div>
-            <div class="gridItems Sixfeet"><img src="@/assets/img/Sixfeet.jpg" alt=""></div>
-            <div class="gridItems LeBleuEtLeJaune"><img src="@/assets/img/Autoportrait.gif" alt=""></div>
-            <div class="gridItems Blue"><img src="@/assets/img/BLUE.jpg" alt=""></div>
-            <div class="gridItems chaves"><img src="@/assets/img/BOULANGERIE-CHAVES.jpg" alt=""></div>
-        </div> -->
-
-
-        <!---------------------------- ÉDITION -------------------------------->
-
-        <!-- <div class="containerGridEdition">
-            <div class="gridItems AlianceC"><img src="@/assets/img/Société-inclusive.gif" alt=""></div>
-            <div class="gridItems HolistiqueCo"><img src="@/assets/img/HOLISTIQUE&CO.png" alt=""></div>
-            <div class="gridItems LCJ"><img src="@/assets/img/LCJ.png" alt=""></div>
-            <div class="gridItems Sixfeet"><img src="@/assets/img/Sixfeet.jpg" alt=""></div>
-            <div class="gridItems LaColine"><img src="@/assets/img/LOGO-CDF_Dépliant-A4-A.png" alt=""></div>
-            <div class="gridItems Laetitia"><img src="@/assets/img/LOGO-LAETITIA_Dépliant-A4-A-copie.png" alt=""></div>
-            <div class="gridItems Blue"><img src="@/assets/img/BLUE.jpg" alt=""></div>
-            <div class="gridItems chaves"><img src="@/assets/img/BOULANGERIE-CHAVES.jpg" alt=""></div>
-        </div> -->
-
-
-        <!------------------ WEB ----------------------->
-
-        <!-- <div class="containerGridWeb">
-            <div class="gridItems LaRucheAVelo"><img src="@/assets/img/cycliste.jpg"></div>
-            <div class="gridItems LiquideColor"><video autoplay="autoplay" muted="" loop="infinite" src="@/assets/video/Introduction-Vidéo1.mp4"></video></div>
-            <div class="gridItems Laetitia"><img src="@/assets/img/LOGO-LAETITIA_Dépliant-A4-A-copie.png" alt=""></div>
-            <div class="gridItems Nolex"><img src="@/assets/img/LogoNolex.4.png" alt=""></div>
-        </div> -->
-    </div>
+            <div :class="this.class">
+                <GridElement
+                    v-for="project in projectArray" 
+                    :key="project.name"  
+                    :project="project"
+                    :filter='this.filter'
+                />
+            </div>
+        </div>
     </div>
 
 </template>
 
 <script>
+import GridElement from './GridElement.vue';
+
+import {
+    cycliste,
+    autoPortrait,
+    boulangerieChaves,
+    holistiqueCo02,
+    logoCdfDepliantA4A,
+    logoLaeticiaDepliantA4ACopie,
+    logoNolex4,
+    blue,
+    lcj,
+    sixFeet,
+    societeInclusive,
+    num5,
+    fightCamp,
+    vynil,
+    liquidColors
+} from '@/utils/media'
 
 export default {
+  components: { GridElement },
     name: 'GridAgain',
+    props:['home'],
     data: function() {
         return {
-            filter: 'none'
+            filter: 'home',
+            class:'containerGridHome',
+            projectArray: [
+                {
+                    name:'La ruche à velo',
+                    tag:["branding","illustration","web",'home'],
+                    img: cycliste,
+                    format: 'img',
+                    class: 'LaRucheAVelo'
+                },
+                {
+                    name: 'Le bleu et le jaune',
+                    tag:["branding","graphisme","illustration","motion"],
+                    img: autoPortrait,
+                    format: 'img',
+                    class: 'LeBleuEtLeJaune'
+                },
+                {
+                    name: 'Chanves',
+                    tag: ["branding", "édition", "graphisme", "illustration"],
+                    img: boulangerieChaves,
+                    format: 'img',
+                    class: 'chaves'
+                },
+                {
+                    name: 'Holistique & co',
+                    tag:['branding','édition', 'illustration'],
+                    img: holistiqueCo02,
+                    format: 'img',
+                    class: 'HolistiqueCo'
+                },
+                {
+                    name: 'La colline',
+                    tag: ['branding','édition'],
+                    img: logoCdfDepliantA4A,
+                    format: 'img',
+                    class: 'LaColine'
+                },
+                {
+                    name: 'Laetitia',
+                    tag: ['branding','édition','motion','web'],
+                    img:logoLaeticiaDepliantA4ACopie,
+                    format: 'img',
+                    class: 'Laetitia'
+                },
+                {
+                    name: 'Nolex',
+                    tag: ['branding', 'motion', 'web'],
+                    img: logoNolex4,
+                    format: 'img',
+                    class: 'Nolex'
+                },
+                {
+                    name: 'BLUE',
+                    tag: ['édition', 'graphisme'],
+                    img: blue,
+                    format: 'img',
+                    class: 'Blue'
+                },
+                {
+                    name: 'LCJ',
+                    tag: ['édition', 'illustration'],
+                    img: lcj,
+                    format: 'img',
+                    class:'LCJ'
+                },
+                {
+                    name: 'Sixfeet',
+                    tag: ['édition', 'graphisme'],
+                    img: sixFeet,
+                    format: 'img',
+                    class:'Sixfeet'
+                },
+                {
+                    name: 'AlianceC',
+                    tag: ['édition', 'illustration','home'],
+                    img: societeInclusive,
+                    format: 'img',
+                    class: 'AlianceC'
+                },
+                {
+                    name: 'N°',
+                    tag: ['graphisme'],
+                    img: num5,
+                    format: 'img',
+                    class:'N'
+                },
+                {
+                    name: 'Fight Camp',
+                    tag: ['graphisme','illustration'],
+                    img: fightCamp,
+                    format: 'img',
+                    class: 'FightCamp'
+                },
+                {
+                    name: 'Neue Ära',
+                    tag: ['graphisme', 'illustration','motion','home'],
+                    img: vynil,
+                    format: 'img',
+                    class: 'NeueAra'
+                },
+                {
+                    name: 'Liquid Colors',
+                    tag: ['motion', 'web','home'],
+                    img: liquidColors,
+                    format: 'video',
+                    class:'LiquideColor'
+                }    
+            ],
         }
     },
     methods: {
         filterArray: function(filter) {
             this.filter = filter;
+            this.classChange(filter)
+        },
+        classChange: function(filter) {
+            switch (filter) {
+                case 'motion':
+                    this.class = 'containerGridMotion'
+                    break;
+                case 'illustration':
+                    this.class = 'containerGridIllustration'
+                    break;
+                case 'branding':
+                    this.class = 'containerGridBranding'
+                    break;
+                case 'graphisme':
+                    this.class = 'containerGridGraphisme'
+                    break;
+                case 'édition':
+                    this.class = 'containerGridEdition'
+                    break;
+                case 'web':
+                    this.class = 'containerGridWeb'
+                    break;
+                case 'home':
+                    this.class = 'containerGridHome'
+                    break;
+            
+                default:
+                    this.class = 'containerGridProjet'
+                    break;
+            }
+        },
+        defaultClass: function(){
+            this.class = this.home ? 'containerGridHome' : 'containerGridProjet'
+            this.filter = this.home ? 'home' : ''
         }
+    },
+    created(){
+        this.defaultClass()
     }
+
 }
 
 </script>

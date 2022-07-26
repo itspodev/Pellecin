@@ -1150,10 +1150,14 @@ li a{
     "Nolex Nolex Nolex Nolex chaves chaves chaves Blue Blue Blue";
 }
 
+.opacity {
+  opacity: 1;
+}
+
 .containerGridHome {  
   display: grid;
   grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: .5fr .7fr .6fr .5fr 1fr .5fr .5fr .3fr;
+  grid-template-rows: .5fr .7fr;
   gap: 20px;
   margin: auto;
   width: 80%;

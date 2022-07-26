@@ -1,5 +1,5 @@
 <template>
-    <div v-if="this.tag.includes(this.filter)" :class="`gridItems ${this.project.class}`">
+    <div v-if="this.filter ? this.project.tag.includes(this.filter) : true" :class="`gridItems ${this.project.class}`">
         <img  
             v-if="this.project.format === 'img'" 
             :alt="this.project.name" 
