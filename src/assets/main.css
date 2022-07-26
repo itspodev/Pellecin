@@ -858,6 +858,8 @@ li a{
   font-size: 3rem;
 }
 .socialLink {
+  width: 79%;
+  margin: auto;
   padding-top:2rem
 }
 
@@ -1024,6 +1026,30 @@ li a{
       font-size:1.4rem
     }
 
+
+/*------------------------- PAGE CONTACT --------------------------*/
+    
+    .containerContact{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .contacetezMoi{
+      width: 60%;
+      margin: auto;
+    }
+        .socialLink{
+      text-align: center;
+    }
+
+    .contacetezMoi p{
+      font-size: 1.2rem;
+    }
+    .contacetezMoi h2{
+      margin: 0;
+      font-size: 2.2rem;
+    }
 }
 
 /**** TEST DONT TUCH THIS !!!!!! *****/
