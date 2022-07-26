@@ -918,8 +918,21 @@ li a{
     background: transparent;
   }
 
+  
+  .bloc {
+    height: 34vh;
+  }
+    .bloc video {
+    width: -webkit-fill-available;
+    transform:inherit;
+    top:0%;
+    left:0%;
+    }  
+    .navBar ul {
+    height:34vh;
+    }
   .navs.hidden {
-    display:none
+    display:none;
   }
   
 /*------------------------- INTRO CARD PROPERTIES --------------------------*/
@@ -984,6 +997,9 @@ li a{
     padding:70px 0;
     flex-direction:column
   }
+  .credo-card__text-box {
+    width:80%
+  }
   .credo-card__text-box hr {
     max-width:inherit;
     margin-bottom:40px
@@ -1044,11 +1060,77 @@ li a{
   }
 }
 
-/**** TEST DONT TUCH THIS !!!!!! *****/
-.containerGrid {  display: grid;
+.containerGridMotion {
+  display: grid; 
+  grid-template-columns: 2.5fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+  grid-template-rows: .5fr .5fr .3fr ; 
+  gap: 20px; 
+  margin: auto;
+  width: 80%;
+  grid-template-areas: 
+    "Laetitia Laetitia Laetitia LiquideColor LiquideColor LiquideColor LiquideColor LiquideColor LiquideColor LiquideColor"
+    "NeueAra NeueAra NeueAra NeueAra LeBleuEtLeJaune LeBleuEtLeJaune LeBleuEtLeJaune LeBleuEtLeJaune LeBleuEtLeJaune LeBleuEtLeJaune"
+    "Nolex Nolex Nolex Nolex LeBleuEtLeJaune LeBleuEtLeJaune LeBleuEtLeJaune LeBleuEtLeJaune LeBleuEtLeJaune LeBleuEtLeJaune"; 
+}
+
+.containerGridBranding {
+  display: grid; 
+  grid-template-columns: 0fr 2fr 1fr .5fr 1fr 1fr 1fr 2fr 2fr 1fr 1fr 2fr; 
+  grid-template-rows: .7fr .5fr 1fr; 
+  gap: 20px;
+  margin: auto;
+  width: 80%;
+  grid-template-areas: 
+    "LaRucheAVelo LaRucheAVelo LaRucheAVelo LaRucheAVelo LaColine LaColine LaColine LaColine Laetitia Laetitia Laetitia Laetitia"
+    "HolistiqueCo HolistiqueCo HolistiqueCo HolistiqueCo HolistiqueCo HolistiqueCo Nolex Nolex Nolex Nolex Nolex Nolex"
+    "HolistiqueCo HolistiqueCo HolistiqueCo HolistiqueCo HolistiqueCo HolistiqueCo LeBleuEtLeJaune LeBleuEtLeJaune LeBleuEtLeJaune chaves chaves chaves"; 
+}
+
+.containerGridGraphisme {
+  display: grid; 
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1.2fr 1.5fr .2fr 1fr 1fr 1fr; 
+  grid-template-rows: .8fr .1fr 1fr .4fr 1fr; 
+  gap: 20px;
+  margin: auto;
+  width: 80%;
+  grid-template-areas: 
+    "NeueAra NeueAra NeueAra NeueAra NeueAra Sixfeet Sixfeet Sixfeet Sixfeet Sixfeet Sixfeet Sixfeet"
+    "NeueAra NeueAra NeueAra NeueAra NeueAra chaves chaves chaves Blue Blue Blue Blue"
+    "LeBleuEtLeJaune LeBleuEtLeJaune LeBleuEtLeJaune LeBleuEtLeJaune LeBleuEtLeJaune chaves chaves chaves Blue Blue Blue Blue"
+    "LeBleuEtLeJaune LeBleuEtLeJaune LeBleuEtLeJaune LeBleuEtLeJaune LeBleuEtLeJaune N N N N N N N"
+    "FightCamp FightCamp FightCamp FightCamp FightCamp N N N N N N N"; 
+}
+
+.containerGridEdition {
+  display: grid; 
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 0fr; 
+  grid-template-rows: .9fr .4fr .8fr; 
+  gap: 20px;
+  margin: auto;
+  width: 80%;
+  grid-template-areas: 
+    "HolistiqueCo HolistiqueCo HolistiqueCo HolistiqueCo HolistiqueCo AlianceC AlianceC AlianceC AlianceC AlianceC AlianceC AlianceC"
+    "Sixfeet Sixfeet Sixfeet Sixfeet Sixfeet LaColine LaColine LaColine Laetitia Laetitia Laetitia Laetitia"
+    "Blue Blue Blue Blue Blue LCJ LCJ LCJ chaves chaves chaves chaves"; 
+}
+
+.containerGridWeb {
+  display: grid; 
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+  grid-template-rows: 1fr 1fr; 
+  gap: 20px;
+  margin: auto;
+  width: 80%;
+  grid-template-areas: 
+    "LaRucheAVelo LaRucheAVelo LaRucheAVelo LaRucheAVelo LiquideColor LiquideColor LiquideColor LiquideColor LiquideColor LiquideColor LiquideColor LiquideColor"
+    "Nolex Nolex Nolex Nolex Nolex Nolex Nolex Nolex Laetitia Laetitia Laetitia Laetitia"; 
+}
+
+.containerGridProjet {  
+  display: grid;
   grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: .5fr .7fr .6fr .5fr 1fr .5fr .5fr .3fr;
-  gap: 1.5rem;
+  gap: 20px;
   margin: auto;
   width: 80%;
   grid-auto-flow: row;
@@ -1063,12 +1145,39 @@ li a{
     "Nolex Nolex Nolex Nolex chaves chaves chaves Blue Blue Blue";
 }
 
+.containerGridHome {  
+  display: grid;
+  grid-template-columns: 2fr 2fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 20px;
+  margin: auto;
+  width: 80%;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "LaRucheAVelo LaRucheAVelo LaRucheAVelo LiquideColor LiquideColor LiquideColor LiquideColor LiquideColor LiquideColor LiquideColor"
+    "NeueAra NeueAra NeueAra NeueAra NeueAra AlianceC AlianceC AlianceC AlianceC AlianceC"
+}
+
+.containerGridIllustration {
+  display: grid; 
+  grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+  grid-template-rows: .6fr .5fr .5fr .9fr;  
+  gap: 20px;
+  margin: auto;
+  width: 80%;
+  grid-template-areas: 
+    "LaRucheAVelo LaRucheAVelo LaRucheAVelo LaRucheAVelo LaRucheAVelo NeueAra NeueAra NeueAra NeueAra NeueAra NeueAra NeueAra"
+    "HolistiqueCo HolistiqueCo HolistiqueCo HolistiqueCo AlianceC AlianceC AlianceC AlianceC LCJ LCJ LCJ LCJ"
+    "HolistiqueCo HolistiqueCo HolistiqueCo HolistiqueCo chaves chaves chaves chaves LCJ LCJ LCJ LCJ"
+    "FightCamp FightCamp FightCamp FightCamp FightCamp FightCamp LeBleuEtLeJaune LeBleuEtLeJaune LeBleuEtLeJaune LeBleuEtLeJaune LeBleuEtLeJaune LeBleuEtLeJaune"; 
+}
+
 .gridItems {
   overflow: hidden;
   display: flex; 
 }
 
-.containerGrid img, .containerGrid video{
+.hp-container-2 img, .hp-container-2 video{
   width: 100%;
   height: auto;
   object-fit: cover;
@@ -1103,5 +1212,3 @@ li a{
 .chaves { grid-area: chaves; }
 
 .Nolex { grid-area: Nolex; }
-
-/* For presentation only, no need to copy the code below */
