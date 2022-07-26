@@ -1,7 +1,10 @@
 <template>
-    <p v-bind:index="index">Index: {{index}}</p>
-    <slot>
-    </slot>
+    <transition :name="direction">
+        <div  class="review-card__carousel-slide" v-show="visibleSlide === index">
+            <slot>
+            </slot>
+        </div>
+    </transition>
 </template>
 
 <script>
@@ -9,13 +12,13 @@ export default {
     name: 'ReviewCarouselSlide',
     data: () => {
         return {
-            data: () => {
-            },
-            reviews: [
-                { index: 0, textPt1: 'Très heureux du travail de Noémie.', textPt2: 'Nous avons d\'ailleurs décidé de la placer en priorité dans nos futurs projets de graphisme.', author: 'Boxing culture' }
-            ]
         }
     },
-    props: [ 'i']
+    props: ['visibleSlide', 'index', 'direction'],
+    computed: {
+        direction () {
+            return 'slide-' + this.direction
+        }
+    }
 }
 </script>

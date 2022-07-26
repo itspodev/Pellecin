@@ -5,7 +5,7 @@
 <CredoCard/>
 <ReviewCard/>
 <!-- <ReviewCardTest/> -->
-<MainFooter/>
+<MainFooter class='main-footer__up--black' />
 
 </template>
 
