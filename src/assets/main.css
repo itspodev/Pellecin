@@ -886,7 +886,7 @@ li a{
 
 @media screen and (max-width: 900px) {
   .logo-pepenome {
-    position: absolute;
+    position: absolute; 
     top:50px;
     left:50px;
   }
@@ -920,68 +920,7 @@ li a{
     display:none
   }
   
-  /*------------------------- INTRO CARD PROPERTIES --------------------------*/
-
-
-  /* .intro-card-box{
-    width: 90%;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-  }
-  .intro-pic{
-    width: 100%;
-
-  .intro-card-box {
-    flex-direction:column;
-    padding:20px 0
->>>>>>> 78b3a73f9a242fae3c9c9fb13b25d04ec2dfd471
-  }
-  .intro-pic {
-    width:75%;
-    margin-left:12px
-  }
-  .intro-text {
-    width:80%;
-    justify-content:center;
-    text-align:center
-  }
-  .intro-name {
-    width:100%
-  }
-  .intro-desc {
-<<<<<<< HEAD
-    margin:30px 0;
-  } */
-
-  /*---------- GRID HOMEPAGE ----------*/
-  .hp-navbar {
-    width: 90%;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  .nav-hp{
-  width: 100%;
-  }
-
-
-  /*---------- FOOTER ----------*/
-
-
-  .main-footer__up{
-    width: 90%;
-    margin: auto;
-  }
-  .main-footer__bottom img {
-    width:22%;
-    height: auto;
-  }
-
-  .intro-text h3 {
-    font-size:1.4rem
-  }
+/*------------------------- INTRO CARD PROPERTIES --------------------------*/
 
 /*---------------------------- ABOUT CARD PROPERTIES -----------------------*/
 
@@ -1000,6 +939,19 @@ li a{
     width:70%;
     margin:auto
   }
+
+/*------------------------- GRID --------------------------*/
+  .hp-navbar {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nav-hp{
+  width: 100%;
+  }
+
 
 /* -------------------------- CREDO CARD PROPERTIES ---------------------------*/
 
@@ -1021,6 +973,21 @@ li a{
     width:55%
   }
   
+  /*------------------------- FOOTER --------------------------*/
+
+
+    .main-footer__up{
+      width: 90%;
+      margin: auto;
+    }
+    .main-footer__bottom img {
+      width:22%;
+      height: auto;
+    }
+  
+    .intro-text h3 {
+      font-size:1.4rem
+    }
 
 }
 
