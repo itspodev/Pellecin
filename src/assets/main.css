@@ -999,6 +999,9 @@ li a{
     padding:70px 0;
     flex-direction:column
   }
+  .credo-card__text-box {
+    width:80%
+  }
   .credo-card__text-box hr {
     max-width:inherit;
     margin-bottom:40px
