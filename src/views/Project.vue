@@ -1,6 +1,6 @@
 <template>
 
-<NavBar><video autoplay="autoplay" muted="" loop="infinite" src="@/assets/video/Mes-projets2.mp4"></video></NavBar>
+<NavBar><video autoplay="autoplay" muted="" loop="infinite" src="@/assets/video/Mes-projets2.mp4" alt="animation présentant les différents projets"></video></NavBar>
 <!-- <Grid :projectArray="this.projectArray" /> -->
 <GridAgain/>
 <MainFooter/>

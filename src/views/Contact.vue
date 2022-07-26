@@ -1,6 +1,6 @@
 <template>
 <div class="mainContact">
-    <NavBar class="containerHeader"><img class="contactLogo" src="@/assets/img/CONTACT.png" alt=""></NavBar>
+    <NavBar class="containerHeader"><img class="contactLogo" src="@/assets/img/CONTACT.png" alt="image de contact stylisée"></NavBar>
     <div class="container">
         <main class="containerContact">
             <div class="contact">
@@ -10,7 +10,7 @@
                 <SocialMedia class="socialLink"/>
             </div>
             <div class="contacetezMoi">
-                <p>ENVIE DE COLLABORERE SUR UN NOUVEAU PROJET?</p>
+                <p>ENVIE DE COLLABORER SUR UN NOUVEAU PROJET ?</p>
                 <h2>CONTACTEZ MOI!</h2>
             </div>
         </main>

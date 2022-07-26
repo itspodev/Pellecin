@@ -847,6 +847,7 @@ li a{
   width: 29rem;
   border: 1px solid white;
   text-align: center; 
+  word-spacing:1px;
   padding: 2.5rem 2rem 3.5rem 2rem;
 }
 .contacetezMoi p{

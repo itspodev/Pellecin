@@ -22,16 +22,16 @@
         
         <div class="test__main-container" v-if="filter === 'none'">
             <div class="test__container1">
-                <img src="@/assets/img/cycliste.jpg"/>
+                <img src="@/assets/img/cycliste.jpg" alt="dessin d'un cycliste"/>
             </div>
             <div class="test__container2">
-                <video src="@/assets/video/Introduction-Vidéo1.mp4" loop="infinite" autoplay="autoplay" muted=''/>
+                <video src="@/assets/video/Introduction-Vidéo1.mp4" loop="infinite" autoplay="autoplay" muted='' alt="animation de couleurs"/>
             </div>
             <div class="test__container3">
-                <img src="@/assets/img/vynil.jpg"/>
+                <img src="@/assets/img/vynil.jpg" alt="vynil Neue Ära"/>
             </div>
             <div class="test__container4">
-                <img src="@/assets/img/Société-inclusive.gif"/>
+                <img src="@/assets/img/Société-inclusive.gif" alt="gif société inclusive"/>
             </div>
         </div>
 
@@ -39,19 +39,19 @@
 
         <div class="test__main-container" v-if="filter === 'motion'">
             <div class="test__container5">
-                <img src="@/assets/img/LOGO-LAETITIA_Dépliant-A4-A-copie.png"/>
+                <img src="@/assets/img/LOGO-LAETITIA_Dépliant-A4-A-copie.png" alt="logo Laëtitia Sophrologie"/>
             </div>
             <div class="test__container2">
-                <video src="@/assets/video/Introduction-Vidéo1.mp4" loop="infinite" autoplay="autoplay" muted=''/>
+                <video src="@/assets/video/Introduction-Vidéo1.mp4" loop="infinite" autoplay="autoplay" muted=''  alt="animation de couleurs"/>
             </div>
             <div class="test__container3">
-                <img src="@/assets/img/vynil.jpg"/>
+                <img src="@/assets/img/vynil.jpg" alt="vynil Neue Ära"/>
             </div>
             <div class="test__container6">
-                <img src="@/assets/img/Autoportrait.gif"/>
+                <img src="@/assets/img/Autoportrait.gif" alt="dessin d'une femme assise sur un fauteuil"/>
             </div>
             <div class="test__container7">
-                <img src="@/assets/img/LogoNolex.4.png"/>
+                <img src="@/assets/img/LogoNolex.4.png" alt="logo Nolex"/>
             </div>
         </div>
 
@@ -59,28 +59,28 @@
 
         <div class="test__main-container" v-if="filter === 'illustration'">
             <div class="test__container1">
-                <img src="@/assets/img/cycliste.jpg"/>
+                <img src="@/assets/img/cycliste.jpg" alt="dessin d'un cycliste"/>
             </div>
             <div class="test__container3_2">
-                <img src="@/assets/img/vynil.jpg"/>
+                <img src="@/assets/img/vynil.jpg" alt="vynil Neue Ära"/>
             </div>
             <div class="test__container8">
-                <img src="@/assets/img/HOLISTIQUE&CO.png"/>
+                <img src="@/assets/img/HOLISTIQUE&CO.png" alt="logo Holistique & Co"/>
             </div>
             <div class="test__container4_2"> 
-                <img src="@/assets/img/Société-inclusive.gif"/>
+                <img src="@/assets/img/Société-inclusive.gif"  alt="gif société inclusive"/>
             </div>
             <div class="test__container9">
-                <img src="@/assets/img/BOULANGERIE-CHAVES.jpg"/>
+                <img src="@/assets/img/BOULANGERIE-CHAVES.jpg" alt="logo Boulangerie Chaves"/>
             </div>
             <div class="test__container10">
-                <img src="@/assets/img/LCJ.png"/>
+                <img src="@/assets/img/LCJ.png" alt="dessin d'un tracteur dans un champ"/>
             </div>
             <div class="test__container11">
-                <img src="@/assets/img/Fight-Camp.png"/>
+                <img src="@/assets/img/Fight-Camp.png" alt="logo Fight Camp 2021"/>
             </div>
             <div class="test__container6_2">
-                <img src="@/assets/img/Autoportrait.gif"/>
+                <img src="@/assets/img/Autoportrait.gif" alt="dessin d'une femme assise sur un fauteuil"/>
             </div>
         </div>
 
@@ -89,25 +89,25 @@
 
         <div class="test__main-container" v-if="filter === 'branding'">
             <div class="test__container1_2">
-                <img src="@/assets/img/cycliste.jpg"/>
+                <img src="@/assets/img/cycliste.jpg" alt="dessin d'un cycliste"/>
             </div>
             <div class="test__container12">
-                <img src="@/assets/img/LOGO-CDF_Dépliant-A4-A.png"/>
+                <img src="@/assets/img/LOGO-CDF_Dépliant-A4-A.png" alt="logo La Colline des Frettis"/>
             </div>
             <div class="test__container5_2">
-                <img src="@/assets/img/LOGO-LAETITIA_Dépliant-A4-A-copie.png"/>
+                <img src="@/assets/img/LOGO-LAETITIA_Dépliant-A4-A-copie.png" alt="logo Laëtitia Sophrologie"/>
             </div>
             <div class="test__container8_2"> 
-                <img src="@/assets/img/HOLISTIQUE&CO.png"/>
+                <img src="@/assets/img/HOLISTIQUE&CO.png" alt="logo Holistique & Co"/>
             </div>
             <div class="test__container7_2">
-                <img src="@/assets/img/LogoNolex.4.png"/>
+                <img src="@/assets/img/LogoNolex.4.png" alt="logo Nolex"/>
             </div>
             <div class="test__container6_3">
-                <img src="@/assets/img/Autoportrait.gif"/>
+                <img src="@/assets/img/Autoportrait.gif" alt="dessin d'une femme assise sur un fauteuil"/>
             </div>
             <div class="test__container9_2">
-                <img src="@/assets/img/BOULANGERIE-CHAVES.jpg"/>
+                <img src="@/assets/img/BOULANGERIE-CHAVES.jpg" alt="logo Boulangerie Chaves"/>
             </div>
         </div>
 
@@ -116,25 +116,25 @@
 
         <div class="test__main-container" v-if="filter === 'graphisme'">
             <div class="test__container3_3">
-                <img src="@/assets/img/vynil.jpg"/>
+                <img src="@/assets/img/vynil.jpg"  alt="vynil Neue Ära"/>
             </div>
             <div class="test__container13">
-                <img src="@/assets/img/Sixfeet.jpg"/>
+                <img src="@/assets/img/Sixfeet.jpg" alt="3 images de la gallerie Sixfeet"/>
             </div>
             <div class="test__container6_4">
-                <img src="@/assets/img/Autoportrait.gif"/>
+                <img src="@/assets/img/Autoportrait.gif" alt="dessin d'une femme assise sur un fauteuil"/>
             </div>
             <div class="test__container9_3"> 
-                <img src="@/assets/img/BOULANGERIE-CHAVES.jpg"/>
+                <img src="@/assets/img/BOULANGERIE-CHAVES.jpg" alt="logo Boulangerie Chaves"/>
             </div>
             <div class="test__container14">
-                <img src="@/assets/img/BLUE.jpg"/>
+                <img src="@/assets/img/BLUE.jpg" alt="logo BLUE"/>
             </div>
             <div class="test__container11_2">
-                <img src="@/assets/img/Fight-Camp.png"/>
+                <img src="@/assets/img/Fight-Camp.png" alt="logo Fight Camp 2021"/>
             </div>
             <div class="test__container15">
-                <img src="@/assets/img/5.jpg"/>
+                <img src="@/assets/img/5.jpg" alt="bouteille de vin N°5 sur fond bleu"/>
             </div>
         </div>
 
@@ -143,28 +143,28 @@
 
         <div class="test__main-container" v-if="filter === 'édition'">
             <div class="test__container8_3">
-                <img src="@/assets/img/HOLISTIQUE&CO.png"/>
+                <img src="@/assets/img/HOLISTIQUE&CO.png" alt="logo Holistique & Co"/>
             </div>
             <div class="test__container4_3">
-                <img src="@/assets/img/Société-inclusive.gif"/>
+                <img src="@/assets/img/Société-inclusive.gif" alt="gif société inclusive"/>
             </div>
             <div class="test__container13_2">
-                <img src="@/assets/img/Sixfeet.jpg"/>
+                <img src="@/assets/img/Sixfeet.jpg" alt="3 images de la gallerie Sixfeet"/>
             </div>
             <div class="test__container12_2"> 
-                <img src="@/assets/img/LOGO-CDF_Dépliant-A4-A.png"/>
+                <img src="@/assets/img/LOGO-CDF_Dépliant-A4-A.png" alt="logo La Colline des Frettis"/>
             </div>
             <div class="test__container5_3">
-                <img src="@/assets/img/LOGO-LAETITIA_Dépliant-A4-A-copie.png"/>
+                <img src="@/assets/img/LOGO-LAETITIA_Dépliant-A4-A-copie.png" alt="logo Laëtitia Sophrologie"/>
             </div>
             <div class="test__container14_2">
-                <img src="@/assets/img/BLUE.jpg"/>
+                <img src="@/assets/img/BLUE.jpg" alt="logo BLUE"/>
             </div>
             <div class="test__container10_2">
-                <img src="@/assets/img/LCJ.png"/>
+                <img src="@/assets/img/LCJ.png" alt="dessin d'un tracteur dans un champ"/>
             </div>
             <div class="test__container9_4">
-                <img src="@/assets/img/BOULANGERIE-CHAVES.jpg"/>
+                <img src="@/assets/img/BOULANGERIE-CHAVES.jpg" alt="logo Boulangerie Chaves"/>
             </div>
         </div>
 
@@ -173,16 +173,16 @@
 
         <div class="test__main-container" v-if="filter === 'web'">
             <div class="test__container1">
-                <img src="@/assets/img/cycliste.jpg"/>
+                <img src="@/assets/img/cycliste.jpg" alt="dessin d'un cycliste"/>
             </div>
             <div class="test__container2">
-                <video src="@/assets/video/Introduction-Vidéo1.mp4" loop="infinite" autoplay="autoplay" muted=''/>
+                <video src="@/assets/video/Introduction-Vidéo1.mp4" loop="infinite" autoplay="autoplay" muted=''  alt="animation de couleurs"/>
             </div>
             <div class="test__container7_3">
-                <img src="@/assets/img/LogoNolex.4.png"/>
+                <img src="@/assets/img/LogoNolex.4.png" alt="logo Nolex"/>
             </div>
             <div class="test__container5_4">
-                <img src="@/assets/img/LOGO-LAETITIA_Dépliant-A4-A-copie.png"/>
+                <img src="@/assets/img/LOGO-LAETITIA_Dépliant-A4-A-copie.png" alt="logo Laëtitia Sophrologie"/>
             </div>
         </div>
     </div>
