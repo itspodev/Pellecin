@@ -20,19 +20,22 @@
     <div class="hp-container-2">
         <!----------------------------------------- PAGE D'ACCUEIL ---------------------------------------->
         
-        <div class="test__main-container" v-if="filter === 'none'">
-            <div class="test__container1">
-                <img src="@/assets/img/cycliste.jpg" alt="dessin d'un cycliste"/>
-            </div>
-            <div class="test__container2">
-                <video src="@/assets/video/Introduction-Vidéo1.mp4" loop="infinite" autoplay="autoplay" muted='' alt="animation de couleurs"/>
-            </div>
-            <div class="test__container3">
-                <img src="@/assets/img/vynil.jpg" alt="vynil Neue Ära"/>
-            </div>
-            <div class="test__container4">
-                <img src="@/assets/img/Société-inclusive.gif" alt="gif société inclusive"/>
-            </div>
+        <div class="containerGrid">
+            <div class="gridItems NeueAra"><img src="@/assets/img/vynil.jpg" alt=""></div>
+            <div class="gridItems AlianceC"><img src="@/assets/img/Société-inclusive.gif" alt=""></div>
+            <div class="gridItems LaRucheAVelo"><img src="@/assets/img/cycliste.jpg"></div>
+            <div class="gridItems LiquideColor"><video autoplay="autoplay" muted="" loop="infinite" src="@/assets/video/Introduction-Vidéo1.mp4"></video></div>
+            <div class="gridItems HolistiqueCo"><img src="@/assets/img/HOLISTIQUE&CO.png" alt=""></div>
+            <div class="gridItems N"><img src="@/assets/img/5.jpg" alt=""></div>
+            <div class="gridItems LaColine"><img src="@/assets/img/LOGO-CDF_Dépliant-A4-A.png" alt=""></div>
+            <div class="gridItems Laetitia"><img src="@/assets/img/LOGO-LAETITIA_Dépliant-A4-A-copie.png" alt=""></div>
+            <div class="gridItems FightCamp"><img src="@/assets/img/Fight-Camp.png" alt=""></div>
+            <div class="gridItems LCJ"><img src="@/assets/img/LCJ.png" alt=""></div>
+            <div class="gridItems Sixfeet"><img src="@/assets/img/Sixfeet.jpg" alt=""></div>
+            <div class="gridItems LeBleuEtLeJaune"><img src="@/assets/img/Autoportrait.gif" alt=""></div>
+            <div class="gridItems Blue"><img src="@/assets/img/BLUE.jpg" alt=""></div>
+            <div class="gridItems chaves"><img src="@/assets/img/BOULANGERIE-CHAVES.jpg" alt=""></div>
+            <div class="gridItems Nolex"><img src="@/assets/img/LogoNolex.4.png" alt=""></div>
         </div>
 
         <!---------------------------------------- MOTION DESIGN ------------------------------------------>

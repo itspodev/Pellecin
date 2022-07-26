@@ -916,6 +916,7 @@ li a{
     background: transparent;
   }
   
+/*---------------------------------------- HEADER -------------------------------------*/
 
   .intro-card-box{
     width: 90%;
@@ -940,3 +941,65 @@ li a{
     margin:30px 0;
   }
 }
+
+/**** TEST DONT TUCH THIS !!!!!! *****/
+.containerGrid {  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: .5fr .7fr .6fr .5fr 1fr .5fr .5fr .3fr;
+  gap: 1.5rem;
+  margin: auto;
+  width: 80%;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "LaRucheAVelo LaRucheAVelo LaRucheAVelo LiquideColor LiquideColor LiquideColor LiquideColor LiquideColor LiquideColor LiquideColor"
+    "NeueAra NeueAra NeueAra NeueAra NeueAra AlianceC AlianceC AlianceC AlianceC AlianceC"
+    "HolistiqueCo HolistiqueCo HolistiqueCo HolistiqueCo N N N N N N"
+    "HolistiqueCo HolistiqueCo HolistiqueCo HolistiqueCo LaColine LaColine LaColine Laetitia Laetitia Laetitia"
+    "FightCamp FightCamp FightCamp FightCamp FightCamp FightCamp FightCamp LCJ LCJ LCJ"
+    "LeBleuEtLeJaune LeBleuEtLeJaune LeBleuEtLeJaune LeBleuEtLeJaune Sixfeet Sixfeet Sixfeet Sixfeet Sixfeet Sixfeet"
+    "LeBleuEtLeJaune LeBleuEtLeJaune LeBleuEtLeJaune LeBleuEtLeJaune chaves chaves chaves Blue Blue Blue"
+    "Nolex Nolex Nolex Nolex chaves chaves chaves Blue Blue Blue";
+}
+
+.gridItems {
+  overflow: hidden;
+  display: flex; 
+}
+
+.containerGrid img, .containerGrid video{
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.NeueAra { grid-area: NeueAra; }
+
+.AlianceC { grid-area: AlianceC; }
+
+.LaRucheAVelo { grid-area: LaRucheAVelo;}
+
+.LiquideColor { grid-area: LiquideColor; }
+
+.HolistiqueCo { grid-area: HolistiqueCo; }
+
+.N { grid-area: N; }
+
+.LaColine { grid-area: LaColine; }
+
+.Laetitia { grid-area: Laetitia; }
+
+.FightCamp { grid-area: FightCamp; }
+
+.LCJ { grid-area: LCJ; }
+
+.Sixfeet { grid-area: Sixfeet; }
+
+.LeBleuEtLeJaune { grid-area: LeBleuEtLeJaune; }
+
+.Blue { grid-area: Blue; }
+
+.chaves { grid-area: chaves; }
+
+.Nolex { grid-area: Nolex; }
+
+/* For presentation only, no need to copy the code below */
