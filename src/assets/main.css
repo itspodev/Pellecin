@@ -916,7 +916,7 @@ li a{
     background: transparent;
   }
 
-  .hidden {
+  .navBar.hidden {
     display:none
   }
   

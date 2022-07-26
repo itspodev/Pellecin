@@ -1,7 +1,7 @@
 <template>
   <header>
     <nav :class="this.class">
-      <div class="navBar" v-if="this.show">
+      <div class="navBar hidden" id="navbar">
         <router-link to="/"><img src="@/assets/img/Logo-Pepenome1.png" alt="logo pepenome" class="logo-pepenome" /></router-link>
         <ul>
           <li><router-link to="/projets">MES PROJETS</router-link></li>
@@ -35,6 +35,12 @@ export default {
   methods: {
     hamburger_menu: function() {
       this.show = !this.show
+      if(this.show) {
+        document.getElementById('navbar').classList.remove('hidden')
+      }
+      else {
+        document.getElementById('navbar').classList.add('hidden')
+      }
     }
   }
 };
