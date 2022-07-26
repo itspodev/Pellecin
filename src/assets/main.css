@@ -1036,11 +1036,14 @@ li a{
       justify-content: center;
       align-items: center;
     }
+    .contact{
+      margin-bottom: 2rem;
+    }
     .contacetezMoi{
       width: 60%;
       margin: auto;
     }
-        .socialLink{
+    .socialLink{
       text-align: center;
     }
 
