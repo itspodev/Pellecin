@@ -915,6 +915,10 @@ li a{
     display: block;
     background: transparent;
   }
+
+  .hidden {
+    display:none
+  }
   
   /*------------------------- INTRO CARD PROPERTIES --------------------------*/
 
