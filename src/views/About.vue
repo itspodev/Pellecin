@@ -4,6 +4,7 @@
 <AboutCard/>
 <CredoCard/>
 <ReviewCard/>
+<!-- <ReviewCardTest/> -->
 <MainFooter/>
 
 </template>
@@ -13,6 +14,7 @@ import NavBar from '@/components/NavBar.vue'
 import AboutCard from '@/components/AboutCard.vue'
 import CredoCard from '@/components/CredoCard.vue'
 import ReviewCard from '@/components/ReviewCard.vue'
+// import ReviewCardTest from '@/components/ReviewCardTest.vue'
 import MainFooter from '@/components/MainFooter.vue'
 export default {
     name: 'About',
@@ -21,6 +23,7 @@ export default {
         AboutCard,
         CredoCard,
         ReviewCard,
+        // ReviewCardTest,
         MainFooter
     }
 }
