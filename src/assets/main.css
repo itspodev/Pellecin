@@ -951,6 +951,7 @@ li a{
 
 .contactLogo{
   width: 100%;
+  margin:150px 0
 }
 .containerContact{
   display: flex;
