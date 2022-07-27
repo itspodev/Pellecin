@@ -1018,7 +1018,7 @@ li a{
     /* background-color: #000; */
     backdrop-filter: blur(20px);
     width: 100%;
-    height: 100vh;
+    height: 506px;
     top:0;
   }
   .navBar ul li{
