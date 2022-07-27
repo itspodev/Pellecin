@@ -12,7 +12,7 @@
             <p>
                 Originaire de la côte basque, je suis venue m'implanter à 
                 <span>Nantes</span>
-                depuis 2 ans. En 2020, j'ai décidé de me lancer dans l'aventure de l'entrepreunariat.
+                depuis 2 ans. En 2021, j'ai décidé de me lancer dans l'aventure de l'entrepreunariat.
             </p>
             <p>Au fil des années et grâce à mes expériences, j'ai développé des compétences dans plusieurs domaines:</p>
             <p><span>La communication, le dessin, le graphisme, le digital et le motion design.</span></p>

@@ -12,10 +12,10 @@
             <hr>
         </div>
         <div class="intro-desc">
-            <p>Auto-entrepreneuse depuis février 2020 en tant que Directrice Artistique et Designer Graphique</p>
-            <p>Je donne vie à vos projets et suis à l'écoute pour toutes vos demandes: une identité visuelle unique en son genre, une vidéo motion sur mesure,
+            <p>Auto-entrepreneuse depuis février 2021 en tant que <strong>Directrice Artistique et Designer Graphique</strong>.</p>
+            <p>Je <strong>donne vie à vos projets</strong> et suis à l'écoute pour toutes vos demandes: une identité visuelle unique en son genre, une vidéo motion sur mesure,
             une carte de visite créative, etc.</p>
-            <p>Bienveillance et créativité sont au coeur des projets que j'entreprends avec mes clients.</p>
+            <p><strong>Bienveillance et créativité</strong> sont au coeur des projets que j'entreprends avec mes clients.</p>
         </div>
         <h3 class="intro-more"><router-link to="/about">EN SAVOIR PLUS</router-link></h3>
     </div>  
