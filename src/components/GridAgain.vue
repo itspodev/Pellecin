@@ -70,14 +70,14 @@ export default {
                     class: 'LaRucheAVelo'
                 },
                 {
-                    name: 'Le bleu et le jaune',
+                    name: 'Le bleu & jaune',
                     tag:["branding","graphisme","illustration","motion"],
                     img: autoPortrait,
                     format: 'img',
                     class: 'LeBleuEtLeJaune'
                 },
                 {
-                    name: 'Chanves',
+                    name: 'Chaves',
                     tag: ["branding", "édition", "graphisme", "illustration"],
                     img: boulangerieChaves,
                     format: 'img',
