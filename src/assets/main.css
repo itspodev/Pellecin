@@ -1019,7 +1019,7 @@ li a{
 
   
   .bloc {
-    height: 34vh;
+    height: 50vh;
   }
     .bloc video {
     width: -webkit-fill-available;
@@ -1028,7 +1028,7 @@ li a{
     left:0%;
     }  
     .navBar ul {
-    height:34vh;
+    height:50vh;
     }
   .navs.hidden {
     display:none;
