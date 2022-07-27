@@ -1066,9 +1066,21 @@ li a{
 }
 .intro-text {
   width:80%;
+  text-align:justify
 }
 .intro-text h3 {
-  width:90%;
+  width:100%;
+  text-align:center
+}
+.intro-more {
+  margin-bottom:60px
+}
+.intro-name {
+  width:100%;
+  text-align:center
+}
+.intro-name hr {
+  margin-top:30px
 }
 .intro-desc {
   margin:30px 0;
