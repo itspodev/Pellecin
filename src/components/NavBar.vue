@@ -5,7 +5,7 @@
       <slot></slot>
       
       <div class="navBar">
-        <router-link to="/"><img src="@/assets/img/Logo-Pepenome1.png" alt="logo pepenome" class="logo-pepenome" /></router-link>
+        <router-link to="/" class="home-link"><img src="@/assets/img/Logo-Pepenome1.png" alt="logo pepenome" class="logo-pepenome" /></router-link>
         <ul class="navs hidden" id="navbar">
           <li><router-link to="/projets">MES PROJETS</router-link></li>
           <li><router-link to="/about">À PROPOS</router-link></li>
