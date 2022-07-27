@@ -1,50 +1,4 @@
-/*
- * The Typekit service used to deliver this font or fonts for use on websites
- * is provided by Adobe and is subject to these Terms of Use
- * http://www.adobe.com/products/eulas/tou_typekit. For font license
- * information, see the list below.
- *
- * forma-djr-display:
- *   - http://typekit.com/eulas/00000000000000003b9ae4d4
- *   - http://typekit.com/eulas/00000000000000003b9ae4d5
- *   - http://typekit.com/eulas/00000000000000003b9ae4da
- *   - http://typekit.com/eulas/00000000000000003b9ae4db
- *
- * © 2009-2022 Adobe Systems Incorporated. All Rights Reserved.
- */
-/*{"last_published":"2022-07-18 08:12:12 UTC"}*/
-
-@import url("https://p.typekit.net/p.css?s=1&k=cmv5yao&ht=tk&f=30349.30350.30355.30356&a=85693960&app=typekit&e=css");
-
-@font-face {
-font-family:"forma-djr-display-italic";
-src:url("https://use.typekit.net/af/2fb5a1/00000000000000003b9ae4d4/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff2"),url("https://use.typekit.net/af/2fb5a1/00000000000000003b9ae4d4/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff"),url("https://use.typekit.net/af/2fb5a1/00000000000000003b9ae4d4/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("opentype");
-font-display:auto;font-style:italic;font-weight:400;font-stretch:normal;
-}
-
-@font-face {
-font-family:"forma-djr-display";
-src:url("https://use.typekit.net/af/360cc7/00000000000000003b9ae4d5/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/360cc7/00000000000000003b9ae4d5/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/360cc7/00000000000000003b9ae4d5/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
-font-display:auto;font-style:normal;font-weight:400;font-stretch:normal;
-}
-
-@font-face {
-font-family:"forma-djr-display-bold";
-src:url("https://use.typekit.net/af/7337ff/00000000000000003b9ae4da/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/7337ff/00000000000000003b9ae4da/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/7337ff/00000000000000003b9ae4da/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
-font-display:auto;font-style:normal;font-weight:700;font-stretch:normal;
-}
-
-@font-face {
-font-family:"forma-djr-display-bold-italic";
-src:url("https://use.typekit.net/af/b320cb/00000000000000003b9ae4db/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("woff2"),url("https://use.typekit.net/af/b320cb/00000000000000003b9ae4db/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("woff"),url("https://use.typekit.net/af/b320cb/00000000000000003b9ae4db/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("opentype");
-font-display:auto;font-style:italic;font-weight:700;font-stretch:normal;
-}
-
-.tk-forma-djr-display { font-family: "forma-djr-display",sans-serif; }
-.tk-forma-djr-display-italic { font-family: "forma-djr-display-italic",sans-serif; }
-.tk-forma-djr-display-bold-italic { font-family: "forma-djr-display-bold-italic",sans-serif; }
-.tk-forma-djr-display-bold { font-family: "forma-djr-display-bold",sans-serif; }
-
+@import url("https://use.typekit.net/cmv5yao.css");
 body {
   font-family:forma-djr-display;
   margin:0;
@@ -73,10 +27,6 @@ body {
   transform: translate(-50%, -50%);
 }
 .navBar{
-  width:90%;
-  position:fixed;
-  z-index:1;
-  top:0;
   margin: 3%;
   display: flex;
   justify-content: center;
@@ -87,15 +37,10 @@ body {
   height: 100vh;
   align-items: center;
 }
-
-video {
-  width:100%
-}
 .navBar a{
   width: 100%;
   color: white;
   text-decoration: none;
-  text-shadow:1px 1px 1px black
 }
 .menuBurger{
   display: none;
@@ -168,14 +113,13 @@ li a{
   letter-spacing: 0.7px;
 }
 .intro-name {
-  width:77%;
+  width:50%
 }
 .intro-name h2 {
-  margin:0;
-  font-size:2.8rem
+  margin:0
 }
 .intro-desc {
-  margin:10px 0
+  margin:30px 0
 }
 .intro-more a {
   color:lightgray;
@@ -184,8 +128,7 @@ li a{
 /*--------------- MY PROJECTS - HOMEPAGE PROPERTIES ------------*/
 
 .main-hp-container{
-  margin-top:-10px;
-  padding:20px 0 70px 0;
+  padding:20px 0 30px 0;
   width: 100%;
   background-color: black;
 }
@@ -198,32 +141,23 @@ li a{
   width: max-content;
   margin: auto;
 }
-.hp-head h2 {
+.hp-head h1 {
   border-bottom: 1px solid white;
-  font-size:2.8rem;
-  margin-top:0
-}
-.hp-head a {
-  text-decoration:none;
-  color:white
 }
 .hp-head p{
   color: lightgray;
   font-size: 1.5rem;
 }
 .hp-navbar {
-  width: 70%;
+  width: 80%;
   margin: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.hp-navbar h3 {
-  font-weight:300;
-}
 .hp-navbar a {
   text-decoration:none;
-  color:white;
+  color:white
 }
 .nav-hp{
   opacity: 0.6;
@@ -288,8 +222,7 @@ li a{
   font-size:2.5rem;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
 }
 .text-over p {
-  text-transform: uppercase;
-  font-size:1.2rem                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
+  text-transform: uppercase;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
 }
 
 
@@ -779,7 +712,7 @@ li a{
 }
 
 .review-card__up {
-  padding: 2em 0 1em 0;
+  padding: 2em 0;
   text-transform: uppercase;
   display: flex;
   flex-direction: column;
@@ -899,11 +832,9 @@ li a{
   display: flex;
   flex-direction: column;
   justify-content: center;
-
 }
 
 .main-footer__up {
-  padding:40px 0;
   background-color: #fff;
   text-transform: uppercase;
   display: flex;
@@ -997,7 +928,6 @@ li a{
 
 .contactLogo{
   width: 100%;
-  margin:150px 0;
 }
 .containerContact{
   display: flex;
@@ -1062,11 +992,6 @@ li a{
     left:50px;
   }
 
-  .navBar {
-    margin:0;
-    width:100%
-  }
-
   .navBar ul{
     padding: 0;
     margin:0;
@@ -1081,7 +1006,6 @@ li a{
     width: 100%;
     height: 100vh;
     top:0;
-    z-index:1
   }
   .navBar ul li{
     margin:30px 0;
@@ -1091,12 +1015,11 @@ li a{
   .menuBurger{
     display: block;
     background: transparent;
-    z-index:1
   }
 
   
   .bloc {
-    height: 50vh;
+    height: 34vh;
   }
     .bloc video {
     width: -webkit-fill-available;
@@ -1104,6 +1027,9 @@ li a{
     top:0%;
     left:0%;
     }  
+    .navBar ul {
+    height:34vh;
+    }
   .navs.hidden {
     display:none;
   }
@@ -1126,21 +1052,9 @@ li a{
 }
 .intro-text {
   width:80%;
-  text-align:justify
 }
 .intro-text h3 {
-  width:100%;
-  text-align:center
-}
-.intro-more {
-  margin-bottom:60px
-}
-.intro-name {
-  width:100%;
-  text-align:center
-}
-.intro-name hr {
-  margin-top:30px
+  width:90%;
 }
 .intro-desc {
   margin:30px 0;
