@@ -722,7 +722,7 @@ li a{
 }
 
 .review-card__up {
-  padding: 2em 0;
+  padding: 2em 0 1em 0;
   text-transform: uppercase;
   display: flex;
   flex-direction: column;
