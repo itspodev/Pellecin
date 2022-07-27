@@ -3,7 +3,7 @@
     <!-- <nav :class="this.class"> -->
       <div>
       <slot></slot>
-      </div>
+      
       <div class="navBar">
         <router-link to="/"><img src="@/assets/img/Logo-Pepenome1.png" alt="logo pepenome" class="logo-pepenome" /></router-link>
         <ul class="navs hidden" id="navbar">
@@ -14,7 +14,7 @@
         <img src="@/assets/img/menu-hamburger.png" class="menuBurger" alt="" @click="hamburger_menu"/>
       </div>
       <!-- <div class="NavContainerSlot"> -->
-      
+      </div>
       <!-- </div> -->
         
     <!-- </nav> -->
