@@ -26,7 +26,19 @@ body {
   z-index: -100;
   transform: translate(-50%, -50%);
 }
+video {
+  width:100%;
+  top:0;
+  z-index:-100
+}
+.hahaha {
+  height:max-content
+}
 .navBar{
+  position: fixed;
+  z-index:1000;
+  top:0;
+  width:95%;
   margin: 3%;
   display: flex;
   justify-content: center;
@@ -130,6 +142,7 @@ li a{
 .main-hp-container{
   padding:20px 0 30px 0;
   width: 100%;
+  margin-top:-10px;
   background-color: black;
 }
 .hp-container{
@@ -991,6 +1004,10 @@ li a{
     top:50px;
     left:50px;
   }
+  .navBar {
+    margin:0;
+    width:100%
+  }
 
   .navBar ul{
     padding: 0;
@@ -1003,7 +1020,7 @@ li a{
     /* background-color:transparent; */
     /* background-color: #000; */
     backdrop-filter: blur(20px);
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     top:0;
   }
@@ -1027,9 +1044,6 @@ li a{
     top:0%;
     left:0%;
     }  
-    .navBar ul {
-    height:34vh;
-    }
   .navs.hidden {
     display:none;
   }
