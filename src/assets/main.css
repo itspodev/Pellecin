@@ -1076,12 +1076,18 @@ li a{
 }
 .intro-text {
   width:80%;
+  text-align:center
 }
 .intro-text h3 {
-  width:90%;
+  width:100%;
+  text-align:center
+}
+.intro-name {
+  margin:auto
 }
 .intro-desc {
   margin:30px 0;
+  text-align:justify
 }
 /*---------------------------- ABOUT CARD PROPERTIES -----------------------*/
 
