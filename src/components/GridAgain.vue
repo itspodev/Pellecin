@@ -4,7 +4,7 @@
             <div class="hp-head">
                 <p>PEPENOME</p>
                 <br>
-                <h1>MES PROJETS</h1>
+                <router-link to="/projets"><h2>MES PROJETS</h2></router-link>
                 <br>
             </div>
             <div class="hp-navbar">

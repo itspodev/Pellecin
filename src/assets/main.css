@@ -168,13 +168,14 @@ li a{
   letter-spacing: 0.7px;
 }
 .intro-name {
-  width:50%
+  width:77%;
 }
 .intro-name h2 {
-  margin:0
+  margin:0;
+  font-size:2.8rem
 }
 .intro-desc {
-  margin:30px 0
+  margin:10px 0
 }
 .intro-more a {
   color:lightgray;
@@ -184,7 +185,7 @@ li a{
 
 .main-hp-container{
   margin-top:-10px;
-  padding:20px 0 30px 0;
+  padding:20px 0 70px 0;
   width: 100%;
   background-color: black;
 }
@@ -197,23 +198,32 @@ li a{
   width: max-content;
   margin: auto;
 }
-.hp-head h1 {
+.hp-head h2 {
   border-bottom: 1px solid white;
+  font-size:2.8rem;
+  margin-top:0
+}
+.hp-head a {
+  text-decoration:none;
+  color:white
 }
 .hp-head p{
   color: lightgray;
   font-size: 1.5rem;
 }
 .hp-navbar {
-  width: 80%;
+  width: 70%;
   margin: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+.hp-navbar h3 {
+  font-weight:300;
+}
 .hp-navbar a {
   text-decoration:none;
-  color:white
+  color:white;
 }
 .nav-hp{
   opacity: 0.6;
@@ -278,7 +288,8 @@ li a{
   font-size:2.5rem;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
 }
 .text-over p {
-  text-transform: uppercase;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
+  text-transform: uppercase;
+  font-size:1.2rem                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
 }
 
 
@@ -888,9 +899,11 @@ li a{
   display: flex;
   flex-direction: column;
   justify-content: center;
+
 }
 
 .main-footer__up {
+  padding:40px 0;
   background-color: #fff;
   text-transform: uppercase;
   display: flex;
