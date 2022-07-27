@@ -49,6 +49,7 @@ video {
   width: 100%;
   color: white;
   text-decoration: none;
+  text-shadow:1px 1px 1px black
 }
 .menuBurger{
   display: none;
