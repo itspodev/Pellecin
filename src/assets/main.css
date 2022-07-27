@@ -734,7 +734,7 @@ li a{
 }
 
 .review-card__up {
-  padding: 2em 0;
+  padding: 2em 0 0;
   text-transform: uppercase;
   display: flex;
   flex-direction: column;
@@ -783,7 +783,7 @@ li a{
 }
 
 .review-card__cite-box {
-  min-height: 35vh;
+  min-height: 30vh;
   text-align: center;
   display: flex;
   flex-direction: column;
