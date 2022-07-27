@@ -1093,6 +1093,7 @@ li a{
 
 /*------------------------- GRID --------------------------*/
   .hp-navbar {
+    display: contents;
     width: 90%;
     margin: auto;
   }
