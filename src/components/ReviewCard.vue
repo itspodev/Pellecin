@@ -38,6 +38,7 @@
                 ],
                 visibleSlide: 0,
                 direction: 'right',
+                interval: null,
             }
         },
         computed: {
@@ -60,6 +61,9 @@
                     this.visibleSlide = this.reviewsLength -1
                 }
             }
+        },
+        mounted: function () {
+            this.interval = setInterval(() => { this.nextSlide() }, 5000)
         } 
     }
 </script>
