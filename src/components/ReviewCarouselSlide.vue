@@ -1,5 +1,5 @@
 <template>
-    <transition :name="direction">
+    <transition :name="'slide-' + this.direction">
         <div  class="review-card__carousel-slide" v-show="visibleSlide === index">
             <slot>
             </slot>
@@ -15,10 +15,5 @@ export default {
         }
     },
     props: ['visibleSlide', 'index', 'direction'],
-    computed: {
-        direction () {
-            return 'slide-' + this.direction
-        }
-    }
 }
 </script>
