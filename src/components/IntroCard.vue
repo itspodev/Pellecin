@@ -17,7 +17,7 @@
             une carte de visite créative, etc.</p>
             <p><strong>Bienveillance et créativité</strong> sont au coeur des projets que j'entreprends avec mes clients.</p>
         </div>
-        <h3 class="intro-more"><router-link to="/about">EN SAVOIR PLUS</router-link></h3>
+        <h3 class="intro-more"><router-link to="/about" @click.native="scrollToTop">EN SAVOIR PLUS</router-link></h3>
     </div>  
 </div>
 
@@ -26,7 +26,12 @@
 <script>
 
 export default {
-    name: 'intro-card'
+    name: 'intro-card',
+    methods: {
+        scrollToTop: function() {
+            window.scrollTo(0,0);
+        }
+    }
 }
 
 </script>
