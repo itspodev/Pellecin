@@ -17,7 +17,7 @@
             une carte de visite créative, etc.</p>
             <p><strong>Bienveillance et créativité</strong> sont au coeur des projets que j'entreprends avec mes clients.</p>
         </div>
-        <h3 @mouseover="mouseOverH3()" @mouseleave="mouseLeaveH3()" class="intro-more"><router-link class="textTransition" to="/about" @click.native="scrollToTop"><span :class="{ 'textAnimation-1': isTextAnimActive }">EN</span> <span :class="{ 'textAnimation-2': isTextAnimActive }">SAVOIR</span> <span :class="{ 'textAnimation-3': isTextAnimActive }">PLUS</span></router-link></h3>
+        <h3 class="intro-more"><router-link  @mouseover="mouseOverLink()" @mouseleave="mouseLeaveLink()" class="knwMoreTransition" to="/about" @click.native="scrollToTop"><span :class="{ 'knwMoreAnimation-1': isTextAnimActive }">EN</span> <span :class="{ 'knwMoreAnimation-2': isTextAnimActive }">SAVOIR</span> <span :class="{ 'knwMoreAnimation-3': isTextAnimActive }">PLUS</span></router-link></h3>
     </div>  
 </div>
 
@@ -37,10 +37,10 @@ export default {
         scrollToTop: function() {
             window.scrollTo(0,0);
         },
-        mouseOverH3() {
+        mouseOverLink() {
             this.isTextAnimActive = true;
         },
-        mouseLeaveH3() {
+        mouseLeaveLink() {
             this.isTextAnimActive = false;
         },
         mouseOverDiv() {

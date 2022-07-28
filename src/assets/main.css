@@ -287,14 +287,15 @@ li a{
 .btn-voirplus{
   width: 90.5%;
   text-align: right;
+  min-height: 7vh;
 }
-.voirplus{
+.voirplus a {
   cursor: pointer;
+  text-decoration: none;
   font-size: 1.3rem;
   background-color: black;
   color:lightgray;
-  border: none;
-  border-bottom:2px solid lightgray;
+  border-bottom:1px solid lightgray;
 }
 
 .hp-container-2 {
@@ -1018,6 +1019,7 @@ li a{
   text-align:justify
 }
 
+
 /*---------------------------- ABOUT CARD PROPERTIES -----------------------*/
 
   .about-card {
@@ -1131,6 +1133,11 @@ li a{
     text-align:left;
     margin:0
   }
+
+  .pola-picture-box {
+    left: 0;
+  }
+
   /* -------------FOOTER---------------- */
   .main-footer__up {
     padding:4em 0
@@ -1179,11 +1186,11 @@ li a{
 
 /*----- TRANSITION / ANIMATION -----*/
 
-.textTransition {
-  transition: letter-spacing 0.5s, transform 0.5 text-shadow 0.5s text-decoration 0.5s;
+.knwMoreTransition, .shwMoreTransition {
+  transition: all 1s ease-out;
 }
 
-.textTransition:hover {
+.knwMoreTransition:hover {
   letter-spacing: 4px;
   color: #000;
   transform: scale(2) translateX(5.5em);
@@ -1191,15 +1198,15 @@ li a{
   text-decoration: none;
 }
 
-.textAnimation-1 {
+.knwMoreAnimation-1 {
   animation: 1.7s loader infinite running;
 }
 
-.textAnimation-2 {
+.knwMoreAnimation-2 {
   animation: 1.7s loader 0.1s infinite running;
 }
 
-.textAnimation-3 {
+.knwMoreAnimation-3 {
   animation: 1.7s loader 0.2s infinite running;
 }
 
@@ -1218,9 +1225,14 @@ li a{
   animation: 2.5s rightSlide 1 forwards;
 }
 
-
-
 @keyframes rightSlide {
   to { position:relative; left: -50em; transform: rotate(50deg) scale(0.5) }
   100% { position: relative; left:0; transform: rotate(0) scale(1) }
+}
+
+.shwMoreTransition:hover {
+  letter-spacing: 4px;
+  transform: scale(2) translateX(-14.5em);
+  text-shadow: 1px 1px 2px rgb(215, 18, 18);
+  border-bottom: none;
 }

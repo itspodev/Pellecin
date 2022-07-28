@@ -32,6 +32,9 @@
                 />
             </div>
         </div>
+        <div class="btn-voirplus">
+            <p class="voirplus"><router-link to="/projets" class="shwMoreTransition" @mouseover="mouseOverLink()" @mouseleave="mouseLeaveLink()"><span :class="{ 'knwMoreAnimation-1': isTextAnimActive }">VOIR</span> <span :class="{ 'knwMoreAnimation-2': isTextAnimActive }">PLUS</span></router-link></p>
+        </div>
     </div>
 
 </template>
@@ -170,8 +173,9 @@ export default {
                     img: liquidColors,
                     format: 'video',
                     class:'LiquideColor'
-                }    
+                },   
             ],
+            isTextAnimActive: false
         }
     },
     methods: {
@@ -263,7 +267,13 @@ export default {
                     break;
             }
             this.classChange(this.filter);
-        }
+        },
+        mouseOverLink: function() {
+            this.isTextAnimActive = true;
+        },
+        mouseLeaveLink: function() {
+            this.isTextAnimActive = false;
+        },
     },
     created(){
         this.defaultClass()
