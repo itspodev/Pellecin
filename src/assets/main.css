@@ -688,244 +688,7 @@ li a{
   width:min-content
 }
 
-
-
-@media screen and (max-width: 900px) {
-  .logo-pepenome {
-    z-index:5000; 
-    top:50px;
-    left:50px;
-  }
-  .navBar {
-    margin:0;
-    width:100%;
-    left:0%;
-  }
-
-  .navBar ul{
-    padding: 0;
-    margin:0;
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    /* background-color:transparent; */
-    /* background-color: #000; */
-    backdrop-filter: blur(20px);
-    width: 100vw;
-    height: 100vh;
-    top:0;
-  }
-  .navBar ul li{
-    margin:30px 0;
-    font-size:1.5rem;
-  }
-  
-  .menuBurger{
-    display: block;
-    background: transparent;
-  }
-
-  
-  .bloc {
-    height: 34vh;
-  }
-    .bloc video {
-    width: -webkit-fill-available;
-    transform:inherit;
-    top:0%;
-    left:0%;
-    }  
-  .navs.hidden {
-    display:none;
-  }
-  
-/*------------------------- INTRO CARD PROPERTIES --------------------------*/
-/*---------------------------- HEADER -----------------------*/
-
-.intro-card-box{
-  width: 90%;
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-}
-.intro-pic{
-  width: 100%;
-}
-.pola-picture-box img{
-  width: 100%;
-  height: auto;
-}
-.intro-text {
-  width:80%;
-  text-align:center
-}
-.intro-text h3 {
-  width:100%;
-  text-align:center
-}
-.intro-name {
-  margin:auto
-}
-.intro-desc {
-  margin:30px 0;
-  text-align:justify
-}
-
-/*---------------------------- ABOUT CARD PROPERTIES -----------------------*/
-
-  .about-card {
-    width:80%;
-    padding:40px 0;
-    flex-direction: column;
-  }
-  .about-card__img-box {
-    width:70%
-  }
-  .about-card__text-box {
-    text-align:justify
-  }
-  .about-card__text-box-title {
-    width:70%;
-    margin:auto
-  }
-
-/*------------------------- GRID --------------------------*/
-  .hp-navbar {
-    display: contents;
-    width: 90%;
-    margin: auto;
-  }
-  
-  .nav-hp{
-  width: 100%;
-  }
-
-
-/* -------------------------- CREDO CARD PROPERTIES ---------------------------*/
-
-  .credo-card {
-    width:100%;
-    margin:auto;
-    padding:70px 0;
-    flex-direction:column
-  }
-  .credo-card__text-box {
-    width:80%
-  }
-  .credo-card__text-box hr {
-    max-width:inherit;
-    margin-bottom:40px
-  }
-  .credo-card__text-box p {
-    text-align:justify
-  }
-  .credo-card__img-box {
-    margin-top:30px;
-    width:55%
-  }
-  
-  /*------------------------- FOOTER --------------------------*/
-
-
-    .main-footer__up{
-      width: 90%;
-      margin: auto;
-    }
-    .main-footer__bottom img {
-      width:22%;
-      height: auto;
-    }
-  
-    .intro-text h3 {
-      font-size:1.4rem
-    }
-
-
-/*------------------------- PAGE CONTACT --------------------------*/
-    
-    .containerContact{
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-    }
-    .contact{
-      margin-bottom: 2rem;
-    }
-    .contacetezMoi{
-      width: 60%;
-      margin: auto;
-    }
-    .socialLink{
-      text-align: center;
-    }
-
-    .contacetezMoi p{
-      font-size: 1.2rem;
-    }
-    .contacetezMoi h2{
-      margin: 0;
-      font-size: 2.2rem;
-    }
-    .line::after {
-      width: 15rem;
-  }
-}
-
-@media screen and (max-width: 420px) {
-  /* -------------INTRO CARD--------------- */
-  .intro-desc {
-    text-align:left;
-    margin:0
-  }
-  /* -------------FOOTER---------------- */
-  .main-footer__up {
-    padding:4em 0
-  }
-  .main-footer__up p:nth-child(2) {
-    font-size:2.5em
-  }
-  .main-footer__up--black {
-    padding:4em 0 2em 0
-  }
-  .main-footer__social-media {
-    padding-bottom:0
-  }
-  .main-footer__up--black p:nth-child(2) {
-    font-size:2.5em
-  }
-
-  /*-----------ABOUT CARD------------- */
-  .about-card__text-box-title {
-    text-align:left
-  }
-  
-  /* ----------REVIEW CARD-----------  */
-  .review-card h2 {
-    font-size:2.4em
-  }
-  .review-card__cite-box {
-    margin-top:40px
-  }
-  .review-card cite {
-    max-width:70%;
-    font-size:0.9em
-  }
-  .review-card h3 {
-    font-size:1.5em
-  }
-
-  /* ----------CONTACT-----------  */
-  .contacetezMoi {
-    padding:1rem 2rem 1.5rem 2rem
-  }
-  .contacetezMoi h2 {
-    font-size:2rem
-  }
-}
-
+/* ------------GRID------------  */
 .containerGridMotion {
   display: grid; 
   grid-template-columns: 2.5fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
@@ -1083,6 +846,271 @@ li a{
 .chaves { grid-area: chaves; }
 
 .Nolex { grid-area: Nolex; }
+
+/*-------- MOBILE GRID SELECTOR  ---------*/
+.hp-navbar-mobile {
+    color:white;
+    display:none;
+    justify-content: center;
+    width:80%;
+    margin:auto;
+    font-size:1.5em;
+    padding-bottom:30px
+}
+.hp-navbar-mobile p {
+  text-transform:uppercase;
+  min-width:132px;
+  text-align:center
+}
+.hp-navbar-mobile button {
+  font-size:1.3em;
+  margin:0 10px;
+  color:white;
+  background:black;
+  border:none
+}
+
+@media screen and (max-width: 900px) {
+  /*---------------------------- HEADER -----------------------*/
+  .logo-pepenome {
+    z-index:5000; 
+    top:50px;
+    left:50px;
+  }
+  .navBar {
+    margin:0;
+    width:100%;
+    left:0%;
+  }
+
+  .navBar ul{
+    padding: 0;
+    margin:0;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color:transparent; */
+    /* background-color: #000; */
+    backdrop-filter: blur(20px);
+    width: 100vw;
+    height: 100vh;
+    top:0;
+  }
+  .navBar ul li{
+    margin:30px 0;
+    font-size:1.5rem;
+  }
+  
+  .menuBurger{
+    display: block;
+    background: transparent;
+  }
+
+  
+  .bloc {
+    height: 34vh;
+  }
+    .bloc video {
+    width: -webkit-fill-available;
+    transform:inherit;
+    top:0%;
+    left:0%;
+    }  
+  .navs.hidden {
+    display:none;
+  }
+  
+/*------------------------- INTRO CARD PROPERTIES --------------------------*/
+
+.intro-card-box{
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+.intro-pic{
+  width: 100%;
+}
+.pola-picture-box img{
+  width: 100%;
+  height: auto;
+}
+.intro-text {
+  width:80%;
+  text-align:center
+}
+.intro-text h3 {
+  width:100%;
+  text-align:center
+}
+.intro-name {
+  margin:auto
+}
+.intro-desc {
+  margin:30px 0;
+  text-align:justify
+}
+
+/*---------------------------- ABOUT CARD PROPERTIES -----------------------*/
+
+  .about-card {
+    width:80%;
+    padding:40px 0;
+    flex-direction: column;
+  }
+  .about-card__img-box {
+    width:70%
+  }
+  .about-card__text-box {
+    text-align:justify
+  }
+  .about-card__text-box-title {
+    width:70%;
+    margin:auto
+  }
+
+/*------------------------- GRID --------------------------*/
+  .hp-navbar {
+    display: contents;
+    width: 90%;
+    margin: auto;
+  }
+  
+  .nav-hp{
+  width: 100%;
+  }
+
+  .hp-navbar-mobile {
+    display:flex;
+  }
+  .hp-navbar {
+    display:none
+  }
+
+/* -------------------------- CREDO CARD PROPERTIES ---------------------------*/
+
+  .credo-card {
+    width:100%;
+    margin:auto;
+    padding:70px 0;
+    flex-direction:column
+  }
+  .credo-card__text-box {
+    width:80%
+  }
+  .credo-card__text-box hr {
+    max-width:inherit;
+    margin-bottom:40px
+  }
+  .credo-card__text-box p {
+    text-align:justify
+  }
+  .credo-card__img-box {
+    margin-top:30px;
+    width:55%
+  }
+  
+  /*------------------------- FOOTER --------------------------*/
+
+
+    .main-footer__up{
+      width: 90%;
+      margin: auto;
+    }
+    .main-footer__bottom img {
+      width:22%;
+      height: auto;
+    }
+  
+    .intro-text h3 {
+      font-size:1.4rem
+    }
+
+
+/*------------------------- PAGE CONTACT --------------------------*/
+    
+    .containerContact{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .contact{
+      margin-bottom: 2rem;
+    }
+    .contacetezMoi{
+      width: 60%;
+      margin: auto;
+    }
+    .socialLink{
+      text-align: center;
+    }
+
+    .contacetezMoi p{
+      font-size: 1.2rem;
+    }
+    .contacetezMoi h2{
+      margin: 0;
+      font-size: 2.2rem;
+    }
+    .line::after {
+      width: 15rem;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  /* -------------INTRO CARD--------------- */
+  .intro-desc {
+    text-align:left;
+    margin:0
+  }
+  /* -------------FOOTER---------------- */
+  .main-footer__up {
+    padding:4em 0
+  }
+  .main-footer__up p:nth-child(2) {
+    font-size:2.5em
+  }
+  .main-footer__up--black {
+    padding:4em 0 2em 0
+  }
+  .main-footer__social-media {
+    padding-bottom:0
+  }
+  .main-footer__up--black p:nth-child(2) {
+    font-size:2.5em
+  }
+
+  /*-----------ABOUT CARD------------- */
+  .about-card__text-box-title {
+    text-align:left
+  }
+  
+  /* ----------REVIEW CARD-----------  */
+  .review-card h2 {
+    font-size:2.4em
+  }
+  .review-card__cite-box {
+    margin-top:40px
+  }
+  .review-card cite {
+    max-width:70%;
+    font-size:0.9em
+  }
+  .review-card h3 {
+    font-size:1.5em
+  }
+
+  /* ----------CONTACT-----------  */
+  .contacetezMoi {
+    padding:1rem 2rem 1.5rem 2rem
+  }
+  .contacetezMoi h2 {
+    font-size:2rem
+  }
+}
 
 /*----- TRANSITION / ANIMATION -----*/
 
