@@ -108,6 +108,8 @@ li a{
 }
 .pola-picture-box {
   width:100%;
+  position: relative;
+  left: -50em;
 }
 .pola-picture-box img {
   width:100%;
@@ -299,335 +301,6 @@ li a{
   margin-bottom:20px
 }
 
-/*------------------------------ TESTING --------------------------------*/
-
-
-/*---------- GRID HOMEPAGE ----------*/
-.test__main-container {
-  width:80%;
-  margin:auto;
-  display:grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  gap:20px
-}
-.test__container1 {
-  height: 500px;
-  width:100%;
-  grid-column-start:1;
-  grid-column-end: 6;
-}
-
-.test__container1_2 {
-  height: 388px;
-  width:100%;
-  grid-column-start:1;
-  grid-column-end: 5;
-}
-
-.test__container2 {
-  height:350px;
-  width:100%;
-  grid-column-start:6;
-  grid-column-end: 14;
-}
-
-.test__container3 {
-  height:450px;
-  width:90%;
-  grid-column-start:1;
-  grid-column-end: 8;
-}
-
-.test__container3_2 {
-  height:500px;
-  width:100%;
-  grid-column-start:6;
-  grid-column-end: 13;
-}
-
-.test__container3_3 {
-  height:450px;
-  width:100%;
-  grid-column-start:1;
-  grid-column-end: 6;
-}
-
-.test__container4 {
-  height:539px;
-  width:100%;
-  grid-column-start:8;
-  grid-column-end: 13;
-}
-
-.test__container4_2 {
-  height:388px;
-  width:100%;
-  grid-column-start:5;
-  grid-column-end: 9;
-}
-
-.test__container4_3 {
-  height:600px;
-  width:100%;
-  grid-column-start:6;
-  grid-column-end: 13;
-}
-
-.test__container5 {
-  height:420px;
-  width:440px;
-  grid-column-start:1;
-  grid-column-end: 6;
-}
-
-.test__container5_2 {
-  height:388px;
-  width:100%;
-  grid-column-start:9;
-  grid-column-end: 13;
-}
-
-.test__container5_3 {
-  height:310px;
-  width:100%;
-  grid-column-start:9;
-  grid-column-end: 13;
-}
-
-.test__container5_4 {
-  height:340px;
-  width:100%;
-  grid-column-start:9;
-  grid-column-end: 13;
-}
-
-.test__container6 {
-  /* height:495px; */
-  width:460px;
-  grid-column-start: 8;
-  grid-column-end:13;
-  grid-row-start:2;
-  grid-row-end:4
-}
-
-.test__container6_2 {
-  width:100%;
-  grid-column-start: 8;
-  grid-column-end:13;
-}
-
-.test__container6_3 {
-  height:500px;
-  width:100%;
-  grid-column-start: 6;
-  grid-column-end:10;
-}
-
-.test__container6_4 {
-  width:100%;
-  grid-column-start: 1;
-  grid-column-end:6;
-  grid-row-start:2;
-  grid-row-end:4
-}
-
-.test__container7 {
-  height:230px;
-  width:90%;
-  grid-column-start:1;
-  grid-column-end:8
-}
-
-.test__container7_2 {
-  height:275px;
-  width:100%;
-  grid-column-start:6;
-  grid-column-end:13
-}
-
-.test__container7_3 {
-  height:340px;
-  width:100%;
-  grid-column-start:1;
-  grid-column-end:9
-}
-
-.test__container8 {
-  /* height:500px; */
-  width:100%;
-  grid-column-start:1;
-  grid-column-end:5;
-  grid-row-start:2;
-  grid-row-end:4
-}
-
-.test__container8_2 {
-  /* height:500px; */
-  width:100%;
-  grid-column-start:1;
-  grid-column-end:6;
-  grid-row-start:2;
-  grid-row-end:4
-}
-
-.test__container8_3 {
-  height:600px;
-  width:100%;
-  grid-column-start:1;
-  grid-column-end:6;
-}
-
-
-.test__container9 {
-  height:400px;
-  width:100%;
-  grid-column-start:5;
-  grid-column-end:9
-}
-
-.test__container9_2 {
-  height:500px;
-  width:100%;
-  grid-column-start:10;
-  grid-column-end:13
-}
-
-.test__container9_3 {
-  height:500px;
-  width:100%;
-  grid-column-start:6;
-  grid-column-end:9
-}
-
-.test__container9_4 {
-  height:500px;
-  width:100%;
-  grid-column-start:9;
-  grid-column-end:13
-}
-
-.test__container10 {
-  width:100%;
-  grid-column-start:9;
-  grid-column-end:13;
-  grid-row-start:2;
-  grid-row-end:4
-}
-
-.test__container10_2 {
-  height:500px;
-  width:100%;
-  grid-column-start:6;
-  grid-column-end:9;
-}
-
-.test__container11 {
-  width:100%;
-  grid-column-start:1;
-  grid-column-end:8;
-}
-
-.test__container11_2 {
-  width:100%;
-  grid-column-start:1;
-  grid-column-end:6;
-}
-
-.test__container12 {
-  width:100%;
-  height:388px;
-  grid-column-start: 5;
-  grid-column-end:9;
-}
-
-.test__container12_2 {
-  width:100%;
-  height:310px;
-  grid-column-start: 6;
-  grid-column-end:9;
-}
-
-.test__container13 {
-  height:450px;
-  width:100%;
-  grid-column-start:6;
-  grid-column-end: 13;
-}
-
-.test__container13_2 {
-  height:310px;
-  width:100%;
-  grid-column-start:1;
-  grid-column-end: 6;
-}
-
-.test__container14 {
-  height:500px;
-  width:100%;
-  grid-column-start:9;
-  grid-column-end:13
-}
-
-.test__container14_2 {
-  height:500px;
-  width:100%;
-  grid-column-start:1;
-  grid-column-end:6
-}
-
-.test__container15 {
-  width:100%;
-  grid-column-start:6;
-  grid-column-end:13;
-  grid-row-start:3;
-  grid-row-end:5
-}
-
-
-.test__container1 img,
-.test__container1_2 img,
-.test__container2 video,
-.test__container3 img,
-.test__container3_2 img,
-.test__container3_3 img,
-.test__container4 img,
-.test__container4_2 img,
-.test__container4_3 img,
-.test__container5 img,
-.test__container5_2 img,
-.test__container5_3 img,
-.test__container5_4 img,
-.test__container6 img,
-.test__container6_2 img,
-.test__container6_3 img,
-.test__container6_4 img,
-.test__container7 img,
-.test__container7_2 img,
-.test__container7_3 img,
-.test__container8 img,
-.test__container8_2 img,
-.test__container8_3 img,
-.test__container9 img,
-.test__container9_2 img,
-.test__container9_3 img,
-.test__container9_4 img,
-.test__container10 img,
-.test__container10_2 img,
-.test__container11 img,
-.test__container11_2 img,
-.test__container12 img,
-.test__container12_2 img,
-.test__container13 img,
-.test__container13_2 img,
-.test__container14 img,
-.test__container14_2 img,
-.test__container15 img {
-  width:100%;
-  height:100%
-}
-
-
-
 /*---------- ABOUT PAGE ----------*/
 
 /*---------- ABOUT CARD PROPERTIES ----------*/
@@ -771,13 +444,13 @@ li a{
 
 .review-card__carousel button:active, .review-card__carousel button:hover{
   cursor: pointer;
-  background-color: #2B2B2B;
-  color:#fff;
+  opacity: 0.9;
   border-radius: 5px;
 }
 
 .review-carousel__nav {    
   background: white;
+  opacity: 0.2;
   border: none;
   font-size: 2em;
   position: absolute;
@@ -1049,191 +722,7 @@ li a{
   width:min-content
 }
 
-
-
-@media screen and (max-width: 900px) {
-  .logo-pepenome {
-    z-index:5000; 
-    top:50px;
-    left:50px;
-  }
-  .navBar {
-    margin:0;
-    width:100%;
-    left:0%;
-  }
-
-  .navBar ul{
-    padding: 0;
-    margin:0;
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    /* background-color:transparent; */
-    /* background-color: #000; */
-    backdrop-filter: blur(20px);
-    width: 100vw;
-    height: 100vh;
-    top:0;
-  }
-  .navBar ul li{
-    margin:30px 0;
-    font-size:1.5rem;
-  }
-  
-  .menuBurger{
-    display: block;
-    background: transparent;
-  }
-
-  
-  .bloc {
-    height: 34vh;
-  }
-    .bloc video {
-    width: -webkit-fill-available;
-    transform:inherit;
-    top:0%;
-    left:0%;
-    }  
-  .navs.hidden {
-    display:none;
-  }
-  
-/*------------------------- INTRO CARD PROPERTIES --------------------------*/
-/*---------------------------- HEADER -----------------------*/
-
-.intro-card-box{
-  width: 90%;
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-}
-.intro-pic{
-  width: 100%;
-}
-.pola-picture-box img{
-  width: 100%;
-  height: auto;
-}
-.intro-text {
-  width:80%;
-  text-align:center
-}
-.intro-text h3 {
-  width:100%;
-  text-align:center
-}
-.intro-name {
-  margin:auto
-}
-.intro-desc {
-  margin:30px 0;
-  text-align:justify
-}
-/*---------------------------- ABOUT CARD PROPERTIES -----------------------*/
-
-  .about-card {
-    width:80%;
-    padding:40px 0;
-    flex-direction: column;
-  }
-  .about-card__img-box {
-    width:70%
-  }
-  .about-card__text-box {
-    text-align:justify
-  }
-  .about-card__text-box-title {
-    width:70%;
-    margin:auto
-  }
-
-/*------------------------- GRID --------------------------*/
-  .hp-navbar {
-    display: contents;
-    width: 90%;
-    margin: auto;
-  }
-  
-  .nav-hp{
-  width: 100%;
-  }
-
-
-/* -------------------------- CREDO CARD PROPERTIES ---------------------------*/
-
-  .credo-card {
-    width:100%;
-    margin:auto;
-    padding:70px 0;
-    flex-direction:column
-  }
-  .credo-card__text-box {
-    width:80%
-  }
-  .credo-card__text-box hr {
-    max-width:inherit;
-    margin-bottom:40px
-  }
-  .credo-card__text-box p {
-    text-align:justify
-  }
-  .credo-card__img-box {
-    margin-top:30px;
-    width:55%
-  }
-  
-  /*------------------------- FOOTER --------------------------*/
-
-
-    .main-footer__up{
-      width: 90%;
-      margin: auto;
-    }
-    .main-footer__bottom img {
-      width:22%;
-      height: auto;
-    }
-  
-    .intro-text h3 {
-      font-size:1.4rem
-    }
-
-
-/*------------------------- PAGE CONTACT --------------------------*/
-    
-    .containerContact{
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-    }
-    .contact{
-      margin-bottom: 2rem;
-    }
-    .contacetezMoi{
-      width: 60%;
-      margin: auto;
-    }
-    .socialLink{
-      text-align: center;
-    }
-
-    .contacetezMoi p{
-      font-size: 1.2rem;
-    }
-    .contacetezMoi h2{
-      margin: 0;
-      font-size: 2.2rem;
-    }
-    .line::after {
-      width: 15rem;
-  }
-}
-
+/* ------------GRID------------  */
 .containerGridMotion {
   display: grid; 
   grid-template-columns: 2.5fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
@@ -1391,3 +880,316 @@ li a{
 .chaves { grid-area: chaves; }
 
 .Nolex { grid-area: Nolex; }
+
+/*-------- MOBILE GRID SELECTOR  ---------*/
+.hp-navbar-mobile {
+    color:white;
+    display:none;
+    justify-content: center;
+    width:80%;
+    margin:auto;
+    font-size:1.5em;
+    padding-bottom:30px
+}
+.hp-navbar-mobile p {
+  text-transform:uppercase;
+  min-width:132px;
+  text-align:center
+}
+.hp-navbar-mobile button {
+  font-size:1.3em;
+  margin:0 10px;
+  color:white;
+  background:black;
+  border:none
+}
+
+@media screen and (max-width: 900px) {
+  /*---------------------------- HEADER -----------------------*/
+  .logo-pepenome {
+    z-index:5000; 
+    top:50px;
+    left:50px;
+  }
+  .navBar {
+    margin:0;
+    width:100%;
+    left:0%;
+  }
+
+  .navBar ul{
+    padding: 0;
+    margin:0;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color:transparent; */
+    /* background-color: #000; */
+    backdrop-filter: blur(20px);
+    width: 100vw;
+    height: 100vh;
+    top:0;
+  }
+  .navBar ul li{
+    margin:30px 0;
+    font-size:1.5rem;
+  }
+  
+  .menuBurger{
+    display: block;
+    background: transparent;
+  }
+
+  
+  .bloc {
+    height: 34vh;
+  }
+    .bloc video {
+    width: -webkit-fill-available;
+    transform:inherit;
+    top:0%;
+    left:0%;
+    }  
+  .navs.hidden {
+    display:none;
+  }
+  
+/*------------------------- INTRO CARD PROPERTIES --------------------------*/
+
+.intro-card-box{
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+.intro-pic{
+  width: 100%;
+}
+.pola-picture-box img{
+  width: 100%;
+  height: auto;
+}
+.intro-text {
+  width:80%;
+  text-align:center
+}
+.intro-text h3 {
+  width:100%;
+  text-align:center
+}
+.intro-name {
+  margin:auto
+}
+.intro-desc {
+  margin:30px 0;
+  text-align:justify
+}
+
+/*---------------------------- ABOUT CARD PROPERTIES -----------------------*/
+
+  .about-card {
+    width:80%;
+    padding:40px 0;
+    flex-direction: column;
+  }
+  .about-card__img-box {
+    width:70%
+  }
+  .about-card__text-box {
+    text-align:justify
+  }
+  .about-card__text-box-title {
+    width:70%;
+    margin:auto
+  }
+
+/*------------------------- GRID --------------------------*/
+  .hp-navbar {
+    display: contents;
+    width: 90%;
+    margin: auto;
+  }
+  
+  .nav-hp{
+  width: 100%;
+  }
+
+  .hp-navbar-mobile {
+    display:flex;
+  }
+  .hp-navbar {
+    display:none
+  }
+
+/* -------------------------- CREDO CARD PROPERTIES ---------------------------*/
+
+  .credo-card {
+    width:100%;
+    margin:auto;
+    padding:70px 0;
+    flex-direction:column
+  }
+  .credo-card__text-box {
+    width:80%
+  }
+  .credo-card__text-box hr {
+    max-width:inherit;
+    margin-bottom:40px
+  }
+  .credo-card__text-box p {
+    text-align:justify
+  }
+  .credo-card__img-box {
+    margin-top:30px;
+    width:55%
+  }
+  
+  /*------------------------- FOOTER --------------------------*/
+
+
+    .main-footer__up{
+      width: 90%;
+      margin: auto;
+    }
+    .main-footer__bottom img {
+      width:22%;
+      height: auto;
+    }
+  
+    .intro-text h3 {
+      font-size:1.4rem
+    }
+
+
+/*------------------------- PAGE CONTACT --------------------------*/
+    
+    .containerContact{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .contact{
+      margin-bottom: 2rem;
+    }
+    .contacetezMoi{
+      width: 60%;
+      margin: auto;
+    }
+    .socialLink{
+      text-align: center;
+    }
+
+    .contacetezMoi p{
+      font-size: 1.2rem;
+    }
+    .contacetezMoi h2{
+      margin: 0;
+      font-size: 2.2rem;
+    }
+    .line::after {
+      width: 15rem;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  /* -------------INTRO CARD--------------- */
+  .intro-desc {
+    text-align:left;
+    margin:0
+  }
+  /* -------------FOOTER---------------- */
+  .main-footer__up {
+    padding:4em 0
+  }
+  .main-footer__up p:nth-child(2) {
+    font-size:2.5em
+  }
+  .main-footer__up--black {
+    padding:4em 0 2em 0
+  }
+  .main-footer__social-media {
+    padding-bottom:0
+  }
+  .main-footer__up--black p:nth-child(2) {
+    font-size:2.5em
+  }
+
+  /*-----------ABOUT CARD------------- */
+  .about-card__text-box-title {
+    text-align:left
+  }
+  
+  /* ----------REVIEW CARD-----------  */
+  .review-card h2 {
+    font-size:2.4em
+  }
+  .review-card__cite-box {
+    margin-top:40px
+  }
+  .review-card cite {
+    max-width:70%;
+    font-size:0.9em
+  }
+  .review-card h3 {
+    font-size:1.5em
+  }
+
+  /* ----------CONTACT-----------  */
+  .contacetezMoi {
+    padding:1rem 2rem 1.5rem 2rem
+  }
+  .contacetezMoi h2 {
+    font-size:2rem
+  }
+}
+
+/*----- TRANSITION / ANIMATION -----*/
+
+.textTransition {
+  transition: letter-spacing 0.5s, transform 0.5 text-shadow 0.5s text-decoration 0.5s;
+}
+
+.textTransition:hover {
+  letter-spacing: 4px;
+  color: #000;
+  transform: scale(2) translateX(5.5em);
+  text-shadow: 1px 1px 2px rgb(215, 18, 18);
+  text-decoration: none;
+}
+
+.textAnimation-1 {
+  animation: 1.7s loader infinite running;
+}
+
+.textAnimation-2 {
+  animation: 1.7s loader 0.1s infinite running;
+}
+
+.textAnimation-3 {
+  animation: 1.7s loader 0.2s infinite running;
+}
+
+@keyframes loader {
+  from {
+      font-size: 1.5em;
+  }
+
+  to {
+      font-size:1em;
+  }
+}
+
+.picAnimation {
+  transform: rotate(50deg) scale(0.5);
+  animation: 2.5s rightSlide 1 forwards;
+}
+
+
+
+@keyframes rightSlide {
+  to { position:relative; left: -50em; transform: rotate(50deg) scale(0.5) }
+  100% { position: relative; left:0; transform: rotate(0) scale(1) }
+}

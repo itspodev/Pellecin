@@ -50,20 +50,22 @@
             nextSlide: function () {
                 this.visibleSlide++;
                 this.direction = 'right';
+                this.interval = null;
                 if(this.visibleSlide >= this.reviewsLength) {
                     this.visibleSlide = 0
                 }
             },
             prevSlide: function () {
                 this.visibleSlide--;
-                this.direction = 'left'
+                this.direction = 'left';
+                this.interval = null;
                 if(this.visibleSlide < 0) {
                     this.visibleSlide = this.reviewsLength -1
                 }
             }
         },
         mounted: function () {
-            this.interval = setInterval(() => { this.nextSlide() }, 5000)
+            this.interval = setInterval(() => { this.nextSlide() }, 12000)
         } 
     }
 </script>

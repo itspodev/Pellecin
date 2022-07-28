@@ -16,7 +16,11 @@
                 <h3 :class="filter === 'web' ? 'nav-hp opacity' : 'nav-hp'" @click="filterArray('web')">WEB</h3>
             </div>
         </div>
-
+        <div class="hp-navbar-mobile">
+            <button @click="prevArrow()"><font-awesome-icon icon="fa-solid fa-chevron-left" /></button>
+            <p>{{this.filter || 'Projets'}}</p>
+            <button @click="nextArrow()"><font-awesome-icon icon="fa-solid fa-chevron-right" /></button>
+        </div>
         <div class="hp-container-2">
 
             <div :class="this.class">
@@ -207,6 +211,58 @@ export default {
         defaultClass: function(){
             this.class = this.home ? 'containerGridHome' : 'containerGridProjet'
             this.filter = this.home ? 'home' : ''
+        },
+        prevArrow: function() {
+            switch(this.filter) {
+                case 'motion' :
+                    this.filter = 'web';
+                    break;
+                case 'illustration' :
+                    this.filter = 'motion';
+                    break;
+                case 'branding' :
+                    this.filter = 'illustration';
+                    break;
+                case 'graphisme' :
+                    this.filter = 'branding';
+                    break;
+                case 'édition' :
+                    this.filter = 'graphisme';
+                    break;
+                case 'web' :
+                    this.filter = 'édition';
+                    break;
+                default : 
+                    this.filter = 'web';
+                    break;
+            }
+            this.classChange(this.filter);
+        },
+        nextArrow: function() {
+            switch(this.filter) {
+                case 'motion' :
+                    this.filter = 'illustration';
+                    break;
+                case 'illustration' :
+                    this.filter = 'branding';
+                    break;
+                case 'branding' :
+                    this.filter = 'graphisme';
+                    break;
+                case 'graphisme' :
+                    this.filter = 'édition';
+                    break;
+                case 'édition' :
+                    this.filter = 'web';
+                    break;
+                case 'web' :
+                    this.filter = 'motion';
+                    break;
+                default : 
+                    this.filter = 'motion';
+                    break;
+            }
+            this.classChange(this.filter);
         }
     },
     created(){
