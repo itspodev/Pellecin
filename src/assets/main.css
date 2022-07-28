@@ -112,6 +112,7 @@ li a{
 .pola-picture-box img {
   width:100%;
 }
+
 .intro-text {
   width:35%;
   font-size:1.2rem;
@@ -903,6 +904,22 @@ li a{
 .main-footer__up a {
   text-decoration: none;
   color:#000;
+  
+}
+.main-footer__up a:hover {
+  transition: all 2s ease-out;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  
 }
 
 .main-footer__up--black a {
@@ -910,8 +927,10 @@ li a{
   color: #fff;
 }
 
-
 .main-footer__social-media {
+  display: flex;
+  align-items: center;
+  height: 100px;
   padding: 2em 0 4em 0;
 }
 
@@ -920,6 +939,11 @@ li a{
   margin-right: 1rem;
 }
 
+.main-footer__social-media img:hover {
+  width:65px ;
+  transition: 0.6s ease-in-out;
+  margin-bottom: 0.5rem;
+}
 .main-footer__bottom {
   background-color: #000;
   display: flex;
@@ -989,14 +1013,24 @@ li a{
   font-size: 3rem;
 }
 .socialLink {
-  width: 79%;
+  width: 80%;
   margin: auto;
+  height: 100px;
+  display: flex;
+  align-items: center;
   padding-top:2rem
 }
 
 .socialLink img {
   width: 50px;
+  opacity: 0.6;
   margin-right: 1rem;
+}
+.socialLink img:hover{
+  opacity: 1;
+  width:65px ;
+  transition: 0.6s ease-in-out;
+  margin-bottom: 0.5rem;
 }
 /*---------------------------------------- TEST -------------------------------------*/
 
