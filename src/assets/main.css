@@ -108,6 +108,8 @@ li a{
 }
 .pola-picture-box {
   width:100%;
+  position: relative;
+  left: -50em;
 }
 .pola-picture-box img {
   width:100%;
@@ -441,13 +443,13 @@ li a{
 
 .review-card__carousel button:active, .review-card__carousel button:hover{
   cursor: pointer;
-  background-color: #2B2B2B;
-  color:#fff;
+  opacity: 0.9;
   border-radius: 5px;
 }
 
 .review-carousel__nav {    
   background: white;
+  opacity: 0.2;
   border: none;
   font-size: 2em;
   position: absolute;
@@ -770,6 +772,7 @@ li a{
   margin:30px 0;
   text-align:justify
 }
+
 /*---------------------------- ABOUT CARD PROPERTIES -----------------------*/
 
   .about-card {
@@ -1080,3 +1083,51 @@ li a{
 .chaves { grid-area: chaves; }
 
 .Nolex { grid-area: Nolex; }
+
+/*----- TRANSITION / ANIMATION -----*/
+
+.textTransition {
+  transition: letter-spacing 0.5s, transform 0.5 text-shadow 0.5s text-decoration 0.5s;
+}
+
+.textTransition:hover {
+  letter-spacing: 4px;
+  color: #000;
+  transform: scale(2) translateX(5.5em);
+  text-shadow: 1px 1px 2px rgb(215, 18, 18);
+  text-decoration: none;
+}
+
+.textAnimation-1 {
+  animation: 1.7s loader infinite running;
+}
+
+.textAnimation-2 {
+  animation: 1.7s loader 0.1s infinite running;
+}
+
+.textAnimation-3 {
+  animation: 1.7s loader 0.2s infinite running;
+}
+
+@keyframes loader {
+  from {
+      font-size: 1.5em;
+  }
+
+  to {
+      font-size:1em;
+  }
+}
+
+.picAnimation {
+  transform: rotate(50deg) scale(0.5);
+  animation: 2.5s rightSlide 1 forwards;
+}
+
+
+
+@keyframes rightSlide {
+  to { position:relative; left: -50em; transform: rotate(50deg) scale(0.5) }
+  100% { position: relative; left:0; transform: rotate(0) scale(1) }
+}
