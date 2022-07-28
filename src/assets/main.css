@@ -695,10 +695,27 @@ li a{
 .contacetezMoi p{
   font-size: 1.4rem;
 }
-.contacetezMoi h2{
+.contactanimation {
+  position: relative;
+}
+.contactanimation span {
+  position: relative;
+  display: inline-block;
+  font-size: 2.7rem;
+  font-weight: bold;
+  animation: flip 2s infinite;
+  animation-delay: calc(.2s * var(--i))
+}
+
+@keyframes flip {
+  0%,80% {
+    transform: rotateY(360deg) 
+  }
+}
+/* .contacetezMoi h2{
   margin: 0;
   font-size: 3rem;
-}
+} */
 .socialLink {
   width: 80%;
   margin: auto;

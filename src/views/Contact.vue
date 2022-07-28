@@ -10,7 +10,23 @@
             </div>
             <div class="contacetezMoi">
                 <p>ENVIE DE COLLABORER SUR UN NOUVEAU PROJET ?</p>
-                <h2>CONTACTEZ MOI!</h2>
+                <h2 class="contactanimation">
+                    <span style="--i:1">C</span>
+                    <span style="--i:2">O</span>
+                    <span style="--i:3">N</span>
+                    <span style="--i:4">T</span>
+                    <span style="--i:5">A</span>
+                    <span style="--i:6">C</span>
+                    <span style="--i:8">T</span>
+                    <span style="--i:9">E</span>
+                    <span style="--i:10">Z</span>
+                    
+                    <span style="--i:11">M</span>
+                    <span style="--i:12">O</span>
+                    <span style="--i:13">I</span>
+                    <span style="--i:14">!</span>
+                </h2>
+                <!-- <h2>CONTACTEZ MOI!</h2> -->
             </div>
         </main>
         <SocialMedia class="socialLink"/>
