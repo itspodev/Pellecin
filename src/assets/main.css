@@ -1200,6 +1200,58 @@ li a{
   }
 }
 
+@media screen and (max-width: 420px) {
+  /* -------------INTRO CARD--------------- */
+  .intro-desc {
+    text-align:left;
+    margin:0
+  }
+  /* -------------FOOTER---------------- */
+  .main-footer__up {
+    padding:4em 0
+  }
+  .main-footer__up p:nth-child(2) {
+    font-size:2.5em
+  }
+  .main-footer__up--black {
+    padding:4em 0 2em 0
+  }
+  .main-footer__social-media {
+    padding-bottom:0
+  }
+  .main-footer__up--black p:nth-child(2) {
+    font-size:2.5em
+  }
+
+  /*-----------ABOUT CARD------------- */
+  .about-card__text-box-title {
+    text-align:left
+  }
+  
+  /* ----------REVIEW CARD-----------  */
+  .review-card h2 {
+    font-size:2.4em
+  }
+  .review-card__cite-box {
+    margin-top:40px
+  }
+  .review-card cite {
+    max-width:70%;
+    font-size:0.9em
+  }
+  .review-card h3 {
+    font-size:1.5em
+  }
+
+  /* ----------CONTACT-----------  */
+  .contacetezMoi {
+    padding:1rem 2rem 1.5rem 2rem
+  }
+  .contacetezMoi h2 {
+    font-size:2rem
+  }
+}
+
 .containerGridMotion {
   display: grid; 
   grid-template-columns: 2.5fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
