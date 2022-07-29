@@ -13,8 +13,10 @@
             muted=''
         />
         <div class="text-over">
-            <h3>{{this.project.name}}</h3>
-            <p>{{this.tag.join(', ')}}</p>
+            <router-link :to="{ name: 'detail', params: { name: this.project.name.replaceAll(' ', '-') } }">
+                <h3>{{this.project.name}}</h3>
+                <p>{{this.tag.join(', ')}}</p>
+            </router-link>
         </div>
     </div>
 </template>
@@ -25,7 +27,7 @@ export default{
     props:['project','filter'],
     data() {
         return {
-            tag: [] 
+            tag: []
         }
     },
     methods: {
