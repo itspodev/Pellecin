@@ -23,8 +23,8 @@ import mail from "@/assets/img/Mail-01.png";
 import behance from "@/assets/img/Behance-01.png";
 
 import carte from "@/assets/img/LAETITIA/Carte.jpg";
-import insta from "@/assets/img/LEATITIA/Flyer.jpg";
-import flyer from "@/assets/img/LEATITIA/Insta.jpg";
+import flyer from "@/assets/img/LEATITIA/Flyer.jpg";
+import instagram from "@/assets/img/LEATITIA/Insta.jpg";
 import logo2 from "@/assets/img/LEATITIA/Logo2.png";
 
 import mockup from "@/assets/img/BLUE/Mockup1.jpg";
@@ -72,10 +72,9 @@ export {
 
   carte,
   flyer,
-  insta,
   logo2,
   mockup,
-  insta,
+  instagram,
   bannière,
   triptique,
   paysage,
