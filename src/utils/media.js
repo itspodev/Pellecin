@@ -23,15 +23,11 @@ import mail from "@/assets/img/Mail-01.png";
 import behance from "@/assets/img/Behance-01.png";
 
 import carte from "@/assets/img/LAETITIA/Carte.jpg";
-<<<<<<< HEAD
-import instagram from "@/assets/img/LEATITIA/Flyer.jpg";
-import flyer from "@/assets/img/LEATITIA/Insta.jpg";
-=======
 import flyer from "@/assets/img/LEATITIA/Flyer.jpg";
 import instagram from "@/assets/img/LEATITIA/Insta.jpg";
->>>>>>> 46a0888a6ebc6a9ddae9705b6860296ab2b74d8b
-import logo2 from "@/assets/img/LEATITIA/Logo2.png";
 
+
+import logo2 from "@/assets/img/LEATITIA/Logo2.png";
 import mockup from "@/assets/img/BLUE/Mockup1.jpg";
 import mockup2 from "@/assets/img/BLUE/Mockup2.jpg";
 import bannière from "@/assets/img/BLUE/bannière.jpg";
@@ -77,25 +73,18 @@ export {
 
   carte,
   flyer,
-<<<<<<< HEAD
   instagram,
-=======
->>>>>>> 46a0888a6ebc6a9ddae9705b6860296ab2b74d8b
   logo2,
 
   mockup,
-<<<<<<< HEAD
   mockup2,
-=======
-  instagram,
->>>>>>> 46a0888a6ebc6a9ddae9705b6860296ab2b74d8b
   bannière,
 
   triptique,
   paysage,
   les4sixfeet,
   gif,
-  
+
   perso1,
   perso2,
   perso3,
