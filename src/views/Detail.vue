@@ -13,6 +13,7 @@
 
 <script>
 import NavBar from '@/components/NavBar.vue'
+import DetailElement from '@/components/DetailElement.vue'
 import MainFooter from '@/components/MainFooter.vue'
 
 import {
@@ -34,11 +35,7 @@ import {
     perso5,
     perso6,
     perso7,
-} from '@utils/media'
-
-import DetailElement from '@/components/DetailElement.vue'
-
-
+} from '@/utils/media'
 
 export default {
     name: 'Detail',
@@ -163,19 +160,16 @@ export default {
                 },
                 
             ],
-            isTextAnimActive: false
         }
     }
     },
-    
-
-        'DetailElement': DetailElement,
+        'DetailElement': DetailElement
     }
-    mounted(){
-        this.url_data=this.$route.params.name;
-        this.getDescProjectArray();
+    mounted(); {
+        this.url_data=this.$route.params.name
+        this.getDescProjectArray()
     }
-    data(){
+    data();{
         return {
             url_data: null,
             projectName: null,
