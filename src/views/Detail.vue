@@ -19,15 +19,18 @@ import MainFooter from '@/components/MainFooter.vue'
 import {
     carte,
     flyer,
-    insta,
+    instagram,
     logo2,
+
     mockup,
-    insta,
+    mockup2,
     bannière,
+
     triptique,
     paysage,
     les4sixfeet,
     gif,
+    
     perso1,
     perso2,
     perso3,
@@ -62,7 +65,7 @@ export default {
                 {
                     name: 'Insta',
                     tag:["motion","web","branding",'édition'],
-                    img: insta,
+                    img: instagram,
                     format: 'img',
                 },
                 {
