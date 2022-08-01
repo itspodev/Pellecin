@@ -3,11 +3,11 @@
         <div class="about-card__img-box"> <!--picture frame -->
             <img src="@/assets/img/AUTO-PORTRAIT-POLA.png" alt="portrait Noémie Pellencin"/>
         </div> 
-        <div class="about-card__text-box">  <!-- text -->
-            <div class="about-card__text-box-title">
-                <h2>Hello !</h2>
-                <h2>Moi c'est Noémie</h2>
-                <h3>alias Pepenome</h3>
+        <div class="about-card__text-box"> <!-- text -->
+            <div class="about-card__text-box-title"> 
+            <h2>Hello !</h2>
+            <h2>Moi c'est Noémie</h2>
+            <h3>alias Pepenome</h3>
             </div>
             <p>
                 Originaire de la côte basque, je suis venue m'implanter à 
