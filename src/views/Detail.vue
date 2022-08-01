@@ -13,6 +13,7 @@
 
 <script>
 import NavBar from '@/components/NavBar.vue'
+import DetailElement from '@/components/DetailElement.vue'
 import MainFooter from '@/components/MainFooter.vue'
 
 import {
@@ -35,10 +36,6 @@ import {
     perso6,
     perso7,
 } from '@/utils/media'
-
-import DetailElement from '@/components/DetailElement.vue'
-
-
 
 export default {
     name: 'Detail',
@@ -163,12 +160,9 @@ export default {
                 },
                 
             ],
-            isTextAnimActive: false
         }
     }
     },
-    
-
         'DetailElement': DetailElement
     }
     mounted(); {
