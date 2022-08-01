@@ -20,7 +20,7 @@
                 J'ai appris à exprimer ma créativité et à accompagner mes clients à travers 
                 <span>un large panel de moyens de communication.</span>
             </p>
-            <p>Je sais m'adapter <span>à tout type de domaines</span> (santé, sport, restauration, etc) et <span>à tout type de structures </span>(petite et grande entreprise, association, etc)</p>
+            <p>Je sais m'adapter <span>à tout type de domaine</span> (santé, sport, restauration, etc) et <span>à tout type de structure </span>(petite et grande entreprise, association, etc).</p>
         </div>  
     </div>
 </template>

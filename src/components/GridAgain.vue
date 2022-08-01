@@ -4,7 +4,7 @@
             <div class="hp-head">
                 <p>PEPENOME</p>
                 <br>
-                <router-link to="/projets"><h2>MES PROJETS</h2></router-link>
+                <router-link to="/projets" @click.native="scrollToTop"><h2>MES PROJETS</h2></router-link>
                 <br>
             </div>
             <div class="hp-navbar">
@@ -32,8 +32,8 @@
                 />
             </div>
         </div>
-        <div class="btn-voirplus">
-            <p class="voirplus"><router-link to="/projets" class="shwMoreTransition" @mouseover="mouseOverLink()" @mouseleave="mouseLeaveLink()"><span :class="{ 'knwMoreAnimation-1': isTextAnimActive }">VOIR</span> <span :class="{ 'knwMoreAnimation-2': isTextAnimActive }">PLUS</span></router-link></p>
+        <div class="btn-voirplus" v-if="home">
+            <p class="voirplus"><router-link to="/projets" class="shwMoreTransition" @mouseover="mouseOverLink()" @mouseleave="mouseLeaveLink()" @click.native="scrollToTop"><span :class="{ 'knwMoreAnimation-1': isTextAnimActive }">VOIR</span> <span :class="{ 'knwMoreAnimation-2': isTextAnimActive }">PLUS</span></router-link></p>
         </div>
     </div>
 
@@ -274,6 +274,9 @@ export default {
         mouseLeaveLink: function() {
             this.isTextAnimActive = false;
         },
+        scrollToTop: function() {
+            window.scrollTo(0,0);
+        }
     },
     created(){
         this.defaultClass()

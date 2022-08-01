@@ -8,7 +8,7 @@
                 <span>engagée dans le bien-être</span> de mes clients et de mes collaborateurs, je prône 
                 <span>la bienveillance et l'écoute</span> pour chaque projet qui se présente à moi.</p>
             <p>J'apporte <span>une attention toute particulière à l'environnement et à l'urgence écologique</span>
-            . Je suis plus enclin à travailler ou à apporter des solutions à des projets engagés</p>
+            . Je suis plus enclin à travailler ou à apporter des solutions à des projets engagés.</p>
         </div>  
         <div class="credo-card__img-box"> <!--picture frame -->
             <img src="@/assets/img/a_propos.gif" alt="gif présentant valeurs et inspirations"/>
