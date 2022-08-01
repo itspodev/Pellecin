@@ -34,7 +34,7 @@ import {
     perso5,
     perso6,
     perso7,
-} from '@utils/media'
+} from '@/utils/media'
 
 import DetailElement from '@/components/DetailElement.vue'
 
