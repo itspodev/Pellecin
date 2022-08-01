@@ -169,13 +169,13 @@ export default {
     },
     
 
-        'DetailElement': DetailElement,
+        'DetailElement': DetailElement
     }
-    mounted(){
-        this.url_data=this.$route.params.name;
-        this.getDescProjectArray();
+    mounted(); {
+        this.url_data=this.$route.params.name
+        this.getDescProjectArray()
     }
-    data(){
+    data();{
         return {
             url_data: null,
             projectName: null,
