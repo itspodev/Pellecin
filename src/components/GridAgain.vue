@@ -105,7 +105,7 @@ export default {
                     class: 'LaColine'
                 },
                 {
-                    name: 'Laetitia',
+                    name: 'Laëtitia',
                     tag: ['branding','édition','motion','web'],
                     img:logoLaeticiaDepliantA4ACopie,
                     format: 'img',
