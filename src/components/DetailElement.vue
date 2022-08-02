@@ -12,11 +12,13 @@
             </aside>
         </section>
 
-        <!-- <img  
-            v-if="this.project.format === 'img'" 
-            :alt="this.project.name" 
-            :src="this.project.img"
-        /> -->
+        <div>
+            <!-- <img  
+                v-if="this.project.format === 'img'" 
+                :alt="this.project.name" 
+                :src="this.project.img"
+            /> -->
+        </div>
     </slot>
 </template>
 

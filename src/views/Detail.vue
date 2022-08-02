@@ -1,7 +1,11 @@
 <template>
 
     <NavBar/><br><br><br><br><br><br>
-    <DetailElement v-if="this.selectedProject" :description="this.selectedProject"/>
+    <DetailElement v-if="this.selectedProject" :description="this.selectedProject"
+        v-for="project in projectArray" 
+                        :key="project.name"  
+                        :project="project"
+    />
     <MainFooter/>
 </template>
 
@@ -41,7 +45,7 @@ export default {
         'MainFooter': MainFooter,
         'DetailElement': DetailElement,
         },
-    props:['home'],
+    props:['project'],
     data: function() {
         return {
             url_data: null,
