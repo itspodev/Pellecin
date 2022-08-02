@@ -5,9 +5,7 @@
 
     <DetailElement v-if="this.selectedProject" :description="this.selectedProject"/>
 
-        v-for="project in projectImage" 
-                        :key="project.name"  
-                        :project="project"
+        
 
 
     <NavBar v-if="this.selectedBanner && this.selectedBanner.format === 'gif'">
@@ -18,6 +16,11 @@
     </NavBar>
 
     <DetailElement v-if="this.selectedDesc" :description="this.selectedDesc"/>
+
+    <DetailElement v-for="project in projectImage" 
+                        :key="project.name"  
+                        :project="project"/>
+    
 
     <MainFooter/>
 </template>
