@@ -17,9 +17,9 @@
 
     <DetailElement v-if="this.selectedDesc" :description="this.selectedDesc"/>
 
-    <DetailElement v-for="project in projectImage" 
+    <!-- <DetailElement v-for="project in projectImage" 
                         :key="project.name"  
-                        :project="project"/>
+                        :project="project"/> -->
     
 
     <MainFooter/>
