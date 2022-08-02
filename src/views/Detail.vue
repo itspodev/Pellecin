@@ -1,12 +1,12 @@
 <template>
 
-    <NavBar/><br><br><br><br><br><br>
-
-    <DetailElement v-if="this.selectedProject" :description="this.selectedProject"
-        v-for="project in projectArray" 
-                        :key="project.name"  
-                        :project="project"
-    />
+    <NavBar v-if="this.selectedBanner && this.selectedBanner.format === 'gif'">
+        <img :src=this.selectedBanner.content alt="" :class=this.selectedBanner.class />
+    </NavBar>
+    <NavBar v-else-if="this.selectedBanner && this.selectedBanner.format === 'mp4'">
+        <video autoplay="autoplay" muted="" loop="infinite" :src=this.selectedBanner.content alt="" :class=this.selectedBanner.class />
+    </NavBar>
+    <!-- <br><br><br><br><br><br> -->
     <DetailElement v-if="this.selectedDesc" :description="this.selectedDesc"/>
 
     <MainFooter/>
@@ -22,15 +22,18 @@ import {
     flyer,
     instagram,
     logo2,
+    laetitiaBanner,
 
     mockup,
     mockup2,
     bannière,
+    blueBanner,
 
     triptique,
     paysage,
     les4sixfeet,
     gif,
+    sixfeetBanner,
     
     perso1,
     perso2,
@@ -39,6 +42,7 @@ import {
     perso5,
     perso6,
     perso7,
+    numberBanner,
 } from '@/utils/media'
 
 export default {
@@ -52,7 +56,35 @@ export default {
     data: function() {
         return {
             url_data: null,
+            selectedBanner: null,
             selectedDesc: null,
+            bannersArray: [
+                {
+                    name: 'Laëtitia',
+                    format: 'gif',
+                    content: laetitiaBanner,
+                    class: 'project-banner__img',
+                },
+                {
+                    name: 'BLUE',
+                    format: 'gif',
+                    content: blueBanner,
+                    class: 'project-banner__img',
+                },
+                {
+                    name: 'Sixfeet',
+                    format: 'mp4',
+                    content: sixfeetBanner,
+                    class: 'project-banner__video'
+                },
+                {
+                    name: 'N°',
+                    format: 'mp4',
+                    content: numberBanner,
+                    class: 'project-banner__video'
+                },
+
+            ],
             descriptionArray: [
                 {
                     name:'Laëtitia',
@@ -210,10 +242,18 @@ export default {
                     this.selectedDesc = description
                 }
             });
+        },
+        getSelectedBannArray: function() {
+            this.bannersArray.forEach(banner => {
+                if(this.url_data === banner.name) {
+                    this.selectedBanner = banner
+                }
+            } );
         }
     },
     mounted() {
         this.url_data=this.$route.params.name;
+        this.getSelectedBannArray();
         this.getSelectedDescArray();
     }
 }
