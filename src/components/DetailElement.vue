@@ -11,11 +11,12 @@
                 <h2>{{this.description.tag2.join(' - ')}}</h2>
             </aside>
         </section>
-            <img  
-                v-if="this.project.format === 'img'" 
-                :alt="this.project.name" 
-                :src="this.project.img"
-            />
+
+        <!-- <img  
+            v-if="this.project.format === 'img'" 
+            :alt="this.project.name" 
+            :src="this.project.img"
+        /> -->
     </slot>
 </template>
 
