@@ -1,11 +1,15 @@
 <template>
 
     <NavBar/><br><br><br><br><br><br>
+
     <DetailElement v-if="this.selectedProject" :description="this.selectedProject"
         v-for="project in projectArray" 
                         :key="project.name"  
                         :project="project"
     />
+
+    <DetailElement v-if="this.selectedDesc" :description="this.selectedDesc"/>
+
     <MainFooter/>
 </template>
 
@@ -49,7 +53,7 @@ export default {
     data: function() {
         return {
             url_data: null,
-            selectedProject: null,
+            selectedDesc: null,
             descriptionArray: [
                 {
                     name:'Laëtitia',
@@ -201,17 +205,17 @@ export default {
         }
     },
     methods: {
-        getSelectedProjectArray: function() {
+        getSelectedDescArray: function() {
             this.descriptionArray.forEach(description => {
                 if(this.url_data === description.name) {
-                    this.selectedProject = description
+                    this.selectedDesc = description
                 }
             });
         }
     },
     mounted() {
         this.url_data=this.$route.params.name;
-        this.getSelectedProjectArray();
+        this.getSelectedDescArray();
     }
 }
 </script>
