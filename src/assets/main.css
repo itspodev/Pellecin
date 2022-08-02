@@ -1273,7 +1273,13 @@ li a{
 
 /*********** PROJECT PAGE **********/
 
+.project-banner__img {
+  width: 100%;
+  height: auto;
+}
+
 .project-text-box {
+  margin: -1em;
   padding: 4em;
   background-color:#000;
   color:#fff;

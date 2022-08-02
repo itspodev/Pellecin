@@ -25,17 +25,20 @@ import behance from "@/assets/img/Behance-01.png";
 import carte from "@/assets/img/LAETITIA/Carte.jpg";
 import flyer from "@/assets/img/LEATITIA/Flyer.jpg";
 import instagram from "@/assets/img/LEATITIA/Insta.jpg";
-
-
 import logo2 from "@/assets/img/LEATITIA/Logo2.png";
+import laetitiaBanner from "@/assets/img/LAETITIA/Motion_Laetitia.gif";
+
+
 import mockup from "@/assets/img/BLUE/Mockup1.jpg";
 import mockup2 from "@/assets/img/BLUE/Mockup2.jpg";
 import bannière from "@/assets/img/BLUE/bannière.jpg";
+import blueBanner from "@/assets/img/BLUE/bannière.gif";
 
 import triptique from "@/assets/img/SIXFEET/Triptique_Sixfeet.jpg";
 import paysage from "@/assets/img/SIXFEET/Affiche_Paysage_Sixfeet.jpg";
 import les4sixfeet from "@/assets/img/SIXFEET/Les_4_Sixfeet.jpg";
 import gif from "@/assets/img/SIXFEET/GIF_Bas_de_Page_Sixfeet.gif";
+import sixfeetBanner from "@/assets/img/SIXFEET/Sixfeet.mp4";
 
 import perso1 from "@/assets/img/N°/Perso1.jpg";
 import perso2 from "@/assets/img/N°/Perso2.jpg";
@@ -44,6 +47,7 @@ import perso4 from "@/assets/img/N°/Perso4.jpg";
 import perso5 from "@/assets/img/N°/Perso5.jpg";
 import perso6 from "@/assets/img/N°/Perso6.jpg";
 import perso7 from "@/assets/img/N°/Perso7.jpg";
+import numberBanner from "@/assets/img/N°/Vin.mp4";
 
 
 export {
@@ -75,15 +79,18 @@ export {
   flyer,
   instagram,
   logo2,
+  laetitiaBanner,
 
   mockup,
   mockup2,
   bannière,
+  blueBanner,
 
   triptique,
   paysage,
   les4sixfeet,
   gif,
+  sixfeetBanner,
 
   perso1,
   perso2,
@@ -92,4 +99,5 @@ export {
   perso5,
   perso6,
   perso7,
+  numberBanner,
 };
