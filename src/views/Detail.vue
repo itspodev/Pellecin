@@ -2,11 +2,12 @@
 
     <NavBar/><br><br><br><br><br><br>
 
-    <DetailElement v-if="this.selectedProject" :description="this.selectedProject"
-        v-for="project in projectArray" 
+    <DetailElement v-if="this.selectedProject" :description="this.selectedProject"/>
+
+        v-for="project in projectImage" 
                         :key="project.name"  
                         :project="project"
-    />
+
     <DetailElement v-if="this.selectedDesc" :description="this.selectedDesc"/>
 
     <MainFooter/>
@@ -87,114 +88,132 @@ export default {
                     tag2: ['graphisme','étiquettes','collage','peinture', 'photoshop', 'packaging', 'illustrator']
                 }
             ],
-            projectArray: [
+            projectImage: [
                 {
-                    name:'Carte',
+                    name:'Laëtitia',
+                    nameOfImage:'Carte Laëtitia',
                     tag:["motion","web","branding",'édition'],
                     img: carte,
                     format: 'img',
                 },
                 {
-                    name: 'Flyer',
+                    name: 'Laëtitia',
+                    nameOfImage:'Flyer Laëtitia',
                     tag:["motion","web","branding",'édition'],
                     img: flyer,
                     format: 'img',
                 },
                 {
-                    name: 'Insta',
+                    name: 'Laëtitia',
+                    nameOfImage:'Insta Laëtitia',
                     tag:["motion","web","branding",'édition'],
                     img: instagram,
                     format: 'img',
                 },
                 {
-                    name: 'Logo',
+                    name: 'Laëtitia',
+                    nameOfImage:'Logo Laëtitia',
                     tag:["motion","web","branding",'édition'],
                     img: logo2,
                     format: 'img',
                 },
 
                 {
-                    name:'Mockup Blue',
+                    name:'BLUE',
+                    nameOfImage:'Mockup Blue',
                     tag:['graphisme','édition'],
                     img: mockup,
                     format: 'img',
                 },
                 {
-                    name: 'Mockup2 Blue',
+                    name: 'BLUE',
+                    nameOfImage:'Mockup2 Blue',
                     tag:['graphisme','édition'],
                     img: mockup2,
                     format: 'img',
                 },
                 {
-                    name: 'Logo Blue',
+                    name: 'BLUE',
+                    nameOfImage:'Bannière Blue',
                     tag:['graphisme','édition'],
                     img: bannière,
                     format: 'img',
                 },
 
                 {
-                    name: 'Triptique sixfeet',
+                    name: 'Sixfeet',
+                    nameOfImage:'Triptique Sixfeet',
                     tag:['graphisme','édition'],
                     img: triptique,
                     format: 'img',
                 },
                 {
-                    name:'Paysage sixfeet',
+                    name:'Sixfeet',
+                    nameOfImage:'Paysage Sixfeet',
                     tag:['graphisme','édition'],
                     img: paysage,
                     format: 'img',
                 },
                 {
-                    name: '4sixfeet',
+                    name: 'Sixfeet',
+                    nameOfImage:'Les4 Sixfeet',
                     tag:['graphisme','édition'],
                     img: les4sixfeet,
                     format: 'img',
                 },
                 {
-                    name: 'Gif sixfeet',
+                    name: 'Sixfeet',
+                    nameOfImage:'Gif Sixfeet',
                     tag:['graphisme','édition'],
                     img: gif,
                     format: 'gif',
                 },
 
                 {
-                    name: 'Perso1 N°',
+                    name: 'N°',
+                    nameOfImage:'n1',
                     tag:['graphisme'],
                     img: perso1,
                     format: 'img',
                 },
                 {
-                    name: 'Perso2 N°',
+                    name: 'N°',
+                    nameOfImage:'n2',
                     tag:['graphisme'],
                     img: perso2,
                     format: 'img',
                 },
                 {
-                    name: 'Perso3 N°',
+                    name: 'N°',
+                    nameOfImage:'n3',
                     tag:['graphisme'],
                     img: perso3,
                     format: 'img',
                 },
                 {
-                    name: 'Perso4 N°',
+                    name: 'N°',
+                    nameOfImage:'n4',
                     tag:['graphisme'],
                     img: perso4,
                     format: 'img',
                 },
                 {
-                    name: 'Perso5 N°',
+                    name: 'N°',
+                    nameOfImage:'n5',
                     tag:['graphisme'],
                     img: perso5,
                     format: 'img',
                 },
                 {
-                    name: 'Perso6 N°',
+                    name: 'N°',
+                    nameOfImage:'n6',
                     tag:['graphisme'],
                     img: perso6,
                     format: 'img',
                 },
                 {
-                    name: 'Perso7 N°',
+                    name: 'N°',
+                    nameOfImage:'n7',
                     tag:['graphisme'],
                     img: perso7,
                     format: 'img',
