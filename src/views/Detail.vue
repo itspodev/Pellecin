@@ -7,7 +7,6 @@
                         :key="project.name"  
                         :project="project"
     />
-
     <DetailElement v-if="this.selectedDesc" :description="this.selectedDesc"/>
 
     <MainFooter/>
