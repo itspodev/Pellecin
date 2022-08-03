@@ -1,8 +1,5 @@
 <template>
 
-
-    <NavBar/><br><br><br><br><br><br>
-
     <DetailElement v-if="this.selectedProject" :description="this.selectedProject"/>
 
     <NavBar v-if="this.selectedBanner && this.selectedBanner.format === 'gif'">
