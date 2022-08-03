@@ -1329,3 +1329,6 @@ li a{
   text-transform: uppercase;
   text-align: center;
 }
+.image-box img{
+  width: 100%;
+}
