@@ -1,15 +1,10 @@
 <template>
-
-    <DetailElement v-if="this.selectedProject" :description="this.selectedProject"/>
-
-    <NavBar v-if="this.selectedBanner && this.selectedBanner.format === 'gif'">
-        <img :src=this.selectedBanner.content alt="" :class=this.selectedBanner.class />
-    </NavBar>
-    <NavBar v-else-if="this.selectedBanner && this.selectedBanner.format === 'mp4'">
-        <video autoplay="autoplay" muted="" loop="infinite" :src=this.selectedBanner.content alt="" :class=this.selectedBanner.class />
+    <NavBar>
+        <img  v-if="this.selectedBanner && this.selectedBanner.format === 'gif'" :src=this.selectedBanner.content alt="" :class=this.selectedBanner.class />
+        <video v-else-if="this.selectedBanner && this.selectedBanner.format === 'mp4'" autoplay="autoplay" muted="" loop="infinite" :src=this.selectedBanner.content alt="" :class=this.selectedBanner.class />
     </NavBar>
 
-    <DetailElement v-if="this.selectedDesc" :description="this.selectedDesc"/>
+    <DetailDescription v-if="this.selectedDesc" :description="this.selectedDesc"/>
 
     <DetailImage v-if="this.selectedImg" :image="this.selectedImg"/>
     
@@ -19,7 +14,7 @@
 
 <script>
 import NavBar from '@/components/NavBar.vue'
-import DetailElement from '@/components/DetailElement.vue'
+import DetailDescription from '@/components/DetailDescription.vue'
 import DetailImage from '@/components/DetailImage.vue'
 import MainFooter from '@/components/MainFooter.vue'
 
@@ -49,6 +44,10 @@ import {
     perso6,
     perso7,
     numberBanner,
+
+    neueAraBanner,
+
+    veloBanner,
 } from '@/utils/media'
 
 export default {
@@ -56,7 +55,7 @@ export default {
     components: {
         'NavBar': NavBar,
         'MainFooter': MainFooter,
-        'DetailElement': DetailElement,
+        'DetailDescription': DetailDescription,
         'DetailImage' : DetailImage,
         },
     props:['project'],
@@ -88,6 +87,18 @@ export default {
                     name: 'N°',
                     format: 'mp4',
                     content: numberBanner,
+                    class: 'project-banner__video'
+                },
+                {
+                    name: 'Neue-Ära',
+                    format: 'mp4',
+                    content: neueAraBanner,
+                    class: 'project-banner__video'
+                },
+                {
+                    name: 'La-ruche-à-velo',
+                    format: 'mp4',
+                    content: veloBanner,
                     class: 'project-banner__video'
                 },
 
@@ -124,6 +135,22 @@ export default {
                     mission: 'Concept de visuels et Packaging pour étiquette de bouteilles de vins fictifs.',
                     missionDesc: [],
                     tag2: ['graphisme','étiquettes','collage','peinture', 'photoshop', 'packaging', 'illustrator']
+                },
+                {
+                    name:'Neue-Ära',
+                    nameOfProject: 'Neue Ära',
+                    tag1: ['graphisme', 'motion', 'illustration'],
+                    mission: 'Réalisation d\'une pochette d\'album pour l\'artiste MAWEN.',
+                    missionDesc: ['Ce DJ aux influences électroniques / technos m\'a demandé de réaliser un visuel pour illustrer son EP (extended play).', 'Il souhaitait illustrer son projet par un homme et son squelette, dans un univers au couleur flash style affiche techno Berlinoise.'],
+                    tag2: ['graphisme','illustration', 'motion design', 'pochette', 'dessin', 'photoshop', 'after effect', 'procreate']
+                },
+                {
+                    name:'La-ruche-à-velo',
+                    nameOfProject: 'La ruche à velos',
+                    tag1: ['web', 'branding', 'illustration'],
+                    mission: 'Refonte de l\'identité de marque de La ruche à vélos',
+                    missionDesc: ['Refonte complète du logo ainsi que de la charte graphique', 'Création de l\'identité visuelle à travers des illustrations et des pictogrammes ainsi que le design du site internet.'],
+                    tag2: ['identité visuelle', 'logotype', 'illustration', 'webdesign', 'maquettes', 'illustrator', 'photoshop', 'adobe xd']
                 }
             ],
 
