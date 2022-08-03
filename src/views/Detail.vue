@@ -134,20 +134,7 @@ export default {
                     nameOfImage:'Carte Laëtitia',
                     tag:["motion","web","branding",'édition'],
                     img: carte,
-                    format: 'img',
-                },
-                {
-                    name: 'Laëtitia',
-                    nameOfImage:'Flyer Laëtitia',
-                    tag:["motion","web","branding",'édition'],
-                    img: flyer,
-                    format: 'img',
-                },
-                {
-                    name: 'Laëtitia',
-                    nameOfImage:'Insta Laëtitia',
-                    tag:["motion","web","branding",'édition'],
-                    img: instagram,
+                    class: 'Laetitia1',
                     format: 'img',
                 },
                 {
@@ -155,14 +142,32 @@ export default {
                     nameOfImage:'Logo Laëtitia',
                     tag:["motion","web","branding",'édition'],
                     img: logo2,
+                    class: 'Laetitia2',
                     format: 'img',
                 },
-
+                {
+                    name: 'Laëtitia',
+                    nameOfImage:'Flyer Laëtitia',
+                    tag:["motion","web","branding",'édition'],
+                    img: flyer,
+                    class: 'Laetitia3',
+                    format: 'img',
+                },
+                {
+                    name: 'Laëtitia',
+                    nameOfImage:'Insta Laëtitia',
+                    tag:["motion","web","branding",'édition'],
+                    img: instagram,
+                    class: 'Laetitia4',
+                    format: 'img',
+                },
+                
                 {
                     name:'BLUE',
                     nameOfImage:'Mockup Blue',
                     tag:['graphisme','édition'],
                     img: mockup,
+                    class: 'Blue1',
                     format: 'img',
                 },
                 {
@@ -170,6 +175,7 @@ export default {
                     nameOfImage:'Mockup2 Blue',
                     tag:['graphisme','édition'],
                     img: mockup2,
+                    class: 'Blue1',
                     format: 'img',
                 },
                 {
@@ -177,6 +183,7 @@ export default {
                     nameOfImage:'Bannière Blue',
                     tag:['graphisme','édition'],
                     img: bannière,
+                    class: 'Blue1',
                     format: 'img',
                 },
 
@@ -185,6 +192,7 @@ export default {
                     nameOfImage:'Triptique Sixfeet',
                     tag:['graphisme','édition'],
                     img: triptique,
+                    class: 'Sixfeet',
                     format: 'img',
                 },
                 {
@@ -192,6 +200,7 @@ export default {
                     nameOfImage:'Paysage Sixfeet',
                     tag:['graphisme','édition'],
                     img: paysage,
+                    class: 'Sixfeet',
                     format: 'img',
                 },
                 {
@@ -199,6 +208,7 @@ export default {
                     nameOfImage:'Les4 Sixfeet',
                     tag:['graphisme','édition'],
                     img: les4sixfeet,
+                    class: 'Sixfeet',
                     format: 'img',
                 },
                 {
@@ -206,6 +216,7 @@ export default {
                     nameOfImage:'Gif Sixfeet',
                     tag:['graphisme','édition'],
                     img: gif,
+                    class: 'Sixfeet',
                     format: 'gif',
                 },
 
@@ -214,6 +225,7 @@ export default {
                     nameOfImage:'n1',
                     tag:['graphisme'],
                     img: perso1,
+                    class: 'N°',
                     format: 'img',
                 },
                 {
@@ -221,6 +233,7 @@ export default {
                     nameOfImage:'n2',
                     tag:['graphisme'],
                     img: perso2,
+                    class: 'N°',
                     format: 'img',
                 },
                 {
@@ -228,6 +241,7 @@ export default {
                     nameOfImage:'n3',
                     tag:['graphisme'],
                     img: perso3,
+                    class: 'N°',
                     format: 'img',
                 },
                 {
@@ -235,6 +249,7 @@ export default {
                     nameOfImage:'n4',
                     tag:['graphisme'],
                     img: perso4,
+                    class: 'N°',
                     format: 'img',
                 },
                 {
@@ -242,6 +257,7 @@ export default {
                     nameOfImage:'n5',
                     tag:['graphisme'],
                     img: perso5,
+                    class: 'N°',
                     format: 'img',
                 },
                 {
@@ -249,6 +265,7 @@ export default {
                     nameOfImage:'n6',
                     tag:['graphisme'],
                     img: perso6,
+                    class: 'N°',
                     format: 'img',
                 },
                 {
@@ -256,6 +273,7 @@ export default {
                     nameOfImage:'n7',
                     tag:['graphisme'],
                     img: perso7,
+                    class: 'N°',
                     format: 'img',
                 },
                 

@@ -1436,9 +1436,47 @@ li a{
   text-align: center;
 }
 .container-detail{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
   padding: 0.5rem 0 ; 
   background-color: #000;
 }
 .image-box img{
   width: 100%;
+}
+.Laetitia1{
+  width: 65%;
+}
+.Laetitia1 img{
+  width: 100%;
+  height: auto;
+}
+.Laetitia2{
+  width: 35%;
+  height: 100%;
+}
+.Laetitia2 img{
+  width: 100%;
+  height: 100%;
+}
+.Laetitia3 img{
+  width: 100%;
+  height: auto;
+}
+.Laetitia4 img{
+  width: 100%;
+  height: auto;
+}
+.Blue1 img{
+  width: 100%;
+  height: auto;
+}
+.Sixfeet img{
+  width: 100%;
+  height: auto;
+}
+.N° img{
+  width: 100%;
+  height: auto;
 }
