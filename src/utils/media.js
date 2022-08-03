@@ -49,6 +49,10 @@ import perso6 from "@/assets/img/N°/Perso6.jpg";
 import perso7 from "@/assets/img/N°/Perso7.jpg";
 import numberBanner from "@/assets/img/N°/Vin.mp4";
 
+import neueAraBanner from '@/assets/img/MAWEN/Neue_Ara.mp4';
+
+import veloBanner from '@/assets/img/La_ruche_a_velos/Vélo.mp4';
+
 
 export {
   cycliste,
@@ -100,4 +104,8 @@ export {
   perso6,
   perso7,
   numberBanner,
+
+  neueAraBanner,
+
+  veloBanner,
 };
