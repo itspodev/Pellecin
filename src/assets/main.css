@@ -1357,4 +1357,85 @@ li a{
   .project-text-box p {
     text-align:left
   }
+<<<<<<< HEAD
+}
+
+.picAnimation {
+  transform: rotate(50deg) scale(0.5);
+  animation: 2.5s rightSlide 1 forwards;
+}
+
+@keyframes rightSlide {
+  to { position:relative; left: -50em; transform: rotate(50deg) scale(0.5) }
+  100% { position: relative; left:0; transform: rotate(0) scale(1) }
+}
+
+.shwMoreTransition:hover {
+  letter-spacing: 4px;
+  transform: scale(2) translateX(-14.5em);
+  text-shadow: 1px 1px 2px rgb(215, 18, 18);
+  border-bottom: none;
+}
+
+/*********** PROJECT PAGE **********/
+
+.project-banner__img {
+  width: 100%;
+  height: auto;
+}
+
+.project-text-box {
+  margin-top: -1em;
+  padding: 4em;
+  background-color:#000;
+  color:#fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-text-box h1 {
+  font-size: 4.5em;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+
+.project-text-box__navbar {
+  display: flex;
+}
+
+.project-text-box p {
+  font-size: 1.5em;   
+  margin: 0; 
+  max-width: 74vw;
+  text-align: center;
+}
+
+.project-text-box__navbar h2 {
+  margin: 0.5em 1em 1em;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.project-text-box h3 {
+  font-size: 1.7em;
+}
+
+.project-text-box__tags2-box {
+  max-width: 60vw;
+  margin:3em 0;
+  padding: 2em;
+  border: 1px solid #fff;
+}
+
+.project-text-box__tags2-box h2 {
+  margin: 0;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-align: center;
+}
+.image-box img{
+  width: 100%;
+
 }

@@ -127,7 +127,7 @@ export default {
                 }
             ],
 
-            selectedImg: null,
+            selectedImg:[],
             imageArray: [
                 {
                     name:'Laëtitia',
@@ -280,7 +280,9 @@ export default {
         getSelectedImgArray: function() {
             this.imageArray.forEach(image => {
                 if(this.url_data === image.name){
-                    this.selectedImg = image
+                    this.selectedImg.push(image)
+                    console.log(this.selectedImg)
+
                 }
             });
         }
