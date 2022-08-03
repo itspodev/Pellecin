@@ -11,7 +11,7 @@
 
     <DetailElement v-if="this.selectedDesc" :description="this.selectedDesc"/>
 
-    <DetailImage v-for="project in imageArray" :key="project.name" :image="project"/>
+    <DetailImage v-if="this.selectedImg" :image="this.selectedImg"/>
     
 
     <MainFooter/>
@@ -126,7 +126,8 @@ export default {
                     tag2: ['graphisme','étiquettes','collage','peinture', 'photoshop', 'packaging', 'illustrator']
                 }
             ],
-            url_data: null,
+
+            selectedImg: null,
             imageArray: [
                 {
                     name:'Laëtitia',
@@ -274,13 +275,21 @@ export default {
                 if(this.url_data === banner.name) {
                     this.selectedBanner = banner
                 }
-            } );
+            });
+        },
+        getSelectedImgArray: function() {
+            this.imageArray.forEach(image => {
+                if(this.url_data === image.name){
+                    this.selectedImg = image
+                }
+            });
         }
     },
     mounted() {
         this.url_data=this.$route.params.name;
         this.getSelectedBannArray();
         this.getSelectedDescArray();
+        this.getSelectedImgArray();
     }
 }
 </script>
