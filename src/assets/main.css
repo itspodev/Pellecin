@@ -1357,7 +1357,7 @@ li a{
   .project-text-box p {
     text-align:left
   }
-<<<<<<< HEAD
+
 }
 
 .picAnimation {
@@ -1435,7 +1435,10 @@ li a{
   text-transform: uppercase;
   text-align: center;
 }
+.container-detail{
+  padding: 0.5rem 0 ; 
+  background-color: #000;
+}
 .image-box img{
   width: 100%;
-
 }

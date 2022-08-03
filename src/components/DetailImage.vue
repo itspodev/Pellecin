@@ -1,12 +1,14 @@
 <template>
     <slot>
-        <div v-for="task in this.image" :key="task.name" class="image-box">
-            <img
-                v-if="task.format === 'img'" 
-                :alt="task.name" 
-                :src="task.img" 
-            />
-        </div>
+        <section class="container-detail">
+            <div v-for="task in this.image" :key="task.name" class="image-box">
+                <img
+                    v-if="task.format === 'img'" 
+                    :alt="task.name" 
+                    :src="task.img" 
+                />
+            </div>
+        </section>
     </slot>
 </template>
 
