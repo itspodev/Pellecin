@@ -5,9 +5,6 @@
 
     <DetailElement v-if="this.selectedProject" :description="this.selectedProject"/>
 
-        
-
-
     <NavBar v-if="this.selectedBanner && this.selectedBanner.format === 'gif'">
         <img :src=this.selectedBanner.content alt="" :class=this.selectedBanner.class />
     </NavBar>
@@ -17,9 +14,7 @@
 
     <DetailElement v-if="this.selectedDesc" :description="this.selectedDesc"/>
 
-    <!-- <DetailElement v-for="project in projectImage" 
-                        :key="project.name"  
-                        :project="project"/> -->
+    <DetailImage v-for="project in imageArray" :key="project.name" :image="project"/>
     
 
     <MainFooter/>
@@ -28,6 +23,7 @@
 <script>
 import NavBar from '@/components/NavBar.vue'
 import DetailElement from '@/components/DetailElement.vue'
+import DetailImage from '@/components/DetailImage.vue'
 import MainFooter from '@/components/MainFooter.vue'
 
 import {
@@ -64,6 +60,7 @@ export default {
         'NavBar': NavBar,
         'MainFooter': MainFooter,
         'DetailElement': DetailElement,
+        'DetailImage' : DetailImage,
         },
     props:['project'],
     data: function() {
@@ -132,7 +129,8 @@ export default {
                     tag2: ['graphisme','étiquettes','collage','peinture', 'photoshop', 'packaging', 'illustrator']
                 }
             ],
-            projectImage: [
+            url_data: null,
+            imageArray: [
                 {
                     name:'Laëtitia',
                     nameOfImage:'Carte Laëtitia',

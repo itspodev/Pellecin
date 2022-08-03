@@ -23,9 +23,9 @@ import mail from "@/assets/img/Mail-01.png";
 import behance from "@/assets/img/Behance-01.png";
 
 import carte from "@/assets/img/LAETITIA/Carte.jpg";
-import flyer from "@/assets/img/LEATITIA/Flyer.jpg";
-import instagram from "@/assets/img/LEATITIA/Insta.jpg";
-import logo2 from "@/assets/img/LEATITIA/Logo2.png";
+import flyer from "@/assets/img/LAETITIA/Flyer.jpg";
+import instagram from "@/assets/img/LAETITIA/Insta.jpg";
+import logo2 from "@/assets/img/LAETITIA/Logo2.png";
 import laetitiaBanner from "@/assets/img/LAETITIA/Motion_Laetitia.gif";
 
 
