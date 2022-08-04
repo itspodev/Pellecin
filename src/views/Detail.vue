@@ -177,7 +177,7 @@ export default {
                     nameOfImage:'Carte Laëtitia',
                     tag:["motion","web","branding",'édition'],
                     img: carte,
-                    class: 'Laetitia1',
+                    class: 'Laetitia1 , carteLAETITIA',
                     format: 'img',
                 },
                 {
@@ -185,7 +185,7 @@ export default {
                     nameOfImage:'Logo Laëtitia',
                     tag:["motion","web","branding",'édition'],
                     img: logo2,
-                    class: 'Laetitia2',
+                    class: 'Laetitia2 , logoLAETITIA',
                     format: 'img',
                 },
                 {
@@ -193,7 +193,7 @@ export default {
                     nameOfImage:'Flyer Laëtitia',
                     tag:["motion","web","branding",'édition'],
                     img: flyer,
-                    class: 'img-full',
+                    class: 'img-full , flyerLAETITIA',
                     format: 'img',
                 },
                 {
@@ -201,7 +201,7 @@ export default {
                     nameOfImage:'Insta Laëtitia',
                     tag:["motion","web","branding",'édition'],
                     img: instagram,
-                    class: 'img-full',
+                    class: 'img-full , instaLAETITIA',
                     format: 'img',
                 },
                 

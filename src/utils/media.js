@@ -61,7 +61,7 @@ import laruche from '@/assets/img/La_ruche_a_velos/La_ruche.jpg';
 import logo2laruche from '@/assets/img/La_ruche_a_velos/logo2.jpg';
 import pageerror from '@/assets/img/La_ruche_a_velos/Page_error.jpg';
 import pyctogramme from '@/assets/img/La_ruche_a_velos/Pyctogramme.jpg';
-import siteinternet from '@/assets/img/La_ruche_a_velos/Site internet.png';
+import siteinternet from '@/assets/img/La_ruche_a_velos/Site internet .png';
 import veloBanner from '@/assets/img/La_ruche_a_velos/Vélo.mp4';
 
 import behancemawen from '@/assets/img/MAWEN/behance_mawen.png';
