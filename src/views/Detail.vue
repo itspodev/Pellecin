@@ -44,9 +44,9 @@ import {
     perso7,
     numberBanner,
 
-    neueAraBanner,
+    
 
-    veloBanner,
+    
 
     actualités,
     collectivité,
@@ -57,12 +57,15 @@ import {
     pageerror,
     pyctogramme,
     siteinternet,
+    veloBanner,
 
     behancemawen,
     dessinmawen,
     mockupmawen,
     propo1,
-    vynil,
+    vynilneu,
+    neueAraBanner,
+
 } from '@/utils/media'
 
 export default {
@@ -318,6 +321,133 @@ export default {
                     class: 'N°',
                     format: 'img',
                 },
+
+                {
+                    name:'La-ruche-à-velo',
+                    nameOfImage:'actualités',
+                    tag:['web', 'branding', 'illustration'],
+                    img: actualités,
+                    class: 'la ruche1',
+                    format: 'img',
+                },
+                {
+                    name:'La-ruche-à-velo',
+                    nameOfImage:'collectivité',
+                    tag:['web', 'branding', 'illustration'],
+                    img: collectivité,
+                    class: 'la ruche2',
+                    format: 'img',
+                },
+                {
+                    name:'La-ruche-à-velo',
+                    nameOfImage:'cyclistelaruche',
+                    tag:['web', 'branding', 'illustration'],
+                    img: cyclistelaruche,
+                    class: 'la ruche3',
+                    format: 'img',
+                },
+                {
+                    name:'La-ruche-à-velo',
+                    nameOfImage:'hello',
+                    tag:['web', 'branding', 'illustration'],
+                    img: hello,
+                    class: 'la ruche4',
+                    format: 'img',
+                },
+                {
+                    name:'La-ruche-à-velo',
+                    nameOfImage:'laruche',
+                    tag:['web', 'branding', 'illustration'],
+                    img: laruche,
+                    class: 'la ruche5',
+                    format: 'img',
+                },
+                {
+                    name:'La-ruche-à-velo',
+                    nameOfImage:'logo2laruche',
+                    tag:['web', 'branding', 'illustration'],
+                    img: logo2laruche,
+                    class: 'la ruche6',
+                    format: 'img',
+                },
+                {
+                    name:'La-ruche-à-velo',
+                    nameOfImage:'pageerror',
+                    tag:['web', 'branding', 'illustration'],
+                    img: pageerror,
+                    class: 'la ruche7',
+                    format: 'img',
+                },
+                {
+                    name:'La-ruche-à-velo',
+                    nameOfImage:'pyctogramme',
+                    tag:['web', 'branding', 'illustration'],
+                    img: pyctogramme,
+                    class: 'la ruche8',
+                    format: 'img',
+                },
+                {
+                    name:'La-ruche-à-velo',
+                    nameOfImage:'siteinternet',
+                    tag:['web', 'branding', 'illustration'],
+                    img: siteinternet,
+                    class: 'la ruche9',
+                    format: 'img',
+                },
+
+                {
+                    name:'Neue-Ära',
+                    nameOfImage:'dessinmawen',
+                    tag:['graphisme', 'motion', 'illustration'],
+                    img: dessinmawen,
+                    class: '',
+                    format: 'img',
+                },
+                {
+                    name:'Neue-Ära',
+                    nameOfImage:'behancemawen',
+                    tag:['graphisme', 'motion', 'illustration'],
+                    img: behancemawen,
+                    class: '',
+                    format: 'img',
+                },
+                {
+                    name:'Neue-Ära',
+                    nameOfImage:'mockupmawen',
+                    tag:['graphisme', 'motion', 'illustration'],
+                    img: mockupmawen,
+                    class: '',
+                    format: 'img',
+                },
+                {
+                    name:'Neue-Ära',
+                    nameOfImage:'propo1',
+                    tag:['graphisme', 'motion', 'illustration'],
+                    img: propo1,
+                    class: '',
+                    format: 'img',
+                },
+                {
+                    name:'Neue-Ära',
+                    nameOfImage:'vynil',
+                    tag:['graphisme', 'motion', 'illustration'],
+                    img: vynilneu,
+                    class: '',
+                    format: 'img',
+                },
+                
+
+
+                
+        
+
+
+
+
+
+
+
+
                 
             ],
         }

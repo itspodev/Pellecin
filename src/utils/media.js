@@ -68,7 +68,7 @@ import behancemawen from '@/assets/img/MAWEN/behance_mawen.png';
 import dessinmawen from '@/assets/img/MAWEN/DESSIN.jpg';
 import mockupmawen from '@/assets/img/MAWEN/Mockup_Mawen.jpg';
 import propo1 from '@/assets/img/MAWEN/Propo1.jpg';
-import vynil from '@/assets/img/MAWEN/vynil.jpg';
+import vynilneu from '@/assets/img/MAWEN/vynil.jpg';
 import neueAraBanner from '@/assets/img/MAWEN/Neue_Ara.mp4';
 
 export {
@@ -137,6 +137,6 @@ export {
   dessinmawen,
   mockupmawen,
   propo1,
-  vynil,
+  vynilneu,
   neueAraBanner,
 };
