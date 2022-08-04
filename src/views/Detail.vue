@@ -191,7 +191,7 @@ export default {
                     nameOfImage:'Flyer Laëtitia',
                     tag:["motion","web","branding",'édition'],
                     img: flyer,
-                    class: 'Laetitia3',
+                    class: 'img-full',
                     format: 'img',
                 },
                 {
@@ -199,7 +199,7 @@ export default {
                     nameOfImage:'Insta Laëtitia',
                     tag:["motion","web","branding",'édition'],
                     img: instagram,
-                    class: 'Laetitia4',
+                    class: 'img-full',
                     format: 'img',
                 },
                 
