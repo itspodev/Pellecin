@@ -391,38 +391,23 @@ export default {
                     format: 'img',
                 },
                 
-                         
+                     
+                     
+                {
+                    name:'Neue-Ära',
+                    nameOfImage:'propo1',
+                    tag:['graphisme', 'motion', 'illustration'],
+                    img: propo1,
+                    class: 'half-img',
+                    format: 'img',
+                },
 
                 {
                     name:'Neue-Ära',
                     nameOfImage:'dessinmawen',
                     tag:['graphisme', 'motion', 'illustration'],
                     img: dessinmawen,
-                    class: '',
-                    format: 'img',
-                },
-                {
-                    name:'Neue-Ära',
-                    nameOfImage:'behancemawen',
-                    tag:['graphisme', 'motion', 'illustration'],
-                    img: behancemawen,
-                    class: '',
-                    format: 'img',
-                },
-                {
-                    name:'Neue-Ära',
-                    nameOfImage:'mockupmawen',
-                    tag:['graphisme', 'motion', 'illustration'],
-                    img: mockupmawen,
-                    class: '',
-                    format: 'img',
-                },
-                {
-                    name:'Neue-Ära',
-                    nameOfImage:'propo1',
-                    tag:['graphisme', 'motion', 'illustration'],
-                    img: propo1,
-                    class: '',
+                    class: 'half-img',
                     format: 'img',
                 },
                 {
@@ -430,21 +415,30 @@ export default {
                     nameOfImage:'vynil',
                     tag:['graphisme', 'motion', 'illustration'],
                     img: vynilneu,
-                    class: '',
+                    class: 'img-full',
+                    format: 'img',
+                },
+
+                
+                {
+                    name:'Neue-Ära',
+                    nameOfImage:'mockupmawen',
+                    tag:['graphisme', 'motion', 'illustration'],
+                    img: mockupmawen,
+                    class: 'img-full',
+                    format: 'img',
+                },
+                {
+                    name:'Neue-Ära',
+                    nameOfImage:'behancemawen',
+                    tag:['graphisme', 'motion', 'illustration'],
+                    img: behancemawen,
+                    class: 'img-full',
                     format: 'img',
                 },
                 
-
-
                 
-        
-
-
-
-
-
-
-
+                
 
                 
             ],
