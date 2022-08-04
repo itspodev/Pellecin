@@ -1368,23 +1368,6 @@ li a{
 
 }
 
-.picAnimation {
-  transform: rotate(50deg) scale(0.5);
-  animation: 2.5s rightSlide 1 forwards;
-}
-
-@keyframes rightSlide {
-  to { position:relative; left: -50em; transform: rotate(50deg) scale(0.5) }
-  100% { position: relative; left:0; transform: rotate(0) scale(1) }
-}
-
-.shwMoreTransition:hover {
-  letter-spacing: 4px;
-  transform: scale(2) translateX(-14.5em);
-  text-shadow: 1px 1px 2px rgb(215, 18, 18);
-  border-bottom: none;
-}
-
 /*********** PROJECT PAGE **********/
 
 .project-banner__img {
