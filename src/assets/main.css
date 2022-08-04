@@ -1436,17 +1436,18 @@ li a{
   text-align: center;
 }
 
-.containerProjectLAETITIA img {
+/* .containerProjectLAETITIA img {
   width: 100%;
   height: auto;
   object-fit: cover;
 }
 
 .containerProjectLAETITIA {
+  background-color: #000;
   display: grid;
   grid-auto-columns: 1fr;
   grid-template-columns: 1.1fr 1.1fr 1.3fr 1fr 1fr 1fr 1fr .5fr;
-  grid-template-rows: .7fr 1fr 1fr;
+  grid-template-rows: .6fr 1fr 1fr;
   gap: 10px 10px;
   grid-template-areas: "carteLAETITIA carteLAETITIA carteLAETITIA carteLAETITIA logoLAETITIA logoLAETITIA logoLAETITIA logoLAETITIA"
   "flyerLAETITIA flyerLAETITIA flyerLAETITIA flyerLAETITIA flyerLAETITIA flyerLAETITIA flyerLAETITIA flyerLAETITIA"
@@ -1455,11 +1456,10 @@ li a{
 .carteLAETITIA { grid-area: carteLAETITIA; }
 .logoLAETITIA { grid-area: logoLAETITIA; }
 .flyerLAETITIA { grid-area: flyerLAETITIA; }
-.instaLAETITIA { grid-area: instaLAETITIA; }
+.instaLAETITIA { grid-area: instaLAETITIA; } */
 
 
 .container-detail{
-
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;

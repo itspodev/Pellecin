@@ -1,7 +1,7 @@
 <template>
     <slot>
-        <section class="container-detail">
-            <div v-for="task in this.image" :key="task.name" :class="task.class">
+        <section class="container-detail , containerProjectLAETITIA">
+            <div v-for="task in this.image" :key="task.name" :class="`${task.class} gridItems`">
                 <img
                     v-if="task.format === 'img'" 
                     :alt="task.name" 
@@ -16,20 +16,6 @@
                 />
             </div>
         </section>
-
-        <!-- <section class="containerProjectLAETITIA">
-            <div v-for="task in this.image" :key="task.name" :class="`${task.class} gridItems`">
-                <img 
-                    :alt="task.name" 
-                    :src="task.img" 
-                />
-                <video 
-                    loop="infinite" 
-                    autoplay="autoplay" 
-                    muted=''
-                />
-            </div>
-        </section> -->
     </slot>
 </template>
 
