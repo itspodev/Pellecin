@@ -317,13 +317,22 @@ export default {
                     class: 'img-full',
                     format: 'img',
                 },
-
+                
                 {
                     name:'La-ruche-à-velo',
-                    nameOfImage:'actualités',
+                    nameOfImage:'logo2laruche',
                     tag:['web', 'branding', 'illustration'],
-                    img: actualités,
-                    class: 'la ruche1',
+                    img: logo2laruche,
+                    class: 'half-img',
+                    format: 'img',
+                },
+                
+                {
+                    name:'La-ruche-à-velo',
+                    nameOfImage:'cyclistelaruche',
+                    tag:['web', 'branding', 'illustration'],
+                    img: cyclistelaruche,
+                    class: 'half-img',
                     format: 'img',
                 },
                 {
@@ -331,15 +340,15 @@ export default {
                     nameOfImage:'collectivité',
                     tag:['web', 'branding', 'illustration'],
                     img: collectivité,
-                    class: 'la ruche2',
+                    class: 'img-full',
                     format: 'img',
                 },
                 {
                     name:'La-ruche-à-velo',
-                    nameOfImage:'cyclistelaruche',
+                    nameOfImage:'actualités',
                     tag:['web', 'branding', 'illustration'],
-                    img: cyclistelaruche,
-                    class: 'la ruche3',
+                    img: actualités,
+                    class: 'img-full',
                     format: 'img',
                 },
                 {
@@ -347,7 +356,7 @@ export default {
                     nameOfImage:'hello',
                     tag:['web', 'branding', 'illustration'],
                     img: hello,
-                    class: 'la ruche4',
+                    class: 'img-full',
                     format: 'img',
                 },
                 {
@@ -355,31 +364,17 @@ export default {
                     nameOfImage:'laruche',
                     tag:['web', 'branding', 'illustration'],
                     img: laruche,
-                    class: 'la ruche5',
+                    class: 'img-full',
                     format: 'img',
                 },
-                {
-                    name:'La-ruche-à-velo',
-                    nameOfImage:'logo2laruche',
-                    tag:['web', 'branding', 'illustration'],
-                    img: logo2laruche,
-                    class: 'la ruche6',
-                    format: 'img',
-                },
-                {
-                    name:'La-ruche-à-velo',
-                    nameOfImage:'pageerror',
-                    tag:['web', 'branding', 'illustration'],
-                    img: pageerror,
-                    class: 'la ruche7',
-                    format: 'img',
-                },
+                
+                
                 {
                     name:'La-ruche-à-velo',
                     nameOfImage:'pyctogramme',
                     tag:['web', 'branding', 'illustration'],
                     img: pyctogramme,
-                    class: 'la ruche8',
+                    class: 'img-full',
                     format: 'img',
                 },
                 {
@@ -387,7 +382,7 @@ export default {
                     nameOfImage:'siteinternet',
                     tag:['web', 'branding', 'illustration'],
                     img: siteinternet,
-                    class: 'la ruche9',
+                    class: 'img-full',
                     format: 'img',
                 },
 

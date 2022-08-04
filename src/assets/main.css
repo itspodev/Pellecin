@@ -1472,3 +1472,10 @@ li a{
   width: 100%;
   height: auto;
 }
+.half-img{
+width: 50%;
+}
+.half-img img{
+  width: 100%;
+  height: auto;
+}
