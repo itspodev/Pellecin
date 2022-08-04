@@ -1,7 +1,7 @@
 <template>
     <NavBar>
-        <img  v-if="this.selectedBanner && this.selectedBanner.format === 'gif'" :src=this.selectedBanner.content alt="" :class=this.selectedBanner.class />
-        <video v-else-if="this.selectedBanner && this.selectedBanner.format === 'mp4'" autoplay="autoplay" muted="" loop="infinite" :src=this.selectedBanner.content alt="" :class=this.selectedBanner.class />
+        <img  v-if="this.selectedBanner && this.selectedBanner.format === 'gif'" :src=this.selectedBanner.content :alt=this.selectedBanner.name :class=this.selectedBanner.class />
+        <video v-else-if="this.selectedBanner && this.selectedBanner.format === 'mp4'" autoplay="autoplay" muted="" loop="infinite" :src=this.selectedBanner.content :alt="this.selectedBanner.name" :class=this.selectedBanner.class />
     </NavBar>
 
     <DetailDescription v-if="this.selectedDesc" :description="this.selectedDesc"/>

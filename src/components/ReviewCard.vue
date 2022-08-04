@@ -1,19 +1,19 @@
 <template>
-    <div class="review-card">
-        <div class="review-card__up">
+    <article class="review-card">
+        <article class="review-card__up">
             <p>Clients Satisfaits !</p>
             <h2>Les retours</h2>
-        </div>
+        </article>
         <ReviewCarousel @nextSlide="nextSlide" @prevSlide="prevSlide ">
             <ReviewCarouselSlide :key="slide" :index="index" :visibleSlide="visibleSlide" :direction="direction" v-for="(slide,index) in reviews" >
-                <div class="review-card__cite-box">
+                <article class="review-card__cite-box">
                     <cite>&laquo; {{slide.textPt1}}</cite>
                     <cite>{{slide.textPt2}} &raquo;</cite>
                     <h3>{{slide.author}}</h3>
-                </div>
+                </article>
             </ReviewCarouselSlide>
         </ReviewCarousel>
-    </div>
+    </article>
 </template>
 
 <script>

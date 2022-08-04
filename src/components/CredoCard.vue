@@ -1,6 +1,6 @@
 <template>
-    <div class="credo-card">
-        <div class="credo-card__text-box">  <!-- text -->
+    <article class="credo-card">
+        <article class="credo-card__text-box">  <!-- text -->
             <h2>Mes valeurs,</h2>
             <h2>mes inspirations.</h2>
             <hr>
@@ -9,11 +9,11 @@
                 <span>la bienveillance et l'écoute</span> pour chaque projet qui se présente à moi.</p>
             <p>J'apporte <span>une attention toute particulière à l'environnement et à l'urgence écologique</span>
             . Je suis plus enclin à travailler ou à apporter des solutions à des projets engagés.</p>
-        </div>  
-        <div class="credo-card__img-box"> <!--picture frame -->
+        </article>  
+        <aside class="credo-card__img-box"> <!--picture frame -->
             <img src="@/assets/img/a_propos.gif" alt="gif présentant valeurs et inspirations"/>
-        </div> 
-    </div>
+        </aside> 
+    </article>
 </template>
 
 <script>

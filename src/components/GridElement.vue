@@ -13,7 +13,7 @@
             muted=''
         />
         <div class="text-over">
-            <router-link :to="{ name: 'detail', params: { name: this.project.name.replaceAll(' ', '-') } }">
+            <router-link :to="{ name: 'detail', params: { name: this.project.name.replaceAll(' ', '-') } }" @click.native="scrollToTop">
                 <h3>{{this.project.name}}</h3>
                 <p>{{this.tag.join(', ')}}</p>
             </router-link>
@@ -33,6 +33,9 @@ export default{
     methods: {
         getTag() {
             this.tag = this.project.tag.filter(tag => tag !== 'home')
+        },
+        scrollToTop: function() {
+            window.scrollTo(0,0);
         }
   },
   created() {
