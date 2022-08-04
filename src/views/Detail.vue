@@ -44,10 +44,6 @@ import {
     perso7,
     numberBanner,
 
-    
-
-    
-
     actualités,
     collectivité,
     cyclistelaruche,
@@ -212,7 +208,7 @@ export default {
                     nameOfImage:'Mockup Blue',
                     tag:['graphisme','édition'],
                     img: mockup,
-                    class: 'Blue1',
+                    class: 'img-full',
                     format: 'img',
                 },
                 {
@@ -220,7 +216,7 @@ export default {
                     nameOfImage:'Mockup2 Blue',
                     tag:['graphisme','édition'],
                     img: mockup2,
-                    class: 'Blue1',
+                    class: 'img-full',
                     format: 'img',
                 },
                 {
@@ -228,7 +224,7 @@ export default {
                     nameOfImage:'Bannière Blue',
                     tag:['graphisme','édition'],
                     img: bannière,
-                    class: 'Blue1',
+                    class: 'img-full',
                     format: 'img',
                 },
 
@@ -237,7 +233,7 @@ export default {
                     nameOfImage:'Triptique Sixfeet',
                     tag:['graphisme','édition'],
                     img: triptique,
-                    class: 'Sixfeet',
+                    class: 'img-full',
                     format: 'img',
                 },
                 {
@@ -245,7 +241,7 @@ export default {
                     nameOfImage:'Paysage Sixfeet',
                     tag:['graphisme','édition'],
                     img: paysage,
-                    class: 'Sixfeet',
+                    class: 'img-full',
                     format: 'img',
                 },
                 {
@@ -253,7 +249,7 @@ export default {
                     nameOfImage:'Les4 Sixfeet',
                     tag:['graphisme','édition'],
                     img: les4sixfeet,
-                    class: 'Sixfeet',
+                    class: 'img-full',
                     format: 'img',
                 },
                 {
@@ -270,7 +266,7 @@ export default {
                     nameOfImage:'n1',
                     tag:['graphisme'],
                     img: perso1,
-                    class: 'N°',
+                    class: 'img-full',
                     format: 'img',
                 },
                 {
@@ -278,7 +274,7 @@ export default {
                     nameOfImage:'n2',
                     tag:['graphisme'],
                     img: perso2,
-                    class: 'N°',
+                    class: 'img-full',
                     format: 'img',
                 },
                 {
@@ -286,7 +282,7 @@ export default {
                     nameOfImage:'n3',
                     tag:['graphisme'],
                     img: perso3,
-                    class: 'N°',
+                    class: 'img-full',
                     format: 'img',
                 },
                 {
@@ -294,7 +290,7 @@ export default {
                     nameOfImage:'n4',
                     tag:['graphisme'],
                     img: perso4,
-                    class: 'N°',
+                    class: 'img-full',
                     format: 'img',
                 },
                 {
@@ -302,7 +298,7 @@ export default {
                     nameOfImage:'n5',
                     tag:['graphisme'],
                     img: perso5,
-                    class: 'N°',
+                    class: 'img-full',
                     format: 'img',
                 },
                 {
@@ -310,7 +306,7 @@ export default {
                     nameOfImage:'n6',
                     tag:['graphisme'],
                     img: perso6,
-                    class: 'N°',
+                    class: 'img-full',
                     format: 'img',
                 },
                 {
@@ -318,7 +314,7 @@ export default {
                     nameOfImage:'n7',
                     tag:['graphisme'],
                     img: perso7,
-                    class: 'N°',
+                    class: 'img-full',
                     format: 'img',
                 },
 
