@@ -49,10 +49,27 @@ import perso6 from "@/assets/img/N°/Perso6.jpg";
 import perso7 from "@/assets/img/N°/Perso7.jpg";
 import numberBanner from "@/assets/img/N°/Vin.mp4";
 
-import neueAraBanner from '@/assets/img/MAWEN/Neue_Ara.mp4';
 
+
+
+
+import actualités from '@/assets/img/La_ruche_a_velos/actualités.jpg';
+import collectivité from '@/assets/img/La_ruche_a_velos/collectivité.jpg';
+import cyclistelaruche from '@/assets/img/La_ruche_a_velos/cycliste.jpg';
+import hello from '@/assets/img/La_ruche_a_velos/Hello.jpg';
+import laruche from '@/assets/img/La_ruche_a_velos/La_ruche.jpg';
+import logo2laruche from '@/assets/img/La_ruche_a_velos/logo2.jpg';
+import pageerror from '@/assets/img/La_ruche_a_velos/Page_error.jpg';
+import pyctogramme from '@/assets/img/La_ruche_a_velos/Pyctogramme.jpg';
+import siteinternet from '@/assets/img/La_ruche_a_velos/Site internet.png';
 import veloBanner from '@/assets/img/La_ruche_a_velos/Vélo.mp4';
 
+import behancemawen from '@/assets/img/MAWEN/behance_mawen.png';
+import dessinmawen from '@/assets/img/MAWEN/DESSIN.jpg';
+import mockupmawen from '@/assets/img/MAWEN/Mockup_Mawen.jpg';
+import propo1 from '@/assets/img/MAWEN/Propo1.jpg';
+import vynil from '@/assets/img/MAWEN/vynil.jpg';
+import neueAraBanner from '@/assets/img/MAWEN/Neue_Ara.mp4';
 
 export {
   cycliste,
@@ -105,7 +122,21 @@ export {
   perso7,
   numberBanner,
 
-  neueAraBanner,
-
+  actualités,
+  collectivité,
+  cyclistelaruche,
+  hello,
+  laruche,
+  logo2laruche,
+  pageerror,
+  pyctogramme,
+  siteinternet,
   veloBanner,
+
+  behancemawen,
+  dessinmawen,
+  mockupmawen,
+  propo1,
+  vynil,
+  neueAraBanner,
 };

@@ -7,7 +7,6 @@
     <DetailDescription v-if="this.selectedDesc" :description="this.selectedDesc"/>
 
     <DetailImage v-if="this.selectedImg" :image="this.selectedImg"/>
-    
 
     <MainFooter/>
 </template>
@@ -48,6 +47,22 @@ import {
     neueAraBanner,
 
     veloBanner,
+
+    actualités,
+    collectivité,
+    cyclistelaruche,
+    hello,
+    laruche,
+    logo2laruche,
+    pageerror,
+    pyctogramme,
+    siteinternet,
+
+    behancemawen,
+    dessinmawen,
+    mockupmawen,
+    propo1,
+    vynil,
 } from '@/utils/media'
 
 export default {

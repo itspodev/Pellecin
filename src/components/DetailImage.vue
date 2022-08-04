@@ -6,7 +6,6 @@
                     v-if="task.format === 'img'" 
                     :alt="task.name" 
                     :src="task.img" 
-                    
                 />
             </div>
         </section>
