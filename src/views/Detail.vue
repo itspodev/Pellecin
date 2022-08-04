@@ -317,7 +317,7 @@ export default {
                     class: 'img-full',
                     format: 'img',
                 },
-                
+
                 {
                     name:'La-ruche-à-velo',
                     nameOfImage:'logo2laruche',
@@ -326,7 +326,6 @@ export default {
                     class: 'half-img',
                     format: 'img',
                 },
-                
                 {
                     name:'La-ruche-à-velo',
                     nameOfImage:'cyclistelaruche',
@@ -337,9 +336,49 @@ export default {
                 },
                 {
                     name:'La-ruche-à-velo',
+                    nameOfImage:'pageerror',
+                    tag:['web', 'branding', 'illustration'],
+                    img: pageerror,
+                    class: 'img-full',
+                    format: 'img',
+                },
+                {
+                    name:'La-ruche-à-velo',
+                    nameOfImage:'laruche',
+                    tag:['web', 'branding', 'illustration'],
+                    img: laruche,
+                    class: 'img-full',
+                    format: 'img',
+                }, 
+                {
+                    name:'La-ruche-à-velo',
+                    nameOfImage:'pyctogramme',
+                    tag:['web', 'branding', 'illustration'],
+                    img: pyctogramme,
+                    class: 'img-full',
+                    format: 'img',
+                },
+                {
+                    name:'La-ruche-à-velo',
+                    nameOfImage:'hello',
+                    tag:['web', 'branding', 'illustration'],
+                    img: hello,
+                    class: 'half-img',
+                    format: 'img',
+                },
+                {
+                    name:'La-ruche-à-velo',
                     nameOfImage:'collectivité',
                     tag:['web', 'branding', 'illustration'],
                     img: collectivité,
+                    class: 'half-img',
+                    format: 'img',
+                },
+                {
+                    name:'La-ruche-à-velo',
+                    nameOfImage:'siteinternet',
+                    tag:['web', 'branding', 'illustration'],
+                    img: siteinternet,
                     class: 'img-full',
                     format: 'img',
                 },
@@ -351,40 +390,8 @@ export default {
                     class: 'img-full',
                     format: 'img',
                 },
-                {
-                    name:'La-ruche-à-velo',
-                    nameOfImage:'hello',
-                    tag:['web', 'branding', 'illustration'],
-                    img: hello,
-                    class: 'img-full',
-                    format: 'img',
-                },
-                {
-                    name:'La-ruche-à-velo',
-                    nameOfImage:'laruche',
-                    tag:['web', 'branding', 'illustration'],
-                    img: laruche,
-                    class: 'img-full',
-                    format: 'img',
-                },
                 
-                
-                {
-                    name:'La-ruche-à-velo',
-                    nameOfImage:'pyctogramme',
-                    tag:['web', 'branding', 'illustration'],
-                    img: pyctogramme,
-                    class: 'img-full',
-                    format: 'img',
-                },
-                {
-                    name:'La-ruche-à-velo',
-                    nameOfImage:'siteinternet',
-                    tag:['web', 'branding', 'illustration'],
-                    img: siteinternet,
-                    class: 'img-full',
-                    format: 'img',
-                },
+                         
 
                 {
                     name:'Neue-Ära',
