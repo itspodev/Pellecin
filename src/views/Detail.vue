@@ -60,6 +60,8 @@ import {
     mockupmawen,
     propo1,
     vynilneu,
+    // basdepage,
+    // squelette,    
     neueAraBanner,
 
 } from '@/utils/media'
@@ -391,8 +393,6 @@ export default {
                     format: 'img',
                 },
                 
-                     
-                     
                 {
                     name:'Neue-Ära',
                     nameOfImage:'propo1',
@@ -401,7 +401,6 @@ export default {
                     class: 'half-img',
                     format: 'img',
                 },
-
                 {
                     name:'Neue-Ära',
                     nameOfImage:'dessinmawen',
@@ -418,8 +417,6 @@ export default {
                     class: 'img-full',
                     format: 'img',
                 },
-
-                
                 {
                     name:'Neue-Ära',
                     nameOfImage:'mockupmawen',
@@ -428,6 +425,14 @@ export default {
                     class: 'img-full',
                     format: 'img',
                 },
+                // {
+                //     name:'Neue-Ära',
+                //     nameOfImage:'squelette',
+                //     tag:['graphisme', 'motion', 'illustration'],
+                //     img: squelette,
+                //     class: 'img-full',
+                //     format: 'mp4',
+                // },
                 {
                     name:'Neue-Ära',
                     nameOfImage:'behancemawen',
@@ -436,6 +441,14 @@ export default {
                     class: 'img-full',
                     format: 'img',
                 },
+                // {
+                //     name:'Neue-Ära',
+                //     nameOfImage:'basdepage',
+                //     tag:['graphisme', 'motion', 'illustration'],
+                //     img: basdepage,
+                //     class: 'img-full',
+                //     format: 'mp4',
+                // },
                 
                 
                 

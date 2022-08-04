@@ -69,6 +69,8 @@ import dessinmawen from '@/assets/img/MAWEN/DESSIN.jpg';
 import mockupmawen from '@/assets/img/MAWEN/Mockup_Mawen.jpg';
 import propo1 from '@/assets/img/MAWEN/Propo1.jpg';
 import vynilneu from '@/assets/img/MAWEN/vynil.jpg';
+// import basdepage from '@assets/img/MAWEN/BAS_DE_PAGE.mp4';
+// import squelette from '@assets/img/MAWEN/SQUELETTE.mp4';
 import neueAraBanner from '@/assets/img/MAWEN/Neue_Ara.mp4';
 
 export {
@@ -138,5 +140,7 @@ export {
   mockupmawen,
   propo1,
   vynilneu,
+  // basdepage,
+  // squelette,
   neueAraBanner,
 };
