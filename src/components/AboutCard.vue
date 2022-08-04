@@ -1,14 +1,14 @@
 <template>
-    <div class="about-card">
-        <div class="about-card__img-box"> <!--picture frame -->
+    <article class="about-card">
+        <aside class="about-card__img-box"> <!--picture frame -->
             <img src="@/assets/img/AUTO-PORTRAIT-POLA.png" alt="portrait Noémie Pellencin"/>
-        </div> 
-        <div class="about-card__text-box"> <!-- text -->
-            <div class="about-card__text-box-title"> 
-            <h2>Hello !</h2>
-            <h2>Moi c'est Noémie</h2>
-            <h3>alias Pepenome</h3>
-            </div>
+        </aside> 
+        <article class="about-card__text-box"> <!-- text -->
+            <header class="about-card__text-box-title"> 
+                <h2>Hello !</h2>
+                <h2>Moi c'est Noémie</h2>
+                <h3>alias Pepenome</h3>
+            </header>
             <p>
                 Originaire de la côte basque, je suis venue m'implanter à 
                 <span>Nantes</span>
@@ -21,8 +21,8 @@
                 <span>un large panel de moyens de communication.</span>
             </p>
             <p>Je sais m'adapter <span>à tout type de domaine</span> (santé, sport, restauration, etc) et <span>à tout type de structure </span>(petite et grande entreprise, association, etc).</p>
-        </div>  
-    </div>
+        </article>  
+    </article>
 </template>
 
 <script>
