@@ -39,14 +39,14 @@ import les4sixfeet from "@/assets/img/SIXFEET/Les_4_Sixfeet.jpg";
 import gif from "@/assets/img/SIXFEET/GIF_Bas_de_Page_Sixfeet.gif";
 import sixfeetBanner from "@/assets/img/SIXFEET/Sixfeet.mp4";
 
-import perso1 from "@/assets/img/N°/Perso1.jpg";
-import perso2 from "@/assets/img/N°/Perso2.jpg";
-import perso3 from "@/assets/img/N°/Perso3.jpg";
-import perso4 from "@/assets/img/N°/Perso4.jpg";
-import perso5 from "@/assets/img/N°/Perso5.jpg";
-import perso6 from "@/assets/img/N°/Perso6.jpg";
-import perso7 from "@/assets/img/N°/Perso7.jpg";
-import numberBanner from "@/assets/img/N°/Vin.mp4";
+import perso1 from "@/assets/img/N/Perso1.jpg";
+import perso2 from "@/assets/img/N/Perso2.jpg";
+import perso3 from "@/assets/img/N/Perso3.jpg";
+import perso4 from "@/assets/img/N/Perso4.jpg";
+import perso5 from "@/assets/img/N/Perso5.jpg";
+import perso6 from "@/assets/img/N/Perso6.jpg";
+import perso7 from "@/assets/img/N/Perso7.jpg";
+import numberBanner from "@/assets/img/N/Vin.mp4";
 
 import actualités from "@/assets/img/La_ruche_a_velos/actualités.jpg";
 import collectivité from "@/assets/img/La_ruche_a_velos/collectivité.jpg";
