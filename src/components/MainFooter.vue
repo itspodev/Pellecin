@@ -1,22 +1,22 @@
 <template>
-    <ContactContainer :class="this.class" />
-    <Footer/>
+  <ContactContainer :class="this.class" />
+  <Footer />
 </template>
 
 <script>
-import Footer from './Footer.vue'
-import ContactContainer from './ContactContainer.vue'
+import Footer from "./Footer.vue";
+import ContactContainer from "./ContactContainer.vue";
 export default {
-    components: { 
-        Footer,
-        ContactContainer
+  components: {
+    Footer,
+    ContactContainer,
+  },
+  name: "MainFooter",
+  props: {
+    class: {
+      default: "main-footer__up",
+      type: String,
     },
-    name: 'MainFooter',
-    props: {
-        class:{
-            default: 'main-footer__up',
-            type: String
-        }
-    }
-}
+  },
+};
 </script>

@@ -28,10 +28,10 @@
     </div>
     <div class="btn-voirplus" v-if="home">
       <p class="voirplus">
-        <router-link to="/projets" class="shwMoreTransition" @mouseover="mouseOverLink()" @mouseleave="mouseLeaveLink()" @click="scrollToTop"
-          ><span :class="{ 'knwMoreAnimation-1': isTextAnimActive }">VOIR</span>
-          <span :class="{ 'knwMoreAnimation-2': isTextAnimActive }">PLUS</span></router-link
-        >
+        <router-link to="/projets" class="shwMoreTransition" @mouseover="mouseOverLink()" @mouseleave="mouseLeaveLink()" @click="scrollToTop">
+          <span :class="{ 'knwMoreAnimation-1': isTextAnimActive }">VOIR</span>
+          <span :class="{ 'knwMoreAnimation-2': isTextAnimActive }">PLUS</span>
+        </router-link>
       </p>
     </div>
   </div>
