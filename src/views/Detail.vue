@@ -491,7 +491,6 @@ export default {
                 }
             });
         },
-
         getSelectedBannArray: function() {
             this.bannersArray.forEach(banner => {
                 if(this.url_data === banner.name) {
