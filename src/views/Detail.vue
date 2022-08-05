@@ -177,7 +177,7 @@ export default {
                     nameOfImage:'Carte Laëtitia',
                     tag:["motion","web","branding",'édition'],
                     img: carte,
-                    class: 'Laetitia1 carteLAETITIA',
+                    class: 'carteLAETITIA',
                     format: 'img',
                 },
                 {
@@ -185,7 +185,7 @@ export default {
                     nameOfImage:'Logo Laëtitia',
                     tag:["motion","web","branding",'édition'],
                     img: logo2,
-                    class: 'Laetitia2 logoLAETITIA',
+                    class: 'logoLAETITIA',
                     format: 'img',
                 },
                 {
@@ -193,7 +193,7 @@ export default {
                     nameOfImage:'Flyer Laëtitia',
                     tag:["motion","web","branding",'édition'],
                     img: flyer,
-                    class: 'img-full flyerLAETITIA',
+                    class: 'flyerLAETITIA',
                     format: 'img',
                 },
                 {
@@ -201,7 +201,7 @@ export default {
                     nameOfImage:'Insta Laëtitia',
                     tag:["motion","web","branding",'édition'],
                     img: instagram,
-                    class: 'img-full instaLAETITIA',
+                    class: 'instaLAETITIA',
                     format: 'img',
                 },
                 
@@ -210,7 +210,7 @@ export default {
                     nameOfImage:'Mockup Blue',
                     tag:['graphisme','édition'],
                     img: mockup,
-                    class: 'img-full1',
+                    class: 'mockupBLUE',
                     format: 'img',
                 },
                 {
@@ -218,7 +218,7 @@ export default {
                     nameOfImage:'Mockup2 Blue',
                     tag:['graphisme','édition'],
                     img: mockup2,
-                    class: 'img-full',
+                    class: 'mockup2BLUE',
                     format: 'img',
                 },
                 {
@@ -226,7 +226,7 @@ export default {
                     nameOfImage:'Bannière Blue',
                     tag:['graphisme','édition'],
                     img: bannière,
-                    class: 'img-full',
+                    class: 'bannièreBLUE',
                     format: 'img',
                 },
 
@@ -235,7 +235,7 @@ export default {
                     nameOfImage:'Triptique Sixfeet',
                     tag:['graphisme','édition'],
                     img: triptique,
-                    class: 'img-full',
+                    class: 'triptiqueSIX',
                     format: 'img',
                 },
                 {
@@ -243,7 +243,7 @@ export default {
                     nameOfImage:'Paysage Sixfeet',
                     tag:['graphisme','édition'],
                     img: paysage,
-                    class: 'img-full',
+                    class: 'paysageSIX',
                     format: 'img',
                 },
                 {
@@ -251,7 +251,7 @@ export default {
                     nameOfImage:'Les4 Sixfeet',
                     tag:['graphisme','édition'],
                     img: les4sixfeet,
-                    class: 'img-full',
+                    class: 'les4SIX',
                     format: 'img',
                 },
                 {
@@ -259,7 +259,7 @@ export default {
                     nameOfImage:'Gif Sixfeet',
                     tag:['graphisme','édition'],
                     img: gif,
-                    class: 'Sixfeet',
+                    class: 'gifSIX',
                     format: 'gif',
                 },
 
@@ -268,7 +268,7 @@ export default {
                     nameOfImage:'n1',
                     tag:['graphisme'],
                     img: perso1,
-                    class: 'img-full',
+                    class: 'N°1',
                     format: 'img',
                 },
                 {
@@ -276,7 +276,7 @@ export default {
                     nameOfImage:'n2',
                     tag:['graphisme'],
                     img: perso2,
-                    class: 'img-full',
+                    class: 'N°2',
                     format: 'img',
                 },
                 {
@@ -284,7 +284,7 @@ export default {
                     nameOfImage:'n3',
                     tag:['graphisme'],
                     img: perso3,
-                    class: 'img-full',
+                    class: 'N°3',
                     format: 'img',
                 },
                 {
@@ -292,7 +292,7 @@ export default {
                     nameOfImage:'n4',
                     tag:['graphisme'],
                     img: perso4,
-                    class: 'img-full',
+                    class: 'N°4',
                     format: 'img',
                 },
                 {
@@ -300,7 +300,7 @@ export default {
                     nameOfImage:'n5',
                     tag:['graphisme'],
                     img: perso5,
-                    class: 'img-full',
+                    class: 'N°5',
                     format: 'img',
                 },
                 {
@@ -308,7 +308,7 @@ export default {
                     nameOfImage:'n6',
                     tag:['graphisme'],
                     img: perso6,
-                    class: 'img-full',
+                    class: 'N°6',
                     format: 'img',
                 },
                 {
@@ -316,7 +316,7 @@ export default {
                     nameOfImage:'n7',
                     tag:['graphisme'],
                     img: perso7,
-                    class: 'img-full',
+                    class: 'N°7',
                     format: 'img',
                 },
 
@@ -325,7 +325,7 @@ export default {
                     nameOfImage:'logo2laruche',
                     tag:['web', 'branding', 'illustration'],
                     img: logo2laruche,
-                    class: 'half-img',
+                    class: 'logoLARUCHE',
                     format: 'img',
                 },
                 {
@@ -333,7 +333,7 @@ export default {
                     nameOfImage:'cyclistelaruche',
                     tag:['web', 'branding', 'illustration'],
                     img: cyclistelaruche,
-                    class: 'half-img',
+                    class: 'cyclisteLARUCHE',
                     format: 'img',
                 },
                 {
@@ -341,7 +341,7 @@ export default {
                     nameOfImage:'pageerror',
                     tag:['web', 'branding', 'illustration'],
                     img: pageerror,
-                    class: 'img-full',
+                    class: 'pageerrorLARUCHE',
                     format: 'img',
                 },
                 {
@@ -349,7 +349,7 @@ export default {
                     nameOfImage:'laruche',
                     tag:['web', 'branding', 'illustration'],
                     img: laruche,
-                    class: 'img-full',
+                    class: 'laruche',
                     format: 'img',
                 }, 
                 {
@@ -357,7 +357,7 @@ export default {
                     nameOfImage:'pyctogramme',
                     tag:['web', 'branding', 'illustration'],
                     img: pyctogramme,
-                    class: 'img-full',
+                    class: 'pyctoLARUCHE',
                     format: 'img',
                 },
                 {
@@ -365,7 +365,7 @@ export default {
                     nameOfImage:'hello',
                     tag:['web', 'branding', 'illustration'],
                     img: hello,
-                    class: 'half-img',
+                    class: 'helloLARUCHE',
                     format: 'img',
                 },
                 {
@@ -373,7 +373,7 @@ export default {
                     nameOfImage:'collectivité',
                     tag:['web', 'branding', 'illustration'],
                     img: collectivité,
-                    class: 'half-img',
+                    class: 'collectivitéLARUCHE',
                     format: 'img',
                 },
                 {
@@ -381,7 +381,7 @@ export default {
                     nameOfImage:'siteinternet',
                     tag:['web', 'branding', 'illustration'],
                     img: siteinternet,
-                    class: 'img-full',
+                    class: 'siteinternetLARUCHE',
                     format: 'img',
                 },
                 {
@@ -389,7 +389,7 @@ export default {
                     nameOfImage:'actualités',
                     tag:['web', 'branding', 'illustration'],
                     img: actualités,
-                    class: 'img-full',
+                    class: 'actualitésLARUCHE',
                     format: 'img',
                 },
                 
@@ -398,7 +398,7 @@ export default {
                     nameOfImage:'propo1',
                     tag:['graphisme', 'motion', 'illustration'],
                     img: propo1,
-                    class: 'half-img',
+                    class: 'propoNEUE',
                     format: 'img',
                 },
                 {
@@ -406,7 +406,7 @@ export default {
                     nameOfImage:'dessinmawen',
                     tag:['graphisme', 'motion', 'illustration'],
                     img: dessinmawen,
-                    class: 'half-img',
+                    class: 'dessinNEUE',
                     format: 'img',
                 },
                 {
@@ -414,7 +414,7 @@ export default {
                     nameOfImage:'vynil',
                     tag:['graphisme', 'motion', 'illustration'],
                     img: vynilneu,
-                    class: 'img-full',
+                    class: 'vynilNEUE',
                     format: 'img',
                 },
                 {
@@ -422,7 +422,7 @@ export default {
                     nameOfImage:'mockupmawen',
                     tag:['graphisme', 'motion', 'illustration'],
                     img: mockupmawen,
-                    class: 'img-full',
+                    class: 'mockupNEUE',
                     format: 'img',
                 },
                 // {
@@ -438,7 +438,7 @@ export default {
                     nameOfImage:'behancemawen',
                     tag:['graphisme', 'motion', 'illustration'],
                     img: behancemawen,
-                    class: 'img-full',
+                    class: 'behanceNEUE',
                     format: 'img',
                 },
                 // {
@@ -449,10 +449,6 @@ export default {
                 //     class: 'img-full',
                 //     format: 'mp4',
                 // },
-                
-                
-                
-
                 
             ],
         }
@@ -476,11 +472,28 @@ export default {
             this.imageArray.forEach(image => {
                 if(this.url_data === image.name){
                     this.selectedImg.push(image)
-                    console.log(this.selectedImg)
-
                 }
             });
-        }
+        },
+        // classArray: function(classes) {
+        //     this.classChange
+        // },
+        // classChange: function(classes) {
+        //     switch (classes) {
+        //             default:
+        //             this.class = 'containerProjectLAETITIA'
+        //             break;
+        //             this.class = 'containerProjectBLUE'
+        //             break;
+        //             this.class = 'containerProjectSIXFEET'
+        //             break;
+        //             this.class = 'containerProjectN°'
+        //             break;
+        //             this.class = 'containerProjectLARUCHE'
+        //             break;
+        //             this.class = 'containerProjectNEUE'
+        //             break;
+        //     }
     },
     mounted() {
         this.url_data=this.$route.params.name;

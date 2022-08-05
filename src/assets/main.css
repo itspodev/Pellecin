@@ -1427,7 +1427,12 @@ li a{
   text-align: center;
 }
 
-.containerProjectLAETITIA img {
+.containerProjectLAETITIA,
+.containerProjectBLUE,
+.containerProjectSIXFEET,
+.containerProjectN°,
+.containerProjectLARUCHE,
+.containerProjectNEUE, img {
   width: 100%;
   height: auto;
   object-fit: cover;
@@ -1443,10 +1448,102 @@ li a{
   "flyerLAETITIA flyerLAETITIA flyerLAETITIA flyerLAETITIA flyerLAETITIA flyerLAETITIA flyerLAETITIA flyerLAETITIA"
   "instaLAETITIA instaLAETITIA instaLAETITIA instaLAETITIA instaLAETITIA instaLAETITIA instaLAETITIA instaLAETITIA";
 } 
+.containerProjectBLUE {
+  background-color: #000;
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-template-columns: 1.fr 1.1fr 1.2fr 1fr 1fr 1fr 1fr .5fr;
+  grid-template-rows: .6fr 1fr 1fr;
+  gap: 10px 10px; 
+  grid-template-areas: "carteLAETITIA carteLAETITIA carteLAETITIA carteLAETITIA carteLAETITIA logoLAETITIA logoLAETITIA logoLAETITIA"
+  "flyerLAETITIA flyerLAETITIA flyerLAETITIA flyerLAETITIA flyerLAETITIA flyerLAETITIA flyerLAETITIA flyerLAETITIA"
+  "instaLAETITIA instaLAETITIA instaLAETITIA instaLAETITIA instaLAETITIA instaLAETITIA instaLAETITIA instaLAETITIA";
+} 
+.containerProjectSIXFEET {
+  background-color: #000;
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-template-columns: 1.fr 1.1fr 1.2fr 1fr 1fr 1fr 1fr .5fr;
+  grid-template-rows: .6fr 1fr 1fr;
+  gap: 10px 10px; 
+  grid-template-areas: "carteLAETITIA carteLAETITIA carteLAETITIA carteLAETITIA carteLAETITIA logoLAETITIA logoLAETITIA logoLAETITIA"
+  "flyerLAETITIA flyerLAETITIA flyerLAETITIA flyerLAETITIA flyerLAETITIA flyerLAETITIA flyerLAETITIA flyerLAETITIA"
+  "instaLAETITIA instaLAETITIA instaLAETITIA instaLAETITIA instaLAETITIA instaLAETITIA instaLAETITIA instaLAETITIA";
+} 
+.containerProjectN° {
+  background-color: #000;
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-template-columns: 1.fr 1.1fr 1.2fr 1fr 1fr 1fr 1fr .5fr;
+  grid-template-rows: .6fr 1fr 1fr;
+  gap: 10px 10px; 
+  grid-template-areas: "carteLAETITIA carteLAETITIA carteLAETITIA carteLAETITIA carteLAETITIA logoLAETITIA logoLAETITIA logoLAETITIA"
+  "flyerLAETITIA flyerLAETITIA flyerLAETITIA flyerLAETITIA flyerLAETITIA flyerLAETITIA flyerLAETITIA flyerLAETITIA"
+  "instaLAETITIA instaLAETITIA instaLAETITIA instaLAETITIA instaLAETITIA instaLAETITIA instaLAETITIA instaLAETITIA";
+} 
+.containerProjectLARUCHE {
+  background-color: #000;
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-template-columns: 1.fr 1.1fr 1.2fr 1fr 1fr 1fr 1fr .5fr;
+  grid-template-rows: .6fr 1fr 1fr;
+  gap: 10px 10px; 
+  grid-template-areas: "carteLAETITIA carteLAETITIA carteLAETITIA carteLAETITIA carteLAETITIA logoLAETITIA logoLAETITIA logoLAETITIA"
+  "flyerLAETITIA flyerLAETITIA flyerLAETITIA flyerLAETITIA flyerLAETITIA flyerLAETITIA flyerLAETITIA flyerLAETITIA"
+  "instaLAETITIA instaLAETITIA instaLAETITIA instaLAETITIA instaLAETITIA instaLAETITIA instaLAETITIA instaLAETITIA";
+} 
+.containerProjectNEUE {
+  background-color: #000;
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-template-columns: 1.fr 1.1fr 1.2fr 1fr 1fr 1fr 1fr .5fr;
+  grid-template-rows: .6fr 1fr 1fr;
+  gap: 10px 10px; 
+  grid-template-areas: "propoNEUE propoNEUE propoNEUE propoNEUE dessinNEUE dessinNEUE dessinNEUE dessinNEUE"
+  "vynilNEUE vynilNEUE vynilNEUE vynilNEUE vynilNEUE vynilNEUE vynilNEUE vynilNEUE "
+  "mockupNEUE mockupNEUE mockupNEUE mockupNEUE mockupNEUE mockupNEUE mockupNEUE mockupNEUE "
+  "behanceNEUE behanceNEUE behanceNEUE behanceNEUE behanceNEUE behanceNEUE behanceNEUE behanceNEUE";
+} 
 .carteLAETITIA { grid-area: carteLAETITIA;}
 .logoLAETITIA { grid-area: logoLAETITIA; }
 .flyerLAETITIA { grid-area: flyerLAETITIA; }
 .instaLAETITIA { grid-area: instaLAETITIA; }
+
+.mockupBLUE { grid-area: mockupBLUE;}
+.mockup2BLUE { grid-area: mockup2BLUE; }
+.bannièreBLUE { grid-area: bannièreBLUE; }
+
+.triptiqueSIX { grid-area: triptiqueSIX;}
+.paysageSIX{ grid-area: paysageSIX; }
+.les4SIX { grid-area: les4SIX; }
+.gifSIX{ grid-area: gifSIX; }
+
+.N°1 { grid-area: N°1;}
+.N°2 { grid-area: N°2;}
+.N°3 { grid-area: N°3;}
+.N°4 { grid-area: N°4;}
+.N°5 { grid-area: N°5;}
+.N°6 { grid-area: N°6;}
+.N°7 { grid-area: N°7;}
+
+.logoLARUCHE { grid-area: logoLARUCHE;}
+.cyclisteLARUCHE { grid-area: cyclisteLARUCHE;}
+.pageerrorLARUCHE { grid-area: pageerrorLARUCHE;}
+.laruche{ grid-area: laruche;}
+.pyctoLARUCHE { grid-area: pyctoLARUCHE;}
+.helloLARUCHE { grid-area: helloLARUCHE;}
+.collectivitéLARUCHE{ grid-area: collectivitéLARUCHE;}
+.siteinternetLARUCHE{grid-area: siteinternetLARUCHE;}
+.actualitésLARUCHE{grid-area: actualitésLARUCHE;}
+
+.propoNEUE { grid-area: propoNEUE;}
+.dessinNEUE { grid-area: dessinNEUE;}
+.vynilNEUE { grid-area: vynilNEUE;}
+.mockupNEUE{ grid-area: mockupNEUE;}
+.behanceNEUE { grid-area: behanceNEUE;}
+
+
+
 
 /* .container-detail{
   display: flex;
@@ -1472,7 +1569,7 @@ li a{
 .Laetitia2 img{
   width: 100%;
 } */
-.img-full img{
+/* .img-full img{
   margin-bottom: 0.5rem;
   width: 100%;
   height: auto;
@@ -1485,4 +1582,4 @@ li a{
 .half-img img{
   width: 100%;
   height: auto;
-}
+} */
