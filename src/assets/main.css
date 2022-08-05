@@ -1432,7 +1432,6 @@ li a{
   height: auto;
   object-fit: cover;
 }
-
 .containerProjectLAETITIA {
   background-color: #000;
   display: grid;
@@ -1448,7 +1447,6 @@ li a{
 .logoLAETITIA { grid-area: logoLAETITIA; }
 .flyerLAETITIA { grid-area: flyerLAETITIA; }
 .instaLAETITIA { grid-area: instaLAETITIA; }
-
 
 /* .container-detail{
   display: flex;
