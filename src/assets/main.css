@@ -1427,7 +1427,7 @@ li a{
   text-align: center;
 }
 
-/* .containerProjectLAETITIA img {
+.containerProjectLAETITIA img {
   width: 100%;
   height: auto;
   object-fit: cover;
@@ -1437,28 +1437,30 @@ li a{
   background-color: #000;
   display: grid;
   grid-auto-columns: 1fr;
-  grid-template-columns: 1.1fr 1.1fr 1.3fr 1fr 1fr 1fr 1fr .5fr;
+  grid-template-columns: 1.fr 1.1fr 1.2fr 1fr 1fr 1fr 1fr .5fr;
   grid-template-rows: .6fr 1fr 1fr;
-  gap: 10px 10px;
-  grid-template-areas: "carteLAETITIA carteLAETITIA carteLAETITIA carteLAETITIA logoLAETITIA logoLAETITIA logoLAETITIA logoLAETITIA"
+  gap: 10px 10px; 
+  grid-template-areas: "carteLAETITIA carteLAETITIA carteLAETITIA carteLAETITIA carteLAETITIA logoLAETITIA logoLAETITIA logoLAETITIA"
   "flyerLAETITIA flyerLAETITIA flyerLAETITIA flyerLAETITIA flyerLAETITIA flyerLAETITIA flyerLAETITIA flyerLAETITIA"
   "instaLAETITIA instaLAETITIA instaLAETITIA instaLAETITIA instaLAETITIA instaLAETITIA instaLAETITIA instaLAETITIA";
-}
-.carteLAETITIA { grid-area: carteLAETITIA; }
+} 
+.carteLAETITIA { grid-area: carteLAETITIA;}
 .logoLAETITIA { grid-area: logoLAETITIA; }
 .flyerLAETITIA { grid-area: flyerLAETITIA; }
-.instaLAETITIA { grid-area: instaLAETITIA; } */
+.instaLAETITIA { grid-area: instaLAETITIA; }
 
 
-.container-detail{
+/* .container-detail{
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   width: 100%;
+  height: auto;
+  object-fit: cover;
   padding: 0.5rem 0 ; 
   background-color: #000;
-}
-.Laetitia1{
+} */
+/* .Laetitia1{
   width: 65%;
 }
 .Laetitia1 img{
@@ -1467,17 +1469,17 @@ li a{
 }
 .Laetitia2{
   width: 35%;
-  height: 100%;
+  height: auto;
 }
 .Laetitia2 img{
   width: 100%;
-  height: 100%;
-}
+} */
 .img-full img{
   margin-bottom: 0.5rem;
   width: 100%;
   height: auto;
 }
+
 .half-img{
   margin-bottom: 0.5rem;
   width: 49.7%;
