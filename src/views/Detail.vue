@@ -218,7 +218,7 @@ export default {
                     nameOfImage:'Mockup2 Blue',
                     tag:['graphisme','édition'],
                     img: mockup2,
-                    class: 'img-full2',
+                    class: 'img-full',
                     format: 'img',
                 },
                 {
@@ -226,7 +226,7 @@ export default {
                     nameOfImage:'Bannière Blue',
                     tag:['graphisme','édition'],
                     img: bannière,
-                    class: 'img-full3',
+                    class: 'img-full',
                     format: 'img',
                 },
 
