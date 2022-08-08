@@ -1466,9 +1466,10 @@ li a{
   grid-template-columns: 1.fr 1.1fr 1.2fr 1fr 1fr 1fr 1fr .5fr;
   grid-template-rows: .6fr 1fr 1fr;
   gap: 10px 10px; 
-  grid-template-areas: "carteLAETITIA carteLAETITIA carteLAETITIA carteLAETITIA carteLAETITIA logoLAETITIA logoLAETITIA logoLAETITIA"
-  "flyerLAETITIA flyerLAETITIA flyerLAETITIA flyerLAETITIA flyerLAETITIA flyerLAETITIA flyerLAETITIA flyerLAETITIA"
-  "instaLAETITIA instaLAETITIA instaLAETITIA instaLAETITIA instaLAETITIA instaLAETITIA instaLAETITIA instaLAETITIA";
+  grid-template-areas: "triptiqueSIX triptiqueSIX triptiqueSIX triptiqueSIX triptiqueSIX triptiqueSIX triptiqueSIX triptiqueSIX "
+  "paysageSIX paysageSIX paysageSIX paysageSIX paysageSIX paysageSIX paysageSIX paysageSIX "
+  "les4SIX les4SIX les4SIX les4SIX les4SIX les4SIX les4SIX les4SIX"
+  "gifSIX gifSIX gifSIX gifSIX gifSIX gifSIX gifSIX gifSIX";
 } 
 .containerProjectN° {
   background-color: #000;
@@ -1477,9 +1478,13 @@ li a{
   grid-template-columns: 1.fr 1.1fr 1.2fr 1fr 1fr 1fr 1fr .5fr;
   grid-template-rows: .6fr 1fr 1fr;
   gap: 10px 10px; 
-  grid-template-areas: "carteLAETITIA carteLAETITIA carteLAETITIA carteLAETITIA carteLAETITIA logoLAETITIA logoLAETITIA logoLAETITIA"
-  "flyerLAETITIA flyerLAETITIA flyerLAETITIA flyerLAETITIA flyerLAETITIA flyerLAETITIA flyerLAETITIA flyerLAETITIA"
-  "instaLAETITIA instaLAETITIA instaLAETITIA instaLAETITIA instaLAETITIA instaLAETITIA instaLAETITIA instaLAETITIA";
+  grid-template-areas: "N°1 N°1 N°1 N°1 N°1 N°1 N°1 N°1 "
+  "N°2 N°2 N°2 N°2 N°2 N°2 N°2 N°2"
+  "N°3 N°3 N°3 N°3 N°3 N°3 N°3 N°3"
+  "N°4 N°4 N°4 N°4 N°4 N°4 N°4 N°4"
+  "N°5 N°5 N°5 N°5 N°5 N°5 N°5 N°5"
+  "N°6 N°6 N°6 N°6 N°6 N°6 N°6 N°6"
+  "N°7 N°7 N°7 N°7 N°7 N°7 N°7 N°7"; 
 } 
 .containerProjectLARUCHE {
   background-color: #000;
