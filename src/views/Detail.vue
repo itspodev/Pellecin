@@ -19,7 +19,7 @@
 
   <DetailDescription v-if="this.selectedDesc" :description="this.selectedDesc" />
 
-  <DetailImage v-if="this.selectedImg" :image="this.selectedImg" />
+  <DetailImage v-if="this.selectedImg" :image="this.selectedImg" :class="this.class"/>
 
   <MainFooter />
 </template>
@@ -85,6 +85,7 @@ export default {
       url_data: null,
       selectedBanner: null,
       selectedDesc: null,
+      class: '',
       bannersArray: [
         {
           name: "Laëtitia",
@@ -207,6 +208,7 @@ export default {
                     tag:["motion","web","branding",'édition'],
                     img: carte,
                     class: 'carteLAETITIA',
+                    containerClass: 'containerProjectLAETITIA',
                     format: 'img',
                 },
                 {
@@ -215,6 +217,7 @@ export default {
                     tag:["motion","web","branding",'édition'],
                     img: logo2,
                     class: 'logoLAETITIA',
+                    containerClass: 'containerProjectLAETITIA',
                     format: 'img',
                 },
                 {
@@ -223,6 +226,7 @@ export default {
                     tag:["motion","web","branding",'édition'],
                     img: flyer,
                     class: 'flyerLAETITIA',
+                    containerClass: 'containerProjectLAETITIA',
                     format: 'img',
                 },
                 {
@@ -231,6 +235,7 @@ export default {
                     tag:["motion","web","branding",'édition'],
                     img: instagram,
                     class: 'instaLAETITIA',
+                    containerClass: 'containerProjectLAETITIA',
                     format: 'img',
                 },
                 
@@ -355,6 +360,7 @@ export default {
                     tag:['web', 'branding', 'illustration'],
                     img: logo2laruche,
                     class: 'logoLARUCHE',
+                    containerClass: 'containerProjectLARUCHE',
                     format: 'img',
                 },
                 {
@@ -363,6 +369,7 @@ export default {
                     tag:['web', 'branding', 'illustration'],
                     img: cyclistelaruche,
                     class: 'cyclisteLARUCHE',
+                    containerClass: 'containerProjectLARUCHE',
                     format: 'img',
                 },
                 {
@@ -371,6 +378,7 @@ export default {
                     tag:['web', 'branding', 'illustration'],
                     img: pageerror,
                     class: 'pageerrorLARUCHE',
+                    containerClass: 'containerProjectLARUCHE',
                     format: 'img',
                 },
                 {
@@ -379,6 +387,7 @@ export default {
                     tag:['web', 'branding', 'illustration'],
                     img: laruche,
                     class: 'laruche',
+                    containerClass: 'containerProjectLARUCHE',
                     format: 'img',
                 }, 
                 {
@@ -387,6 +396,7 @@ export default {
                     tag:['web', 'branding', 'illustration'],
                     img: pyctogramme,
                     class: 'pyctoLARUCHE',
+                    containerClass: 'containerProjectLARUCHE',
                     format: 'img',
                 },
                 {
@@ -395,6 +405,7 @@ export default {
                     tag:['web', 'branding', 'illustration'],
                     img: hello,
                     class: 'helloLARUCHE',
+                    containerClass: 'containerProjectLARUCHE',
                     format: 'img',
                 },
                 {
@@ -403,6 +414,7 @@ export default {
                     tag:['web', 'branding', 'illustration'],
                     img: collectivité,
                     class: 'collectivitéLARUCHE',
+                    containerClass: 'containerProjectLARUCHE',
                     format: 'img',
                 },
                 {
@@ -411,6 +423,7 @@ export default {
                     tag:['web', 'branding', 'illustration'],
                     img: siteinternet,
                     class: 'siteinternetLARUCHE',
+                    containerClass: 'containerProjectLARUCHE',
                     format: 'img',
                 },
                 {
@@ -419,6 +432,7 @@ export default {
                     tag:['web', 'branding', 'illustration'],
                     img: actualités,
                     class: 'actualitésLARUCHE',
+                    containerClass: 'containerProjectLARUCHE',
                     format: 'img',
                 },
                 
@@ -427,7 +441,7 @@ export default {
                     nameOfImage:'propo1',
                     tag:['graphisme', 'motion', 'illustration'],
                     img: propo1,
-                    class: 'propoNEUE',
+                    class: 'containerProjectNEUE',
                     format: 'img',
                 },
                 {
@@ -435,7 +449,7 @@ export default {
                     nameOfImage:'dessinmawen',
                     tag:['graphisme', 'motion', 'illustration'],
                     img: dessinmawen,
-                    class: 'dessinNEUE',
+                    class: 'containerProjectNEUE',
                     format: 'img',
                 },
                 {
@@ -443,7 +457,7 @@ export default {
                     nameOfImage:'vynil',
                     tag:['graphisme', 'motion', 'illustration'],
                     img: vynilneu,
-                    class: 'vynilNEUE',
+                    class: 'containerProjectNEUE',
                     format: 'img',
                 },
                 {
@@ -451,7 +465,7 @@ export default {
                     nameOfImage:'mockupmawen',
                     tag:['graphisme', 'motion', 'illustration'],
                     img: mockupmawen,
-                    class: 'mockupNEUE',
+                    class: 'containerProjectNEUE',
                     format: 'img',
                 },
                 // {
@@ -505,6 +519,13 @@ export default {
                 }
             });
         },
+        getSelectedImgArrayClass: function() {
+            this.imageArray.forEach(image => {
+                if(this.url_data === image.name){
+                    this.class = image.containerClass
+                }
+            });
+        },
         // classArray: function(classes) {
         //     this.classChange
         // },
@@ -530,6 +551,7 @@ export default {
     this.getSelectedBannArray();
     this.getSelectedDescArray();
     this.getSelectedImgArray();
+    this.getSelectedImgArrayClass();
   }
 }
 </script>

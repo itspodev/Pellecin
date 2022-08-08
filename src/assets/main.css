@@ -1485,12 +1485,14 @@ li a{
   background-color: #000;
   display: grid;
   grid-auto-columns: 1fr;
-  grid-template-columns: 1.fr 1.1fr 1.2fr 1fr 1fr 1fr 1fr .5fr;
-  grid-template-rows: .6fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
   gap: 10px 10px; 
-  grid-template-areas: "carteLAETITIA carteLAETITIA carteLAETITIA carteLAETITIA carteLAETITIA logoLAETITIA logoLAETITIA logoLAETITIA"
-  "flyerLAETITIA flyerLAETITIA flyerLAETITIA flyerLAETITIA flyerLAETITIA flyerLAETITIA flyerLAETITIA flyerLAETITIA"
-  "instaLAETITIA instaLAETITIA instaLAETITIA instaLAETITIA instaLAETITIA instaLAETITIA instaLAETITIA instaLAETITIA";
+  grid-template-areas: "cyclisteLARUCHE logoLARUCHE"
+                       "pageerrorLARUCHE pageerrorLARUCHE"
+                       "collectivitéLARUCHE collectivitéLARUCHE"
+                       "pyctoLARUCHE pyctoLARUCHE"
+                       "helloLARUCHE actualitésLARUCHE";
 } 
 .containerProjectNEUE {
   background-color: #000;

@@ -1,6 +1,6 @@
 <template>
   <slot>
-    <section class="container-detail , containerProjectLAETITIA">
+    <section :class="this.class">
       <div v-for="task in this.image" :key="task.name" :class="`${task.class} gridItems`">
         <img v-if="task.format === 'img'" :alt="task.name" :src="task.img" />
         <video v-else :src="task.img" loop="infinite" autoplay="autoplay" muted="" />
@@ -12,6 +12,6 @@
 <script>
 export default {
   name: "DetailImage",
-  props: ["image"],
+  props: ["image", 'class'],
 };
 </script>
