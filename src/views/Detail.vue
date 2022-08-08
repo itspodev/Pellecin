@@ -245,6 +245,7 @@ export default {
                     tag:['graphisme','édition'],
                     img: mockup,
                     class: 'mockupBLUE',
+                    containerClass: 'containerProjectBLUE',
                     format: 'img',
                 },
                 {
@@ -253,6 +254,7 @@ export default {
                     tag:['graphisme','édition'],
                     img: mockup2,
                     class: 'mockup2BLUE',
+                    containerClass: 'containerProjectBLUE',
                     format: 'img',
                 },
                 {
@@ -261,6 +263,7 @@ export default {
                     tag:['graphisme','édition'],
                     img: bannière,
                     class: 'bannièreBLUE',
+                    containerClass: 'containerProjectBLUE',
                     format: 'img',
                 },
 
@@ -270,6 +273,7 @@ export default {
                     tag:['graphisme','édition'],
                     img: triptique,
                     class: 'triptiqueSIX',
+                    containerClass: 'containerProjectSIXFEET',
                     format: 'img',
                 },
                 {
@@ -278,6 +282,7 @@ export default {
                     tag:['graphisme','édition'],
                     img: paysage,
                     class: 'paysageSIX',
+                    containerClass: 'containerProjectSIXFEET',
                     format: 'img',
                 },
                 {
@@ -286,6 +291,7 @@ export default {
                     tag:['graphisme','édition'],
                     img: les4sixfeet,
                     class: 'les4SIX',
+                    containerClass: 'containerProjectSIXFEET',
                     format: 'img',
                 },
                 {
@@ -294,6 +300,7 @@ export default {
                     tag:['graphisme','édition'],
                     img: gif,
                     class: 'gifSIX',
+                    containerClass: 'containerProjectSIXFEET',
                     format: 'gif',
                 },
 
@@ -311,6 +318,7 @@ export default {
                     tag:['graphisme'],
                     img: perso2,
                     class: 'N°2',
+                    containerClass: 'containerProjectN°',
                     format: 'img',
                 },
                 {
@@ -319,6 +327,7 @@ export default {
                     tag:['graphisme'],
                     img: perso3,
                     class: 'N°3',
+                    containerClass: 'containerProjectN°',
                     format: 'img',
                 },
                 {
@@ -327,6 +336,7 @@ export default {
                     tag:['graphisme'],
                     img: perso4,
                     class: 'N°4',
+                    containerClass: 'containerProjectN°',
                     format: 'img',
                 },
                 {
@@ -335,6 +345,7 @@ export default {
                     tag:['graphisme'],
                     img: perso5,
                     class: 'N°5',
+                    containerClass: 'containerProjectN°',
                     format: 'img',
                 },
                 {
@@ -343,6 +354,7 @@ export default {
                     tag:['graphisme'],
                     img: perso6,
                     class: 'N°6',
+                    containerClass: 'containerProjectN°',
                     format: 'img',
                 },
                 {
@@ -351,6 +363,7 @@ export default {
                     tag:['graphisme'],
                     img: perso7,
                     class: 'N°7',
+                    containerClass: 'containerProjectN°',
                     format: 'img',
                 },
 
@@ -441,7 +454,8 @@ export default {
                     nameOfImage:'propo1',
                     tag:['graphisme', 'motion', 'illustration'],
                     img: propo1,
-                    class: 'containerProjectNEUE',
+                    class: 'propoNEUE',
+                    containerClass: 'containerProjectNEUE',
                     format: 'img',
                 },
                 {
@@ -449,7 +463,8 @@ export default {
                     nameOfImage:'dessinmawen',
                     tag:['graphisme', 'motion', 'illustration'],
                     img: dessinmawen,
-                    class: 'containerProjectNEUE',
+                    class: 'dessinNEUE',
+                    containerClass: 'containerProjectNEUE',
                     format: 'img',
                 },
                 {
@@ -457,7 +472,8 @@ export default {
                     nameOfImage:'vynil',
                     tag:['graphisme', 'motion', 'illustration'],
                     img: vynilneu,
-                    class: 'containerProjectNEUE',
+                    class: 'vynilNEUE',
+                    containerClass: 'containerProjectNEUE',
                     format: 'img',
                 },
                 {
@@ -465,7 +481,8 @@ export default {
                     nameOfImage:'mockupmawen',
                     tag:['graphisme', 'motion', 'illustration'],
                     img: mockupmawen,
-                    class: 'containerProjectNEUE',
+                    class: 'mockupNEUE',
+                    containerClass: 'containerProjectNEUE',
                     format: 'img',
                 },
                 // {
@@ -482,6 +499,7 @@ export default {
                     tag:['graphisme', 'motion', 'illustration'],
                     img: behancemawen,
                     class: 'behanceNEUE',
+                    containerClass: 'containerProjectNEUE',
                     format: 'img',
                 },
                 // {
