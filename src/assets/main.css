@@ -1455,9 +1455,9 @@ li a{
   grid-template-columns: 1.fr 1.1fr 1.2fr 1fr 1fr 1fr 1fr .5fr;
   grid-template-rows: .6fr 1fr 1fr;
   gap: 10px 10px; 
-  grid-template-areas: "carteLAETITIA carteLAETITIA carteLAETITIA carteLAETITIA carteLAETITIA logoLAETITIA logoLAETITIA logoLAETITIA"
-  "flyerLAETITIA flyerLAETITIA flyerLAETITIA flyerLAETITIA flyerLAETITIA flyerLAETITIA flyerLAETITIA flyerLAETITIA"
-  "instaLAETITIA instaLAETITIA instaLAETITIA instaLAETITIA instaLAETITIA instaLAETITIA instaLAETITIA instaLAETITIA";
+  grid-template-areas: "mockupBLUE mockupBLUE mockupBLUE mockupBLUE mockupBLUE mockupBLUE mockupBLUE mockupBLUE "
+  "mockup2BLUE mockup2BLUE mockup2BLUE mockup2BLUE mockup2BLUE mockup2BLUE mockup2BLUE mockup2BLUE"
+  "bannièreBLUE bannièreBLUE bannièreBLUE bannièreBLUE bannièreBLUE bannièreBLUE bannièreBLUE bannièreBLUE";
 } 
 .containerProjectSIXFEET {
   background-color: #000;
