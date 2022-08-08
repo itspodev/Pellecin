@@ -1491,15 +1491,15 @@ li a{
   display: grid;
   grid-auto-columns: 1fr;
   grid-template-columns: 1.fr 1.1fr 1.2fr 1fr 1fr 1fr 1fr .5fr;
-  grid-template-rows: .6fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
   gap: 10px 10px; 
-  grid-template-areas: "logoLARUCHE logoLARUCHE logoLARUCHE logoLARUCHE cyclisteLARUCHE cyclisteLARUCHE cyclisteLARUCHE cyclisteLARUCHE"
+  grid-template-areas: "cyclisteLARUCHE cyclisteLARUCHE cyclisteLARUCHE cyclisteLARUCHE logoLARUCHE logoLARUCHE logoLARUCHE logoLARUCHE "
   "pageerrorLARUCHE pageerrorLARUCHE pageerrorLARUCHE pageerrorLARUCHE  pageerrorLARUCHE pageerrorLARUCHE pageerrorLARUCHE pageerrorLARUCHE "
   "laruche laruche laruche laruche laruche laruche laruche laruche"
   "pyctoLARUCHE pyctoLARUCHE pyctoLARUCHE pyctoLARUCHE pyctoLARUCHE pyctoLARUCHE pyctoLARUCHE pyctoLARUCHE  "
-  "helloLARUCHE helloLARUCHE helloLARUCHE helloLARUCE collectivitéLARUCHE collectivitéLARUCHE collectivitéLARUCHE collectivitéLARUCHE"
-  "siteinternetLARUCHE"
-  "actualitésLARUCHE"
+  "helloLARUCHE helloLARUCHE helloLARUCHE helloLARUCHE  collectivitéLARUCHE  collectivitéLARUCHE collectivitéLARUCHE collectivitéLARUCHE"
+  "siteinternetLARUCHE siteinternetLARUCHE siteinternetLARUCHE siteinternetLARUCHE siteinternetLARUCHE siteinternetLARUCHE siteinternetLARUCHE siteinternetLARUCHE"
+  "actualitésLARUCHE actualitésLARUCHE actualitésLARUCHE actualitésLARUCHE actualitésLARUCHE actualitésLARUCHE actualitésLARUCHE actualitésLARUCHE"
 } 
 .containerProjectNEUE {
   background-color: #000;
