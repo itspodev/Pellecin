@@ -544,25 +544,6 @@ export default {
                 }
             });
         },
-        // classArray: function(classes) {
-        //     this.classChange
-        // },
-        // classChange: function(classes) {
-        //     switch (classes) {
-        //             default:
-        //             this.class = 'containerProjectLAETITIA'
-        //             break;
-        //             this.class = 'containerProjectBLUE'
-        //             break;
-        //             this.class = 'containerProjectSIXFEET'
-        //             break;
-        //             this.class = 'containerProjectN°'
-        //             break;
-        //             this.class = 'containerProjectLARUCHE'
-        //             break;
-        //             this.class = 'containerProjectNEUE'
-        //             break;
-        //     }
     },
   mounted() {
     this.url_data = this.$route.params.name;
