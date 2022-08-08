@@ -1490,14 +1490,16 @@ li a{
   background-color: #000;
   display: grid;
   grid-auto-columns: 1fr;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1.fr 1.1fr 1.2fr 1fr 1fr 1fr 1fr .5fr;
+  grid-template-rows: .6fr 1fr 1fr;
   gap: 10px 10px; 
-  grid-template-areas: "cyclisteLARUCHE logoLARUCHE"
-                       "pageerrorLARUCHE pageerrorLARUCHE"
-                       "collectivitéLARUCHE collectivitéLARUCHE"
-                       "pyctoLARUCHE pyctoLARUCHE"
-                       "helloLARUCHE actualitésLARUCHE";
+  grid-template-areas: "logoLARUCHE logoLARUCHE logoLARUCHE logoLARUCHE cyclisteLARUCHE cyclisteLARUCHE cyclisteLARUCHE cyclisteLARUCHE"
+  "pageerrorLARUCHE pageerrorLARUCHE pageerrorLARUCHE pageerrorLARUCHE  pageerrorLARUCHE pageerrorLARUCHE pageerrorLARUCHE pageerrorLARUCHE "
+  "laruche laruche laruche laruche laruche laruche laruche laruche"
+  "pyctoLARUCHE pyctoLARUCHE pyctoLARUCHE pyctoLARUCHE pyctoLARUCHE pyctoLARUCHE pyctoLARUCHE pyctoLARUCHE  "
+  "helloLARUCHE helloLARUCHE helloLARUCHE helloLARUCE collectivitéLARUCHE collectivitéLARUCHE collectivitéLARUCHE collectivitéLARUCHE"
+  "siteinternetLARUCHE"
+  "actualitésLARUCHE"
 } 
 .containerProjectNEUE {
   background-color: #000;
