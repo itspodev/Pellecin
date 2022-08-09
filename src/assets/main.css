@@ -1053,6 +1053,11 @@ li a{
   text-transform: uppercase;
 }
 
+.project-text-box__navbar h2 a {
+  text-decoration: none;
+  color: #fff;
+}
+
 .project-text-box h3 {
   font-size: 1.7em;
 }
