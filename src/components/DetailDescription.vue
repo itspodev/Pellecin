@@ -9,7 +9,7 @@
         <h3>{{ this.description.mission }}</h3>
         <p v-for="mission of this.description.missionDesc" :key="mission">{{ mission }}</p>
         <aside class="project-text-box__tags2-box">
-          <h2>{{ this.description.tag2.join(" - ") }}</h2>
+          <h2 v-for="tag2 of this.description.tag2" :key="tag2">{{ tag2 }}</h2>
         </aside>
       </section>
     </div>

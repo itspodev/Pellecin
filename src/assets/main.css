@@ -1003,7 +1003,7 @@ li a{
   border-bottom: none;
 }
 
-/*********** PROJECT PAGE **********/
+/*-------- PROJECT PAGE --------*/
 
 .project-banner__img {
   width: 100%;
@@ -1058,7 +1058,7 @@ li a{
 }
 
 .project-text-box__tags2-box {
-  max-width: 60vw;
+  max-width: 65vw;
   margin:3em 0;
   padding: 2em;
   border: 1px solid #fff;
