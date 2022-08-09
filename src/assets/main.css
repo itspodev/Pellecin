@@ -29,7 +29,7 @@ body {
 header video {
   width:100%;
   top:0;
-  z-index:-100
+  z-index:-100;
 }
 
 .navBar{
@@ -592,7 +592,7 @@ li a{
   color:#000;
   background-image:white;
   -webkit-text-fill-color: none;
-  transition: 0.6s;
+  transition: 0.5s all ease-in-out;
 }
 .main-footer__up a:hover {
   background-image: linear-gradient(
@@ -623,10 +623,10 @@ li a{
     #ff1361 67%,
     #fff800 100%
   );
-  background-size: auto auto;
+  /* background-size: auto auto; */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  display: inline-block;
+  /* display: inline-block; */
 }
 
 .main-footer__social-media {
@@ -639,12 +639,11 @@ li a{
 .main-footer__social-media img {
   width: 50px;
   margin-right: 1rem;
+  transition: 0.45s ease-in-out;
 }
 
 .main-footer__social-media img:hover {
-  width:65px ;
-  transition: 0.6s ease-in-out;
-  margin-bottom: 0.5rem;
+  transform: scale(1.5);
 }
 .main-footer__bottom {
   background-color: #000;
@@ -743,12 +742,12 @@ li a{
 .socialLink img {
   width: 50px;
   opacity: 0.6;
+  transition: 0.45s ease-in-out;
   margin-right: 1rem;
 }
 .socialLink img:hover{
   opacity: 1;
-  width:65px ;
-  transition: 0.6s ease-in-out;
+  transform: scale(1.5);
   margin-bottom: 0.5rem;
 }
 /*---------------------------------------- TEST -------------------------------------*/
