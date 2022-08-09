@@ -731,10 +731,11 @@ li a{
   font-size: 3rem;
 } */
 .socialLink {
-  width: 80%;
+  width: 72rem;
   margin: auto;
   height: 100px;
   display: flex;
+  align-content: flex-start;
   align-items: center;
   padding-top:2rem
 }
