@@ -1071,6 +1071,133 @@ li a{
   text-align: center;
 }
 
+
+.containerProjectLAETITIA,
+.containerProjectBLUE,
+.containerProjectSIXFEET,
+.containerProjectN°,
+.containerProjectLARUCHE,
+.containerProjectNEUE, img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.containerProjectLAETITIA {
+  background-color: #000;
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-template-columns: 1.fr 1.1fr 1.2fr 1fr 1fr 1fr 1fr .5fr;
+  grid-template-rows: .6fr 1fr 1fr;
+  gap: 10px 10px; 
+  grid-template-areas: "carteLAETITIA carteLAETITIA carteLAETITIA carteLAETITIA carteLAETITIA logoLAETITIA logoLAETITIA logoLAETITIA"
+  "flyerLAETITIA flyerLAETITIA flyerLAETITIA flyerLAETITIA flyerLAETITIA flyerLAETITIA flyerLAETITIA flyerLAETITIA"
+  "instaLAETITIA instaLAETITIA instaLAETITIA instaLAETITIA instaLAETITIA instaLAETITIA instaLAETITIA instaLAETITIA";
+} 
+.containerProjectBLUE {
+  background-color: #000;
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-template-columns: 1.fr 1.1fr 1.2fr 1fr 1fr 1fr 1fr .5fr;
+  grid-template-rows: .6fr 1fr 1fr;
+  gap: 10px 10px; 
+  grid-template-areas: "mockupBLUE mockupBLUE mockupBLUE mockupBLUE mockupBLUE mockupBLUE mockupBLUE mockupBLUE "
+  "mockup2BLUE mockup2BLUE mockup2BLUE mockup2BLUE mockup2BLUE mockup2BLUE mockup2BLUE mockup2BLUE"
+  "bannièreBLUE bannièreBLUE bannièreBLUE bannièreBLUE bannièreBLUE bannièreBLUE bannièreBLUE bannièreBLUE";
+} 
+.containerProjectSIXFEET {
+  background-color: #000;
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-template-columns: 1.fr 1.1fr 1.2fr 1fr 1fr 1fr 1fr .5fr;
+  grid-template-rows: .6fr 1fr 1fr;
+  gap: 10px 10px; 
+  grid-template-areas: "triptiqueSIX triptiqueSIX triptiqueSIX triptiqueSIX triptiqueSIX triptiqueSIX triptiqueSIX triptiqueSIX "
+  "paysageSIX paysageSIX paysageSIX paysageSIX paysageSIX paysageSIX paysageSIX paysageSIX "
+  "les4SIX les4SIX les4SIX les4SIX les4SIX les4SIX les4SIX les4SIX"
+  "gifSIX gifSIX gifSIX gifSIX gifSIX gifSIX gifSIX gifSIX";
+} 
+.containerProjectN° {
+  background-color: #000;
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-template-columns: 1.fr 1.1fr 1.2fr 1fr 1fr 1fr 1fr .5fr;
+  grid-template-rows: .6fr 1fr 1fr;
+  gap: 10px 10px; 
+  grid-template-areas: "N°1 N°1 N°1 N°1 N°1 N°1 N°1 N°1 "
+  "N°2 N°2 N°2 N°2 N°2 N°2 N°2 N°2"
+  "N°3 N°3 N°3 N°3 N°3 N°3 N°3 N°3"
+  "N°4 N°4 N°4 N°4 N°4 N°4 N°4 N°4"
+  "N°5 N°5 N°5 N°5 N°5 N°5 N°5 N°5"
+  "N°6 N°6 N°6 N°6 N°6 N°6 N°6 N°6"
+  "N°7 N°7 N°7 N°7 N°7 N°7 N°7 N°7"; 
+} 
+.containerProjectLARUCHE {
+  background-color: #000;
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-template-columns: 1.fr 1.1fr 1.2fr 1fr 1fr 1fr 1fr .5fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 10px 10px; 
+  grid-template-areas: "cyclisteLARUCHE cyclisteLARUCHE cyclisteLARUCHE cyclisteLARUCHE logoLARUCHE logoLARUCHE logoLARUCHE logoLARUCHE "
+  "pageerrorLARUCHE pageerrorLARUCHE pageerrorLARUCHE pageerrorLARUCHE  pageerrorLARUCHE pageerrorLARUCHE pageerrorLARUCHE pageerrorLARUCHE "
+  "laruche laruche laruche laruche laruche laruche laruche laruche"
+  "pyctoLARUCHE pyctoLARUCHE pyctoLARUCHE pyctoLARUCHE pyctoLARUCHE pyctoLARUCHE pyctoLARUCHE pyctoLARUCHE  "
+  "helloLARUCHE helloLARUCHE helloLARUCHE helloLARUCHE  collectivitéLARUCHE  collectivitéLARUCHE collectivitéLARUCHE collectivitéLARUCHE"
+  "siteinternetLARUCHE siteinternetLARUCHE siteinternetLARUCHE siteinternetLARUCHE siteinternetLARUCHE siteinternetLARUCHE siteinternetLARUCHE siteinternetLARUCHE"
+  "actualitésLARUCHE actualitésLARUCHE actualitésLARUCHE actualitésLARUCHE actualitésLARUCHE actualitésLARUCHE actualitésLARUCHE actualitésLARUCHE"
+} 
+.containerProjectNEUE {
+  background-color: #000;
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-template-columns: 1.fr 1.1fr 1.2fr 1fr 1fr 1fr 1fr .5fr;
+  grid-template-rows: .6fr 1fr 1fr;
+  gap: 10px 10px; 
+  grid-template-areas: "propoNEUE propoNEUE propoNEUE propoNEUE dessinNEUE dessinNEUE dessinNEUE dessinNEUE"
+  "vynilNEUE vynilNEUE vynilNEUE vynilNEUE vynilNEUE vynilNEUE vynilNEUE vynilNEUE "
+  "mockupNEUE mockupNEUE mockupNEUE mockupNEUE mockupNEUE mockupNEUE mockupNEUE mockupNEUE "
+  "behanceNEUE behanceNEUE behanceNEUE behanceNEUE behanceNEUE behanceNEUE behanceNEUE behanceNEUE";
+} 
+.carteLAETITIA { grid-area: carteLAETITIA;}
+.logoLAETITIA { grid-area: logoLAETITIA; }
+.flyerLAETITIA { grid-area: flyerLAETITIA; }
+.instaLAETITIA { grid-area: instaLAETITIA; }
+
+.mockupBLUE { grid-area: mockupBLUE;}
+.mockup2BLUE { grid-area: mockup2BLUE; }
+.bannièreBLUE { grid-area: bannièreBLUE; }
+
+.triptiqueSIX { grid-area: triptiqueSIX;}
+.paysageSIX{ grid-area: paysageSIX; }
+.les4SIX { grid-area: les4SIX; }
+.gifSIX{ grid-area: gifSIX; }
+
+.N°1 { grid-area: N°1;}
+.N°2 { grid-area: N°2;}
+.N°3 { grid-area: N°3;}
+.N°4 { grid-area: N°4;}
+.N°5 { grid-area: N°5;}
+.N°6 { grid-area: N°6;}
+.N°7 { grid-area: N°7;}
+
+.logoLARUCHE { grid-area: logoLARUCHE;}
+.cyclisteLARUCHE { grid-area: cyclisteLARUCHE;}
+.pageerrorLARUCHE { grid-area: pageerrorLARUCHE;}
+.laruche{ grid-area: laruche;}
+.pyctoLARUCHE { grid-area: pyctoLARUCHE;}
+.helloLARUCHE { grid-area: helloLARUCHE;}
+.collectivitéLARUCHE{ grid-area: collectivitéLARUCHE;}
+.siteinternetLARUCHE{grid-area: siteinternetLARUCHE;}
+.actualitésLARUCHE{grid-area: actualitésLARUCHE;}
+
+.propoNEUE { grid-area: propoNEUE;}
+.dessinNEUE { grid-area: dessinNEUE;}
+.vynilNEUE { grid-area: vynilNEUE;}
+.mockupNEUE{ grid-area: mockupNEUE;}
+.behanceNEUE { grid-area: behanceNEUE;}
+
+/*---------------- MEDIA QUERIES -------------------*/
+
 @media screen and (max-width: 900px) {
   /*---------------------------- HEADER -----------------------*/
   .logo-pepenome {
@@ -1367,187 +1494,4 @@ li a{
   }
 
 }
-
-/*********** PROJECT PAGE **********/
-
-.project-banner__img {
-  width: 100%;
-  height: auto;
-}
-
-.project-text-box {
-  margin-top: -1em;
-  padding: 4em;
-  background-color:#000;
-  color:#fff;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.project-text-box h1 {
-  font-size: 4.5em;
-  margin-bottom: 0;
-  text-transform: uppercase;
-}
-
-.project-text-box__navbar {
-  display: flex;
-}
-
-.project-text-box p {
-  font-size: 1.5em;   
-  margin: 0; 
-  max-width: 74vw;
-  text-align: center;
-}
-
-.project-text-box__navbar h2 {
-  margin: 0.5em 1em 1em;
-  font-weight: 300;
-  text-transform: uppercase;
-}
-
-.project-text-box h3 {
-  font-size: 1.7em;
-}
-
-.project-text-box__tags2-box {
-  max-width: 60vw;
-  margin:3em 0;
-  padding: 2em;
-  border: 1px solid #fff;
-}
-
-.project-text-box__tags2-box h2 {
-  margin: 0;
-  font-weight: 300;
-  text-transform: uppercase;
-  text-align: center;
-}
-
-.containerProjectLAETITIA,
-.containerProjectBLUE,
-.containerProjectSIXFEET,
-.containerProjectN°,
-.containerProjectLARUCHE,
-.containerProjectNEUE, img {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-}
-.containerProjectLAETITIA {
-  background-color: #000;
-  display: grid;
-  grid-auto-columns: 1fr;
-  grid-template-columns: 1.fr 1.1fr 1.2fr 1fr 1fr 1fr 1fr .5fr;
-  grid-template-rows: .6fr 1fr 1fr;
-  gap: 10px 10px; 
-  grid-template-areas: "carteLAETITIA carteLAETITIA carteLAETITIA carteLAETITIA carteLAETITIA logoLAETITIA logoLAETITIA logoLAETITIA"
-  "flyerLAETITIA flyerLAETITIA flyerLAETITIA flyerLAETITIA flyerLAETITIA flyerLAETITIA flyerLAETITIA flyerLAETITIA"
-  "instaLAETITIA instaLAETITIA instaLAETITIA instaLAETITIA instaLAETITIA instaLAETITIA instaLAETITIA instaLAETITIA";
-} 
-.containerProjectBLUE {
-  background-color: #000;
-  display: grid;
-  grid-auto-columns: 1fr;
-  grid-template-columns: 1.fr 1.1fr 1.2fr 1fr 1fr 1fr 1fr .5fr;
-  grid-template-rows: .6fr 1fr 1fr;
-  gap: 10px 10px; 
-  grid-template-areas: "mockupBLUE mockupBLUE mockupBLUE mockupBLUE mockupBLUE mockupBLUE mockupBLUE mockupBLUE "
-  "mockup2BLUE mockup2BLUE mockup2BLUE mockup2BLUE mockup2BLUE mockup2BLUE mockup2BLUE mockup2BLUE"
-  "bannièreBLUE bannièreBLUE bannièreBLUE bannièreBLUE bannièreBLUE bannièreBLUE bannièreBLUE bannièreBLUE";
-} 
-.containerProjectSIXFEET {
-  background-color: #000;
-  display: grid;
-  grid-auto-columns: 1fr;
-  grid-template-columns: 1.fr 1.1fr 1.2fr 1fr 1fr 1fr 1fr .5fr;
-  grid-template-rows: .6fr 1fr 1fr;
-  gap: 10px 10px; 
-  grid-template-areas: "triptiqueSIX triptiqueSIX triptiqueSIX triptiqueSIX triptiqueSIX triptiqueSIX triptiqueSIX triptiqueSIX "
-  "paysageSIX paysageSIX paysageSIX paysageSIX paysageSIX paysageSIX paysageSIX paysageSIX "
-  "les4SIX les4SIX les4SIX les4SIX les4SIX les4SIX les4SIX les4SIX"
-  "gifSIX gifSIX gifSIX gifSIX gifSIX gifSIX gifSIX gifSIX";
-} 
-.containerProjectN° {
-  background-color: #000;
-  display: grid;
-  grid-auto-columns: 1fr;
-  grid-template-columns: 1.fr 1.1fr 1.2fr 1fr 1fr 1fr 1fr .5fr;
-  grid-template-rows: .6fr 1fr 1fr;
-  gap: 10px 10px; 
-  grid-template-areas: "N°1 N°1 N°1 N°1 N°1 N°1 N°1 N°1 "
-  "N°2 N°2 N°2 N°2 N°2 N°2 N°2 N°2"
-  "N°3 N°3 N°3 N°3 N°3 N°3 N°3 N°3"
-  "N°4 N°4 N°4 N°4 N°4 N°4 N°4 N°4"
-  "N°5 N°5 N°5 N°5 N°5 N°5 N°5 N°5"
-  "N°6 N°6 N°6 N°6 N°6 N°6 N°6 N°6"
-  "N°7 N°7 N°7 N°7 N°7 N°7 N°7 N°7"; 
-} 
-.containerProjectLARUCHE {
-  background-color: #000;
-  display: grid;
-  grid-auto-columns: 1fr;
-  grid-template-columns: 1.fr 1.1fr 1.2fr 1fr 1fr 1fr 1fr .5fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  gap: 10px 10px; 
-  grid-template-areas: "cyclisteLARUCHE cyclisteLARUCHE cyclisteLARUCHE cyclisteLARUCHE logoLARUCHE logoLARUCHE logoLARUCHE logoLARUCHE "
-  "pageerrorLARUCHE pageerrorLARUCHE pageerrorLARUCHE pageerrorLARUCHE  pageerrorLARUCHE pageerrorLARUCHE pageerrorLARUCHE pageerrorLARUCHE "
-  "laruche laruche laruche laruche laruche laruche laruche laruche"
-  "pyctoLARUCHE pyctoLARUCHE pyctoLARUCHE pyctoLARUCHE pyctoLARUCHE pyctoLARUCHE pyctoLARUCHE pyctoLARUCHE  "
-  "helloLARUCHE helloLARUCHE helloLARUCHE helloLARUCHE  collectivitéLARUCHE  collectivitéLARUCHE collectivitéLARUCHE collectivitéLARUCHE"
-  "siteinternetLARUCHE siteinternetLARUCHE siteinternetLARUCHE siteinternetLARUCHE siteinternetLARUCHE siteinternetLARUCHE siteinternetLARUCHE siteinternetLARUCHE"
-  "actualitésLARUCHE actualitésLARUCHE actualitésLARUCHE actualitésLARUCHE actualitésLARUCHE actualitésLARUCHE actualitésLARUCHE actualitésLARUCHE"
-} 
-.containerProjectNEUE {
-  background-color: #000;
-  display: grid;
-  grid-auto-columns: 1fr;
-  grid-template-columns: 1.fr 1.1fr 1.2fr 1fr 1fr 1fr 1fr .5fr;
-  grid-template-rows: .6fr 1fr 1fr;
-  gap: 10px 10px; 
-  grid-template-areas: "propoNEUE propoNEUE propoNEUE propoNEUE dessinNEUE dessinNEUE dessinNEUE dessinNEUE"
-  "vynilNEUE vynilNEUE vynilNEUE vynilNEUE vynilNEUE vynilNEUE vynilNEUE vynilNEUE "
-  "mockupNEUE mockupNEUE mockupNEUE mockupNEUE mockupNEUE mockupNEUE mockupNEUE mockupNEUE "
-  "behanceNEUE behanceNEUE behanceNEUE behanceNEUE behanceNEUE behanceNEUE behanceNEUE behanceNEUE";
-} 
-.carteLAETITIA { grid-area: carteLAETITIA;}
-.logoLAETITIA { grid-area: logoLAETITIA; }
-.flyerLAETITIA { grid-area: flyerLAETITIA; }
-.instaLAETITIA { grid-area: instaLAETITIA; }
-
-.mockupBLUE { grid-area: mockupBLUE;}
-.mockup2BLUE { grid-area: mockup2BLUE; }
-.bannièreBLUE { grid-area: bannièreBLUE; }
-
-.triptiqueSIX { grid-area: triptiqueSIX;}
-.paysageSIX{ grid-area: paysageSIX; }
-.les4SIX { grid-area: les4SIX; }
-.gifSIX{ grid-area: gifSIX; }
-
-.N°1 { grid-area: N°1;}
-.N°2 { grid-area: N°2;}
-.N°3 { grid-area: N°3;}
-.N°4 { grid-area: N°4;}
-.N°5 { grid-area: N°5;}
-.N°6 { grid-area: N°6;}
-.N°7 { grid-area: N°7;}
-
-.logoLARUCHE { grid-area: logoLARUCHE;}
-.cyclisteLARUCHE { grid-area: cyclisteLARUCHE;}
-.pageerrorLARUCHE { grid-area: pageerrorLARUCHE;}
-.laruche{ grid-area: laruche;}
-.pyctoLARUCHE { grid-area: pyctoLARUCHE;}
-.helloLARUCHE { grid-area: helloLARUCHE;}
-.collectivitéLARUCHE{ grid-area: collectivitéLARUCHE;}
-.siteinternetLARUCHE{grid-area: siteinternetLARUCHE;}
-.actualitésLARUCHE{grid-area: actualitésLARUCHE;}
-
-.propoNEUE { grid-area: propoNEUE;}
-.dessinNEUE { grid-area: dessinNEUE;}
-.vynilNEUE { grid-area: vynilNEUE;}
-.mockupNEUE{ grid-area: mockupNEUE;}
-.behanceNEUE { grid-area: behanceNEUE;}
 
