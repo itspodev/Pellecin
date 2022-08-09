@@ -301,7 +301,7 @@ export default {
                     img: gif,
                     class: 'gifSIX',
                     containerClass: 'containerProjectSIXFEET',
-                    format: 'gif',
+                    format: 'img',
                 },
 
                 {
@@ -491,6 +491,7 @@ export default {
                 //     tag:['graphisme', 'motion', 'illustration'],
                 //     img: squelette,
                 //     class: 'img-full',
+              //       containerClass: 'containerProjectNEUE',
                 //     format: 'mp4',
                 // },
                 {
@@ -508,6 +509,7 @@ export default {
                 //     tag:['graphisme', 'motion', 'illustration'],
                 //     img: basdepage,
                 //     class: 'img-full',
+              //       containerClass: 'containerProjectNEUE',
                 //     format: 'mp4',
                 // },
                 
