@@ -5,10 +5,10 @@
       <main class="containerContact">
         <div class="contact">
           <p class="line">
-            Télephone: <a href="+33 6 99 79 00 80 "><strong>06 99 79 00 80</strong></a>
+            Télephone: <a href="06 99 79 00 80 "><strong> 06 99 79 00 80</strong></a>
           </p>
           <p class="line2">
-            Mail: <a href="mailto:hello@pepenome.fr"><strong>hello@pepenome.fr</strong></a>
+            Mail: <a href="mailto:hello@pepenome.fr"><strong> hello@pepenome.fr</strong></a>
           </p>
           <p>
             Adresse:
