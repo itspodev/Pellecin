@@ -488,7 +488,7 @@ li a{
 
 .review-card cite {
   max-width: 90%;
-  font-weight: bold;
+  font-weight: lighter;
   font-size: 1.4em;
 }
 
@@ -561,6 +561,7 @@ li a{
 }
 
 .main-footer__up--black {
+  padding-top: 60px;
   background-color: #000;
   color:#fff;
   text-transform: uppercase;
@@ -634,6 +635,10 @@ li a{
   align-items: center;
   height: 100px;
   padding: 2em 0 4em 0;
+}
+
+.main-footer__up--black .main-footer__social-media {
+  padding: 2em 0 0 0;
 }
 
 .main-footer__social-media img {
@@ -1032,6 +1037,11 @@ li a{
   margin-bottom: 0;
   text-transform: uppercase;
   text-align:center
+}
+
+.project-text-box .project-text-box__h1-number {
+  font-size: 8em;
+  letter-spacing: 20px;
 }
 
 .project-text-box__navbar {

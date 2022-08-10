@@ -279,7 +279,6 @@ export default {
   },
   created() {
     this.url_data = this.$route.params.name;
-    console.log(this.url_data);
     this.defaultClass();
     if(this.url_data !== '' && this.home !== true) {
       this.filter = this.url_data;

@@ -2,7 +2,7 @@
   <slot>
     <div class="project-text-initial-box">
       <section class="project-text-box">
-        <h1>{{ this.description.nameOfProject }}</h1>
+        <h1 :class=this.class >{{ this.description.nameOfProject }}</h1>
         <article class="project-text-box__navbar">
           <h2 v-for="tag1 of this.description.tag1" :key="tag1">
             <router-link :to="{ name: 'projet', params: { name: tag1 } }"> {{ tag1 }} </router-link>
@@ -22,5 +22,22 @@
 export default {
   name: "DetailDescription",
   props: ["description"],
+  data: function () {
+    return {
+      url_data: null,
+      class: '',
+    }
+  },
+  methods: {
+    addProjectN7Class: function() {
+      if(this.url_data === 'N°'){
+        this.class = 'project-text-box__h1-number'
+      }
+    }
+  },
+  mounted() {
+    this.url_data = this.$route.params.name;
+    this.addProjectN7Class();
+  }
 };
 </script>
