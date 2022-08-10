@@ -561,6 +561,7 @@ li a{
 }
 
 .main-footer__up--black {
+  padding-top: 60px;
   background-color: #000;
   color:#fff;
   text-transform: uppercase;
@@ -634,6 +635,10 @@ li a{
   align-items: center;
   height: 100px;
   padding: 2em 0 4em 0;
+}
+
+.main-footer__up--black .main-footer__social-media {
+  padding: 2em 0 0 0;
 }
 
 .main-footer__social-media img {
