@@ -78,14 +78,22 @@ import {
   vague,
   nolex,
   nolexBanner,
+  
+  identity,
+  logochaves,
+  packaging,
+
+  autoPortraitbleu,
+  logobleu,
+  imgbleu,
+
   illubox,
   mockupbox,
   illu2box,
   facebox,
   face2box,
-  identity,
-  logochaves,
-  packaging,
+
+  
 
 } from "@/utils/media";
 
@@ -611,52 +619,6 @@ export default {
                     format: 'img',
                 },
 
-                // {
-                //     name:'Boxing',
-                //     nameOfImage:'illubox',
-                //     tag:['illustration', 'graphisme'],
-                //     img: illubox,
-                //     class: 'illuBOXING',
-                //     containerClass: 'containerProjectBOXING',
-                //     format: 'img',
-                // },
-                // {
-                //     name:'Boxing',
-                //     nameOfImage:'mockupbox',
-                //     tag:['illustration', 'graphisme'],
-                //     img: mockupbox,
-                //     class: 'mockupBOXING',
-                //     containerClass: 'containerProjectBOXING',
-                //     format: 'img',
-                // },
-                // {
-                //     name:'Boxing',
-                //     nameOfImage:'illu2box',
-                //     tag:['illustration', 'graphisme'],
-                //     img: illu2box,
-                //     class: 'illu2BOXING',
-                //     containerClass: 'containerProjectBOXING',
-                //     format: 'img',
-                // },
-                // {
-                //     name:'Boxing',
-                //     nameOfImage:'facebox',
-                //     tag:['illustration', 'graphisme'],
-                //     img: facebox,
-                //     class: 'faceBOXING',
-                //     containerClass: 'containerProjectBOXING',
-                //     format: 'img',
-                // },
-                // {
-                //     name:'Boxing',
-                //     nameOfImage:'face2box',
-                //     tag:['illustration', 'graphisme'],
-                //     img: face2box,
-                //     class: 'face2BOXING',
-                //     containerClass: 'containerProjectBOXING',
-                //     format: 'img',
-                // },
-
                 {
                     name:'Chaves',
                     nameOfImage:'identity',
@@ -684,7 +646,83 @@ export default {
                     containerClass: 'containerProjectCHAVES',
                     format: 'img',
                 },
+
+
+                {
+                    name:'Le-bleu-&-jaune',
+                    nameOfImage:'imgbleu',
+                    tag:['motion', 'illustration', 'branding', 'graphisme'],
+                    img: imgbleu,
+                    class: 'imgLEBLEU',
+                    containerClass: 'containerProjectLEBLEU',
+                    format: 'img',
+                },
+                {
+                    name:'Le-bleu-&-jaune',
+                    nameOfImage:'autoPortraitbleus',
+                    tag:['motion', 'illustration', 'branding', 'graphisme'],
+                    img: autoPortraitbleu,
+                    class: 'autoPortraitLEBLEU',
+                    containerClass: 'containerProjectLEBLEU',
+                    format: 'img',
+                },
+                {
+                    name:'Le-bleu-&-jaune',
+                    nameOfImage:'logobleu',
+                    tag:['motion', 'illustration', 'branding', 'graphisme'],
+                    img: logobleu,
+                    class: 'logoLEBLEU',
+                    containerClass: 'containerProjectLEBLEU',
+                    format: 'img',
+                },
+
+
+                {
+                    name:'Fight-Camp',
+                    nameOfImage:'illu2box',
+                    tag:['illustration', 'graphisme'],
+                    img: illu2box,
+                    class: 'illu2BOXING',
+                    containerClass: 'containerProjectBOXING',
+                    format: 'img',
+                },
+                {
+                    name:'Fight-Camp',
+                    nameOfImage:'illubox',
+                    tag:['motion', 'illustration', 'branding', 'graphisme'],
+                    img: illubox,
+                    class: 'illuBOXING',
+                    containerClass: 'containerProjectBOXING',
+                    format: 'img',
+                },
+                {
+                    name:'Fight-Camp',
+                    nameOfImage:'mockupbox',
+                    tag:['illustration', 'graphisme'],
+                    img: mockupbox,
+                    class: 'mockupBOXING',
+                    containerClass: 'containerProjectBOXING',
+                    format: 'img',
+                },
                 
+                {
+                    name:'Fight-Camp',
+                    nameOfImage:'facebox',
+                    tag:['illustration','graphisme'],
+                    img: facebox,
+                    class: 'faceBOXING',
+                    containerClass: 'containerProjectBOXING',
+                    format: 'img',
+                },
+                {
+                    name:'Fight-Camp',
+                    nameOfImage:'face2box,',
+                    tag:['illustration', 'graphisme'],
+                    img: face2box,
+                    class: 'face2BOXING',
+                    containerClass: 'containerProjectBOXING',
+                    format: 'img',
+                },
             ],
         }
       },

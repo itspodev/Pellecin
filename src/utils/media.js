@@ -76,17 +76,20 @@ import vague from "@/assets/img/Nolex/vague.jpg";
 import nolex from "@/assets/img/Nolex/nolex.gif";
 import nolexBanner from "@/assets/img/Nolex/Nolex.mp4";
 
-import illubox from "@/assets/img/Boxing_culture/illustration_sans_titre.png";
-import mockupbox from "@/assets/img/Boxing_culture/rm363-b07-google-mockup_copie.jpg";
-import illu2box from "@/assets/img/Boxing_culture/illustration_sans_titre_2.png";
-import facebox from "@/assets/img/Boxing_culture/Duex_face.jpg";
-import face2box from "@/assets/img/Boxing_culture/Duex_face_2.jpg";
-
 import identity from "@/assets/img/chaves/identity.jpg";
 import logochaves from "@/assets/img/chaves/Logo_Boulangerie.jpg";
 import packaging from "@/assets/img/chaves/Packaging.jpg";
 
+import autoPortraitbleu from "@/assets/img/Le_Bleu_et_Le_jaune/Autoportrait.gif";
+import logobleu from "@/assets/img/Le_Bleu_et_Le_jaune/IMG_0664.jpg";
+import imgbleu from "@/assets/img/Le_Bleu_et_Le_jaune/Logo_Bleu_Jaune.png";
 
+
+import illubox from "@/assets/img/Boxing_culture/illustration_sans_titre.png";
+import mockupbox from "@/assets/img/Boxing_culture/rm363-b07-google-mockup_copie.jpg";
+import illu2box from "@/assets/img/Boxing_culture/illustration_sans_titre_2.png";
+import facebox from "@/assets/img/Boxing_culture/Deux_face.jpg";
+import face2box from "@/assets/img/Boxing_culture/Deux_face_2.jpg";
 
 
 export {
@@ -160,12 +163,20 @@ export {
   vague,
   nolex,
   nolexBanner,
+  
+  identity,
+  logochaves,
+  packaging,
+
+  autoPortraitbleu,
+  logobleu,
+  imgbleu,
+
   illubox,
   mockupbox,
   illu2box,
   facebox,
   face2box,
-  identity,
-  logochaves,
-  packaging,
+
+
 };

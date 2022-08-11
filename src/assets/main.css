@@ -1193,10 +1193,14 @@ li a{
   background-color: #000;
   display: grid;
   grid-auto-columns: .4fr;
-  grid-template-columns: 1fr 1fr 1fr .5fr 1fr 1fr 1fr .5fr;
-  grid-template-rows: .8fr 1fr .74fr;
+  grid-template-columns: 1fr .7fr 1fr .5fr .5fr;
+  grid-template-rows: 1fr .8fr 1fr .7fr .7fr;
   gap: 10px 10px; 
-  grid-template-areas: "";
+  grid-template-areas: "illu2BOXING illu2BOXING illu2BOXING illu2BOXING illu2BOXING illu2BOXING illu2BOXING illu2BOXING"
+  "mockupBOXING mockupBOXING mockupBOXING mockupBOXING mockupBOXING mockupBOXING mockupBOXING mockupBOXING"
+  "illuBOXING illuBOXING illuBOXING illuBOXING illuBOXING illuBOXING illuBOXING illuBOXING"
+  "faceBOXING faceBOXING faceBOXING faceBOXING faceBOXING faceBOXING faceBOXING faceBOXING"
+  "face2BOXING face2BOXING face2BOXING face2BOXING face2BOXING face2BOXING face2BOXING face2BOXING";
 } 
 
 .containerProjectCHAVES {
@@ -1209,6 +1213,17 @@ li a{
   grid-template-areas: "idCHAVES idCHAVES idCHAVES idCHAVES idCHAVES idCHAVES idCHAVES idCHAVES"
   "logoCHAVES logoCHAVES logoCHAVES logoCHAVES logoCHAVES logoCHAVES logoCHAVES logoCHAVES"
   "packCHAVES packCHAVES packCHAVES packCHAVES packCHAVES packCHAVES packCHAVES packCHAVES";
+} 
+.containerProjectLEBLEU {
+  background-color: #000;
+  display: grid;
+  grid-auto-columns: .4fr;
+  grid-template-columns: .2fr 1fr 1fr;
+  grid-template-rows: .4fr 1fr 1fr;
+  gap: 10px 10px; 
+  grid-template-areas: "imgLEBLEU imgLEBLEU imgLEBLEU imgLEBLEU imgLEBLEU imgLEBLEU imgLEBLEU imgLEBLEU"
+ "autoPortraitLEBLEU autoPortraitLEBLEU autoPortraitLEBLEU autoPortraitLEBLEU autoPortraitLEBLEU autoPortraitLEBLEU autoPortraitLEBLEU autoPortraitLEBLEU"
+  "logoLEBLEU logoLEBLEU logoLEBLEU logoLEBLEU logoLEBLEU logoLEBLEU logoLEBLEU logoLEBLEU";
 } 
 .carteLAETITIA { grid-area: carteLAETITIA;}
 .logoLAETITIA { grid-area: logoLAETITIA; }
@@ -1257,15 +1272,19 @@ li a{
 .vagueNOLEX{ grid-area: vagueNOLEX;}
 .nolexNOLEX { grid-area: nolexNOLEX;}
 
-.illuBOXING{grid-area:illuBOXING ;}
+.illuBOXING{grid-area:illuBOXING;}
 .mockupBOXING{grid-area:mockupBOXING;}
-.illu2BOXING {grid-area:illu2BOXING ;}
-.faceBOXING{grid-area:faceBOXING ;}
-.face2BOXING{grid-area:face2BOXING ;}
+.illu2BOXING {grid-area:illu2BOXING;}
+.faceBOXING{grid-area:faceBOXING;}
+.face2BOXING{grid-area:face2BOXING;}
 
 .idCHAVES { grid-area: idCHAVES;}
 .logoCHAVES { grid-area: logoCHAVES;}
 .packCHAVES { grid-area: packCHAVES;}
+
+.imgLEBLEU { grid-area: imgLEBLEU;}
+.autoPortraitLEBLEU { grid-area: autoPortraitLEBLEU}
+.logoLEBLEU { grid-area: logoLEBLEU;}
 
 /*---------------- MEDIA QUERIES -------------------*/
 
