@@ -647,7 +647,6 @@ export default {
                     format: 'img',
                 },
 
-
                 {
                     name:'Le-bleu-&-jaune',
                     nameOfImage:'imgbleu',
@@ -676,7 +675,6 @@ export default {
                     format: 'img',
                 },
 
-
                 {
                     name:'Fight-Camp',
                     nameOfImage:'illu2box',
@@ -704,7 +702,6 @@ export default {
                     containerClass: 'containerProjectBOXING',
                     format: 'img',
                 },
-                
                 {
                     name:'Fight-Camp',
                     nameOfImage:'facebox',
