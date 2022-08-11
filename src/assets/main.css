@@ -488,7 +488,7 @@ li a{
 
 .review-card cite {
   max-width: 90%;
-  font-weight: bold;
+  font-weight: lighter;
   font-size: 1.4em;
 }
 
@@ -561,6 +561,7 @@ li a{
 }
 
 .main-footer__up--black {
+  padding-top: 60px;
   background-color: #000;
   color:#fff;
   text-transform: uppercase;
@@ -634,6 +635,10 @@ li a{
   align-items: center;
   height: 100px;
   padding: 2em 0 4em 0;
+}
+
+.main-footer__up--black .main-footer__social-media {
+  padding: 2em 0 0 0;
 }
 
 .main-footer__social-media img {
@@ -1003,7 +1008,7 @@ li a{
   border-bottom: none;
 }
 
-/*********** PROJECT PAGE **********/
+/*-------- PROJECT PAGE --------*/
 
 .project-banner__img {
   width: 100%;
@@ -1034,6 +1039,11 @@ li a{
   text-align:center
 }
 
+.project-text-box .project-text-box__h1-number {
+  font-size: 8em;
+  letter-spacing: 20px;
+}
+
 .project-text-box__navbar {
   display: flex;
   text-align:center;
@@ -1053,12 +1063,17 @@ li a{
   text-transform: uppercase;
 }
 
+.project-text-box__navbar h2 a {
+  text-decoration: none;
+  color: #fff;
+}
+
 .project-text-box h3 {
   font-size: 1.7em;
 }
 
 .project-text-box__tags2-box {
-  max-width: 60vw;
+  max-width: 65vw;
   margin:3em 0;
   padding: 2em;
   border: 1px solid #fff;

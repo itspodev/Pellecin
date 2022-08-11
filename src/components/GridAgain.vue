@@ -64,6 +64,7 @@ export default {
   props: ["home"],
   data: function () {
     return {
+      url_data: null,
       filter: "home",
       class: "containerGridHome",
       projectArray: [
@@ -277,7 +278,12 @@ export default {
     },
   },
   created() {
+    this.url_data = this.$route.params.name;
     this.defaultClass();
+    if(this.url_data !== '' && this.home !== true) {
+      this.filter = this.url_data;
+      this.classChange(this.filter);
+    }
   },
 };
 </script>
