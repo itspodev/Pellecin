@@ -82,16 +82,19 @@ import {
   identity,
   logochaves,
   packaging,
+  chavesBanner,
 
   autoPortraitbleu,
   logobleu,
   imgbleu,
+  bleuJauneBanner,
 
   illubox,
   mockupbox,
   illu2box,
   facebox,
   face2box,
+  boxingCultureBanner,
 
   
 
@@ -154,7 +157,26 @@ export default {
           format: "mp4",
           content: nolexBanner,
           class: "project-banner__video",
+        },
+        {
+          name: "Chaves",
+          format: "mp4",
+          content: chavesBanner,
+          class: "project-banner__video",
+        },
+        {
+          name: "Le-bleu-&-jaune",
+          format: "mp4",
+          content: bleuJauneBanner,
+          class: "project-banner__video",
+        },
+        {
+          name: "Fight-Camp",
+          format: "mp4",
+          content: boxingCultureBanner,
+          class: "project-banner__video",
         }
+
       ],
       descriptionArray: [
         {
@@ -226,7 +248,7 @@ export default {
           name: "La-ruche-à-velo",
           nameOfProject: "La ruche à velos",
           tag1: ["web", "branding", "illustration"],
-          mission: "Refonte de l'identité de marque de La ruche à vélos",
+          mission: "Refonte de l'identité de marque de La ruche à vélos.",
           missionDesc: [
             "Refonte complète du logo ainsi que de la charte graphique",
             "Création de l'identité visuelle à travers des illustrations et des pictogrammes ainsi que le design du site internet.",
@@ -240,7 +262,7 @@ export default {
           name: "Nolex",
           nameOfProject: "Nolex",
           tag1: ["web", "branding", "motion"],
-          mission: "Refont de l'identité de marque de Nolex",
+          mission: "Refonte de l'identité de marque de Nolex.",
           misionDesc: [
             "Créer une nouvelle identité graphique, avec une nouvelle charte pour un rendu plus design et professionel.",
             "Réalisation de visuels et motion pour les réseaux sociaux et la nouvelle maquette du site internet."
@@ -249,6 +271,48 @@ export default {
             "logotype - identité de marque - branding - motion design - web - webdesign",
             "maquette - site internet - community management - photoshop - after effect - illustrator"
             ]
+        },
+        {
+          name: "Chaves",
+          nameOfProject: "Boulangerie Chaves",
+          tag1: ["illustration", "branding", "graphisme", "édition"],
+          mission: "Refonte de l'identité de marque de la boulangerie CHAVES à Dinan.",
+          missionDesc: [
+            "Le clien souhaitait redonner vie à son logo qui datait de plus de 20 ans. La mascotte de la boulangerie",
+            "étant l'écureuil, il souhaitait la mettre en avant dans sa communication."
+          ],
+          tag2: [
+            "logotype - branding - graphisme",
+            "affiche - illustration - dessin - print - édition"
+          ]
+        },
+        {
+          name: "Le-bleu-&-jaune",
+          nameOfProject: "Le bleu & le jaune",
+          tag1: ["motion", "illustration", "branding", "graphisme"],
+          mission: "Création d'un compte collab entre Lucille DC également Graphiste frelance et moi-même.",
+          missionDesc: [
+            "Nous avons créé un univers à notre image et représentatif de nos couleurs,",
+            "pour Lucille le bleu pour moi le jaune. C'est un compte où on y dévoile nos créations, notre patte graphique."
+          ],
+          tag2: [
+            "logotype - branding - motion design - animation 2D - frame by frame - graphisme",
+            "affiche - illustration - dessin - inspiration"
+          ]
+        },
+        {
+          name: "Fight-Camp",
+          nameOfProject: "Boxing Culture",
+          tag1:["illustration", "graphisme"],
+          mission: "Création d'illustrations pour un évènement à New-York intitulé \"Fight Camp\" ainsi que d'autres éléments graphiques pour la marque Boxing Culture.",
+          missionDesc: [
+            "L'illustration rassemble le milieu de la boxe avec Mohammed Ali et",
+            "la statue de la liberté représente la ville de New-York."
+          ],
+          tag2: [
+            "graphisme - affiche - illustration - dessin - procreate",
+            "dessin technique - adobe illustrator"
+          ]
         }
       ],
 
