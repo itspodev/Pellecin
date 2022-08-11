@@ -70,6 +70,7 @@ import basdepage from "@/assets/img/MAWEN/BAS_DE_PAGE.mp4";
 
 import logonolex2 from "@/assets/img/Nolex/LogoNolex.2.png";
 import chartegraph from "@/assets/img/Nolex/Charte_graphique-01.png";
+import precomp from "@/assets/img/Nolex/Précomp-5.mp4";
 import maquettenolex from "@/assets/img/Nolex/Maquette_Site_Internet_copie.jpg";
 import vague from "@/assets/img/Nolex/vague.jpg";
 import nolex from "@/assets/img/Nolex/nolex.gif";
@@ -142,6 +143,7 @@ export {
   basdepage,
   logonolex2,
   chartegraph,
+  precomp,
   maquettenolex,
   vague,
   nolex,

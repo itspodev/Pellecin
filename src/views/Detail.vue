@@ -73,6 +73,7 @@ import {
   basdepage,
   logonolex2,
   chartegraph,
+  precomp,
   maquettenolex,
   vague,
   nolex,
@@ -549,7 +550,7 @@ export default {
                 // },
                 {
                     name:'Nolex',
-                    nameOfImage:'behancemawen',
+                    nameOfImage:'logonolex2',
                     tag:['web', 'branding', 'motion' ],
                     img: logonolex2,
                     class: 'logoNOLEX',
@@ -558,7 +559,7 @@ export default {
                 },
                 {
                     name:'Nolex',
-                    nameOfImage:'behancemawen',
+                    nameOfImage:'chartegraph',
                     tag:['web', 'branding', 'motion' ],
                     img: chartegraph,
                     class: 'charteNOLEX',
@@ -567,7 +568,16 @@ export default {
                 },
                 {
                     name:'Nolex',
-                    nameOfImage:'behancemawen',
+                    nameOfImage:'precomp',
+                    tag:['web', 'branding', 'motion' ],
+                    img: precomp,
+                    class: 'precompNOLEX',
+                    containerClass: 'containerProjectNOLEX',
+                    format: 'mp4',
+                },
+                {
+                    name:'Nolex',
+                    nameOfImage:'maquettenolex',
                     tag:['web', 'branding', 'motion' ],
                     img: maquettenolex,
                     class: 'maquetteNOLEX',
@@ -576,7 +586,7 @@ export default {
                 },
                 {
                     name:'Nolex',
-                    nameOfImage:'behancemawen',
+                    nameOfImage:'vague',
                     tag:['web', 'branding', 'motion' ],
                     img: vague,
                     class: 'vagueNOLEX',
@@ -585,7 +595,7 @@ export default {
                 },
                 {
                     name:'Nolex',
-                    nameOfImage:'behancemawen',
+                    nameOfImage:'nolex',
                     tag:['web', 'branding', 'motion' ],
                     img: nolex,
                     class: 'nolexNOLEX',
