@@ -73,7 +73,6 @@ import chartegraph from "@/assets/img/Nolex/Charte_graphique-01.png";
 import maquettenolex from "@/assets/img/Nolex/Maquette_Site_Internet_copie.jpg";
 import vague from "@/assets/img/Nolex/vague.jpg";
 import nolex from "@/assets/img/Nolex/nolex.gif";
-
 import nolexBanner from "@/assets/img/Nolex/Nolex.mp4";
 
 export {
