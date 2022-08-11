@@ -66,6 +66,8 @@ import propo1 from "@/assets/img/MAWEN/Propo1.jpg";
 import vynilneu from "@/assets/img/MAWEN/vynil.jpg";
 import neueAraBanner from "@/assets/img/MAWEN/Neue_Ara.mp4";
 
+import nolexBanner from "@/assets/img/Nolex/Nolex.mp4";
+
 export {
   cycliste,
   autoPortrait,
@@ -128,4 +130,5 @@ export {
   propo1,
   vynilneu,
   neueAraBanner,
+  nolexBanner,
 };

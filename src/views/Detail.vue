@@ -69,6 +69,7 @@ import {
   propo1,
   vynilneu,
   neueAraBanner,
+  nolexBanner,
 } from "@/utils/media";
 
 export default {
@@ -82,9 +83,9 @@ export default {
   props: ["project"],
   data: function () {
     return {
-      url_data: null,
-      selectedBanner: null,
-      selectedDesc: null,
+      url_data: '',
+      selectedBanner: [],
+      selectedDesc: [],
       class: '',
       bannersArray: [
         {
@@ -123,6 +124,12 @@ export default {
           content: veloBanner,
           class: "project-banner__video",
         },
+        {
+          name: "Nolex",
+          format: "mp4",
+          content: nolexBanner,
+          class: "project-banner__video",
+        }
       ],
       descriptionArray: [
         {
@@ -134,8 +141,9 @@ export default {
             "Concept visuel tout en poésie, symbolisé par une bulle de bien-être. Créer une identité à la fois élégante et légère qui symbolise l'ambiance apaisante de la sophrologie et de ses bienfaits.",
             "Un univers aux couleurs douces et réconfortantes, des éléments graphiques qui rappellent la nature, la mer, le vent et la terre",
           ],
-          tag2: ["identité visuelle - logotype - carte de visite - flyer - motion design",
-          "community management - after effect - adobe illustrator - photoshop - réseaux sociaux"
+          tag2: [
+            "identité visuelle - logotype - carte de visite - flyer - motion design",
+            "community management - after effect - adobe illustrator - photoshop - réseaux sociaux"
           ],
         },
         {
@@ -146,8 +154,9 @@ export default {
           missionDesc: [
             "La gérante souhaitait un visuel floral aux couleurs de son enseigne pour intégrer sur les murs de son salon et dans sa communication.",
           ],
-          tag2: ["graphisme - affiche - illustration - aquarelle - dessin",
-           "photoshop - édition - print"
+          tag2: [
+            "graphisme - affiche - illustration - aquarelle - dessin",
+            "photoshop - édition - print"
            ],
         },
         {
@@ -159,8 +168,9 @@ export default {
             "Nouvel objectif pour la marque spécialisée dans la photographie sport de glisse qui souhaite atteindre une nouvelle cible d'amateurs d'Art et de photo grâce à des tirages en édition très limitée.",
             "Création d'une campagne d'affichage dans un style \"lifestyle\".",
           ],
-          tag2: ["graphisme - photo - affiche - collage - illustrator",
-           "photoshop - édition - print - mise en page"
+          tag2: [
+            "graphisme - photo - affiche - collage - illustrator",
+            "photoshop - édition - print - mise en page"
            ],
         },
         {
@@ -169,8 +179,9 @@ export default {
           tag1: ["graphisme"],
           mission: "Concept de visuels et Packaging pour étiquette de bouteilles de vins fictifs.",
           missionDesc: [],
-          tag2: ["graphisme - étiquettes - collage - peinture",
-           "photoshop - packaging - illustrator"
+          tag2: [
+            "graphisme - étiquettes - collage - peinture",
+            "photoshop - packaging - illustrator"
            ],
         },
         {
@@ -182,8 +193,9 @@ export default {
             "Ce DJ aux influences électroniques / technos m'a demandé de réaliser un visuel pour illustrer son EP (extended play).",
             "Il souhaitait illustrer son projet par un homme et son squelette, dans un univers au couleur flash style affiche techno Berlinoise.",
           ],
-          tag2: ["graphisme - illustration - motion design - pochette - dessin",
-           "photoshop - after effect - procreate"],
+          tag2: [
+            "graphisme - illustration - motion design - pochette - dessin",
+            "photoshop - after effect - procreate"],
         },
         {
           name: "La-ruche-à-velo",
@@ -194,10 +206,25 @@ export default {
             "Refonte complète du logo ainsi que de la charte graphique",
             "Création de l'identité visuelle à travers des illustrations et des pictogrammes ainsi que le design du site internet.",
           ],
-          tag2: ["identité visuelle - logotype - illustration - webdesign - maquettes",
-           "illustrator - photoshop - adobe xd"
+          tag2: [
+            "identité visuelle - logotype - illustration - webdesign - maquettes",
+            "illustrator - photoshop - adobe xd"
            ],
         },
+        {
+          name: "Nolex",
+          nameOfProject: "Nolex",
+          tag1: ["web", "branding", "motion"],
+          mission: "Refont de l'identité de marque de Nolex",
+          misionDesc: [
+            "Créer une nouvelle identité graphique, avec une nouvelle charte pour un rendu plus design et professionel.",
+            "Réalisation de visuels et motion pour les réseaux sociaux et la nouvelle maquette du site internet."
+          ],
+          tag2: [
+            "logotype - identité de marque - branding - motion design - web - webdesign",
+            "maquette - site internet - community management - photoshop - after effect - illustrator"
+            ]
+        }
       ],
 
             selectedImg:[],
