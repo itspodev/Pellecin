@@ -79,10 +79,12 @@ import nolexBanner from "@/assets/img/Nolex/Nolex.mp4";
 import identity from "@/assets/img/chaves/identity.jpg";
 import logochaves from "@/assets/img/chaves/Logo_Boulangerie.jpg";
 import packaging from "@/assets/img/chaves/Packaging.jpg";
+import chavesBanner from "@/assets/img/chaves/Chaves.mp4";
 
 import autoPortraitbleu from "@/assets/img/Le_Bleu_et_Le_jaune/Autoportrait.gif";
 import logobleu from "@/assets/img/Le_Bleu_et_Le_jaune/IMG_0664.jpg";
 import imgbleu from "@/assets/img/Le_Bleu_et_Le_jaune/Logo_Bleu_Jaune.png";
+import bleuJauneBanner from "@/assets/img/Le_Bleu_et_Le_jaune/Précomp-6.mp4";
 
 
 import illubox from "@/assets/img/Boxing_culture/illustration_sans_titre.png";
@@ -90,6 +92,7 @@ import mockupbox from "@/assets/img/Boxing_culture/rm363-b07-google-mockup_copie
 import illu2box from "@/assets/img/Boxing_culture/illustration_sans_titre_2.png";
 import facebox from "@/assets/img/Boxing_culture/Deux_face.jpg";
 import face2box from "@/assets/img/Boxing_culture/Deux_face_2.jpg";
+import boxingCultureBanner from "@/assets/img/Boxing_culture/Boxing_culture.mp4"
 
 
 export {
@@ -167,16 +170,19 @@ export {
   identity,
   logochaves,
   packaging,
+  chavesBanner,
 
   autoPortraitbleu,
   logobleu,
   imgbleu,
+  bleuJauneBanner,
 
   illubox,
   mockupbox,
   illu2box,
   facebox,
   face2box,
+  boxingCultureBanner,
 
 
 };
