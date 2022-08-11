@@ -1178,9 +1178,9 @@ li a{
 .containerProjectNOLEX {
   background-color: #000;
   display: grid;
-  grid-auto-columns: .5fr;
+  grid-auto-columns: .4fr;
   grid-template-columns: 1.fr 1.1fr 1.2fr 1fr 1fr 1fr 1fr .5fr;
-  grid-template-rows: .6fr 1fr 1fr;
+  grid-template-rows: .4fr .5fr 1fr;
   gap: 10px 10px; 
   grid-template-areas: "logoNOLEX logoNOLEX logoNOLEX logoNOLEX logoNOLEX logoNOLEX logoNOLEX logoNOLEX"
   "charteNOLEX charteNOLEX charteNOLEX charteNOLEX charteNOLEX charteNOLEX charteNOLEX charteNOLEX"
