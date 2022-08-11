@@ -82,6 +82,11 @@ import illu2box from "@/assets/img/Boxing_culture/illustration_sans_titre_2.png"
 import facebox from "@/assets/img/Boxing_culture/Duex_face.jpg";
 import face2box from "@/assets/img/Boxing_culture/Duex_face_2.jpg";
 
+import identity from "@/assets/img/chaves/identity.jpg";
+import logochaves from "@/assets/img/chaves/Logo_Boulangerie.jpg";
+import packaging from "@/assets/img/chaves/Packaging.jpg";
+
+
 
 
 export {
@@ -160,4 +165,7 @@ export {
   illu2box,
   facebox,
   face2box,
+  identity,
+  logochaves,
+  packaging,
 };

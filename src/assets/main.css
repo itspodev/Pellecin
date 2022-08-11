@@ -1196,11 +1196,19 @@ li a{
   grid-template-columns: 1fr 1fr 1fr .5fr 1fr 1fr 1fr .5fr;
   grid-template-rows: .8fr 1fr .74fr;
   gap: 10px 10px; 
-  grid-template-areas: "illuBOXING illuBOXING illuBOXING illuBOXING illuBOXING illuBOXING illuBOXING illuBOXING"
-  "mockupBOXING mockupBOXING mockupBOXING mockupBOXING mockupBOXING mockupBOXING mockupBOXING mockupBOXING"
-  "illu2BOXING illu2BOXING illu2BOXING illu2BOXING illu2BOXING illu2BOXING illu2BOXING illu2BOXING"
-  "faceBOXING faceBOXING faceBOXING faceBOXING faceBOXING faceBOXING faceBOXING faceBOXING"
-  "face2BOXING face2BOXING face2BOXING face2BOXING face2BOXING face2BOXING face2BOXING face2BOXING";
+  grid-template-areas: "";
+} 
+
+.containerProjectCHAVES {
+  background-color: #000;
+  display: grid;
+  grid-auto-columns: .4fr;
+  grid-template-columns: .5fr 1fr .5fr;
+  grid-template-rows: .5fr 1fr .5fr;
+  gap: 10px 10px; 
+  grid-template-areas: "idCHAVES idCHAVES idCHAVES idCHAVES idCHAVES idCHAVES idCHAVES idCHAVES"
+  "logoCHAVES logoCHAVES logoCHAVES logoCHAVES logoCHAVES logoCHAVES logoCHAVES logoCHAVES"
+  "packCHAVES packCHAVES packCHAVES packCHAVES packCHAVES packCHAVES packCHAVES packCHAVES";
 } 
 .carteLAETITIA { grid-area: carteLAETITIA;}
 .logoLAETITIA { grid-area: logoLAETITIA; }
@@ -1254,6 +1262,10 @@ li a{
 .illu2BOXING {grid-area:illu2BOXING ;}
 .faceBOXING{grid-area:faceBOXING ;}
 .face2BOXING{grid-area:face2BOXING ;}
+
+.idCHAVES { grid-area: idCHAVES;}
+.logoCHAVES { grid-area: logoCHAVES;}
+.packCHAVES { grid-area: packCHAVES;}
 
 /*---------------- MEDIA QUERIES -------------------*/
 
