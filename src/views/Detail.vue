@@ -508,8 +508,8 @@ export default {
                 //     nameOfImage:'basdepage',
                 //     tag:['graphisme', 'motion', 'illustration'],
                 //     img: basdepage,
-                //     class: 'img-full',
-              //       containerClass: 'containerProjectNEUE',
+                //     class: 'videoNEUE',
+                //     containerClass: 'containerProjectNEUE',
                 //     format: 'mp4',
                 // },
                 

@@ -1156,7 +1156,8 @@ li a{
   grid-template-areas: "propoNEUE propoNEUE propoNEUE propoNEUE dessinNEUE dessinNEUE dessinNEUE dessinNEUE"
   "vynilNEUE vynilNEUE vynilNEUE vynilNEUE vynilNEUE vynilNEUE vynilNEUE vynilNEUE "
   "mockupNEUE mockupNEUE mockupNEUE mockupNEUE mockupNEUE mockupNEUE mockupNEUE mockupNEUE "
-  "behanceNEUE behanceNEUE behanceNEUE behanceNEUE behanceNEUE behanceNEUE behanceNEUE behanceNEUE";
+  "behanceNEUE behanceNEUE behanceNEUE behanceNEUE behanceNEUE behanceNEUE behanceNEUE behanceNEUE"
+  "videoNEUE videoNEUE videoNEUE videoNEUE videoNEUE videoNEUE videoNEUE videoNEUE";
 } 
 .carteLAETITIA { grid-area: carteLAETITIA;}
 .logoLAETITIA { grid-area: logoLAETITIA; }
@@ -1195,6 +1196,7 @@ li a{
 .vynilNEUE { grid-area: vynilNEUE;}
 .mockupNEUE{ grid-area: mockupNEUE;}
 .behanceNEUE { grid-area: behanceNEUE;}
+.videoNEUE{grid-area: videoNEUE;}
 
 /*---------------- MEDIA QUERIES -------------------*/
 
