@@ -1165,15 +1165,15 @@ li a{
   background-color: #000;
   display: grid;
   grid-auto-columns: 1fr;
-  grid-template-columns: 1.fr 1.1fr 1.2fr 1fr 1fr 1fr 1fr .5fr;
-  grid-template-rows: .6fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr .5fr 1fr 1fr 1fr 1fr .5fr;
+  grid-template-rows: .35fr .55fr .39fr;
   gap: 10px 10px; 
   grid-template-areas: "propoNEUE propoNEUE propoNEUE propoNEUE dessinNEUE dessinNEUE dessinNEUE dessinNEUE"
   "vynilNEUE vynilNEUE vynilNEUE vynilNEUE vynilNEUE vynilNEUE vynilNEUE vynilNEUE"
-  /* "squeletteNEUE squeletteNEUE squeletteNEUE squeletteNEUE squeletteNEUE squeletteNEUE squeletteNEUE squeletteNEUE" */
+  "squeletteNEUE squeletteNEUE squeletteNEUE squeletteNEUE squeletteNEUE squeletteNEUE squeletteNEUE squeletteNEUE"
   "mockupNEUE mockupNEUE mockupNEUE mockupNEUE mockupNEUE mockupNEUE mockupNEUE mockupNEUE"
-  "behanceNEUE behanceNEUE behanceNEUE behanceNEUE behanceNEUE behanceNEUE behanceNEUE behanceNEUE"
-  /* "videoNEUE videoNEUE videoNEUE videoNEUE videoNEUE videoNEUE videoNEUE videoNEUE"; */
+  "behanceNEUE behanceNEUE behanceNEUE behanceNEUE behanceNEUE behanceNEUE behanceNEUE behanceNEUE";
+
 } 
 .containerProjectNOLEX {
   background-color: #000;
@@ -1224,7 +1224,7 @@ li a{
 .propoNEUE { grid-area: propoNEUE;}
 .dessinNEUE { grid-area: dessinNEUE;}
 .vynilNEUE { grid-area: vynilNEUE;}
-/* .squeletteNEUE{ grid-area: squeletteNEUE;} */
+.squeletteNEUE{ grid-area: squeletteNEUE;}
 .mockupNEUE{ grid-area: mockupNEUE;}
 .behanceNEUE { grid-area: behanceNEUE;}
 /* .videoNEUE{grid-area: videoNEUE;} */
@@ -1233,7 +1233,6 @@ li a{
 .charteNOLEX { grid-area: charteNOLEX;}
 .precompNOLEX { grid-area: precompNOLEX;}
 .maquetteNOLEX { grid-area: maquetteNOLEX;}
-/* .videoNOLEX{ grid-area: videoNOLEX;} */
 .vagueNOLEX{ grid-area: vagueNOLEX;}
 .nolexNOLEX { grid-area: nolexNOLEX;}
 
