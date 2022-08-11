@@ -65,6 +65,14 @@ import mockupmawen from "@/assets/img/MAWEN/Mockup_Mawen.jpg";
 import propo1 from "@/assets/img/MAWEN/Propo1.jpg";
 import vynilneu from "@/assets/img/MAWEN/vynil.jpg";
 import neueAraBanner from "@/assets/img/MAWEN/Neue_Ara.mp4";
+import squelette from "@/assets/img/MAWEN/SQUELETTE.mp4";
+import basdepage from "@/assets/img/MAWEN/BAS_DE_PAGE.mp4";
+
+import logonolex2 from "@/assets/img/Nolex/LogoNolex.2.png";
+import chartegraph from "@/assets/img/Nolex/Charte_graphique-01.png";
+import maquettenolex from "@/assets/img/Nolex/Maquette_Site_Internet_copie.jpg";
+import vague from "@/assets/img/Nolex/vague.jpg";
+import nolex from "@/assets/img/Nolex/nolex.gif";
 
 export {
   cycliste,
@@ -124,8 +132,15 @@ export {
   veloBanner,
   behancemawen,
   dessinmawen,
+  squelette,
   mockupmawen,
   propo1,
   vynilneu,
   neueAraBanner,
+  basdepage,
+  logonolex2,
+  chartegraph,
+  maquettenolex,
+  vague,
+  nolex,
 };
