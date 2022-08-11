@@ -1189,6 +1189,19 @@ li a{
   "vagueNOLEX vagueNOLEX vagueNOLEX vagueNOLEX vagueNOLEX vagueNOLEX vagueNOLEX vagueNOLEX"
   "nolexNOLEX nolexNOLEX nolexNOLEX nolexNOLEX nolexNOLEX nolexNOLEX nolexNOLEX nolexNOLEX";
 } 
+.containerProjectBOXING {
+  background-color: #000;
+  display: grid;
+  grid-auto-columns: .4fr;
+  grid-template-columns: 1fr 1fr 1fr .5fr 1fr 1fr 1fr .5fr;
+  grid-template-rows: .8fr 1fr .74fr;
+  gap: 10px 10px; 
+  grid-template-areas: "illuBOXING illuBOXING illuBOXING illuBOXING illuBOXING illuBOXING illuBOXING illuBOXING"
+  "mockupBOXING mockupBOXING mockupBOXING mockupBOXING mockupBOXING mockupBOXING mockupBOXING mockupBOXING"
+  "illu2BOXING illu2BOXING illu2BOXING illu2BOXING illu2BOXING illu2BOXING illu2BOXING illu2BOXING"
+  "faceBOXING faceBOXING faceBOXING faceBOXING faceBOXING faceBOXING faceBOXING faceBOXING"
+  "face2BOXING face2BOXING face2BOXING face2BOXING face2BOXING face2BOXING face2BOXING face2BOXING";
+} 
 .carteLAETITIA { grid-area: carteLAETITIA;}
 .logoLAETITIA { grid-area: logoLAETITIA; }
 .flyerLAETITIA { grid-area: flyerLAETITIA; }
@@ -1235,6 +1248,12 @@ li a{
 .maquetteNOLEX { grid-area: maquetteNOLEX;}
 .vagueNOLEX{ grid-area: vagueNOLEX;}
 .nolexNOLEX { grid-area: nolexNOLEX;}
+
+.illuBOXING{grid-area:illuBOXING ;}
+.mockupBOXING{grid-area:mockupBOXING;}
+.illu2BOXING {grid-area:illu2BOXING ;}
+.faceBOXING{grid-area:faceBOXING ;}
+.face2BOXING{grid-area:face2BOXING ;}
 
 /*---------------- MEDIA QUERIES -------------------*/
 
