@@ -22,77 +22,77 @@ import insta from "@/assets/img/Insta-01.png";
 import mail from "@/assets/img/Mail-01.png";
 import behance from "@/assets/img/Behance-01.png";
 
-import carte from "@/assets/img/LAETITIA/Carte.jpg";
-import flyer from "@/assets/img/LAETITIA/Flyer.jpg";
-import instagram from "@/assets/img/LAETITIA/Insta.jpg";
-import logo2 from "@/assets/img/LAETITIA/Logo2.png";
-import laetitiaBanner from "@/assets/img/LAETITIA/Motion_Laetitia.gif";
+import carte from "@/assets/img/LAETITIA_Carte.jpg";
+import flyer from "@/assets/img/LAETITIA_Flyer.jpg";
+import instagram from "@/assets/img/LAETITIA_Insta.jpg";
+import logo2 from "@/assets/img/LAETITIA_Logo2.png";
+import laetitiaBanner from "@/assets/img/LAETITIA_Motion_Laetitia.gif";
 
-import mockup from "@/assets/img/BLUE/Mockup1.jpg";
-import mockup2 from "@/assets/img/BLUE/Mockup2.jpg";
-import bannière from "@/assets/img/BLUE/bannière.jpg";
-import blueBanner from "@/assets/img/BLUE/bannière.gif";
+import mockup from "@/assets/img/blue_Mockup1.jpg";
+import mockup2 from "@/assets/img/blue_Mockup2.jpg";
+import bannière from "@/assets/img/blue_bannière.jpg";
+import blueBanner from "@/assets/img/blue_bannière.gif";
 
-import triptique from "@/assets/img/SIXFEET/Triptique_Sixfeet.jpg";
-import paysage from "@/assets/img/SIXFEET/Affiche_Paysage_Sixfeet.jpg";
-import les4sixfeet from "@/assets/img/SIXFEET/Les_4_Sixfeet.jpg";
-import gif from "@/assets/img/SIXFEET/GIF_Bas_de_Page_Sixfeet.gif";
-import sixfeetBanner from "@/assets/img/SIXFEET/Sixfeet.mp4";
+import triptique from "@/assets/img/Triptique_Sixfeet.jpg";
+import paysage from "@/assets/img/Affiche_Paysage_Sixfeet.jpg";
+import les4sixfeet from "@/assets/img/Les_4_Sixfeet.jpg";
+import gif from "@/assets/img/GIF_Bas_de_Page_Sixfeet.gif";
+import sixfeetBanner from "@/assets/video/Sixfeet.mp4";
 
-import perso1 from "@/assets/img/N/Perso1.jpg";
-import perso2 from "@/assets/img/N/Perso2.jpg";
-import perso3 from "@/assets/img/N/perso3.jpg";
-import perso4 from "@/assets/img/N/perso4.jpg";
-import perso5 from "@/assets/img/N/perso5.jpg";
-import perso6 from "@/assets/img/N/perso6.jpg";
-import perso7 from "@/assets/img/N/perso7.jpg";
-import numberBanner from "@/assets/img/N/Vin.mp4";
+import perso1 from "@/assets/img/Perso1.jpg";
+import perso2 from "@/assets/img/Perso2.jpg";
+import perso3 from "@/assets/img/perso3.jpg";
+import perso4 from "@/assets/img/perso4.jpg";
+import perso5 from "@/assets/img/perso5.jpg";
+import perso6 from "@/assets/img/perso6.jpg";
+import perso7 from "@/assets/img/perso7.jpg";
+import numberBanner from "@/assets/video/Vin.mp4";
 
-import actualités from "@/assets/img/La_ruche_a_velos/actualités.jpg";
-import collectivité from "@/assets/img/La_ruche_a_velos/collectivité.jpg";
-import cyclistelaruche from "@/assets/img/La_ruche_a_velos/cycliste.jpg";
-import hello from "@/assets/img/La_ruche_a_velos/Hello.jpg";
-import laruche from "@/assets/img/La_ruche_a_velos/La_ruche.jpg";
-import logo2laruche from "@/assets/img/La_ruche_a_velos/logo2.jpg";
-import pageerror from "@/assets/img/La_ruche_a_velos/Page_error.jpg";
-import pyctogramme from "@/assets/img/La_ruche_a_velos/Pyctogramme.jpg";
-import siteinternet from "@/assets/img/La_ruche_a_velos/Site internet .png";
-import veloBanner from "@/assets/img/La_ruche_a_velos/Vélo.mp4";
+import actualités from "@/assets/img/velo_actualités.jpg";
+import collectivité from "@/assets/img/velo_collectivité.jpg";
+import cyclistelaruche from "@/assets/img/velo_cycliste.jpg";
+import hello from "@/assets/img/velo_Hello.jpg";
+import laruche from "@/assets/img/velo_La_ruche.jpg";
+import logo2laruche from "@/assets/img/velo_logo2.jpg";
+import pageerror from "@/assets/img/velo_Page_error.jpg";
+import pyctogramme from "@/assets/img/velo_Pyctogramme.jpg";
+import siteinternet from "@/assets/img/velo_Site internet .png";
+import veloBanner from "@/assets/video/Vélo.mp4";
 
-import behancemawen from "@/assets/img/MAWEN/behance_mawen.png";
-import dessinmawen from "@/assets/img/MAWEN/DESSIN.jpg";
-import mockupmawen from "@/assets/img/MAWEN/Mockup_Mawen.jpg";
-import propo1 from "@/assets/img/MAWEN/Propo1.jpg";
-import vynilneu from "@/assets/img/MAWEN/vynil.jpg";
-import neueAraBanner from "@/assets/img/MAWEN/Neue_Ara.mp4";
-import squelette from "@/assets/img/MAWEN/SQUELETTE.mp4";
-import basdepage from "@/assets/img/MAWEN/BAS_DE_PAGE.mp4";
+import behancemawen from "@/assets/img/MAWEN_behance_mawen.png";
+import dessinmawen from "@/assets/img/MAWEN_DESSIN.jpg";
+import mockupmawen from "@/assets/img/MAWEN_Mockup_Mawen.jpg";
+import propo1 from "@/assets/img/MAWEN_Propo1.jpg";
+import vynilneu from "@/assets/img/MAWEN_vynil.jpg";
+import neueAraBanner from "@/assets/video/MAWEN_Neue_Ara.mp4";
+import squelette from "@/assets/video/MAWEN_SQUELETTE.mp4";
+import basdepage from "@/assets/video/MAWEN_BAS_DE_PAGE.mp4";
 
-import logonolex2 from "@/assets/img/Nolex/LogoNolex.2.png";
-import chartegraph from "@/assets/img/Nolex/Charte_graphique-01.png";
-import precomp from "@/assets/img/Nolex/Précomp-5.mp4";
-import maquettenolex from "@/assets/img/Nolex/Maquette_Site_Internet_copie.jpg";
-import vague from "@/assets/img/Nolex/vague.jpg";
-import nolex from "@/assets/img/Nolex/nolex.gif";
-import nolexBanner from "@/assets/img/Nolex/Nolex.mp4";
+import logonolex2 from "@/assets/img/Nolex_LogoNolex.2.png";
+import chartegraph from "@/assets/img/Nolex_Charte_graphique-01.png";
+import maquettenolex from "@/assets/img/Nolex_Maquette_Site_Internet_copie.jpg";
+import vague from "@/assets/img/Nolex_vague.jpg";
+import nolex from "@/assets/img/Nolex_nolex.gif";
+import precomp from "@/assets/video/Précomp-5.mp4";
+import nolexBanner from "@/assets/video/Nolex.mp4";
 
-import identity from "@/assets/img/chaves/identity.jpg";
-import logochaves from "@/assets/img/chaves/Logo_Boulangerie.jpg";
-import packaging from "@/assets/img/chaves/Packaging.jpg";
-import chavesBanner from "@/assets/img/chaves/Chaves.mp4";
+import identity from "@/assets/img/chaves_identity.jpg";
+import logochaves from "@/assets/img/chaves_Logo_Boulangerie.jpg";
+import packaging from "@/assets/img/chaves_Packaging.jpg";
+import chavesBanner from "@/assets/video/Chaves.mp4";
 
-import autoPortraitbleu from "@/assets/img/Le_Bleu_et_Le_jaune/Autoportrait.gif";
-import logobleu from "@/assets/img/Le_Bleu_et_Le_jaune/IMG_0664.jpg";
-import imgbleu from "@/assets/img/Le_Bleu_et_Le_jaune/Logo_Bleu_Jaune.png";
-import bleuJauneBanner from "@/assets/img/Le_Bleu_et_Le_jaune/Précomp-6.mp4";
+import autoPortraitbleu from "@/assets/img/blue_Autoportrait.gif";
+import logobleu from "@/assets/img/blue_IMG_0664.jpg";
+import imgbleu from "@/assets/img/blue_Logo_Bleu_Jaune.png";
+import bleuJauneBanner from "@/assets/video/blue_Précomp-6.mp4";
 
 
-import illubox from "@/assets/img/Boxing_culture/Illustration_sans_titre.png";
-import mockupbox from "@/assets/img/Boxing_culture/rm363-b07-google-mockup_copie.jpg";
-import illu2box from "@/assets/img/Boxing_culture/Illustration_sans_titre_2.png";
-import facebox from "@/assets/img/Boxing_culture/Deux_face.jpg";
-import face2box from "@/assets/img/Boxing_culture/Deux_face_2.jpg";
-import boxingCultureBanner from "@/assets/img/Boxing_culture/Boxing_culture.mp4"
+import illubox from "@/assets/img/boxe_Illustration_sans_titre.png";
+import mockupbox from "@/assets/img/boxe_rm363-b07-google-mockup_copie.jpg";
+import illu2box from "@/assets/img/boxe_Illustration_sans_titre_2.png";
+import facebox from "@/assets/img/boxe_Deux_face.jpg";
+import face2box from "@/assets/img/boxe_Deux_face_2.jpg";
+import boxingCultureBanner from "@/assets/video/Boxing_culture.mp4"
 
 
 export {
