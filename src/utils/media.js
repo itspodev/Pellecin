@@ -87,9 +87,9 @@ import imgbleu from "@/assets/img/Le_Bleu_et_Le_jaune/Logo_Bleu_Jaune.png";
 import bleuJauneBanner from "@/assets/img/Le_Bleu_et_Le_jaune/Précomp-6.mp4";
 
 
-import illubox from "@/assets/img/Boxing_culture/illustration_sans_titre.png";
+import illubox from "@/assets/img/Boxing_culture/Illustration_sans_titre.png";
 import mockupbox from "@/assets/img/Boxing_culture/rm363-b07-google-mockup_copie.jpg";
-import illu2box from "@/assets/img/Boxing_culture/illustration_sans_titre_2.png";
+import illu2box from "@/assets/img/Boxing_culture/Illustration_sans_titre_2.png";
 import facebox from "@/assets/img/Boxing_culture/Deux_face.jpg";
 import face2box from "@/assets/img/Boxing_culture/Deux_face_2.jpg";
 import boxingCultureBanner from "@/assets/img/Boxing_culture/Boxing_culture.mp4"
