@@ -2,7 +2,7 @@
   <slot>
     <div class="project-text-initial-box">
       <section class="project-text-box">
-        <h1 :class=this.class >{{ this.description.nameOfProject }}</h1>
+        <h1 :class="this.class" >{{ this.description.nameOfProject }}</h1>
         <article class="project-text-box__navbar">
           <h2 v-for="tag1 of this.description.tag1" :key="tag1">
             <router-link :to="{ name: 'projet', params: { name: tag1 } }"> {{ tag1 }} </router-link>
