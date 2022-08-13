@@ -56,7 +56,7 @@ import laruche from "@/assets/img/velo_La_ruche.jpg";
 import logo2laruche from "@/assets/img/velo_logo2.jpg";
 import pageerror from "@/assets/img/velo_Page_error.jpg";
 import pyctogramme from "@/assets/img/velo_Pyctogramme.jpg";
-import siteinternet from "@/assets/img/velo_Site internet.png";
+import siteinternet from "@/assets/img/velo_Site_internet.png";
 import veloBanner from "@/assets/video/Vélo.mp4";
 
 import behancemawen from "@/assets/img/MAWEN_behance_mawen.png";
