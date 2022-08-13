@@ -1,26 +1,6 @@
 <template>
   <div class="main-hp-container">
-    <div class="hp-container">
-      <div class="hp-head">
-        <p>PEPENOME</p>
-        <br />
-        <router-link to="/projets" @click="scrollToTop"><h2>MES PROJETS</h2></router-link>
-        <br />
-      </div>
-      <div class="hp-navbar">
-        <h3 :class="filter === 'motion' ? 'nav-hp opacity' : 'nav-hp'" @click="filterArray('motion')">MOTION DESIGN</h3>
-        <h3 :class="filter === 'illustration' ? 'nav-hp opacity' : 'nav-hp'" @click="filterArray('illustration')">ILLUSTRATION</h3>
-        <h3 :class="filter === 'branding' ? 'nav-hp opacity' : 'nav-hp'" @click="filterArray('branding')">BRANDING</h3>
-        <h3 :class="filter === 'graphisme' ? 'nav-hp opacity' : 'nav-hp'" @click="filterArray('graphisme')">GRAPHISME</h3>
-        <h3 :class="filter === 'édition' ? 'nav-hp opacity' : 'nav-hp'" @click="filterArray('édition')">ÉDITION</h3>
-        <h3 :class="filter === 'web' ? 'nav-hp opacity' : 'nav-hp'" @click="filterArray('web')">WEB</h3>
-      </div>
-    </div>
-    <div class="hp-navbar-mobile">
-      <button @click="prevArrow()"><font-awesome-icon icon="fa-solid fa-chevron-left" /></button>
-      <p>{{ this.filter || "Projets" }}</p>
-      <button @click="nextArrow()"><font-awesome-icon icon="fa-solid fa-chevron-right" /></button>
-    </div>
+    <GridHeader :arrow="this.arrow" :filter="filter" :filterArray="filterArray" />
     <div class="hp-container-2">
       <div :class="this.class">
         <GridElement v-for="project in projectArray" :key="project.name" :project="project" :filter="this.filter" />
@@ -39,6 +19,7 @@
 
 <script>
 import GridElement from "./GridElement.vue";
+import GridHeader from "./GridHeader.vue";
 
 import {
   cycliste,
@@ -59,7 +40,7 @@ import {
 } from "@/utils/media";
 
 export default {
-  components: { GridElement },
+  components: { GridElement, GridHeader},
   name: "GridAgain",
   props: ["home"],
   data: function () {
@@ -175,6 +156,7 @@ export default {
         },
       ],
       isTextAnimActive: false,
+      allCat: ['motion','illustration','branding','graphisme','édition','web']
     };
   },
   methods: {
@@ -215,63 +197,22 @@ export default {
       this.class = this.home ? "containerGridHome" : "containerGridProjet";
       this.filter = this.home ? "home" : "";
     },
-    prevArrow: function () {
-      switch (this.filter) {
-        case "motion":
-          this.filter = "web";
-          break;
-        case "illustration":
-          this.filter = "motion";
-          break;
-        case "branding":
-          this.filter = "illustration";
-          break;
-        case "graphisme":
-          this.filter = "branding";
-          break;
-        case "édition":
-          this.filter = "graphisme";
-          break;
-        case "web":
-          this.filter = "édition";
-          break;
-        default:
-          this.filter = "web";
-          break;
-      }
-      this.classChange(this.filter);
-    },
-    nextArrow: function () {
-      switch (this.filter) {
-        case "motion":
-          this.filter = "illustration";
-          break;
-        case "illustration":
-          this.filter = "branding";
-          break;
-        case "branding":
-          this.filter = "graphisme";
-          break;
-        case "graphisme":
-          this.filter = "édition";
-          break;
-        case "édition":
-          this.filter = "web";
-          break;
-        case "web":
-          this.filter = "motion";
-          break;
-        default:
-          this.filter = "motion";
-          break;
-      }
-      this.classChange(this.filter);
-    },
     mouseOverLink: function () {
       this.isTextAnimActive = true;
     },
     mouseLeaveLink: function () {
       this.isTextAnimActive = false;
+    },
+    arrow:function(next = false){
+      let index = this.allCat.indexOf(this.filter)
+      let result
+      if(next){
+        result = this.allCat[index+1] || this.allCat[0]
+      } else {
+        result = this.allCat[index-1] || this.allCat[this.allCat.length-1]
+      }
+      this.filter = result,
+      this.classChange(this.filter);
     },
     scrollToTop: function () {
       window.scrollTo(0, 0);
