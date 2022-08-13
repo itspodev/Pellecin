@@ -8,21 +8,19 @@
       alt="animation présentant les différents projets"
     ></video>
   </NavBar>
-  <GridAgain />
+  <Grid />
   <MainFooter />
 </template>
 
 <script>
 import NavBar from "@/components/NavBar.vue";
 import MainFooter from "@/components/MainFooter.vue";
-import GridAgain from "@/components/GridAgain.vue";
+import Grid from "@/components/Grid/Grid.vue";
 
 export default {
   name: "Project",
   components: {
-    NavBar: NavBar,
-    MainFooter: MainFooter,
-    GridAgain: GridAgain,
+    NavBar,MainFooter,Grid,
   },
 };
 </script>

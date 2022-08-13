@@ -41,7 +41,7 @@ import {
 
 export default {
   components: { GridElement, GridHeader},
-  name: "GridAgain",
+  name: "Grid",
   props: ["home"],
   data: function () {
     return {
