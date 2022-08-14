@@ -1,3 +1,7 @@
+import homeVID from "@/assets/video/VIDÉO-MOTION-720.mp4";
+import AboutVID from "@/assets/video/aPropos.mp4";
+import contactHeader from "@/assets/img/CONTACT.png";
+
 import cycliste from "@/assets/img/cycliste.jpg";
 import autoPortrait from "@/assets/img/Autoportrait.gif";
 import boulangerieChaves from "@/assets/img/BOULANGERIE-CHAVES.jpg";
@@ -86,16 +90,17 @@ import logobleu from "@/assets/img/blue_IMG_0664.jpg";
 import imgbleu from "@/assets/img/blue_Logo_Bleu_Jaune.png";
 import bleuJauneBanner from "@/assets/video/blue_Précomp-6.mp4";
 
-
 import illubox from "@/assets/img/boxe_Illustration_sans_titre.png";
 import mockupbox from "@/assets/img/boxe_rm363-b07-google-mockup_copie.jpg";
 import illu2box from "@/assets/img/boxe_Illustration_sans_titre_2.png";
 import facebox from "@/assets/img/boxe_Deux_face.jpg";
 import face2box from "@/assets/img/boxe_Deux_face_2.jpg";
-import boxingCultureBanner from "@/assets/video/Boxing_culture.mp4"
-
+import boxingCultureBanner from "@/assets/video/Boxing_culture.mp4";
 
 export {
+  homeVID,
+  AboutVID,
+  contactHeader,
   cycliste,
   autoPortrait,
   boulangerieChaves,
@@ -166,23 +171,18 @@ export {
   vague,
   nolex,
   nolexBanner,
-  
   identity,
   logochaves,
   packaging,
   chavesBanner,
-
   autoPortraitbleu,
   logobleu,
   imgbleu,
   bleuJauneBanner,
-
   illubox,
   mockupbox,
   illu2box,
   facebox,
   face2box,
   boxingCultureBanner,
-
-
 };

@@ -1,7 +1,5 @@
 <template>
-  <NavBar>
-    <video autoplay="autoplay" muted="" loop="infinite" src="@/assets/video/VIDÉO-MOTION-720.mp4" alt="animation pepenome"></video>
-  </NavBar>
+  <NavBar :media="media" />
   <IntroCard />
   <Grid :home="true" />
   <MainFooter />
@@ -12,11 +10,24 @@ import IntroCard from "@/components/IntroCard.vue";
 import Grid from "@/components/Grid/Grid.vue";
 import NavBar from "@/components/NavBar.vue";
 import MainFooter from "@/components/MainFooter.vue";
+import { homeVID } from "@/utils/media.js";
 
 export default {
   name: "home-again",
   components: {
-    IntroCard,NavBar,Grid,MainFooter,
+    IntroCard,
+    NavBar,
+    Grid,
+    MainFooter,
+  },
+  data: function () {
+    return {
+      media: {
+        name: "animation pepenome",
+        type: "video",
+        asset: homeVID,
+      },
+    };
   },
 };
 </script>

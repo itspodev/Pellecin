@@ -1,7 +1,5 @@
 <template>
-  <NavBar>
-    <video autoplay="autoplay" muted="" loop="infinite" src="@/assets/video/aPropos.mp4" alt="animation présentant les différentes compétences" />
-  </NavBar>
+  <NavBar :media="media" />
   <AboutCard />
   <CredoCard />
   <ReviewCard />
@@ -14,6 +12,8 @@ import AboutCard from "@/components/AboutCard.vue";
 import CredoCard from "@/components/CredoCard.vue";
 import ReviewCard from "@/components/ReviewCard.vue";
 import MainFooter from "@/components/MainFooter.vue";
+import { AboutVID } from "@/utils/media.js";
+
 export default {
   name: "About",
   components: {
@@ -22,6 +22,15 @@ export default {
     CredoCard,
     ReviewCard,
     MainFooter,
+  },
+  data: function () {
+    return {
+      media: {
+        name: "animation présentant les différentes compétences",
+        type: "video",
+        asset: AboutVID,
+      },
+    };
   },
 };
 </script>

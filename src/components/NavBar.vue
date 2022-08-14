@@ -1,8 +1,10 @@
 <template>
   <header>
     <div>
-      <slot></slot>
-
+      <!-- <slot></slot> -->
+      <video v-if="this.media.type === 'video'" autoplay="autoplay" muted="" loop="infinite" :src="this.media.asset" :alt="this.media.name"></video>
+      <img v-else :class="this.media.class" :src="this.media.asset" :alt="this.media.name" />
+      <!-- <video v-else autoplay="autoplay" muted="" loop="infinite" src="" alt=""></video> -->
       <div class="navBar">
         <router-link to="/" class="home-link" @click="scrollToTop">
           <img src="@/assets/img/Logo-Pepenome1.png" alt="logo pepenome" class="logo-pepenome" />
@@ -28,9 +30,8 @@ export default {
     };
   },
   props: {
-    class: {
-      default: "bloc",
-      type: String,
+    media: {
+      type: Object,
     },
   },
   methods: {
