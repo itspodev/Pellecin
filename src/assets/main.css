@@ -1093,7 +1093,7 @@ li a{
 .containerProjectSIXFEET,
 .containerProjectN°,
 .containerProjectLARUCHE,
-.containerProjectNEUE, img {
+.containerProjectNEUE, img, video {
   width: 100%;
   height: auto;
   object-fit: cover;
@@ -1102,24 +1102,28 @@ li a{
   background-color: #000;
   display: grid;
   grid-auto-columns: 1fr;
-  grid-template-columns: 1.fr 1.1fr 1.2fr 1fr 1fr 1fr 1fr .5fr;
+  grid-template-columns: 0fr .8fr 1.2fr 1fr 1fr 1fr 1fr .5fr;
   grid-template-rows: .6fr 1fr 1fr;
-  gap: 10px 10px; 
+  gap: 15px;
   grid-template-areas: "carteLAETITIA carteLAETITIA carteLAETITIA carteLAETITIA carteLAETITIA logoLAETITIA logoLAETITIA logoLAETITIA"
   "flyerLAETITIA flyerLAETITIA flyerLAETITIA flyerLAETITIA flyerLAETITIA flyerLAETITIA flyerLAETITIA flyerLAETITIA"
   "instaLAETITIA instaLAETITIA instaLAETITIA instaLAETITIA instaLAETITIA instaLAETITIA instaLAETITIA instaLAETITIA";
-} 
+  border-bottom: black 15px solid;
+}
+
 .containerProjectBLUE {
   background-color: #000;
   display: grid;
   grid-auto-columns: 1fr;
-  grid-template-columns: 1.fr 1.1fr 1.2fr 1fr 1fr 1fr 1fr .5fr;
-  grid-template-rows: .6fr 1fr 1fr;
-  gap: 10px 10px; 
+  grid-template-columns: 1fr 1.1fr 1.2fr 1fr 1fr 1fr 1fr .5fr;
+  grid-template-rows: 1fr 1fr .33fr;
+  gap: 15px;
   grid-template-areas: "mockupBLUE mockupBLUE mockupBLUE mockupBLUE mockupBLUE mockupBLUE mockupBLUE mockupBLUE "
   "mockup2BLUE mockup2BLUE mockup2BLUE mockup2BLUE mockup2BLUE mockup2BLUE mockup2BLUE mockup2BLUE"
   "bannièreBLUE bannièreBLUE bannièreBLUE bannièreBLUE bannièreBLUE bannièreBLUE bannièreBLUE bannièreBLUE";
-} 
+  border-bottom: 15px solid black;
+}
+
 .containerProjectSIXFEET {
   background-color: #000;
   display: grid;
@@ -1167,15 +1171,15 @@ li a{
   display: grid;
   grid-auto-columns: 1fr;
   grid-template-columns: 1fr 1fr .5fr 1fr 1fr 1fr 1fr .5fr;
-  grid-template-rows: .35fr .55fr .39fr;
-  gap: 10px 10px; 
+  grid-template-rows: .62fr 1fr .7fr 1fr .45fr .52fr;
+  gap: 15px;
   grid-template-areas: "propoNEUE propoNEUE propoNEUE propoNEUE dessinNEUE dessinNEUE dessinNEUE dessinNEUE"
   "vynilNEUE vynilNEUE vynilNEUE vynilNEUE vynilNEUE vynilNEUE vynilNEUE vynilNEUE"
   "squeletteNEUE squeletteNEUE squeletteNEUE squeletteNEUE squeletteNEUE squeletteNEUE squeletteNEUE squeletteNEUE"
   "mockupNEUE mockupNEUE mockupNEUE mockupNEUE mockupNEUE mockupNEUE mockupNEUE mockupNEUE"
-  "behanceNEUE behanceNEUE behanceNEUE behanceNEUE behanceNEUE behanceNEUE behanceNEUE behanceNEUE";
-
-} 
+  "behanceNEUE behanceNEUE behanceNEUE behanceNEUE behanceNEUE behanceNEUE behanceNEUE behanceNEUE"
+  "videoNEUE videoNEUE videoNEUE videoNEUE videoNEUE videoNEUE videoNEUE videoNEUE";
+}
 .containerProjectNOLEX {
   background-color: #000;
   display: grid;
@@ -1264,7 +1268,7 @@ li a{
 .squeletteNEUE{ grid-area: squeletteNEUE;}
 .mockupNEUE{ grid-area: mockupNEUE;}
 .behanceNEUE { grid-area: behanceNEUE;}
-/* .videoNEUE{grid-area: videoNEUE;} */
+.videoNEUE{grid-area: videoNEUE;}
 
 .logoNOLEX{ grid-area: logoNOLEX;}
 .charteNOLEX { grid-area: charteNOLEX;}

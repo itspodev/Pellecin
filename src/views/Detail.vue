@@ -1,9 +1,7 @@
 <template>
-  <NavBar :media="this.selectedBanner" />
-  <DetailDescription v-if="this.selectedDesc" :description="this.selectedDesc" />
-
-  <DetailImage v-if="this.selectedImg" :image="this.selectedImg" :class="this.class" />
-
+  <NavBar v-if="this.url_data !== ''" :media="this.projectData[this.url_data].banner" />
+  <DetailDescription v-if="this.url_data !== ''" :description="this.projectData[this.url_data].description" />
+  <DetailImage v-if="this.url_data !== ''" :image="this.projectData[this.url_data].assets" :class="this.projectData[this.url_data].containerClass" />
   <MainFooter />
 </template>
 
@@ -92,692 +90,465 @@ export default {
       selectedBanner: [],
       selectedDesc: [],
       class: "",
-      bannersArray: [
-        {
-          name: "Laëtitia",
-          type: "img",
-          asset: laetitiaBanner,
-          class: "project-banner__img",
-        },
-        {
-          name: "BLUE",
-          type: "img",
-          asset: blueBanner,
-          class: "project-banner__img",
-        },
-        {
-          name: "Sixfeet",
-          type: "video",
-          asset: sixfeetBanner,
-          class: "project-banner__video",
-        },
-        {
-          name: "N°",
-          type: "video",
-          asset: numberBanner,
-          class: "project-banner__video",
-        },
-        {
-          name: "Neue-Ära",
-          type: "video",
-          asset: neueAraBanner,
-          class: "project-banner__video",
-        },
-        {
-          name: "La-ruche-à-velo",
-          type: "video",
-          asset: veloBanner,
-          class: "project-banner__video",
-        },
-        {
-          name: "Nolex",
-          type: "video",
-          asset: nolexBanner,
-          class: "project-banner__video",
-        },
-        {
-          name: "Chaves",
-          type: "video",
-          asset: chavesBanner,
-          class: "project-banner__video",
-        },
-        {
-          name: "Le-bleu-&-jaune",
-          type: "video",
-          asset: bleuJauneBanner,
-          class: "project-banner__video",
-        },
-        {
-          name: "Fight-Camp",
-          type: "video",
-          asset: boxingCultureBanner,
-          class: "project-banner__video",
-        },
-      ],
-      descriptionArray: [
-        {
-          name: "Laëtitia",
-          nameOfProject: "Laëtitia Sophrologie",
-          tag1: ["motion", "web", "branding", "édition"],
-          mission: "Créer l'indentité de marque de Laëtitia Sophrologue à DINAN.",
-          missionDesc: [
-            "Concept visuel tout en poésie, symbolisé par une bulle de bien-être. Créer une identité à la fois élégante et légère qui symbolise l'ambiance apaisante de la sophrologie et de ses bienfaits.",
-            "Un univers aux couleurs douces et réconfortantes, des éléments graphiques qui rappellent la nature, la mer, le vent et la terre",
-          ],
-          tag2: [
-            "identité visuelle - logotype - carte de visite - flyer - motion design",
-            "community management - after effect - adobe illustrator - photoshop - réseaux sociaux",
-          ],
-        },
-        {
-          name: "BLUE",
-          nameOfProject: "BLUE",
-          tag1: ["graphisme", "édition"],
-          mission: "Création d'illustrations sous forme d'affiches pour le salon de coiffure \"Blue\" à Bordeaux.",
-          missionDesc: [
-            "La gérante souhaitait un visuel floral aux couleurs de son enseigne pour intégrer sur les murs de son salon et dans sa communication.",
-          ],
-          tag2: ["graphisme - affiche - illustration - aquarelle - dessin", "photoshop - édition - print"],
-        },
-        {
-          name: "Sixfeet",
-          nameOfProject: "Six Feet Galerie",
-          tag1: ["graphisme", "édition"],
-          mission: "Projet de fin d'études (fictif) pour la marque Six feet Galerie.",
-          missionDesc: [
-            "Nouvel objectif pour la marque spécialisée dans la photographie sport de glisse qui souhaite atteindre une nouvelle cible d'amateurs d'Art et de photo grâce à des tirages en édition très limitée.",
-            "Création d'une campagne d'affichage dans un style \"lifestyle\".",
-          ],
-          tag2: ["graphisme - photo - affiche - collage - illustrator", "photoshop - édition - print - mise en page"],
-        },
-        {
-          name: "N°",
-          nameOfProject: "N°7",
-          tag1: ["graphisme"],
-          mission: "Concept de visuels et Packaging pour étiquette de bouteilles de vins fictifs.",
-          missionDesc: [],
-          tag2: ["graphisme - étiquettes - collage - peinture", "photoshop - packaging - illustrator"],
-        },
-        {
-          name: "Neue-Ära",
-          nameOfProject: "Neue Ära",
-          tag1: ["graphisme", "motion", "illustration"],
-          mission: "Réalisation d'une pochette d'album pour l'artiste MAWEN.",
-          missionDesc: [
-            "Ce DJ aux influences électroniques / technos m'a demandé de réaliser un visuel pour illustrer son EP (extended play).",
-            "Il souhaitait illustrer son projet par un homme et son squelette, dans un univers au couleur flash style affiche techno Berlinoise.",
-          ],
-          tag2: ["graphisme - illustration - motion design - pochette - dessin", "photoshop - after effect - procreate"],
-        },
-        {
-          name: "La-ruche-à-velo",
-          nameOfProject: "La ruche à velos",
-          tag1: ["web", "branding", "illustration"],
-          mission: "Refonte de l'identité de marque de La ruche à vélos.",
-          missionDesc: [
-            "Refonte complète du logo ainsi que de la charte graphique",
-            "Création de l'identité visuelle à travers des illustrations et des pictogrammes ainsi que le design du site internet.",
-          ],
-          tag2: ["identité visuelle - logotype - illustration - webdesign - maquettes", "illustrator - photoshop - adobe xd"],
-        },
-        {
-          name: "Nolex",
-          nameOfProject: "Nolex",
-          tag1: ["web", "branding", "motion"],
-          mission: "Refonte de l'identité de marque de Nolex.",
-          misionDesc: [
-            "Créer une nouvelle identité graphique, avec une nouvelle charte pour un rendu plus design et professionel.",
-            "Réalisation de visuels et motion pour les réseaux sociaux et la nouvelle maquette du site internet.",
-          ],
-          tag2: [
-            "logotype - identité de marque - branding - motion design - web - webdesign",
-            "maquette - site internet - community management - photoshop - after effect - illustrator",
-          ],
-        },
-        {
-          name: "Chaves",
-          nameOfProject: "Boulangerie Chaves",
-          tag1: ["illustration", "branding", "graphisme", "édition"],
-          mission: "Refonte de l'identité de marque de la boulangerie CHAVES à Dinan.",
-          missionDesc: [
-            "Le clien souhaitait redonner vie à son logo qui datait de plus de 20 ans. La mascotte de la boulangerie",
-            "étant l'écureuil, il souhaitait la mettre en avant dans sa communication.",
-          ],
-          tag2: ["logotype - branding - graphisme", "affiche - illustration - dessin - print - édition"],
-        },
-        {
-          name: "Le-bleu-&-jaune",
-          nameOfProject: "Le bleu & le jaune",
-          tag1: ["motion", "illustration", "branding", "graphisme"],
-          mission: "Création d'un compte collab entre Lucille DC également Graphiste frelance et moi-même.",
-          missionDesc: [
-            "Nous avons créé un univers à notre image et représentatif de nos couleurs,",
-            "pour Lucille le bleu pour moi le jaune. C'est un compte où on y dévoile nos créations, notre patte graphique.",
-          ],
-          tag2: ["logotype - branding - motion design - animation 2D - frame by frame - graphisme", "affiche - illustration - dessin - inspiration"],
-        },
-        {
-          name: "Fight-Camp",
-          nameOfProject: "Boxing Culture",
-          tag1: ["illustration", "graphisme"],
-          mission:
-            "Création d'illustrations pour un évènement à New-York intitulé \"Fight Camp\" ainsi que d'autres éléments graphiques pour la marque Boxing Culture.",
-          missionDesc: [
-            "L'illustration rassemble le milieu de la boxe avec Mohammed Ali et",
-            "la statue de la liberté représente la ville de New-York.",
-          ],
-          tag2: ["graphisme - affiche - illustration - dessin - procreate", "dessin technique - adobe illustrator"],
-        },
-      ],
-
-      selectedImg: [],
-      imageArray: [
-        {
-          name: "Laëtitia",
-          nameOfImage: "Carte Laëtitia",
-          tag: ["motion", "web", "branding", "édition"],
-          img: carte,
-          class: "carteLAETITIA",
+      projectData: {
+        "Laëtitia":{
+          banner: {
+            name: "Laëtitia",
+            type: "img",
+            asset: laetitiaBanner,
+            class: "project-banner__img",
+          },
+          description: {
+            name: "Laëtitia",
+            nameOfProject: "Laëtitia Sophrologie",
+            tag1: ["motion", "web", "branding", "édition"],
+            mission: "Créer l'indentité de marque de Laëtitia Sophrologue à DINAN.",
+            missionDesc: [
+              "Concept visuel tout en poésie, symbolisé par une bulle de bien-être. Créer une identité à la fois élégante et légère qui symbolise l'ambiance apaisante de la sophrologie et de ses bienfaits.",
+              "Un univers aux couleurs douces et réconfortantes, des éléments graphiques qui rappellent la nature, la mer, le vent et la terre",
+            ],
+            tag2: [
+              "identité visuelle - logotype - carte de visite - flyer - motion design",
+              "community management - after effect - adobe illustrator - photoshop - réseaux sociaux",
+            ],
+          },
           containerClass: "containerProjectLAETITIA",
-          format: "img",
+          assets: [
+            {
+              img: carte,
+              class: "carteLAETITIA",
+              format: "img",
+            },
+            {
+              img: logo2,
+              class: "logoLAETITIA",
+              format: "img",
+            },
+            {
+              img: flyer,
+              class: "flyerLAETITIA",
+              format: "img",
+            },
+            {
+              img: instagram,
+              class: "instaLAETITIA",
+              format: "img",
+            },
+          ],
         },
-        {
-          name: "Laëtitia",
-          nameOfImage: "Logo Laëtitia",
-          tag: ["motion", "web", "branding", "édition"],
-          img: logo2,
-          class: "logoLAETITIA",
-          containerClass: "containerProjectLAETITIA",
-          format: "img",
-        },
-        {
-          name: "Laëtitia",
-          nameOfImage: "Flyer Laëtitia",
-          tag: ["motion", "web", "branding", "édition"],
-          img: flyer,
-          class: "flyerLAETITIA",
-          containerClass: "containerProjectLAETITIA",
-          format: "img",
-        },
-        {
-          name: "Laëtitia",
-          nameOfImage: "Insta Laëtitia",
-          tag: ["motion", "web", "branding", "édition"],
-          img: instagram,
-          class: "instaLAETITIA",
-          containerClass: "containerProjectLAETITIA",
-          format: "img",
-        },
-
-        {
-          name: "BLUE",
-          nameOfImage: "Mockup Blue",
-          tag: ["graphisme", "édition"],
-          img: mockup,
-          class: "mockupBLUE",
+        "BLUE": {
+          banner: { name: "BLUE", type: "img", asset: blueBanner, class: "project-banner__img" },
+          description: {
+            name: "BLUE",
+            nameOfProject: "BLUE",
+            tag1: ["graphisme", "édition"],
+            mission: "Création d'illustrations sous forme d'affiches pour le salon de coiffure \"Blue\" à Bordeaux.",
+            missionDesc: [
+              "La gérante souhaitait un visuel floral aux couleurs de son enseigne pour intégrer sur les murs de son salon et dans sa communication.",
+            ],
+            tag2: ["graphisme - affiche - illustration - aquarelle - dessin", "photoshop - édition - print"],
+          },
           containerClass: "containerProjectBLUE",
-          format: "img",
+          assets: [
+            {
+              img: mockup,
+              class: "mockupBLUE",
+              format: "img",
+            },
+            {
+              img: mockup2,
+              class: "mockup2BLUE",
+              format: "img",
+            },
+            {
+              img: bannière,
+              class: "bannièreBLUE",
+              format: "img",
+            },
+          ],
         },
-        {
-          name: "BLUE",
-          nameOfImage: "Mockup2 Blue",
-          tag: ["graphisme", "édition"],
-          img: mockup2,
-          class: "mockup2BLUE",
-          containerClass: "containerProjectBLUE",
-          format: "img",
-        },
-        {
-          name: "BLUE",
-          nameOfImage: "Bannière Blue",
-          tag: ["graphisme", "édition"],
-          img: bannière,
-          class: "bannièreBLUE",
-          containerClass: "containerProjectBLUE",
-          format: "img",
-        },
-
-        {
-          name: "Sixfeet",
-          nameOfImage: "Triptique Sixfeet",
-          tag: ["graphisme", "édition"],
-          img: triptique,
-          class: "triptiqueSIX",
+        "Sixfeet": {
+          banner: {
+            name: "Sixfeet",
+            type: "video",
+            asset: sixfeetBanner,
+            class: "project-banner__video",
+          },
+          description: {
+            name: "Sixfeet",
+            nameOfProject: "Six Feet Galerie",
+            tag1: ["graphisme", "édition"],
+            mission: "Projet de fin d'études (fictif) pour la marque Six feet Galerie.",
+            missionDesc: [
+              "Nouvel objectif pour la marque spécialisée dans la photographie sport de glisse qui souhaite atteindre une nouvelle cible d'amateurs d'Art et de photo grâce à des tirages en édition très limitée.",
+              "Création d'une campagne d'affichage dans un style \"lifestyle\".",
+            ],
+            tag2: ["graphisme - photo - affiche - collage - illustrator", "photoshop - édition - print - mise en page"],
+          },
           containerClass: "containerProjectSIXFEET",
-          format: "img",
+          assets: [
+            {
+              img: triptique,
+              class: "triptiqueSIX",
+              format: "img",
+            },
+            {
+              img: paysage,
+              class: "paysageSIX",
+              format: "img",
+            },
+            {
+              img: les4sixfeet,
+              class: "les4SIX",
+              format: "img",
+            },
+            {
+              img: gif,
+              class: "gifSIX",
+              format: "img",
+            },
+          ],
         },
-        {
-          name: "Sixfeet",
-          nameOfImage: "Paysage Sixfeet",
-          tag: ["graphisme", "édition"],
-          img: paysage,
-          class: "paysageSIX",
-          containerClass: "containerProjectSIXFEET",
-          format: "img",
-        },
-        {
-          name: "Sixfeet",
-          nameOfImage: "Les4 Sixfeet",
-          tag: ["graphisme", "édition"],
-          img: les4sixfeet,
-          class: "les4SIX",
-          containerClass: "containerProjectSIXFEET",
-          format: "img",
-        },
-        {
-          name: "Sixfeet",
-          nameOfImage: "Gif Sixfeet",
-          tag: ["graphisme", "édition"],
-          img: gif,
-          class: "gifSIX",
-          containerClass: "containerProjectSIXFEET",
-          format: "img",
-        },
-
-        {
-          name: "N°",
-          nameOfImage: "n1",
-          tag: ["graphisme"],
-          img: perso1,
-          class: "N°1",
-          format: "img",
-        },
-        {
-          name: "N°",
-          nameOfImage: "n2",
-          tag: ["graphisme"],
-          img: perso2,
-          class: "N°2",
+        "N°": {
+          banner: { name: "N°", type: "video", asset: numberBanner, class: "project-banner__video" },
+          description: {
+            name: "N°",
+            nameOfProject: "N°7",
+            tag1: ["graphisme"],
+            mission: "Concept de visuels et Packaging pour étiquette de bouteilles de vins fictifs.",
+            missionDesc: [],
+            tag2: ["graphisme - étiquettes - collage - peinture", "photoshop - packaging - illustrator"],
+          },
           containerClass: "containerProjectN°",
-          format: "img",
+          assets: [
+            {
+              nameOfImage: "n1",
+              img: perso1,
+              class: "N°1",
+              format: "img",
+            },
+            {
+              nameOfImage: "n2",
+              img: perso2,
+              class: "N°2",
+              format: "img",
+            },
+            {
+              nameOfImage: "n3",
+              img: perso3,
+              class: "N°3",
+              format: "img",
+            },
+            {
+              nameOfImage: "n4",
+              img: perso4,
+              class: "N°4",
+              format: "img",
+            },
+            {
+              nameOfImage: "n5",
+              img: perso5,
+              class: "N°5",
+              format: "img",
+            },
+            {
+              nameOfImage: "n6",
+              img: perso6,
+              class: "N°6",
+              format: "img",
+            },
+            {
+              nameOfImage: "n7",
+              img: perso7,
+              class: "N°7",
+              format: "img",
+            },
+          ],
         },
-        {
-          name: "N°",
-          nameOfImage: "n3",
-          tag: ["graphisme"],
-          img: perso3,
-          class: "N°3",
-          containerClass: "containerProjectN°",
-          format: "img",
-        },
-        {
-          name: "N°",
-          nameOfImage: "n4",
-          tag: ["graphisme"],
-          img: perso4,
-          class: "N°4",
-          containerClass: "containerProjectN°",
-          format: "img",
-        },
-        {
-          name: "N°",
-          nameOfImage: "n5",
-          tag: ["graphisme"],
-          img: perso5,
-          class: "N°5",
-          containerClass: "containerProjectN°",
-          format: "img",
-        },
-        {
-          name: "N°",
-          nameOfImage: "n6",
-          tag: ["graphisme"],
-          img: perso6,
-          class: "N°6",
-          containerClass: "containerProjectN°",
-          format: "img",
-        },
-        {
-          name: "N°",
-          nameOfImage: "n7",
-          tag: ["graphisme"],
-          img: perso7,
-          class: "N°7",
-          containerClass: "containerProjectN°",
-          format: "img",
-        },
-
-        {
-          name: "La-ruche-à-velo",
-          nameOfImage: "logo2laruche",
-          tag: ["web", "branding", "illustration"],
-          img: logo2laruche,
-          class: "logoLARUCHE",
+        "La-ruche-à-velo": {
+          banner: { name: "La-ruche-à-velo", type: "video", asset: veloBanner, class: "project-banner__video" },
+          description: {
+            name: "La-ruche-à-velo",
+            nameOfProject: "La ruche à velos",
+            tag1: ["web", "branding", "illustration"],
+            mission: "Refonte de l'identité de marque de La ruche à vélos.",
+            missionDesc: [
+              "Refonte complète du logo ainsi que de la charte graphique",
+              "Création de l'identité visuelle à travers des illustrations et des pictogrammes ainsi que le design du site internet.",
+            ],
+            tag2: ["identité visuelle - logotype - illustration - webdesign - maquettes", "illustrator - photoshop - adobe xd"],
+          },
           containerClass: "containerProjectLARUCHE",
-          format: "img",
+          assets: [
+            {
+              img: logo2laruche,
+              class: "logoLARUCHE",
+              format: "img",
+            },
+            {
+              img: cyclistelaruche,
+              class: "cyclisteLARUCHE",
+              format: "img",
+            },
+            {
+              img: pageerror,
+              class: "pageerrorLARUCHE",
+              format: "img",
+            },
+            {
+              img: laruche,
+              class: "laruche",
+              format: "img",
+            },
+            {
+              img: pyctogramme,
+              class: "pyctoLARUCHE",
+              format: "img",
+            },
+            {
+              img: hello,
+              class: "helloLARUCHE",
+              format: "img",
+            },
+            {
+              img: collectivité,
+              class: "collectivitéLARUCHE",
+              format: "img",
+            },
+            {
+              img: siteinternet,
+              class: "siteinternetLARUCHE",
+              format: "img",
+            },
+            {
+              img: actualités,
+              class: "actualitésLARUCHE",
+              format: "img",
+            },
+          ],
         },
-        {
-          name: "La-ruche-à-velo",
-          nameOfImage: "cyclistelaruche",
-          tag: ["web", "branding", "illustration"],
-          img: cyclistelaruche,
-          class: "cyclisteLARUCHE",
-          containerClass: "containerProjectLARUCHE",
-          format: "img",
-        },
-        {
-          name: "La-ruche-à-velo",
-          nameOfImage: "pageerror",
-          tag: ["web", "branding", "illustration"],
-          img: pageerror,
-          class: "pageerrorLARUCHE",
-          containerClass: "containerProjectLARUCHE",
-          format: "img",
-        },
-        {
-          name: "La-ruche-à-velo",
-          nameOfImage: "laruche",
-          tag: ["web", "branding", "illustration"],
-          img: laruche,
-          class: "laruche",
-          containerClass: "containerProjectLARUCHE",
-          format: "img",
-        },
-        {
-          name: "La-ruche-à-velo",
-          nameOfImage: "pyctogramme",
-          tag: ["web", "branding", "illustration"],
-          img: pyctogramme,
-          class: "pyctoLARUCHE",
-          containerClass: "containerProjectLARUCHE",
-          format: "img",
-        },
-        {
-          name: "La-ruche-à-velo",
-          nameOfImage: "hello",
-          tag: ["web", "branding", "illustration"],
-          img: hello,
-          class: "helloLARUCHE",
-          containerClass: "containerProjectLARUCHE",
-          format: "img",
-        },
-        {
-          name: "La-ruche-à-velo",
-          nameOfImage: "collectivité",
-          tag: ["web", "branding", "illustration"],
-          img: collectivité,
-          class: "collectivitéLARUCHE",
-          containerClass: "containerProjectLARUCHE",
-          format: "img",
-        },
-        {
-          name: "La-ruche-à-velo",
-          nameOfImage: "siteinternet",
-          tag: ["web", "branding", "illustration"],
-          img: siteinternet,
-          class: "siteinternetLARUCHE",
-          containerClass: "containerProjectLARUCHE",
-          format: "img",
-        },
-        {
-          name: "La-ruche-à-velo",
-          nameOfImage: "actualités",
-          tag: ["web", "branding", "illustration"],
-          img: actualités,
-          class: "actualitésLARUCHE",
-          containerClass: "containerProjectLARUCHE",
-          format: "img",
-        },
-
-        {
-          name: "Neue-Ära",
-          nameOfImage: "propo1",
-          tag: ["graphisme", "motion", "illustration"],
-          img: propo1,
-          class: "propoNEUE",
+        "Neue-Ära": {
+          banner: { name: "Neue-Ära", type: "video", asset: neueAraBanner, class: "project-banner__video" },
+          description: {
+            name: "Neue-Ära",
+            nameOfProject: "Neue Ära",
+            tag1: ["graphisme", "motion", "illustration"],
+            mission: "Réalisation d'une pochette d'album pour l'artiste MAWEN.",
+            missionDesc: [
+              "Ce DJ aux influences électroniques / technos m'a demandé de réaliser un visuel pour illustrer son EP (extended play).",
+              "Il souhaitait illustrer son projet par un homme et son squelette, dans un univers au couleur flash style affiche techno Berlinoise.",
+            ],
+            tag2: ["graphisme - illustration - motion design - pochette - dessin", "photoshop - after effect - procreate"],
+          },
           containerClass: "containerProjectNEUE",
-          format: "img",
+          assets: [
+            {
+              img: propo1,
+              class: "propoNEUE",
+              format: "img",
+            },
+            {
+              img: basdepage,
+              class: "videoNEUE",
+              format: "mp4",
+            },
+            {
+              img: dessinmawen,
+              class: "dessinNEUE",
+              format: "img",
+            },
+            {
+              img: vynilneu,
+              class: "vynilNEUE",
+              format: "img",
+            },
+            {
+              img: squelette,
+              class: "squeletteNEUE",
+              format: "mp4",
+            },
+            {
+              img: mockupmawen,
+              class: "mockupNEUE",
+              format: "img",
+            },
+            {
+              img: behancemawen,
+              class: "behanceNEUE",
+              format: "img",
+            },
+          ],
         },
-        {
-          name: "Neue-Ära",
-          nameOfImage: "dessinmawen",
-          tag: ["graphisme", "motion", "illustration"],
-          img: dessinmawen,
-          class: "dessinNEUE",
-          containerClass: "containerProjectNEUE",
-          format: "img",
-        },
-        {
-          name: "Neue-Ära",
-          nameOfImage: "vynil",
-          tag: ["graphisme", "motion", "illustration"],
-          img: vynilneu,
-          class: "vynilNEUE",
-          containerClass: "containerProjectNEUE",
-          format: "img",
-        },
-        {
-          name: "Neue-Ära",
-          nameOfImage: "squelette",
-          tag: ["graphisme", "motion", "illustration"],
-          img: squelette,
-          class: "squeletteNEUE",
-          containerClass: "containerProjectNEUE",
-          format: "mp4",
-        },
-        {
-          name: "Neue-Ära",
-          nameOfImage: "mockupmawen",
-          tag: ["graphisme", "motion", "illustration"],
-          img: mockupmawen,
-          class: "mockupNEUE",
-          containerClass: "containerProjectNEUE",
-          format: "img",
-        },
-        {
-          name: "Neue-Ära",
-          nameOfImage: "behancemawen",
-          tag: ["graphisme", "motion", "illustration"],
-          img: behancemawen,
-          class: "behanceNEUE",
-          containerClass: "containerProjectNEUE",
-          format: "img",
-        },
-        // {
-        //     name:'Neue-Ära',
-        //     nameOfImage:'basdepage',
-        //     tag:['graphisme', 'motion', 'illustration'],
-        //     img: basdepage,
-        //     class: 'videoNEUE',
-        //     containerClass: 'containerProjectNEUE',
-        //     format: 'mp4',
-        // },
-        {
-          name: "Nolex",
-          nameOfImage: "logonolex2",
-          tag: ["web", "branding", "motion"],
-          img: logonolex2,
-          class: "logoNOLEX",
+        'Nolex': {
+          banner: { name: "Nolex", type: "video", asset: nolexBanner, class: "project-banner__video" },
+          description: {
+            name: "Nolex",
+            nameOfProject: "Nolex",
+            tag1: ["web", "branding", "motion"],
+            mission: "Refonte de l'identité de marque de Nolex.",
+            misionDesc: [
+              "Créer une nouvelle identité graphique, avec une nouvelle charte pour un rendu plus design et professionel.",
+              "Réalisation de visuels et motion pour les réseaux sociaux et la nouvelle maquette du site internet.",
+            ],
+            tag2: [
+              "logotype - identité de marque - branding - motion design - web - webdesign",
+              "maquette - site internet - community management - photoshop - after effect - illustrator",
+            ],
+          },
           containerClass: "containerProjectNOLEX",
-          format: "img",
+          assets: [
+            {
+              img: logonolex2,
+              class: "logoNOLEX",
+              format: "img",
+            },
+            {
+              img: chartegraph,
+              class: "charteNOLEX",
+              format: "img",
+            },
+            {
+              img: precomp,
+              class: "precompNOLEX",
+              format: "mp4",
+            },
+            {
+              img: maquettenolex,
+              class: "maquetteNOLEX",
+              format: "img",
+            },
+            {
+              img: vague,
+              class: "vagueNOLEX",
+              format: "img",
+            },
+            {
+              img: nolex,
+              class: "nolexNOLEX",
+              format: "img",
+            },
+          ],
         },
-        {
-          name: "Nolex",
-          nameOfImage: "chartegraph",
-          tag: ["web", "branding", "motion"],
-          img: chartegraph,
-          class: "charteNOLEX",
-          containerClass: "containerProjectNOLEX",
-          format: "img",
-        },
-        {
-          name: "Nolex",
-          nameOfImage: "precomp",
-          tag: ["web", "branding", "motion"],
-          img: precomp,
-          class: "precompNOLEX",
-          containerClass: "containerProjectNOLEX",
-          format: "mp4",
-        },
-        {
-          name: "Nolex",
-          nameOfImage: "maquettenolex",
-          tag: ["web", "branding", "motion"],
-          img: maquettenolex,
-          class: "maquetteNOLEX",
-          containerClass: "containerProjectNOLEX",
-          format: "img",
-        },
-        {
-          name: "Nolex",
-          nameOfImage: "vague",
-          tag: ["web", "branding", "motion"],
-          img: vague,
-          class: "vagueNOLEX",
-          containerClass: "containerProjectNOLEX",
-          format: "img",
-        },
-        {
-          name: "Nolex",
-          nameOfImage: "nolex",
-          tag: ["web", "branding", "motion"],
-          img: nolex,
-          class: "nolexNOLEX",
-          containerClass: "containerProjectNOLEX",
-          format: "img",
-        },
-
-        {
-          name: "Chaves",
-          nameOfImage: "identity",
-          tag: ["illustration", "graphisme"],
-          img: identity,
-          class: "idCHAVES",
+        "Chaves": {
+          banner: { name: "Chaves", type: "video", asset: chavesBanner, class: "project-banner__video" },
+          description: {
+            name: "Chaves",
+            nameOfProject: "Boulangerie Chaves",
+            tag1: ["illustration", "branding", "graphisme", "édition"],
+            mission: "Refonte de l'identité de marque de la boulangerie CHAVES à Dinan.",
+            missionDesc: [
+              "Le clien souhaitait redonner vie à son logo qui datait de plus de 20 ans. La mascotte de la boulangerie",
+              "étant l'écureuil, il souhaitait la mettre en avant dans sa communication.",
+            ],
+            tag2: ["logotype - branding - graphisme", "affiche - illustration - dessin - print - édition"],
+          },
           containerClass: "containerProjectCHAVES",
-          format: "img",
+          assets: [
+            {
+              img: identity,
+              class: "idCHAVES",
+              format: "img",
+            },
+            {
+              img: logochaves,
+              class: "logoCHAVES",
+              format: "img",
+            },
+            {
+              img: packaging,
+              class: "packCHAVES",
+              format: "img",
+            },
+          ],
         },
-        {
-          name: "Chaves",
-          nameOfImage: "logochaves",
-          tag: ["illustration", "graphisme"],
-          img: logochaves,
-          class: "logoCHAVES",
-          containerClass: "containerProjectCHAVES",
-          format: "img",
-        },
-        {
-          name: "Chaves",
-          nameOfImage: "packaging",
-          tag: ["illustration", "branding", "graphisme", "édition"],
-          img: packaging,
-          class: "packCHAVES",
-          containerClass: "containerProjectCHAVES",
-          format: "img",
-        },
-
-        {
-          name: "Le-bleu-&-jaune",
-          nameOfImage: "imgbleu",
-          tag: ["motion", "illustration", "branding", "graphisme"],
-          img: imgbleu,
-          class: "imgLEBLEU",
+        "Le-bleu-&-jaune": {
+          banner: { name: "Le-bleu-&-jaune", type: "video", asset: bleuJauneBanner, class: "project-banner__video" },
+          description: {
+            name: "Le-bleu-&-jaune",
+            nameOfProject: "Le bleu & le jaune",
+            tag1: ["motion", "illustration", "branding", "graphisme"],
+            mission: "Création d'un compte collab entre Lucille DC également Graphiste frelance et moi-même.",
+            missionDesc: [
+              "Nous avons créé un univers à notre image et représentatif de nos couleurs,",
+              "pour Lucille le bleu pour moi le jaune. C'est un compte où on y dévoile nos créations, notre patte graphique.",
+            ],
+            tag2: [
+              "logotype - branding - motion design - animation 2D - frame by frame - graphisme",
+              "affiche - illustration - dessin - inspiration",
+            ],
+          },
           containerClass: "containerProjectLEBLEU",
-          format: "img",
+          assets: [
+            {
+              img: imgbleu,
+              class: "imgLEBLEU",
+              format: "img",
+            },
+            {
+              img: autoPortraitbleu,
+              class: "autoPortraitLEBLEU",
+              format: "img",
+            },
+            {
+              img: logobleu,
+              class: "logoLEBLEU",
+              format: "img",
+            },
+          ],
         },
-        {
-          name: "Le-bleu-&-jaune",
-          nameOfImage: "autoPortraitbleus",
-          tag: ["motion", "illustration", "branding", "graphisme"],
-          img: autoPortraitbleu,
-          class: "autoPortraitLEBLEU",
-          containerClass: "containerProjectLEBLEU",
-          format: "img",
-        },
-        {
-          name: "Le-bleu-&-jaune",
-          nameOfImage: "logobleu",
-          tag: ["motion", "illustration", "branding", "graphisme"],
-          img: logobleu,
-          class: "logoLEBLEU",
-          containerClass: "containerProjectLEBLEU",
-          format: "img",
-        },
-
-        {
-          name: "Fight-Camp",
-          nameOfImage: "illu2box",
-          tag: ["illustration", "graphisme"],
-          img: illu2box,
-          class: "illu2BOXING",
+        "Fight-Camp": {
+          banner: { name: "Fight-Camp", type: "video", asset: boxingCultureBanner, class: "project-banner__video" },
+          description: {
+            name: "Fight-Camp",
+            nameOfProject: "Boxing Culture",
+            tag1: ["illustration", "graphisme"],
+            mission:
+              "Création d'illustrations pour un évènement à New-York intitulé \"Fight Camp\" ainsi que d'autres éléments graphiques pour la marque Boxing Culture.",
+            missionDesc: [
+              "L'illustration rassemble le milieu de la boxe avec Mohammed Ali et",
+              "la statue de la liberté représente la ville de New-York.",
+            ],
+            tag2: ["graphisme - affiche - illustration - dessin - procreate", "dessin technique - adobe illustrator"],
+          },
           containerClass: "containerProjectBOXING",
-          format: "img",
+          assets: [
+            {
+              img: illu2box,
+              class: "illu2BOXING",
+              format: "img",
+            },
+            {
+              img: illubox,
+              class: "illuBOXING",
+              format: "img",
+            },
+            {
+              img: mockupbox,
+              class: "mockupBOXING",
+              format: "img",
+            },
+            {
+              img: facebox,
+              class: "faceBOXING",
+              format: "img",
+            },
+            {
+              img: face2box,
+              class: "face2BOXING",
+              format: "img",
+            },
+          ],
         },
-        {
-          name: "Fight-Camp",
-          nameOfImage: "illubox",
-          tag: ["motion", "illustration", "branding", "graphisme"],
-          img: illubox,
-          class: "illuBOXING",
-          containerClass: "containerProjectBOXING",
-          format: "img",
-        },
-        {
-          name: "Fight-Camp",
-          nameOfImage: "mockupbox",
-          tag: ["illustration", "graphisme"],
-          img: mockupbox,
-          class: "mockupBOXING",
-          containerClass: "containerProjectBOXING",
-          format: "img",
-        },
-        {
-          name: "Fight-Camp",
-          nameOfImage: "facebox",
-          tag: ["illustration", "graphisme"],
-          img: facebox,
-          class: "faceBOXING",
-          containerClass: "containerProjectBOXING",
-          format: "img",
-        },
-        {
-          name: "Fight-Camp",
-          nameOfImage: "face2box,",
-          tag: ["illustration", "graphisme"],
-          img: face2box,
-          class: "face2BOXING",
-          containerClass: "containerProjectBOXING",
-          format: "img",
-        },
-      ],
+      },
     };
   },
 
   methods: {
-    getSelectedDescArray: function () {
-      this.descriptionArray.forEach((description) => {
-        if (this.url_data === description.name) {
-          this.selectedDesc = description;
-        }
-      });
-    },
-    getSelectedBannArray: function () {
-      this.bannersArray.forEach((banner) => {
-        if (this.url_data === banner.name) {
-          this.selectedBanner = banner;
-        }
-      });
-    },
-    getSelectedImgArray: function () {
-      this.imageArray.forEach((image) => {
-        if (this.url_data === image.name) {
-          this.selectedImg.push(image);
-        }
-      });
-    },
-    getSelectedImgArrayClass: function () {
-      this.imageArray.forEach((image) => {
-        if (this.url_data === image.name) {
-          this.class = image.containerClass;
-        }
-      });
-    },
+    
   },
   mounted() {
     this.url_data = this.$route.params.name;
-    this.getSelectedBannArray();
-    this.getSelectedDescArray();
-    this.getSelectedImgArray();
-    this.getSelectedImgArrayClass();
+    console.log(this.projectData[this.url_data].assets[0].containerClass)
   },
 };
 </script>
