@@ -33,12 +33,7 @@ header video {
 }
 
 .navBar{
-  background:rgba(0,0,0,0.2);
-  position: fixed;
-  z-index:1000;
-  top:0;
-  left:0;
-  width:100vw;
+  background:rgb(0, 0, 0);
   padding:10px 0;
   display: flex;
   justify-content: center;
@@ -1590,3 +1585,7 @@ li a{
 
 }
 
+.mediaHeader {
+  display: flex;
+  height: 94vh;
+}

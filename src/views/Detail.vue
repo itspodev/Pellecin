@@ -2,7 +2,8 @@
   <NavBar v-if="this.url_data !== ''" :media="this.projectData[this.url_data].banner" />
   <DetailDescription v-if="this.url_data !== ''" :description="this.projectData[this.url_data].description" />
   <DetailImage v-if="this.url_data !== ''" :image="this.projectData[this.url_data].assets" :class="this.projectData[this.url_data].containerClass" />
-  <MainFooter />
+  <MainFooter v-if="this.blackFooter.includes(this.url_data)" class='main-footer__up--black'/>
+  <MainFooter v-else="this.blackFooter.includes(this.url_data)"/>
 </template>
 
 <script>
@@ -87,6 +88,7 @@ export default {
   data: function () {
     return {
       url_data: "",
+      blackFooter:["BLUE"],
       selectedBanner: [],
       selectedDesc: [],
       class: "",
