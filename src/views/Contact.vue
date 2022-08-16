@@ -27,20 +27,7 @@
         <div class="contacetezMoi">
           <p>ENVIE DE COLLABORER SUR UN NOUVEAU PROJET ?</p>
           <h2 class="contactanimation">
-            <span style="--i: 1">C</span>
-            <span style="--i: 2">O</span>
-            <span style="--i: 3">N</span>
-            <span style="--i: 4">T</span>
-            <span style="--i: 5">A</span>
-            <span style="--i: 6">C</span>
-            <span style="--i: 8">T</span>
-            <span style="--i: 9">E</span>
-            <span style="--i: 10">Z</span>
-            <span style="width: 20px"></span>
-            <span style="--i: 11">M</span>
-            <span style="--i: 12">O</span>
-            <span style="--i: 13">I</span>
-            <span style="--i: 14">!</span>
+            <LetterFlip word="CONTACTEZ MOI !" />
           </h2>
         </div>
       </main>
@@ -55,6 +42,7 @@ import NavBar from "@/components/NavBar.vue";
 import SocialMedia from "@/components/SocialMedia.vue";
 import Footer from "@/components/Footer.vue";
 import { contactHeader } from "@/utils/media.js";
+import LetterFlip from "../components/letterFlip.vue";
 
 export default {
   name: "contact",
@@ -62,6 +50,7 @@ export default {
     NavBar,
     SocialMedia,
     Footer,
+    LetterFlip
   },
   data: function () {
     return {
@@ -71,6 +60,7 @@ export default {
         asset: contactHeader,
         class: "contactLogo",
       },
+      test:'CONTACTEZ MOI'
     };
   },
 };

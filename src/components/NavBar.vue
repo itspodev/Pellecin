@@ -23,7 +23,6 @@
 <script>
 export default {
   name: "navbar",
-  name: "App",
   data: function () {
     return {
       show: false,

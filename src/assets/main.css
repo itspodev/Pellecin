@@ -33,7 +33,11 @@ header video {
 }
 
 .navBar{
-  background:rgb(0, 0, 0);
+  background:transparent;
+  position: absolute;
+  z-index:1000;
+  top:0;
+  left:0;
   padding:10px 0;
   display: flex;
   justify-content: center;
@@ -709,27 +713,23 @@ li a{
 .contacetezMoi p{
   font-size: 1.4rem;
 }
-.contactanimation {
-  position: relative;
-}
-.contactanimation span {
-  position: relative;
-  display: inline-block;
-  font-size: 2.7rem;
-  font-weight: bold;
-  animation: flip 2s infinite;
+
+div:hover >.letterFlip {
+  animation: flip 1s 1;
   animation-delay: calc(.2s * var(--i))
 }
 
+.letterFlip {
+  display: inline-block;
+  font-size: 2.7rem;
+}
+
 @keyframes flip {
-  0%,80% {
+  0%,70% {
     transform: rotateY(360deg) 
   }
 }
-/* .contacetezMoi h2{
-  margin: 0;
-  font-size: 3rem;
-} */
+
 .socialLink {
   width: 72rem;
   margin: auto;
@@ -1587,5 +1587,5 @@ li a{
 
 .mediaHeader {
   display: flex;
-  height: 94vh;
+  height: 100vh;
 }
