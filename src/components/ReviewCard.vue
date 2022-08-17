@@ -2,19 +2,9 @@
   <article class="review-card">
     <article class="review-card__up">
       <p>Clients Satisfaits !</p>
-      <h2 class="contactanimation">
-          <span style="--i: 1">L</span> 
-          <span style="--i: 2">E</span>
-          <span style="--i: 3">S</span>
-          <span style="width: 12px"></span>
-          <span style="--i: 4">R</span>
-          <span style="--i: 5">e</span>
-          <span style="--i: 6">t</span>
-          <span style="--i: 7">o</span>
-          <span style="--i: 8">u</span>
-          <span style="--i: 9">r</span>
-          <span style="--i: 10">s</span>
-        </h2>
+      <h2>
+        <LetterFlip word="LES RETOURS" />
+      </h2>
     </article>
     <ReviewCarousel @nextSlide="nextSlide" @prevSlide="prevSlide">
       <ReviewCarouselSlide :key="slide" :index="index" :visibleSlide="visibleSlide" :direction="direction" v-for="(slide, index) in reviews">
@@ -30,12 +20,14 @@
 
 <script>
 import ReviewCarousel from "./ReviewCarousel.vue";
+import LetterFlip from "./letterFlip.vue";
 import ReviewCarouselSlide from "./ReviewCarouselSlide.vue";
 export default {
   name: "ReviewCard",
   components: {
     ReviewCarousel,
     ReviewCarouselSlide,
+    LetterFlip
   },
   data: () => {
     return {
