@@ -706,7 +706,7 @@ div:hover >.letterFlip {
 }
 
 .socialLink {
-  width: 72rem;
+  /* width: 72rem; */
   margin: auto;
   height: 100px;
   display: flex;
