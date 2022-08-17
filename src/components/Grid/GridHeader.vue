@@ -3,7 +3,7 @@
       <div class="hp-head">
         <p>PEPENOME</p>
         <br />
-        <router-link to="/projets" @click="scrollToTop"><h2>MES PROJETS</h2></router-link>
+        <router-link to="/projets" @click="scrollToTop"><h2 class='border-bottom'>MES PROJETS</h2></router-link>
         <br />
       </div>
       <GridNavbar :filterArray="this.filterArray" :filter="this.filter"></GridNavbar>

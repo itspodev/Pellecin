@@ -58,7 +58,6 @@ header video {
 }
 .navs a:hover {
   transform:scale(1.2);
-  color:#fffb00;
 }
 .navBar .home-link {
   width:70%;
@@ -107,6 +106,10 @@ li a{
   align-items:center;
 }
 
+.border-bottom {
+  border-bottom: 1px solid;
+}
+
 .intro-pic {
   width:45%;
   display:flex;
@@ -116,7 +119,6 @@ li a{
 .pola-picture-box {
   width:100%;
   position: relative;
-  left: -50em;
 }
 .pola-picture-box img {
   width:100%;
@@ -594,20 +596,6 @@ li a{
   -webkit-text-fill-color: none;
   transition: 0.5s all ease-in-out;
 }
-.main-footer__up a:hover {
-  background-image: linear-gradient(
-    -225deg,
-    #231557 0%,
-    #44107a 29%,
-    #ff1361 67%,
-    #fff800 100%
-  );
-  /* background-size: auto auto; */
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  /* display: inline-block; */
-}
 
 .main-footer__up--black a {
   text-decoration: none;
@@ -721,6 +709,8 @@ div:hover >.letterFlip {
 
 .letterFlip {
   display: inline-block;
+}
+.animContact {
   font-size: 2.7rem;
 }
 
@@ -950,42 +940,6 @@ div:hover >.letterFlip {
   border:none
 }
 
-/*----- TRANSITION / ANIMATION -----*/
-
-.knwMoreTransition, .shwMoreTransition {
-  transition: all 1s ease-out;
-}
-
-.knwMoreTransition:hover {
-  letter-spacing: 4px;
-  color: #000;
-  transform: scale(2) translateX(5.5em);
-  text-shadow: 1px 1px 2px rgb(215, 18, 18);
-  text-decoration: none;
-}
-
-.knwMoreAnimation-1 {
-  animation: 1.7s loader infinite running;
-}
-
-.knwMoreAnimation-2 {
-  animation: 1.7s loader 0.1s infinite running;
-}
-
-.knwMoreAnimation-3 {
-  animation: 1.7s loader 0.2s infinite running;
-}
-
-@keyframes loader {
-  from {
-      font-size: 1.5em;
-  }
-
-  to {
-      font-size:1em;
-  }
-}
-
 .picAnimation {
   transform: rotate(50deg) scale(0.5);
   animation: 2.5s rightSlide 1 forwards;
@@ -996,12 +950,10 @@ div:hover >.letterFlip {
   100% { position: relative; left:0; transform: rotate(0) scale(1) }
 }
 
-.shwMoreTransition:hover {
-  letter-spacing: 4px;
-  transform: scale(2) translateX(-14.5em);
-  text-shadow: 1px 1px 2px rgb(215, 18, 18);
-  border-bottom: none;
+.soulignement {
+  border-bottom: 1px solid;
 }
+
 
 /*-------- PROJECT PAGE --------*/
 

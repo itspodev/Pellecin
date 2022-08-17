@@ -2,7 +2,7 @@
   <div class="intro-card-box" @mouseenter="mouseOverDiv()">
     <div class="intro-pic">
       <!--picture frame -->
-      <div class="pola-picture-box" :class="{ picAnimation: isPicAnimActive }">
+      <div class="pola-picture-box" >
         <img src="@/assets/img/PHOTO-POLA.png" alt="portrait polaroid de Noémie Pellencin" />
       </div>
     </div>
@@ -24,9 +24,7 @@
       </div>
       <h3 class="intro-more">
         <router-link @mouseover="mouseOverLink()" @mouseleave="mouseLeaveLink()" class="knwMoreTransition" to="/about" @click="scrollToTop">
-          <span :class="{ 'knwMoreAnimation-1': isTextAnimActive }">EN</span>
-          <span :class="{ 'knwMoreAnimation-2': isTextAnimActive }">SAVOIR</span>
-          <span :class="{ 'knwMoreAnimation-3': isTextAnimActive }">PLUS</span>
+          <letter-flip word="EN SAVOIR PLUS" class='soulignement' />
         </router-link>
       </h3>
     </div>
@@ -34,27 +32,29 @@
 </template>
 
 <script>
+import LetterFlip from './letterFlip.vue';
 export default {
-  name: "intro-card",
-  data: () => {
-    return {
-      isTextAnimActive: false,
-      isPicAnimActive: false,
-    };
-  },
-  methods: {
-    scrollToTop: function () {
-      window.scrollTo(0, 0);
+    name: "intro-card",
+    data: () => {
+        return {
+            isTextAnimActive: false,
+            isPicAnimActive: false,
+        };
     },
-    mouseOverLink() {
-      this.isTextAnimActive = true;
+    methods: {
+        scrollToTop: function () {
+            window.scrollTo(0, 0);
+        },
+        mouseOverLink() {
+            this.isTextAnimActive = true;
+        },
+        mouseLeaveLink() {
+            this.isTextAnimActive = false;
+        },
+        mouseOverDiv() {
+            this.isPicAnimActive = true;
+        },
     },
-    mouseLeaveLink() {
-      this.isTextAnimActive = false;
-    },
-    mouseOverDiv() {
-      this.isPicAnimActive = true;
-    },
-  },
+    components: { LetterFlip }
 };
 </script>

@@ -3,7 +3,7 @@
     <div :class="this.class">
       <p>{{ footerTxt }}</p>
       <p>
-        <a href="mailto:hello@pepenome.fr" target="_blank">{{ footerTxtContact }}</a>
+        <a href="mailto:hello@pepenome.fr" target="_blank"> <LetterFlip :word="footerTxtContact"/></a>
       </p>
       <SocialMedia />
     </div>
@@ -12,8 +12,9 @@
 
 <script>
 import SocialMedia from "./SocialMedia.vue";
+import LetterFlip from "./letterFlip.vue";
 export default {
-  components: { SocialMedia },
+  components: { SocialMedia, LetterFlip },
   name: "ContactContainer",
   data: () => {
     return {

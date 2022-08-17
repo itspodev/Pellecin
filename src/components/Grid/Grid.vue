@@ -8,9 +8,10 @@
     </div>
     <div class="btn-voirplus" v-if="home">
       <p class="voirplus">
-        <router-link to="/projets" class="shwMoreTransition" @mouseover="mouseOverLink()" @mouseleave="mouseLeaveLink()" @click="scrollToTop">
-          <span :class="{ 'knwMoreAnimation-1': isTextAnimActive }">VOIR</span>
-          <span :class="{ 'knwMoreAnimation-2': isTextAnimActive }">PLUS</span>
+        <router-link to="/projets" @mouseover="mouseOverLink()" @mouseleave="mouseLeaveLink()" @click="scrollToTop">
+          <LetterFlip word="VOIR PLUS" class="soulignement" />
+          <!-- <span :class="{ 'knwMoreAnimation-1': isTextAnimActive }">VOIR</span>
+          <span :class="{ 'knwMoreAnimation-2': isTextAnimActive }">PLUS</span> -->
         </router-link>
       </p>
     </div>
@@ -38,9 +39,10 @@ import {
   vynil,
   liquidColors,
 } from "@/utils/media";
+import LetterFlip from "../letterFlip.vue";
 
 export default {
-  components: { GridElement, GridHeader},
+  components: { GridElement, GridHeader, LetterFlip },
   name: "Grid",
   props: ["home"],
   data: function () {

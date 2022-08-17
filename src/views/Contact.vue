@@ -27,7 +27,7 @@
         <div class="contacetezMoi">
           <p>ENVIE DE COLLABORER SUR UN NOUVEAU PROJET ?</p>
           <h2 class="contactanimation">
-            <LetterFlip word="CONTACTEZ MOI !" />
+            <LetterFlip word="CONTACTEZ MOI !" class="animContact" />
           </h2>
         </div>
       </main>
