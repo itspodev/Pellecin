@@ -1,5 +1,7 @@
 # pellencin
 
+This is a internship project for the end of dev web formation, work in Team using Git and Scrum agile method.
+
 This template should help get you started developing with Vue 3 in Vite.
 
 ## Recommended IDE Setup
